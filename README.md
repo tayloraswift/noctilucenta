@@ -25,6 +25,4 @@ Contains:
   * Most important and unimportant Math Symbols and arrows
 
 * Bold
-  * A–Z capitals and lowercase
-  * 0–9 lining numerals
-  * Basic punctuation (?!,.;:“”‘’)
+  * Latin Basic
