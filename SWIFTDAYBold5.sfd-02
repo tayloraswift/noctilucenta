@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1424643209
+ModificationTime: 1424643048
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 8 2
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -574,7 +574,7 @@ SplineSet
  205 149 304 301 304 459 c 3
  304 531 267.016601562 576 208 576 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" two.oldstyle-proportional
 EndChar
 
@@ -604,7 +604,7 @@ SplineSet
  256 338 280 334 302 326 c 0
  362 304 396 265 396 197 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" three.oldstyle-proportional
 EndChar
 
@@ -662,7 +662,7 @@ SplineSet
  348 318 379 276 379 207 c 3
  379 56 236 -12 50 -12 c 1
 EndSplineSet
-Validated: 1
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" five.oldstyle-proportional
 EndChar
 
@@ -888,7 +888,7 @@ SplineSet
  62 595 128 650 213 650 c 3
 EndSplineSet
 Refer: 14 46 N 1 0 0 1 66 0 2
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: at
@@ -5187,7 +5187,7 @@ SplineSet
  25 664 49 690 86 690 c 3
  128 690 155 660 155 608 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: quotedblleft
@@ -7397,7 +7397,7 @@ SplineSet
  140 446 l 1
  62 486 25 543 25 603 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: dagger

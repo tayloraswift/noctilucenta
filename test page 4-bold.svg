@@ -26,9 +26,9 @@
      borderopacity="0.20784314"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9999999"
-     inkscape:cx="324.06936"
-     inkscape:cy="701.63347"
+     inkscape:zoom="0.99999995"
+     inkscape:cx="456.02593"
+     inkscape:cy="450.15181"
      inkscape:document-units="pt"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,17 +95,17 @@
        id="text4175"
        y="150.36218"
        x="280"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4179"
          y="150.36218"
          x="280"
          sodipodi:role="line">–4 ± √ 6^2 – 4 × <tspan
-   style="font-style:italic;font-size:11px"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'"
    id="tspan4243">ac</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="308.26199"
        y="137.86592"
        id="text4165"
@@ -119,7 +119,7 @@
        id="text4169"
        y="150.36218"
        x="276"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4171"
          y="150.36218"
@@ -127,7 +127,7 @@
          sodipodi:role="line">_________________</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="312"
        y="165.56219"
        id="text4173"
@@ -137,10 +137,10 @@
          y="165.56219"
          id="tspan4175">2<tspan
    id="tspan4218"
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3">a</tspan></tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';">a</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="276"
        y="190.36218"
        id="text4177"
@@ -154,7 +154,7 @@
        id="text4182"
        y="183.96219"
        x="306.39999"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4184"
          y="183.96219"
@@ -169,30 +169,30 @@
        id="text4188"
        y="190.36218"
        x="372"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4190"
          y="190.36218"
          x="372"
          sodipodi:role="line">∑ (2<tspan
-   style="font-style:italic"
+   style="font-style:italic;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal"
    id="tspan4307">n</tspan>^3 + 5)</tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4198"
        y="202.36218"
        x="367.20001"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4200"
          y="202.36218"
          x="367.20001"
          sodipodi:role="line"><tspan
    id="tspan4204"
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3">n</tspan> = 1</tspan></text>
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'">n</tspan> = 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="373.60001"
        y="178.36218"
        id="text4210"
@@ -389,19 +389,19 @@
        id="text4232"
        y="190.36218"
        x="492"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4234"
          y="190.36218"
          x="492"
          sodipodi:role="line">lim <tspan
-   style="font-style:italic;font-size:11px"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'"
    id="tspan4236">f </tspan>(<tspan
-   style="font-style:italic;font-size:11px"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'"
    id="tspan4238">x</tspan>)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="496"
        y="202.36218"
        id="text4240"
@@ -410,14 +410,14 @@
          x="496"
          y="202.36218"
          id="tspan4242"><tspan
-   style="font-style:italic;font-size:9px"
+   style="font-style:italic;font-size:9px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal"
    id="tspan4248">x</tspan> → ∞</tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4251"
        y="154.36218"
        x="471.99997"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4253"
          y="154.36218"
@@ -425,7 +425,7 @@
          sodipodi:role="line">∠ADB ≅ ∠ACB</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="436"
        y="190.36218"
        id="text4256"
@@ -434,129 +434,131 @@
          x="436"
          y="190.36218"
          id="tspan4258"><tspan
-   style="font-style:italic;font-size:11px"
+   style="font-style:italic;font-size:11px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal"
    id="tspan4260">p</tspan> ∧ <tspan
-   style="font-style:italic;font-size:11px"
-   id="tspan4262">q <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
-   id="tspan4304">↔</tspan> r</tspan></tspan></text>
+   style="font-style:normal;font-size:11px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal;"
+   id="tspan4262"><tspan
+   style="font-style:italic"
+   id="tspan4357">q</tspan> ↔ <tspan
+   style="font-style:italic"
+   id="tspan4359">r</tspan></tspan></tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4266"
        y="234.36218"
        x="288"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4268"
          y="234.36218"
          x="288"
          sodipodi:role="line"
-         style="font-style:italic;font-size:11px">A<tspan
-   style="font-style:normal;font-size:11px"
-   id="tspan4276"> =  </tspan></tspan></text>
+         style="font-style:normal;font-size:11px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal;"><tspan
+   style="font-style:italic"
+   id="tspan4370">A</tspan> =  </tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="288"
        y="234.36218"
        id="text4278"
        sodipodi:linespacing="130.89999%"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';"
          sodipodi:role="line"
          x="288"
          y="234.36218"
          id="tspan4280">_</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="308.95734"
        y="220.00928"
        id="text4264"
        sodipodi:linespacing="100%"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';"
          sodipodi:role="line"
          x="308.95734"
          y="220.00928"
          id="tspan4266">⎛                 ⎞</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';"
          sodipodi:role="line"
          x="308.95734"
          y="231.00928"
          id="tspan4271">⎜                 ⎟</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';"
          sodipodi:role="line"
          x="308.95734"
          y="242.00928"
          id="tspan4311">⎜                 ⎟</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';"
          sodipodi:role="line"
          x="308.95734"
          y="253.00928"
          id="tspan4322">⎜                 ⎟</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';"
          sodipodi:role="line"
          x="308.95734"
          y="264.00928"
          id="tspan4273">⎝                 ⎠</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="318.5795"
        y="220.76218"
        id="text4275"
        sodipodi:linespacing="130.99999%"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="318.5795"
          y="220.76218"
          id="tspan4277">1</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="318.5795"
          y="235.17218"
          id="tspan4281">2</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="318.5795"
          y="249.58217"
          id="tspan4284">⋮</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="318.5795"
          y="263.99219"
          id="tspan4328">5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="419.20004"
        y="285.56223"
        id="text4288"
        sodipodi:linespacing="130.89999%"><tspan
-         style="font-style:italic;font-size:11px"
+         style="font-style:normal;font-size:11px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal;"
          sodipodi:role="line"
          x="419.20004"
          y="285.56223"
          id="tspan4290"><tspan
            id="tspan4292"
-           style="font-style:normal;font-size:11px">v = ⟨ 3, 4 ⟩ </tspan></tspan></text>
+           style="font-style:normal;font-size:11px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal;">v = ⟨ 3, 4 ⟩ </tspan></tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4296"
        y="279.16223"
        x="419.20004"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4298"
          y="279.16223"
          x="419.20004"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3">→</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';">→</tspan></text>
     <text
        sodipodi:linespacing="100%"
        id="text4308"
        y="185.56219"
        x="292"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:100%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4310"
          y="185.56219"
@@ -568,7 +570,7 @@
          id="tspan4312">⎝       ⎠</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="387.20041"
        y="150.36218"
        id="text4281"
@@ -577,18 +579,18 @@
          x="387.20041"
          y="150.36218"
          id="tspan4283">–<tspan
-   style="font-style:italic"
+   style="font-style:italic;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal"
    id="tspan4301">b</tspan> ± √ <tspan
-   style="font-style:italic"
+   style="font-style:italic;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal"
    id="tspan4305">b</tspan>^2 – 4<tspan
    id="tspan4285"
-   style="font-style:italic;font-size:11px">ac</tspan></tspan></text>
+   style="font-style:italic;font-size:11px;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal">ac</tspan></tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4287"
        y="137.86592"
        x="414.7374"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4289"
          y="137.86592"
@@ -596,7 +598,7 @@
          sodipodi:role="line">________</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="383.20041"
        y="150.36218"
        id="text4291"
@@ -610,13 +612,13 @@
        id="text4295"
        y="165.56219"
        x="419.20041"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4297"
          y="165.56219"
          x="419.20041"
          sodipodi:role="line">2<tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'"
    id="tspan4299">a</tspan></tspan></text>
     <flowRoot
        transform="translate(-67751.742,-515.23492)"
@@ -634,123 +636,133 @@
    id="flowSpan4317"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:120.00000477%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';">We begin our story in New York.</flowSpan> There once was a girl known by everyone and no one. Her heart belonged to someone who couldn’t stay. They loved each other recklessly. They paid the price. She danced to forget him. He drove past her street each night. She made friends and enemies. He only saw her in his dreams. Then one day he came back. Timing is a funny thing. But everyone was watching. She lost him but she found herself and somehow that was everything. [13]</flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="286.40002"
        y="289.56223"
        id="text4284"
        sodipodi:linespacing="130.89999%"><tspan
-         style="font-style:normal;font-size:11px"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'"
          sodipodi:role="line"
          x="286.40002"
          y="289.56223"
          id="tspan4294"><tspan
    style="font-style:italic"
-   id="tspan4306">f </tspan>′(<tspan
-   style="font-style:italic"
+   id="tspan4372">f </tspan>′(<tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold'"
    id="tspan4308">x</tspan>) = ————————  </tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4310"
        y="282.36221"
        x="357.07776"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4313"
          y="282.36221"
          x="357.07776"
          sodipodi:role="line"
-         style="font-style:normal;font-size:11px;text-align:center;text-anchor:middle"><tspan
-   id="tspan4315"
-   style="font-style:italic;text-align:center;text-anchor:middle">f </tspan>(<tspan
-   id="tspan4317"
-   style="font-style:italic;text-align:center;text-anchor:middle">x<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
-   id="tspan4321"> + </tspan>h</tspan>) – <tspan
-   style="font-style:italic;text-align:center;text-anchor:middle"
-   id="tspan4323">f</tspan> (<tspan
-   style="font-style:italic;text-align:center;text-anchor:middle"
-   id="tspan4325">x</tspan>)</tspan><tspan
-         y="296.88138"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle"><tspan
+   style="font-style:italic"
+   id="tspan4379">f </tspan>(<tspan
+   style="font-style:italic"
+   id="tspan4377">x</tspan> + <tspan
+   style="font-style:italic"
+   id="tspan4381">h</tspan>) – <tspan
+   style="font-style:italic"
+   id="tspan4391">f</tspan> (<tspan
+   style="font-style:italic"
+   id="tspan4393">x</tspan>)</tspan><tspan
+         y="296.7612"
          x="357.07776"
          sodipodi:role="line"
-         style="font-style:normal;font-size:11px;text-align:center;text-anchor:middle"
-         id="tspan4327"><tspan
-           style="font-style:italic"
-           id="tspan4329"> h</tspan></tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle"
+         id="tspan4327"> h</tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4331"
        y="285.56223"
        x="481.20004"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4333"
          y="285.56223"
          x="481.20004"
          sodipodi:role="line"><tspan
-   style="font-style:italic"
+   style="font-style:italic;-inkscape-font-specification:'SWIFTDAY3 Bold';font-family:SWIFTDAY3;font-weight:bold;font-stretch:normal;font-variant:normal"
    id="tspan4335">z</tspan> = 2.9 σ</tspan></text>
     <text
        sodipodi:linespacing="130.89999%"
        id="text4337"
        y="234.36218"
        x="375.99997"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4339"
          y="234.36218"
          x="375.99997"
-         sodipodi:role="line">cos (θ + ϕ) = cos θ cos ϕ – sin θ sin ϕ</tspan></text>
+         sodipodi:role="line">cos (<tspan
+   style="font-style:italic"
+   id="tspan4334">θ</tspan> + <tspan
+   style="font-style:italic"
+   id="tspan4337">ϕ</tspan>) = cos <tspan
+   style="font-style:italic"
+   id="tspan4342">θ</tspan> cos <tspan
+   style="font-style:italic"
+   id="tspan4340">ϕ</tspan> – sin <tspan
+   style="font-style:italic"
+   id="tspan4345">θ</tspan> sin <tspan
+   style="font-style:italic"
+   id="tspan4349">ϕ</tspan></tspan></text>
     <text
        sodipodi:linespacing="130.99999%"
        id="text4341"
        y="220.76218"
        x="331.44006"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          id="tspan4347"
          y="220.76218"
          x="331.44006"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle">2</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;">2</tspan><tspan
          y="235.17218"
          x="331.44006"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          id="tspan4353">3</tspan><tspan
          y="249.58217"
          x="331.44006"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          id="tspan4355">⋮</tspan><tspan
          y="263.99219"
          x="331.44006"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          id="tspan4331">6</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="343.62961"
        y="220.76218"
        id="text4357"
        sodipodi:linespacing="130.99999%"><tspan
          id="tspan4363"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="343.62961"
          y="220.76218">⋯</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="343.62961"
          y="235.17218"
          id="tspan4369">⋯</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="343.62961"
          y="249.58217"
          id="tspan4371">⋱</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          sodipodi:role="line"
          x="343.62961"
          y="263.99219"
@@ -760,27 +772,27 @@
        id="text4313"
        y="220.76218"
        x="354.82965"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          y="220.76218"
          x="354.82965"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          id="tspan4316">5</tspan><tspan
          id="tspan4318"
          y="235.17218"
          x="354.82965"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle">6</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;">6</tspan><tspan
          id="tspan4320"
          y="249.58217"
          x="354.82965"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle">⋮</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;">⋮</tspan><tspan
          y="263.99219"
          x="354.82965"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11px;line-height:130.99999428%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold';text-align:center;text-anchor:middle;"
          id="tspan4336">9</tspan></text>
   </g>
 </svg>
