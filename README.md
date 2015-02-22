@@ -4,27 +4,27 @@ a yet unnamed text font. (Temporarily named swiftday because this typeface was d
 
 Contains:
 
-*Regular
-  *Latin Basic, Supplement, Latin-A
-  *Old style numerals
-  *Superscript numerals
+* Regular
+  * Latin Basic, Supplement, Latin-A
+  * Old style numerals
+  * Superscript numerals
   
-  *Most important and unimportant General Punctuation
-  *Most important and unimportant Math Symbols and arrows
+  * Most important and unimportant General Punctuation
+  * Most important and unimportant Math Symbols and arrows
   
-  *Some IPA
+  * Some IPA
   
-  *Mathematical Bold and Italic
+  * Mathematical Bold and Italic
   
-*Italic
-  *Latin Basic, Supplement, Latin-A
-  *Old style numerals
-  *Superscript numerals
+* Italic
+  * Latin Basic, Supplement, Latin-A
+  * Old style numerals
+  * Superscript numerals
   
-  *Most important and unimportant General Punctuation
-  *Most important and unimportant Math Symbols and arrows
+  * Most important and unimportant General Punctuation
+  * Most important and unimportant Math Symbols and arrows
 
-*Bold
-  *A–Z capitals and lowercase
-  *0–9 lining numerals
-  *Basic punctuation (?!,.;:“”‘’)
+* Bold
+  * A–Z capitals and lowercase
+  * 0–9 lining numerals
+  * Basic punctuation (?!,.;:“”‘’)
