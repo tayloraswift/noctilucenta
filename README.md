@@ -17,7 +17,7 @@ Contains:
   
   * Mathematical Bold and Italic
  
- ![text4498](https://cloud.githubusercontent.com/assets/2556986/6322490/74d6fc06-bae3-11e4-8cd0-1d97b13133b6.png)
+![text4498](https://cloud.githubusercontent.com/assets/2556986/6322490/74d6fc06-bae3-11e4-8cd0-1d97b13133b6.png)
 
   
 * Italic
@@ -32,6 +32,6 @@ Contains:
 
 
 * Bold
-  * Latin Basic
+  * Latin Basic, Supplement, Latin-A
 
-![text44983](https://cloud.githubusercontent.com/assets/2556986/6322492/76fa60c2-bae3-11e4-87f0-6ed071ac4ed0.png)
+![text4498](https://cloud.githubusercontent.com/assets/2556986/6364243/5eab95ec-bc71-11e4-956b-b1e125b2001b.png)
