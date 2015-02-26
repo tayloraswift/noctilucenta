@@ -1,4 +1,4 @@
-# swiftday
+# SWIFTDAY
 a yet unnamed text font. (Temporarily named swiftday because this typeface was designed on Swift day, February).
 
 ![screenshot 090](https://cloud.githubusercontent.com/assets/2556986/6320363/01ab1b48-baa9-11e4-8987-f62b9dae81a4.png)
@@ -16,10 +16,12 @@ Contains:
   * Some IPA
   
   * Mathematical Bold and Italic
- 
-![text4498](https://cloud.githubusercontent.com/assets/2556986/6322490/74d6fc06-bae3-11e4-8cd0-1d97b13133b6.png)
 
-  
+
+![screenshot 091](https://cloud.githubusercontent.com/assets/2556986/6385811/8f41eb80-bd3d-11e4-98ac-d97d1bc0a384.png)
+
+
+
 * Italic
   * Latin Basic, Supplement, Latin-A
   * Old style numerals
@@ -28,10 +30,16 @@ Contains:
   * Most important and unimportant General Punctuation
   * Most important and unimportant Math Symbols and arrows
 
-![text44982](https://cloud.githubusercontent.com/assets/2556986/6322491/75cfb90e-bae3-11e4-9b85-eb5db168575d.png)
+
+![screenshot 093](https://cloud.githubusercontent.com/assets/2556986/6385813/915bda20-bd3d-11e4-98a7-66d01f898b15.png)
+
 
 
 * Bold
   * Latin Basic, Supplement, Latin-A
+  * Old style numerals
 
-![text4498](https://cloud.githubusercontent.com/assets/2556986/6364243/5eab95ec-bc71-11e4-956b-b1e125b2001b.png)
+  * Most important and unimportant General Punctuation
+
+
+![screenshot 092](https://cloud.githubusercontent.com/assets/2556986/6385812/904d34ee-bd3d-11e4-82b9-0d07cd48488f.png)
