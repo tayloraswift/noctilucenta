@@ -43,3 +43,11 @@ Contains:
 
 
 ![screenshot 092](https://cloud.githubusercontent.com/assets/2556986/6385812/904d34ee-bd3d-11e4-82b9-0d07cd48488f.png)
+
+
+
+* Bold Italic
+  * A–Z upper and lowercase
+
+
+![screenshot 094](https://cloud.githubusercontent.com/assets/2556986/6421846/a9f57168-bea0-11e4-854b-645b92592cc3.png)
