@@ -21,11 +21,11 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425073629
+ModificationTime: 1425143164
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 90
+LineGap: 0
 VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
@@ -36,9 +36,9 @@ OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
 OS2WinDOffset: 1
-HheadAscent: 0
+HheadAscent: -168
 HheadAOffset: 1
-HheadDescent: 0
+HheadDescent: 953
 HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
@@ -86,7 +86,7 @@ Grid
  -1000 425 2000 425 2000 425 c 1028
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning lookup 0-1" "top" "'mark' Mark Positioning lookup 0-1" 
-BeginChars: 65536 436
+BeginChars: 65536 439
 
 StartChar: space
 Encoding: 32 32 0
@@ -957,7 +957,7 @@ SplineSet
  14 0 14 20 14 20 c 1
  14 20 79 37 79 37 c 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: B
@@ -1050,7 +1050,7 @@ SplineSet
  599 638 682 583 682 392 c 3
  682 147 517 0 334 0 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: E
@@ -1089,7 +1089,7 @@ SplineSet
  517 596 329 596 329 596 c 1
  329 596 241 44 241 44 c 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: F
@@ -1202,7 +1202,7 @@ SplineSet
  559 352 553 309 553 309 c 1
  553 309 271 309 271 309 c 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: I
@@ -1228,7 +1228,7 @@ SplineSet
  414 638 414 618 414 618 c 1
  414 618 336 593 336 593 c 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: J
@@ -1252,7 +1252,7 @@ SplineSet
  81 -149 111.95602993 -40.9931601149 122 22 c 2
  122 22 214 599 214 599 c 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: K
@@ -1432,7 +1432,7 @@ SplineSet
  629 650 699 526 699 381 c 3
  699 155 539 -12 340 -12 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: P
@@ -1620,7 +1620,7 @@ SplineSet
  242.475463058 103.460253135 262 44 365 44 c 3
  457 44 514.375976562 81.470703125 540 245 c 2
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: V
@@ -1683,7 +1683,7 @@ SplineSet
  549 598 l 1
  609 598 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: X
@@ -1766,7 +1766,7 @@ SplineSet
  278 294 391 294 391 294 c 1
  391 294 350 39 350 39 c 1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: Z
@@ -1796,7 +1796,7 @@ SplineSet
  559 613 194 44 194 44 c 1
  194 44 436 44 436 44 c 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -1935,7 +1935,7 @@ SplineSet
  256 75 322 156 374 329 c 1
  374 329 384 377 384 377 c 1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: b
@@ -2039,7 +2039,7 @@ SplineSet
  256 75 334 158 386 331 c 1
  386 331 393 370 393 370 c 1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: e
@@ -2065,7 +2065,7 @@ SplineSet
  309 245 320 298 320 349 c 3
  320 374 305 385 288 385 c 3
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: f
@@ -2175,7 +2175,7 @@ SplineSet
  255 75 331 156 383 329 c 1
  383 329 393 377 393 377 c 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: h
@@ -2211,7 +2211,7 @@ SplineSet
  90 -1 129 175 129 175 c 1
  129 175 199 609 199 609 c 2
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: i
@@ -2326,7 +2326,7 @@ SplineSet
  396 346 385 336 326 257 c 1
  423 76 l 2
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: l
@@ -2458,7 +2458,7 @@ SplineSet
  230 389 194 294 194 165 c 3
  194 79 221 37 263 37 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: p
@@ -2609,7 +2609,7 @@ EndChar
 
 StartChar: t
 Encoding: 116 116 84
-Width: 341
+Width: 326
 Flags: HMW
 AnchorPoint: "bottom" 175 0 basechar 0
 LayerCount: 2
@@ -2633,7 +2633,7 @@ SplineSet
  129 425 351 425 351 425 c 1
  351 425 344 387 344 387 c 1
 EndSplineSet
-Validated: 1048613
+Validated: 37
 EndChar
 
 StartChar: u
@@ -2669,7 +2669,7 @@ SplineSet
  111 103 147 311 147 311 c 1
  147 311 152 356 152 356 c 2
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: v
@@ -2751,7 +2751,7 @@ SplineSet
  696 433 l 1
  708 424 713 399 713 381 c 3
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: x
@@ -2864,7 +2864,7 @@ SplineSet
  414 -129 321 -177 274 -206 c 0
  238 -228 205 -230 148 -230 c 3
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: z
@@ -2898,7 +2898,7 @@ SplineSet
  115 26 89 18 46 -12 c 1
  46 -12 28 12 28 12 c 1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: braceleft
@@ -4836,7 +4836,7 @@ SplineSet
  96 3 109 113 109 113 c 1
  109 113 152 356 152 356 c 2
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Colour: ff8f94
 EndChar
 
@@ -5753,7 +5753,7 @@ SplineSet
  166 -38 115 -113 89 -145 c 0
  60 -181 1 -230 -47 -230 c 3
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: Amacron
@@ -6759,7 +6759,7 @@ EndChar
 
 StartChar: uni0163
 Encoding: 355 355 313
-Width: 341
+Width: 326
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -6785,7 +6785,7 @@ EndChar
 
 StartChar: tcaron
 Encoding: 357 357 315
-Width: 341
+Width: 326
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7537,7 +7537,7 @@ EndChar
 
 StartChar: tbar
 Encoding: 359 359 352
-Width: 341
+Width: 326
 Flags: HMW
 LayerCount: 2
 Back
@@ -9367,6 +9367,61 @@ SplineSet
  55 20 l 1
  325 328 l 1
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni23B7
+Encoding: 9143 9143 436
+Width: 1000
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-102 -375 m 1
+ -109 -358 l 1
+ -5 -291 l 1
+ 10 -298 l 1
+ 273 -1087 l 1
+ 1000 938 l 1
+ 1030 928 l 1
+ 276 -1183 l 1
+ 237 -1183 l 1
+ -44 -358 l 1
+ -102 -375 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni20D1
+Encoding: 8401 8401 437
+Width: 0
+Flags: HMW
+AnchorPoint: "top" -231 425 mark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+-55 543 m 1
+ -372 543 l 1
+ -372 577 l 1
+ -117 574 l 1
+ -202 664 l 1
+ -174 690 l 1
+ -48 558 l 1
+ -55 543 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni20D7
+Encoding: 8407 8407 438
+Width: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 437 8401 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 EndChars

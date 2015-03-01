@@ -21,7 +21,12 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425073224
+ModificationTime: 1425092745
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -31,12 +36,13 @@ OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
 OS2WinDOffset: 1
-HheadAscent: 0
+HheadAscent: -168
 HheadAOffset: 1
-HheadDescent: 0
+HheadDescent: 953
 HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
+OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "'liga' Standard Ligatures lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 1" { "'onum' Oldstyle Figures lookup 1-1" ("oldstyle-proportional") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -55,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 38 19 9
+WinInfo: 285 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -80,7 +86,7 @@ Grid
  -1000 425 2000 425 2000 425 c 1028
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning lookup 0-1" "top" "'mark' Mark Positioning lookup 0-1" 
-BeginChars: 65536 436
+BeginChars: 65536 439
 
 StartChar: space
 Encoding: 32 32 0
@@ -9361,6 +9367,61 @@ SplineSet
  55 20 l 1
  325 328 l 1
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni20D1
+Encoding: 8401 8401 436
+Width: 0
+Flags: HMW
+AnchorPoint: "top" -231 425 mark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+-55 543 m 1
+ -372 543 l 1
+ -372 577 l 1
+ -117 574 l 1
+ -202 664 l 1
+ -174 690 l 1
+ -48 558 l 1
+ -55 543 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni23B7
+Encoding: 9143 9143 437
+Width: 1000
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-102 -375 m 1
+ -109 -358 l 1
+ -5 -291 l 1
+ 10 -298 l 1
+ 273 -1087 l 1
+ 1000 938 l 1
+ 1030 928 l 1
+ 276 -1183 l 1
+ 237 -1183 l 1
+ -44 -358 l 1
+ -102 -375 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni20D7
+Encoding: 8407 8407 438
+Width: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 436 8401 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 EndChars
