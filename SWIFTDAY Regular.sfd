@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425426393
+ModificationTime: 1425428078
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 8
+WinInfo: 437 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6581,7 +6581,7 @@ SplineSet
  213 37 268 73 283 139 c 1
  283 199 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Colour: ff9994
 EndChar
 
@@ -8214,20 +8214,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-254 397 m 3
- 212 397 186 388 165 369 c 1
- 143 335 126 297 126 220 c 3
- 126 101 180 29 250 29 c 3
- 292 29 317 39 338 58 c 1
- 360 92 374 130 374 207 c 3
- 374 326 324 397 254 397 c 3
-234 -12 m 3
- 157 -12 46 44 46 200 c 3
- 46 350 135 437 264 437 c 3
- 341 437 454 383 454 227 c 3
- 454 77 363 -12 234 -12 c 3
-EndSplineSet
+Refer: 585 63280 N 1 0 0 1 -4 0 2
 Validated: 1
 EndChar
 
@@ -8265,22 +8252,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-228 388 m 3
- 186 388 157 380 117 355 c 1
- 102 380 l 1
- 158 417 204 437 264 437 c 3
- 336 437 377 392 377 318 c 3
- 377 223 272 126 177 64 c 5
- 362 64 l 9
- 389 103 l 1
- 410 98 l 1
- 393 0 l 1
- 89 0 l 1
- 83 32 l 1
- 238 139 301 224 301 305 c 3
- 301 362 268 388 228 388 c 3
-EndSplineSet
+Refer: 587 63282 N 1 0 0 1 33 0 2
 Validated: 1
 EndChar
 
@@ -8292,24 +8264,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-276 73 m 0
- 243 91 210 97 165 97 c 1
- 161 126 l 1
- 255 168 285 212 285 289 c 7
- 285 352 244 387 201 387 c 3
- 159 387 138 379 99 355 c 1
- 84 380 l 1
- 138 417 178 437 240 437 c 3
- 316 437 363 387 363 308 c 3
- 363 222 292 163 248 138 c 1
- 277 137 294 134 316 126 c 0
- 376 104 411 61 411 -8 c 3
- 411 -159 274 -230 88 -230 c 1
- 88 -194 l 1
- 259 -194 336 -137 336 -34 c 3
- 336 9 313 53 276 73 c 0
-EndSplineSet
+Refer: 588 63283 N 1 0 0 1 34 0 2
 Validated: 1
 EndChar
 
@@ -8321,24 +8276,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-294 259 m 1
- 348 287 l 1
- 369 287 l 1
- 369 -140 l 1
- 318 -166 l 1
- 294 -166 l 1
- 294 259 l 1
-330 417 m 1
- 80 74 l 1
- 468 74 l 25
- 468 23 l 25
- 28 23 l 25
- 19 44 l 1
- 309 453 l 1
- 330 453 l 1
- 330 417 l 1
-EndSplineSet
+Refer: 589 63284 N 1 0 0 1 -11 0 2
 Validated: 5
 EndChar
 
@@ -8350,23 +8288,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-88 -230 m 1
- 88 -195 l 1
- 259 -195 333 -135 333 -32 c 3
- 333 12 318 50 275 71 c 0
- 239 89 183 94 105 94 c 1
- 95 103 l 1
- 140 425 l 1
- 366 425 l 1
- 373 412 l 1
- 363 361 l 1
- 170 361 l 1
- 144 153 l 1
- 223 153 276 149 320 131 c 0
- 381 105 411 61 411 -8 c 3
- 411 -159 274 -230 88 -230 c 1
-EndSplineSet
+Refer: 590 63285 N 1 0 0 1 38 0 2
 Validated: 1
 EndChar
 
@@ -8378,21 +8300,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-143 245 m 1
- 143 282 l 1
- 177 326 223 367 287 367 c 3
- 380 367 426 297 426 195 c 3
- 426 73 346 -12 243 -12 c 3
- 135 -12 68 71 68 228 c 3
- 68 424 196 566 359 638 c 9
- 373 612 l 17
- 245 541 143 471 143 245 c 3
- 143 98 193 28 258 28 c 3
- 319 28 356 71 356 155 c 7
- 356 262 315 319 258 319 c 3
- 212 319 180 287 143 245 c 1
-EndSplineSet
+Refer: 591 63286 N 1 0 0 1 18 0 2
 Validated: 5
 EndChar
 
@@ -8404,17 +8312,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-85 378 m 1
- 95 425 l 1
- 399 425 l 1
- 415 406 l 1
- 181 -209 l 9
- 123 -182 l 17
- 211 -2 287 179 361 361 c 1
- 95 361 l 1
- 85 378 l 1
-EndSplineSet
+Refer: 592 63287 N 1 0 0 1 55 0 2
 Validated: 1
 EndChar
 
@@ -8426,25 +8324,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-283 334 m 9
- 258 351 l 1
- 308 381 337 441 337 491 c 3
- 337 567 302 603 242 603 c 3
- 195 603 153 562 153 505 c 3
- 153 340 433 331 433 162 c 3
- 433 66 359 -12 243 -12 c 3
- 140 -12 64 38 64 141 c 3
- 64 223 148 294 211 325 c 9
- 231 306 l 17
- 164 267 128 228 128 151 c 3
- 128 72 177 27 248 27 c 7
- 312 27 359 67 359 137 c 3
- 359 278 87 308 87 480 c 3
- 87 559 147 638 249 638 c 3
- 350 638 398 577 398 500 c 3
- 398 419 323 356 283 334 c 9
-EndSplineSet
+Refer: 593 63288 N 1 0 0 1 -6 0 2
 Validated: 5
 EndChar
 
@@ -8456,21 +8336,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-357 188 m 1
- 357 145 l 1
- 326 104 278 68 218 68 c 3
- 130 68 69 131 69 230 c 3
- 69 347 151 437 257 437 c 3
- 367 437 431 357 431 200 c 3
- 431 -9 287 -158 127 -230 c 9
- 113 -204 l 17
- 241 -133 357 -38 357 188 c 3
- 357 335 305 395 240 395 c 3
- 180 395 138 356 138 262 c 3
- 138 160 184 116 240 116 c 3
- 286 116 324 141 357 188 c 1
-EndSplineSet
+Refer: 594 63289 N 1 0 0 1 19 0 2
 Validated: 5
 EndChar
 
@@ -14762,7 +14628,7 @@ SplineSet
  90 219 51 252 51 319 c 3
  51 380 104 437 192 437 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uniF642
