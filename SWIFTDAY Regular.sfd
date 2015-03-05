@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425428078
+ModificationTime: 1425571354
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 437 19 9
+WinInfo: 418 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3175,27 +3175,25 @@ SplineSet
  278 419 l 1
  314 416 l 1
  314 394 l 1
- 231 377 l 17
+ 231 377 l 1
  218 384 l 1
- 211 432 l 2
- 210 484 l 1
- 210 572 l 2
- 210 625 192 649 153 649 c 3
- 124 649 108 643 80 625 c 1
- 65 650 l 1
-144 421 m 7
- 166 421 200 441 210 484 c 0
- 211 432 l 0
+ 211 432 l 1
  189 392 149 375 115 375 c 3
  63 375 40 417 40 452 c 3
  40 479 57 527 110 537 c 0
  158 547 189 548 210 551 c 1
- 210 522 l 1
+ 210 572 l 2
+ 210 625 192 649 153 649 c 3
+ 124 649 108 643 80 625 c 1
+ 65 650 l 1
+210 522 m 1
  194 520 180 518 158 515 c 0
  121 509 103 486 103 461 c 3
- 103 434 115 421 144 421 c 7
+ 103 434 115 421 144 421 c 3
+ 166 421 200 441 210 484 c 1
+ 210 522 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -7683,22 +7681,22 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-47 267 m 1
- 40 282 l 1
- 225 470 l 1
- 253 444 l 1
- 109 298 l 1
- 560 301 l 1
- 560 267 l 1
- 47 267 l 1
-553 196 m 1
+40 196 m 1
+ 553 196 l 1
  560 181 l 1
  375 -7 l 1
  347 19 l 1
  491 165 l 1
  40 162 l 1
  40 196 l 1
- 553 196 l 1
+225 470 m 1
+ 253 444 l 1
+ 109 298 l 1
+ 560 301 l 1
+ 560 267 l 1
+ 47 267 l 1
+ 40 282 l 1
+ 225 470 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7725,26 +7723,26 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-555 371 m 1
+210 534 m 1
+ 235 511 l 1
+ 96 368 l 1
+ 555 371 l 1
  555 337 l 1
  97 340 l 1
  237 204 l 1
  210 178 l 1
  35 356 l 1
  210 534 l 1
- 235 511 l 1
- 96 368 l 1
- 555 371 l 1
-45 114 m 1
- 45 148 l 1
- 503 145 l 1
- 363 281 l 1
- 390 307 l 1
+390 307 m 5
  565 129 l 1
  390 -49 l 1
  365 -26 l 1
  504 117 l 1
  45 114 l 1
+ 45 148 l 1
+ 503 145 l 1
+ 363 281 l 1
+ 390 307 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -8650,7 +8648,7 @@ SplineSet
  141 301 l 1
  141 324 l 1
  184 339 l 1
- 399 339 l 5
+ 399 339 l 1
  399 301 l 1
 278 596 m 3
  224 596 197 573 174 539 c 1
