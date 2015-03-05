@@ -38,8 +38,10 @@ Contains:
 * Bold
   * Latin Basic, Supplement, Latin-A
   * Old style numerals
+  * Superscript numerals
 
   * Most important and unimportant General Punctuation
+  * Most important and unimportant Math Symbols and arrows
 
 
 ![screenshot 092](https://cloud.githubusercontent.com/assets/2556986/6385812/904d34ee-bd3d-11e4-82b9-0d07cd48488f.png)
@@ -48,6 +50,7 @@ Contains:
 
 * Bold Italic
   * A–Z upper and lowercase
+  * 0–9 numerals and critical punctuation
 
 
 ![screenshot 094](https://cloud.githubusercontent.com/assets/2556986/6421846/a9f57168-bea0-11e4-854b-645b92592cc3.png)
