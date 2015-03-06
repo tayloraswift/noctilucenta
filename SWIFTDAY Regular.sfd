@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425571354
+ModificationTime: 1425610865
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 418 19 9
+WinInfo: 190 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4379,7 +4379,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 201 715 N 1 0 0 1 327 0 2
+Refer: 201 715 N 1 0 0 1 319 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4392,7 +4392,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 200 714 N 1 0 0 1 367 0 2
+Refer: 200 714 N 1 0 0 1 359 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4405,7 +4405,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 198 710 N 1 0 0 1 347 0 2
+Refer: 198 710 N 1 0 0 1 339 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4418,7 +4418,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 101 168 N 1 0 0 1 347 0 2
+Refer: 101 168 N 1 0 0 1 339 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4690,12 +4690,12 @@ Encoding: 305 305 189
 Width: 282
 VWidth: -3
 Flags: HMW
-AnchorPoint: "top" 147 425 basemark 0
+AnchorPoint: "top" 139 425 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-183 432 m 5
+183 432 m 1
  183 34 l 1
  247 18 l 1
  247 0 l 1
@@ -4705,7 +4705,7 @@ SplineSet
  109 389 l 1
  43 401 l 1
  43 419 l 1
- 183 432 l 5
+ 183 432 l 1
 EndSplineSet
 Validated: 1048577
 Colour: ff9994
@@ -5767,7 +5767,7 @@ Flags: HM
 LayerCount: 2
 Back
 Fore
-Refer: 203 732 N 1 0 0 1 347 0 2
+Refer: 203 732 N 1 0 0 1 339 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5793,7 +5793,7 @@ Flags: HM
 LayerCount: 2
 Back
 Fore
-Refer: 217 713 N 1 0 0 1 372 0 2
+Refer: 217 713 N 1 0 0 1 364 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5819,7 +5819,7 @@ Flags: HM
 LayerCount: 2
 Back
 Fore
-Refer: 220 728 N 1 0 0 1 347 0 2
+Refer: 220 728 N 1 0 0 1 339 0 2
 Refer: 189 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5858,7 +5858,7 @@ Flags: HM
 LayerCount: 2
 Back
 Fore
-Refer: 198 710 N 1 0 0 1 348 0 2
+Refer: 198 710 N 1 0 0 1 335 0 2
 Refer: 317 567 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6677,12 +6677,12 @@ Encoding: 567 567 317
 Width: 282
 VWidth: -3
 Flags: HMW
-AnchorPoint: "top" 148 425 basemark 0
+AnchorPoint: "top" 135 425 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-185 432 m 5
+185 432 m 1
  185 61 l 2
  185 -26 145 -166 32 -232 c 1
  20 -215 l 1
@@ -6690,7 +6690,7 @@ SplineSet
  111 389 l 1
  45 401 l 1
  45 419 l 1
- 185 432 l 5
+ 185 432 l 1
 EndSplineSet
 Validated: 1048577
 Colour: ff9994

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425571345
+ModificationTime: 1425610896
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 437 19 9
+WinInfo: 190 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -124,24 +124,24 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 2
-Width: 285
+Width: 326
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-174 634 m 5
- 230 650 l 5
- 245 644 l 5
- 231 462 l 5
- 190 454 l 5
- 174 634 l 5
+194 634 m 1
+ 271 650 l 1
+ 286 644 l 1
+ 267 462 l 1
+ 215 454 l 1
+ 194 634 l 1
 40 634 m 1
- 96 650 l 1
- 111 644 l 1
- 97 459 l 1
- 56 451 l 1
+ 117 650 l 1
+ 132 644 l 1
+ 113 462 l 1
+ 61 454 l 1
  40 634 l 1
 EndSplineSet
 Validated: 1
@@ -305,19 +305,19 @@ EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 7
-Width: 152
+Width: 172
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-40 634 m 1
- 97 650 l 1
- 112 644 l 1
- 98 462 l 1
- 56 454 l 1
- 40 634 l 1
+40 634 m 5
+ 117 650 l 5
+ 132 644 l 5
+ 113 462 l 5
+ 61 454 l 5
+ 40 634 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -783,7 +783,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 14 46 S 1 0 0 1 0 288 2
-Refer: 14 46 N 1 0 0 1 0 0 2
+Refer: 14 46 S 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -3190,7 +3190,7 @@ SplineSet
  180 433 200 447 210 484 c 1
  210 522 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -3572,7 +3572,7 @@ SplineSet
  278 690 353 652 353 543 c 3
  353 438 294 376 185 376 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: guillemotright
@@ -5855,7 +5855,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 198 710 N 1 0 0 1 362 0 2
+Refer: 198 710 N 1 0 0 1 357 0 2
 Refer: 317 567 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6700,12 +6700,12 @@ Encoding: 567 567 317
 Width: 318
 VWidth: -3
 Flags: HMW
-AnchorPoint: "top" 162 425 basemark 0
+AnchorPoint: "top" 157 425 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-221 432 m 5
+221 432 m 1
  221 61 l 2
  221 -56 145 -166 32 -232 c 1
  20 -215 l 1
@@ -6713,7 +6713,7 @@ SplineSet
  111 389 l 1
  45 401 l 1
  45 419 l 1
- 221 432 l 5
+ 221 432 l 1
 EndSplineSet
 Validated: 1048577
 Colour: ff9994
@@ -8223,7 +8223,7 @@ SplineSet
  537 428 l 1
  520 344 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: zero.oldstyle-monospace
