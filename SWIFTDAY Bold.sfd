@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425610896
+ModificationTime: 1425678676
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 190 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1956,7 +1956,7 @@ Back
 Fore
 SplineSet
 239 437 m 3
- 322 437 393 398 393 289 c 2
+ 332 437 393 398 393 289 c 2
  393 77 l 1
  403 36 l 1
  452 32 l 1
@@ -1969,8 +1969,8 @@ SplineSet
  40 136 65 199 141 214 c 0
  210 228 253 230 283 234 c 1
  283 269 l 2
- 283 344 270 385 205 385 c 3
- 163 385 131 377 91 355 c 1
+ 283 344 260 382 195 382 c 3
+ 153 382 131 374 91 355 c 1
  76 380 l 1
  127 417 178 437 239 437 c 3
 283 199 m 1
@@ -2286,7 +2286,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 75
-Width: 549
+Width: 565
 VWidth: 0
 Flags: HMW
 AnchorPoint: "bottom" 310 0 basemark 0
@@ -2567,36 +2567,36 @@ EndChar
 
 StartChar: s
 Encoding: 115 115 83
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
-AnchorPoint: "bottom" 207 0 basemark 0
-AnchorPoint: "top" 211 425 basemark 0
+AnchorPoint: "bottom" 217 0 basemark 0
+AnchorPoint: "top" 221 425 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-189 26 m 7
- 236 26 264 49 264 87 c 7
- 264 122 245.655273438 140.473632812 184 167 c 4
- 98 204 47 237 47 314 c 7
- 47 385 102 437 211 437 c 7
- 257 437 308 431 338 425 c 5
- 335 317 l 5
- 294 317 l 5
- 282 388 l 5
- 267 393 237 399 203 399 c 7
- 166 399 139 379 139 343 c 7
- 139 308 175.424804688 288.743164062 229 265 c 4
- 317 226 370 192 370 112 c 7
- 370 42 316 -12 194 -12 c 7
- 144 -12 80 -6 45 1 c 5
- 40 113 l 5
- 81 113 l 5
- 100 42 l 5
- 119 33 154 26 189 26 c 7
+199 26 m 7
+ 246 26 274 49 274 87 c 7
+ 274 122 255.655273438 140.473632812 194 167 c 4
+ 108 204 57 237 57 314 c 7
+ 57 385 112 437 221 437 c 7
+ 267 437 318 431 348 425 c 5
+ 345 317 l 5
+ 304 317 l 5
+ 292 388 l 5
+ 277 393 247 399 213 399 c 7
+ 176 399 149 379 149 343 c 7
+ 149 308 185.424804688 288.743164062 239 265 c 4
+ 327 226 380 192 380 112 c 7
+ 380 42 326 -12 204 -12 c 7
+ 154 -12 90 -6 55 1 c 5
+ 50 113 l 5
+ 91 113 l 5
+ 110 42 l 5
+ 129 33 164 26 199 26 c 7
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: t
@@ -4808,13 +4808,13 @@ EndChar
 
 StartChar: scaron
 Encoding: 353 353 193
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 199 711 N 1 0 0 1 418 0 2
+Refer: 199 711 N 1 0 0 1 428 0 2
 Refer: 83 115 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5875,7 +5875,7 @@ EndChar
 
 StartChar: uni0137
 Encoding: 311 311 262
-Width: 549
+Width: 565
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -6213,13 +6213,13 @@ EndChar
 
 StartChar: sacute
 Encoding: 347 347 288
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 200 714 N 1 0 0 1 431 0 2
+Refer: 200 714 N 1 0 0 1 441 0 2
 Refer: 83 115 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6239,13 +6239,13 @@ EndChar
 
 StartChar: scircumflex
 Encoding: 349 349 290
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 198 710 N 1 0 0 1 411 0 2
+Refer: 198 710 N 1 0 0 1 421 0 2
 Refer: 83 115 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6265,13 +6265,13 @@ EndChar
 
 StartChar: scedilla
 Encoding: 351 351 292
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 117 184 N 1 0 0 1 14 0 2
+Refer: 117 184 N 1 0 0 1 24 0 2
 Refer: 83 115 N 1 0 0 1 0 0 3
 Validated: 5
 EndChar
@@ -6572,7 +6572,7 @@ EndSplineSet
 Fore
 SplineSet
 239 437 m 3
- 322 437 393 398 393 289 c 2
+ 332 437 393 398 393 289 c 2
  393 77 l 1
  403 36 l 1
  438 32 l 1
@@ -6591,8 +6591,8 @@ SplineSet
  40 136 65 199 141 214 c 0
  210 228 253 230 283 234 c 1
  283 269 l 2
- 283 344 270 385 205 385 c 3
- 163 385 131 377 91 355 c 1
+ 283 344 260 382 195 382 c 7
+ 153 382 131 374 91 355 c 1
  76 380 l 1
  127 417 178 437 239 437 c 3
 283 199 m 1
@@ -6602,7 +6602,7 @@ SplineSet
  234 52 268 83 283 139 c 9
  283 199 l 1
 EndSplineSet
-Validated: 1
+Validated: 524289
 Colour: ff9994
 EndChar
 
