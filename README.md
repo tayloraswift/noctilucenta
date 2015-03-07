@@ -13,7 +13,7 @@ Contains:
   * Most important and unimportant General Punctuation
   * Most important and unimportant Math Symbols and arrows
   
-  * Some IPA
+  * Most IPA
   
   * Mathematical Bold and Italic
 
