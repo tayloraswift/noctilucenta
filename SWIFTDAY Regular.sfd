@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1425765843
+ModificationTime: 1425776358
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 266 19 9
+WinInfo: 399 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5068,26 +5068,26 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 210
-Width: 330
+Width: 380
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 211 8221 S -1 0 0 -1 330 1136 2
+Refer: 211 8221 S -1 0 0 -1 380 1136 2
 Validated: 1
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 211
-Width: 330
+Width: 380
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 209 8217 S 1 0 0 1 163 0 2
-Refer: 209 8217 S 1 0 0 1 0 0 2
+Refer: 209 8217 S 1 0 0 1 188 0 2
+Refer: 209 8217 S 1 0 0 1 25 0 2
 Validated: 1
 EndChar
 
@@ -7162,7 +7162,7 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 345
-Width: 330
+Width: 380
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7174,14 +7174,14 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 346
-Width: 330
+Width: 380
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 348 8219 N 1 0 0 1 162 0 2
-Refer: 348 8219 N 1 0 0 1 0 0 2
+Refer: 348 8219 N 1 0 0 1 187 0 2
+Refer: 348 8219 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
 
@@ -9037,7 +9037,7 @@ SplineSet
  100 188 50 147 50 89 c 3
  50 35 95 -12 213 -12 c 7
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni025C
@@ -9121,7 +9121,7 @@ SplineSet
  293 195 342 167 342 110 c 3
  342 71 320 29 249 29 c 3
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni025F
@@ -9182,7 +9182,7 @@ SplineSet
  434 579 434.143171112 533.999684645 434 469 c 2
  434 15 l 2
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0261
@@ -9284,7 +9284,7 @@ SplineSet
  252 -100.846679688 246.833007812 -74.4677734375 222 -12 c 14
  55 393 l 5
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0264
@@ -9319,7 +9319,7 @@ SplineSet
  311 133 293.256835938 161.9765625 266 209 c 2
  138 435 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0265
@@ -9435,7 +9435,7 @@ SplineSet
  431 437 470 384 470 283 c 2
  470 24 l 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0268
@@ -9543,7 +9543,7 @@ SplineSet
  125 360 l 17
 EndSplineSet
 Refer: 76 108 N 1 0 0 1 10 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni026D
@@ -10152,7 +10152,7 @@ SplineSet
  30 383 l 1
  81 420 114 437 175 437 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0280
@@ -10187,7 +10187,7 @@ SplineSet
  330 377.0078125 294 389 242 389 c 2
  183 389 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0281
@@ -10222,7 +10222,7 @@ SplineSet
  375 0 431 45.9775390625 431 132 c 3
  431 196 362 237 264 244 c 1
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni0282
@@ -10259,7 +10259,7 @@ SplineSet
  150 26 100 42 68 53 c 1
  55 45 l 1
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni0284
@@ -10354,7 +10354,7 @@ SplineSet
  160 -176 144 -186 120 -186 c 3
  77.98828125 -186 53 -177 53 -115 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0287
@@ -10464,7 +10464,7 @@ SplineSet
  297 425 l 1
  276 377 l 1
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni028B
@@ -10490,7 +10490,7 @@ SplineSet
  221 39 201.375976562 55.416015625 191 139 c 2
  155 429 l 1
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni028C
@@ -10637,7 +10637,7 @@ SplineSet
  456 87 448.549804688 52.5498046875 426 30 c 0
  397 1 363 0 336 0 c 2
 EndSplineSet
-Validated: 1572869
+Validated: 1048581
 EndChar
 
 StartChar: uni0292
@@ -10669,7 +10669,7 @@ SplineSet
  344 408 l 1
  208 157 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0293
@@ -10707,7 +10707,7 @@ SplineSet
  291 -137 252.1796875 -193 170 -193 c 3
  103.810546875 -193 70 -165 70 -114 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0294

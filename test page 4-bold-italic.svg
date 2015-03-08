@@ -26,9 +26,9 @@
      borderopacity="0.20784314"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9999999"
-     inkscape:cx="326.32577"
-     inkscape:cy="314.49803"
+     inkscape:zoom="0.99999995"
+     inkscape:cx="463.74359"
+     inkscape:cy="287.54438"
      inkscape:document-units="pt"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -269,11 +269,11 @@
          id="tspan4502">ABCDEFGHIJKLMNOPQRSTUVWXYZ</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:125%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:120%;font-family:SWIFTDAY3;-inkscape-font-specification:'SWIFTDAY3 Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="48"
        y="678.36218"
        id="text4498"
-       sodipodi:linespacing="125%"
+       sodipodi:linespacing="120%"
        inkscape:export-filename="/home/kelvin/text4498.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
