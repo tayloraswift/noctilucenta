@@ -21,6 +21,9 @@ Contains:
 ![screenshot 091](https://cloud.githubusercontent.com/assets/2556986/6385811/8f41eb80-bd3d-11e4-98ac-d97d1bc0a384.png)
 
 
+![unicode chart](https://cloud.githubusercontent.com/assets/2556986/6543869/0e74575e-c4fe-11e4-832c-4a1286d08463.png)
+
+
 
 * Italic
   * Latin Basic, Supplement, Latin-A
@@ -44,7 +47,7 @@ Contains:
   * Most important and unimportant Math Symbols and arrows
 
 
-![screenshot 092](https://cloud.githubusercontent.com/assets/2556986/6385812/904d34ee-bd3d-11e4-82b9-0d07cd48488f.png)
+![screenshot 098](https://cloud.githubusercontent.com/assets/2556986/6543879/d1398dfe-c4fe-11e4-95ed-3fbf51df169c.png)
 
 
 
@@ -53,4 +56,4 @@ Contains:
   * 0–9 numerals and critical punctuation
 
 
-![screenshot 094](https://cloud.githubusercontent.com/assets/2556986/6421846/a9f57168-bea0-11e4-854b-645b92592cc3.png)
+![screenshot 099](https://cloud.githubusercontent.com/assets/2556986/6543880/d617e7c6-c4fe-11e4-9ce3-9bcd5dac7ae9.png)
