@@ -52,8 +52,7 @@ Contains:
 
 
 * Bold Italic
-  * A–Z upper and lowercase
-  * 0–9 numerals and critical punctuation
+  * Latin Basic, Supplement, Latin-A
 
 
-![screenshot 099](https://cloud.githubusercontent.com/assets/2556986/6543880/d617e7c6-c4fe-11e4-9ce3-9bcd5dac7ae9.png)
+![screenshot 100](https://cloud.githubusercontent.com/assets/2556986/6628529/aa05853a-c8dc-11e4-925d-e250fda7b9fe.png)
