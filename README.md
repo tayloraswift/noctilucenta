@@ -53,6 +53,7 @@ Contains:
 
 * Bold Italic
   * Latin Basic, Supplement, Latin-A
+  * Old style numerals
 
 
-![screenshot 100](https://cloud.githubusercontent.com/assets/2556986/6628529/aa05853a-c8dc-11e4-925d-e250fda7b9fe.png)
+![screenshot 101](https://cloud.githubusercontent.com/assets/2556986/6630082/35f8ebe6-c8eb-11e4-878b-298fed6cf3ad.png)
