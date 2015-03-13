@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426193366
+ModificationTime: 1426201904
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -613,28 +613,28 @@ EndChar
 
 StartChar: four
 Encoding: 52 52 20
-Width: 549
+Width: 525
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-325 629 m 5
- 391 623 l 1
- 391 34 l 1
- 450 18 l 1
- 450 0 l 1
- 250 0 l 1
- 250 18 l 1
- 315 43 l 1
- 315 547 l 1
- 106 205 l 1
- 509 205 l 25
- 509 154 l 25
+310 629 m 1
+ 376 623 l 1
+ 376 34 l 1
+ 435 18 l 1
+ 435 0 l 1
+ 235 0 l 1
+ 235 18 l 1
+ 300 43 l 1
+ 300 541 l 1
+ 100 202 l 1
+ 485 202 l 25
+ 485 154 l 25
  49 154 l 25
  40 175 l 1
- 325 629 l 5
+ 310 629 l 1
 EndSplineSet
 Validated: 5
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" four.oldstyle-proportional
@@ -9435,7 +9435,7 @@ SplineSet
  431 437 470 384 470 283 c 2
  470 24 l 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0268
