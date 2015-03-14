@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426347334
+ModificationTime: 1426348341
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 285 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1885,7 +1885,7 @@ Fore
 SplineSet
 387 437 m 3
  416 437 473 433 506 422 c 1
- 464 248 l 1
+ 464 248 l 5
  439 102 l 13
  439 43 l 5
  497 38 l 5
@@ -3238,33 +3238,32 @@ EndChar
 
 StartChar: ordfeminine
 Encoding: 170 170 103
-Width: 422
+Width: 446
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-367 690 m 3
- 382 690 411 687 425 682 c 1
- 433 675 l 1
- 405 558 l 1
- 385 441 l 2
- 381 421 395 417 426 417 c 1
- 429 393 l 1
- 326 377 l 1
- 317 386 l 1
+318 390 m 1
  337 498 l 1
  299 415 254 376 212 376 c 3
  185 376 146 391 146 462 c 3
  146 568 222 690 367 690 c 3
+ 395 690 435 686 458 679 c 1
+ 417 488 l 9
+ 417 429 l 1
+ 475 424 l 1
+ 477 400 l 1
+ 320 377 l 1
+ 318 390 l 1
 363 640 m 1
  353 644 332 648 314 648 c 3
- 229 648 208 554 208 479 c 3
- 208 438 222 429 241 429 c 3
- 270 429 331 529 358 616 c 1
+ 249 648 236 574 236 499 c 3
+ 236 473 245 446 266 446 c 3
+ 290 446 329 529 358 616 c 1
  363 640 l 1
 EndSplineSet
-Validated: 33
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -3615,22 +3614,22 @@ EndChar
 
 StartChar: ordmasculine
 Encoding: 186 186 119
-Width: 394
+Width: 424
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-331 690 m 3
- 372 690 421 667 421 588 c 3
- 421 439 302 376 251 376 c 3
+346 690 m 3
+ 402 690 451 667 451 588 c 3
+ 451 449 332 376 266 376 c 3
  209 376 161 398 161 477 c 3
- 161 626 279 690 331 690 c 3
-278 418 m 7
- 329 418 358 480 358 566 c 3
- 358 622 336 648 304 648 c 3
- 253 648 225 586 225 500 c 3
- 225 444 245 418 278 418 c 7
+ 161 616 279 690 346 690 c 3
+293 418 m 3
+ 334 418 358 485 358 571 c 3
+ 358 627 344 648 319 648 c 3
+ 278 648 255 581 255 495 c 3
+ 255 439 267 418 293 418 c 3
 EndSplineSet
 Validated: 1
 EndChar
