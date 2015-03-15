@@ -26,11 +26,11 @@
      borderopacity="0.40392157"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="523.65522"
-     inkscape:cy="1351.9816"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="638.54796"
+     inkscape:cy="10059.863"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:object-nodes="true"
      inkscape:snap-page="true"
@@ -4277,7 +4277,7 @@
        sodipodi:linespacing="125%"
        id="text8017"
        y="675"
-       x="650"
+       x="750"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.31372549;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.31372549"
@@ -4289,7 +4289,7 @@
        sodipodi:linespacing="125%"
        id="text8021"
        y="675"
-       x="750"
+       x="850"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.31372549;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.31372549"
@@ -4301,7 +4301,7 @@
        sodipodi:linespacing="125%"
        id="text8025"
        y="675"
-       x="850"
+       x="950"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.31372549;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.31372549"
@@ -9992,6 +9992,18 @@
        inkscape:export-ydpi="96"><tspan
          id="tspan6791"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.31372549">⟩</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.31372549;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="650"
+       y="675"
+       id="text6753"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kelvin/text4498-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         id="tspan6755"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.31372549">€</tspan></text>
   </g>
   <g
      style="display:inline"
@@ -10469,7 +10481,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="650"
+       x="750"
        y="775"
        id="text22629"
        sodipodi:linespacing="125%"
@@ -10481,7 +10493,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="750"
+       x="850"
        y="775"
        id="text22633"
        sodipodi:linespacing="125%"
@@ -10493,7 +10505,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="850"
+       x="950"
        y="775"
        id="text22637"
        sodipodi:linespacing="125%"
@@ -16166,5 +16178,17 @@
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
          id="tspan6799">⟩</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/kelvin/text4498-1.png"
+       sodipodi:linespacing="125%"
+       id="text6757"
+       y="775"
+       x="650"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:center;text-anchor:middle"
+         id="tspan6759">€</tspan></text>
   </g>
 </svg>

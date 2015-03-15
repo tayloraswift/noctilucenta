@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426446597
+ModificationTime: 1426458632
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 455 13 8
+WinInfo: 380 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -86,7 +86,7 @@ Grid
  -1000 425 2000 425 2000 425 c 1028
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning lookup 0-1" "top" "'mark' Mark Positioning lookup 0-1" 
-BeginChars: 65536 557
+BeginChars: 65536 558
 
 StartChar: space
 Encoding: 32 32 0
@@ -182,8 +182,8 @@ Back
 Fore
 SplineSet
 122 74 m 1
- 149 60 192 45 232 45 c 3
- 305 45 360 69 360 142 c 3
+ 149 60 192 48 232 48 c 7
+ 302 48 360 72 360 142 c 7
  360 204 327 231 258 277 c 0
  172 334 140 381 140 441 c 3
  140 519 212 607 334 607 c 3
@@ -191,8 +191,8 @@ SplineSet
  442 475 l 1
  404 477 l 1
  411 554 l 1
- 394 564 350 574 319 574 c 3
- 252 574 205 540 205 468 c 3
+ 394 564 350 571 319 571 c 7
+ 255 571 205 537 205 468 c 7
  205 412 246 386 309 345 c 0
  395 288 432 247 432 184 c 3
  432 92 358 11 215 11 c 3
@@ -1741,15 +1741,15 @@ Back
 Fore
 SplineSet
 428 44 m 1
- 472 143 l 1
- 506 138 l 1
+ 467 143 l 1
+ 504 138 l 1
  464 0 l 1
  55 0 l 1
  52 18 l 1
  432 594 l 1
  206 594 l 1
- 164 500 l 1
- 129 502 l 1
+ 169 500 l 1
+ 133 502 l 1
  167 643 l 1
  185 643 l 1
  233 638 l 1
@@ -2055,7 +2055,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-395 687 m 7
+395 687 m 3
  417 687 438 678 454 663 c 1
  429 605 l 1
  416 600 l 1
@@ -2071,13 +2071,13 @@ SplineSet
  61 -169 89 -150 103 -59 c 2
  179 446 l 2
  196 556 251 615 296 647 c 0
- 333 673 360 687 395 687 c 7
-336 387 m 1
- 112 387 l 1
- 115 403 l 1
- 176 425 l 1
- 343 425 l 1
- 336 387 l 1
+ 333 673 360 687 395 687 c 3
+336 387 m 5
+ 112 387 l 5
+ 115 403 l 5
+ 176 425 l 5
+ 343 425 l 5
+ 336 387 l 5
 EndSplineSet
 Validated: 5
 EndChar
@@ -10710,6 +10710,46 @@ SplineSet
  192 47 l 1
 EndSplineSet
 Validated: 9
+EndChar
+
+StartChar: Euro
+Encoding: 8364 8364 557
+Width: 561
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+SplineSet
+394 220 m 1
+ 39 220 l 1
+ 42 236 l 1
+ 103 258 l 1
+ 401 258 l 1
+ 394 220 l 1
+415 338 m 1
+ 60 338 l 1
+ 63 354 l 1
+ 124 376 l 1
+ 422 376 l 1
+ 415 338 l 1
+437 566 m 3
+ 263 566 195 402 195 220 c 3
+ 195 120 258 33 371 33 c 3
+ 420 33 453 38 480 46 c 1
+ 504 138 l 1
+ 548 135 l 1
+ 524 25 l 1
+ 490 10 433 -12 341 -12 c 3
+ 178 -12 113 104 113 220 c 3
+ 113 421 248 606 456 606 c 3
+ 528 606 575 592 604 578 c 1
+ 582 457 l 1
+ 545 462 l 1
+ 547 545 l 1
+ 525 556 483 566 437 566 c 3
+EndSplineSet
+Validated: 5
 EndChar
 EndChars
 EndSplineFont
