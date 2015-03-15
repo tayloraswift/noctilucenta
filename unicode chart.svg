@@ -23,12 +23,12 @@
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1.0"
+     borderopacity="0.40392157"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="328.26739"
-     inkscape:cy="2440.3986"
+     inkscape:zoom="0.25"
+     inkscape:cx="1083.4848"
+     inkscape:cy="10667.477"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +41,8 @@
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     showborder="true">
+     showborder="true"
+     inkscape:showpageshadow="false">
     <inkscape:grid
        originx="50"
        type="xygrid"
@@ -9921,6 +9922,28 @@
        inkscape:export-ydpi="96"><tspan
          id="tspan6735"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Neue Frutiger 45';-inkscape-font-specification:'Neue Frutiger 45, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.31372549">ˑ</tspan></text>
+    <text
+       sodipodi:linespacing="130.89999%"
+       id="text6738"
+       y="-300"
+       x="50"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:130.8999896%;font-family:SWIFTDAY3;-inkscape-font-specification:SWIFTDAY3;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="-300"
+         x="50"
+         id="tspan6740"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:130.8999896%;font-family:'Frutiger Neue 55';-inkscape-font-specification:'Frutiger Neue 55, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1250"
+       y="5525"
+       id="text8668"
+       sodipodi:linespacing="130.89999%"><tspan
+         sodipodi:role="line"
+         id="tspan8670"
+         x="1250"
+         y="5525" /></text>
   </g>
   <g
      style="display:inline"
