@@ -1,5 +1,4 @@
-# SWIFTDAY
-a yet unnamed text font. (Temporarily named swiftday because this typeface was designed on Swift day, February). hey it’s the 1 month anniversary!
+a yet unnamed text font. Read more about this font at https://commons.wikimedia.org/wiki/File:A_proposed_free_and_open_source_typeface.pdf
 
 ![screenshot 090](https://cloud.githubusercontent.com/assets/2556986/6320363/01ab1b48-baa9-11e4-8987-f62b9dae81a4.png)
 
