@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426345947
+ModificationTime: 1426446597
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -86,7 +86,7 @@ Grid
  -1000 425 2000 425 2000 425 c 1028
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning lookup 0-1" "top" "'mark' Mark Positioning lookup 0-1" 
-BeginChars: 65536 553
+BeginChars: 65536 557
 
 StartChar: space
 Encoding: 32 32 0
@@ -8022,7 +8022,7 @@ SplineSet
  89 269 l 1
 EndSplineSet
 Refer: 384 8764 N 1 0 0 1 31 170 2
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni2247
@@ -8041,7 +8041,7 @@ SplineSet
  332 498 l 1
 EndSplineSet
 Refer: 381 8773 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni2249
@@ -10604,6 +10604,112 @@ LayerCount: 2
 Back
 Fore
 Validated: 1
+EndChar
+
+StartChar: uni02CC
+Encoding: 716 716 553
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Validated: 1
+EndChar
+
+StartChar: uni02C8
+Encoding: 712 712 554
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Validated: 1
+EndChar
+
+StartChar: circle
+Encoding: 9675 9675 555
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+97 212 m 3
+ 97 106 181 22 287 22 c 3
+ 393 22 477 106 477 212 c 3
+ 477 318 392 403 286 403 c 3
+ 180 403 97 318 97 212 c 3
+62 212 m 3
+ 62 337 162 437 287 437 c 3
+ 412 437 512 337 512 212 c 3
+ 512 87 411 -12 286 -12 c 3
+ 161 -12 62 87 62 212 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni25CC
+Encoding: 9676 9676 556
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+103 261 m 1
+ 71 275 l 1
+ 65 255 62 234 62 212 c 3
+ 62 190 65 169 71 149 c 1
+ 103 163 l 1
+ 99 179 97 195 97 212 c 3
+ 97 229 99 245 103 261 c 1
+122 307 m 1
+ 139 336 162 361 191 378 c 1
+ 178 409 l 1
+ 141 389 110 358 90 321 c 1
+ 122 307 l 1
+238 397 m 1
+ 253 401 269 403 286 403 c 3
+ 303 403 320 400 336 396 c 1
+ 350 428 l 1
+ 330 434 309 437 287 437 c 3
+ 265 437 244 434 224 428 c 1
+ 238 397 l 1
+382 377 m 1
+ 411 360 435 336 452 307 c 1
+ 484 321 l 1
+ 464 358 433 389 396 409 c 1
+ 382 377 l 1
+471 261 m 1
+ 475 245 477 229 477 212 c 3
+ 477 195 475 179 471 163 c 1
+ 503 149 l 1
+ 509 169 512 190 512 212 c 3
+ 512 234 509 255 503 275 c 1
+ 471 261 l 1
+452 117 m 1
+ 435 88 411 64 382 47 c 1
+ 395 16 l 1
+ 432 36 463 66 484 103 c 1
+ 452 117 l 1
+336 28 m 1
+ 320 24 304 22 287 22 c 3
+ 270 22 254 24 238 28 c 1
+ 225 -4 l 1
+ 244 -9 265 -12 286 -12 c 3
+ 308 -12 329 -9 349 -3 c 1
+ 336 28 l 1
+192 47 m 1
+ 163 64 139 88 122 117 c 1
+ 90 103 l 1
+ 110 66 141 35 178 15 c 1
+ 192 47 l 1
+EndSplineSet
+Validated: 9
 EndChar
 EndChars
 EndSplineFont
