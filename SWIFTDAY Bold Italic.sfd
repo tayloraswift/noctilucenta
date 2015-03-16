@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426458901
+ModificationTime: 1426463905
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -86,7 +86,7 @@ Grid
  -1000 425 2000 425 2000 425 c 1028
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning lookup 0-1" "top" "'mark' Mark Positioning lookup 0-1" 
-BeginChars: 65536 558
+BeginChars: 65536 560
 
 StartChar: space
 Encoding: 32 32 0
@@ -207,6 +207,7 @@ SplineSet
  332 689 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "'onum' Oldstyle Figures lookup 1-1" uniF724
 EndChar
 
 StartChar: percent
@@ -244,6 +245,7 @@ SplineSet
  683 638 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "'onum' Oldstyle Figures lookup 1-1" uniF642
 EndChar
 
 StartChar: ampersand
@@ -10722,6 +10724,61 @@ SplineSet
  547 545 l 1
  525 556 488 566 442 566 c 3
 EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: uniF642
+Encoding: 63042 63042 558
+Width: 586
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+234 437 m 3
+ 274 437 314 421 314 364 c 3
+ 314 257 218 212 176 212 c 3
+ 136 212 96 227 96 284 c 3
+ 96 391 192 437 234 437 c 3
+199 242 m 3
+ 236 242 248 286 248 348 c 3
+ 248 383 234 407 211 407 c 3
+ 174 407 162 362 162 300 c 3
+ 162 265 175 242 199 242 c 3
+460 437 m 1
+ 497 412 l 1
+ 201 -12 l 1
+ 164 13 l 1
+ 460 437 l 1
+485 213 m 3
+ 525 213 565 197 565 140 c 3
+ 565 33 469 -12 427 -12 c 3
+ 387 -12 347 3 347 60 c 3
+ 347 167 443 213 485 213 c 3
+450 18 m 3
+ 487 18 499 62 499 124 c 3
+ 499 159 485 183 462 183 c 3
+ 425 183 413 138 413 76 c 3
+ 413 41 426 18 450 18 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniF724
+Encoding: 63268 63268 559
+Width: 362
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+257 506 m 1
+ 284 503 l 1
+ 177 -98 l 1
+ 150 -95 l 1
+ 257 506 l 1
+EndSplineSet
+Refer: 83 115 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
 EndChars
