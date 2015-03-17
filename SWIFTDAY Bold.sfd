@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426463635
+ModificationTime: 1426632705
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 475 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -942,13 +942,12 @@ AnchorPoint: "bottom" 518 0 basemark 0
 AnchorPoint: "top" 331 638 basemark 0
 LayerCount: 2
 Back
-Fore
 SplineSet
-175 216 m 1
- 175 253 l 1
+175 216 m 5
+ 175 253 l 5
  480 253 l 5
  480 216 l 5
- 175 216 l 1
+ 175 216 l 5
 85 39 m 5
  302 644 l 5
  368 644 l 5
@@ -966,7 +965,31 @@ SplineSet
  19 18 l 5
  85 39 l 5
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+302 644 m 1
+ 368 644 l 1
+ 597 35 l 1
+ 653 18 l 1
+ 653 0 l 1
+ 411 0 l 1
+ 411 18 l 1
+ 471 38 l 1
+ 409 216 l 1
+ 199 216 l 1
+ 140 40 l 1
+ 205 18 l 1
+ 205 0 l 1
+ 19 0 l 1
+ 19 18 l 1
+ 85 39 l 1
+ 302 644 l 1
+396 253 m 1
+ 302 523 l 1
+ 211 253 l 1
+ 396 253 l 1
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: B
@@ -2119,29 +2142,31 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-387 671 m 5
- 373 586 l 5
- 358 580 l 5
- 343 585 297 603 277 603 c 7
- 253 603 243 600 232 587 c 5
- 222 553 221 529 221 464 c 6
- 221 34 l 25
+316 679 m 3
+ 349 679 369 676 387 671 c 1
+ 373 586 l 1
+ 358 580 l 1
+ 343 585 297 603 277 603 c 3
+ 253 603 243 600 232 587 c 1
+ 222 553 221 529 221 464 c 2
+ 221 425 l 1
+ 329 425 l 1
+ 329 387 l 1
+ 221 387 l 1
+ 221 34 l 1
  300 18 l 1
  300 0 l 1
  42 0 l 1
  42 18 l 1
- 112 43 l 25
- 112 425 l 6
- 112 604 234 679 316 679 c 7
- 349 679 369 676 387 671 c 5
-329 387 m 1
+ 112 43 l 1
+ 112 387 l 1
  44 387 l 1
  44 403 l 1
  111 425 l 1
- 329 425 l 1
- 329 387 l 1
+ 112 425 l 1
+ 112 604 234 679 316 679 c 3
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: g
@@ -3639,7 +3664,7 @@ Back
 Fore
 Refer: 608 768 N 1 0 0 1 511 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -3652,7 +3677,7 @@ Back
 Fore
 Refer: 607 769 N 1 0 0 1 551 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Acircumflex
@@ -3665,7 +3690,7 @@ Back
 Fore
 Refer: 606 770 N 1 0 0 1 531 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Atilde
@@ -3678,7 +3703,7 @@ Back
 Fore
 Refer: 610 771 N 1 0 0 1 528 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Adieresis
@@ -3691,7 +3716,7 @@ Back
 Fore
 Refer: 614 776 N 1 0 0 1 534 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Aring
@@ -3704,7 +3729,7 @@ Back
 Fore
 Refer: 615 778 N 1 0 0 1 531 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: AE
@@ -5279,7 +5304,7 @@ Back
 Fore
 Refer: 611 772 N 1 0 0 1 556 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Abreve
@@ -5292,7 +5317,7 @@ Back
 Fore
 Refer: 612 774 N 1 0 0 1 531 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: abreve
@@ -12423,7 +12448,7 @@ SplineSet
  183 6 l 1
  432 437 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0302
