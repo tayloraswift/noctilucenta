@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426463905
+ModificationTime: 1426716477
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 399 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2478,7 +2478,7 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 82
-Width: 412
+Width: 402
 Flags: HMW
 AnchorPoint: "bottom" 149 0 basechar 0
 AnchorPoint: "top" 311 425 basechar 0
@@ -6368,7 +6368,7 @@ EndChar
 
 StartChar: racute
 Encoding: 341 341 301
-Width: 412
+Width: 402
 Flags: HMW
 LayerCount: 2
 Back
@@ -6392,7 +6392,7 @@ EndChar
 
 StartChar: uni0157
 Encoding: 343 343 303
-Width: 412
+Width: 402
 Flags: HMW
 LayerCount: 2
 Back
@@ -6416,7 +6416,7 @@ EndChar
 
 StartChar: rcaron
 Encoding: 345 345 305
-Width: 412
+Width: 402
 Flags: HMW
 LayerCount: 2
 Back
