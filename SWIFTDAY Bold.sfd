@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426716326
+ModificationTime: 1426727439
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -45,14 +45,64 @@ OS2XHeight: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'dlig' Discretionary Ligatures lookup 3" { "'dlig' Discretionary Ligatures lookup 3-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0" { "'onum' Oldstyle Figures lookup 0-1" ("oldstyle-proportional") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable" [150,0,0] } ['kern' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 0" { "'mkmk' Mark to Mark lookup 0-1"  } ['mkmk' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0-1"
+KernClass2: 29 25 "kernHorizontalKerninglookup0 subtable"
+ 73 A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
+ 1 B
+ 47 C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent
+ 102 D Dcaron Dcroat Eth O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q
+ 88 Eng H Hcircumflex I Iacute Icircumflex Idieresis Igrave M N Nacute Ncaron Ntilde uni0145
+ 1 F
+ 104 IJ J Jcircumflex U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde
+ 11 K X uni0136
+ 23 L Lacute Lslash uni013B
+ 1 P
+ 23 R Racute Rcaron uni0156
+ 36 S Sacute Scaron Scedilla Scircumflex
+ 16 T Tcaron uni0162
+ 46 V W Wcircumflex Y Yacute Ycircumflex Ydieresis
+ 137 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde h hbar hcircumflex m n nacute napostrophe ncaron ntilde uni0146
+ 84 ae e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oe
+ 55 b o oacute ocircumflex odieresis ograve oslash otilde p
+ 47 c cacute ccaron ccedilla ccircumflex cdotaccent
+ 175 d dotlessi i iacute ibreve icircumflex idieresis igrave imacron iogonek itilde l lacute u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni013C uring utilde
  13 emdash endash
- 13 endash emdash
- 0 {} 0 {} 0 {} -40 {}
+ 1 f
+ 26 ij j jcircumflex q uni0237
+ 22 k kgreenlandic uni0137
+ 22 quoteright quotesingle
+ 23 r racute rcaron uni0157
+ 36 s sacute scaron scedilla scircumflex
+ 9 t uni0163
+ 6 u1D453
+ 76 A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
+ 289 B D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek F H Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde K L Lacute Lcaron Ldot M N Nacute Ncaron Ntilde P R Racute Rcaron uni0136 uni013B uni0145 uni0156
+ 173 C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcircumflex Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q uni0122
+ 36 S Sacute Scaron Scedilla Scircumflex
+ 16 T Tcaron uni0162
+ 87 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde
+ 46 V W Wcircumflex Y Yacute Ycircumflex Ydieresis
+ 1 X
+ 76 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde
+ 1 b
+ 31 braceleft bracketleft parenleft
+ 228 c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde q
+ 13 emdash endash
+ 1 f
+ 39 g gbreve gcircumflex gdotaccent uni0123
+ 40 h k l lacute lcaron ldot uni0137 uni013C
+ 84 i iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j jcircumflex
+ 56 m n nacute ncaron ntilde r racute rcaron uni0146 uni0157
+ 1 p
+ 22 quoteright quotesingle
+ 36 s sacute scaron scedilla scircumflex
+ 68 t tcaron u ubreve uhungarumlaut umacron uni0163 uogonek uring utilde
+ 46 v w wcircumflex y yacute ycircumflex ydieresis
+ 26 z zacute zcaron zdotaccent
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -10 {} 0 {} -20 {} 0 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -30 {} -20 {} -20 {} -30 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 20 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} -30 {} 0 {} 0 {} -50 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} 30 {} -50 {} -40 {} -20 {} -40 {} 0 {} -80 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} -50 {} 0 {} 0 {} -70 {} 0 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} 30 {} 0 {} -20 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 10 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 20 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 LangName: 1033
 Encoding: UnicodeBmp
 Compacted: 1
@@ -61,7 +111,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 55 11 4
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2310,7 +2360,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 75
-Width: 565
+Width: 555
 VWidth: 0
 Flags: HMW
 AnchorPoint: "bottom" 310 0 basemark 0
@@ -5100,25 +5150,25 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 210
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 211 8221 N -1 0 0 -1 410 1136 2
+Refer: 211 8221 N -1 0 0 -1 430 1136 2
 Validated: 1
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 211
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 209 8217 S 1 0 0 1 205 0 2
+Refer: 209 8217 N 1 0 0 1 225 0 2
 Refer: 209 8217 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
@@ -5825,7 +5875,7 @@ EndChar
 
 StartChar: uni0137
 Encoding: 311 311 262
-Width: 565
+Width: 555
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7219,7 +7269,7 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 345
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7231,13 +7281,13 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 346
-Width: 410
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 348 8219 N 1 0 0 1 205 0 2
+Refer: 348 8219 N 1 0 0 1 225 0 2
 Refer: 348 8219 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar

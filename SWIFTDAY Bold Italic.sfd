@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426716477
+ModificationTime: 1426728658
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -45,14 +45,73 @@ OS2XHeight: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "'liga' Standard Ligatures lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 1" { "'onum' Oldstyle Figures lookup 1-1" ("oldstyle-proportional") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning ITALIC OVERRIDE" { "'kern' Horizontal Kerning ITALIC OVERRIDE-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable" [150,0,0] } ['kern' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0-1"
- 6 emdash
- 6 emdash
- 0 {} 0 {} 0 {} -30 {}
+KernClass2: 4 5 "'kern' Horizontal Kerning ITALIC OVERRIDE-1"
+ 23 r racute uni0157 rcaron
+ 24 figuredash endash emdash
+ 141 a h m n agrave aacute acircumflex atilde adieresis aring ntilde amacron abreve aogonek hcircumflex hbar nacute uni0146 ncaron napostrophe eng
+ 305 c d e g o q s ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron gcircumflex gbreve gdotaccent uni0123 omacron obreve ohungarumlaut oe sacute scircumflex scedilla scaron
+ 24 figuredash endash emdash
+ 21 t uni0163 tcaron tbar
+ 73 a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {} 4 {} 0 {} 0 {} 0 {} -6 {} 0 {} 30 {} -5 {}
+KernClass2: 28 25 "kernHorizontalKerninglookup0 subtable"
+ 73 A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
+ 1 B
+ 47 C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent
+ 102 D Dcaron Dcroat Eth O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q
+ 88 Eng H Hcircumflex I Iacute Icircumflex Idieresis Igrave M N Nacute Ncaron Ntilde uni0145
+ 1 F
+ 104 IJ J Jcircumflex U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde
+ 11 K X uni0136
+ 23 L Lacute Lslash uni013B
+ 1 P
+ 23 R Racute Rcaron uni0156
+ 36 S Sacute Scaron Scedilla Scircumflex
+ 16 T Tcaron uni0162
+ 46 V W Wcircumflex Y Yacute Ycircumflex Ydieresis
+ 137 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde h hbar hcircumflex m n nacute napostrophe ncaron ntilde uni0146
+ 84 ae e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oe
+ 55 b o oacute ocircumflex odieresis ograve oslash otilde p
+ 47 c cacute ccaron ccedilla ccircumflex cdotaccent
+ 175 d dotlessi i iacute ibreve icircumflex idieresis igrave imacron iogonek itilde l lacute u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni013C uring utilde
+ 13 emdash endash
+ 1 f
+ 26 ij j jcircumflex q uni0237
+ 22 k kgreenlandic uni0137
+ 22 quoteright quotesingle
+ 23 r racute rcaron uni0157
+ 36 s sacute scaron scedilla scircumflex
+ 9 t uni0163
+ 76 A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
+ 289 B D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek F H Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde K L Lacute Lcaron Ldot M N Nacute Ncaron Ntilde P R Racute Rcaron uni0136 uni013B uni0145 uni0156
+ 173 C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcircumflex Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q uni0122
+ 36 S Sacute Scaron Scedilla Scircumflex
+ 16 T Tcaron uni0162
+ 87 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde
+ 46 V W Wcircumflex Y Yacute Ycircumflex Ydieresis
+ 1 X
+ 76 a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde
+ 1 b
+ 31 braceleft bracketleft parenleft
+ 228 c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde q
+ 13 emdash endash
+ 1 f
+ 39 g gbreve gcircumflex gdotaccent uni0123
+ 40 h k l lacute lcaron ldot uni0137 uni013C
+ 84 i iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j jcircumflex
+ 56 m n nacute ncaron ntilde r racute rcaron uni0146 uni0157
+ 1 p
+ 22 quoteright quotesingle
+ 36 s sacute scaron scedilla scircumflex
+ 68 t tcaron u ubreve uhungarumlaut umacron uni0163 uogonek uring utilde
+ 46 v w wcircumflex y yacute ycircumflex ydieresis
+ 26 z zacute zcaron zdotaccent
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -10 {} 0 {} -20 {} 0 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -30 {} -20 {} -20 {} -30 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 20 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} -30 {} 0 {} 0 {} -50 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} 30 {} -50 {} -40 {} -20 {} -40 {} 0 {} -80 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} -50 {} 0 {} 0 {} -70 {} 0 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} 30 {} 0 {} -20 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 10 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 20 {} -10 {} 0 {} 0 {} 0 {}
 LangName: 1033 "" "" "Bold Italic"
 Encoding: UnicodeBmp
 Compacted: 1

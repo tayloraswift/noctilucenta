@@ -1,0 +1,37 @@
+
+lookup kernHorizontalKerningITALICOVER {
+  lookupflag 0;
+    @kc2_first_1 = [\r \racute \uni0157 \rcaron ];
+    @kc2_first_2 = [\figuredash \endash \emdash ];
+    @kc2_first_3 = [\a \h \m \n \agrave \aacute \acircumflex \atilde \adieresis \aring \ntilde \amacron 
+	\abreve \aogonek \hcircumflex \hbar \nacute \uni0146 \ncaron 
+	\napostrophe \eng ];
+    @kc2_second_1 = [\c \d \e \g \o \q \s \ccedilla \egrave \eacute \ecircumflex \edieresis \ograve 
+	\oacute \ocircumflex \otilde \odieresis \oslash \cacute \ccircumflex 
+	\cdotaccent \ccaron \dcaron \dcroat \emacron \ebreve \edotaccent 
+	\eogonek \ecaron \gcircumflex \gbreve \gdotaccent \uni0123 \omacron 
+	\obreve \ohungarumlaut \oe \sacute \scircumflex \scedilla \scaron ];
+    @kc2_second_2 = [\figuredash \endash \emdash ];
+    @kc2_second_3 = [\t \uni0163 \tcaron \tbar ];
+    @kc2_second_4 = [\a \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve 
+	\aogonek ];
+    pos @kc2_first_1 @kc2_second_1 -20;
+    pos @kc2_first_1 @kc2_second_4 -20;
+    pos @kc2_first_2 @kc2_second_2 4;
+    pos @kc2_first_3 @kc2_second_1 -6;
+    pos @kc2_first_3 @kc2_second_3 30;
+    pos @kc2_first_3 @kc2_second_4 -5;
+} kernHorizontalKerningITALICOVER;
+
+feature kern {
+  script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerningITALICOVER;
+  script grek;
+     language dflt ;
+      lookup kernHorizontalKerningITALICOVER;
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerningITALICOVER;
+
+} kern;
