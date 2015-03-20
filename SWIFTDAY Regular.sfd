@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426812028
+ModificationTime: 1426885860
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -38,13 +38,21 @@ OS2WinDescent: 0
 OS2WinDOffset: 1
 HheadAscent: -168
 HheadAOffset: 1
-HheadDescent: 953
+HheadDescent: 753
 HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'dlig' Discretionary Ligatures lookup 3" { "'dlig' Discretionary Ligatures lookup 3-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "Opentype shortcuts" { "'dlig' Discretionary Ligatures lookup 3-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "Old style initialize" { "'dlig' Discretionary Ligatures lookup 4-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
+Lookup: 6 0 0 "Old style chaining" { "'calt' Contextual Alternates lookup 2-1"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
+Lookup: 6 0 0 "Old style rendering" { "'calt' Contextual Alternates lookup 6-1"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
+Lookup: 4 0 1 "Old style closing tag" { "Old style closing tag-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
+Lookup: 6 0 0 "Tag warning" { "Tag warning-1"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0" { "'onum' Oldstyle Figures lookup 0-1" ("oldstyle-proportional") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "onumflag" { "onumflag-1" ("onumflag") } []
+Lookup: 1 0 0 "onuminverse" { "onumflag-2" ("onumflag") } []
+Lookup: 1 0 0 "onum-fail" { "onum-fail-1"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [1000,15,2] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 0" { "'mkmk' Mark to Mark lookup 0-1"  } ['mkmk' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -112,6 +120,57 @@ KernClass2: 36 27 "'kern' Horizontal Kerning lookup 0-1"
  26 Z Zacute Zdotaccent Zcaron
  22 quotesingle quoteright
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -20 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -20 {} -20 {} -30 {} 0 {} 0 {} -20 {} -40 {} 0 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -30 {} 0 {} -50 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} -50 {} -40 {} -20 {} -40 {} -30 {} 20 {} 0 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} 0 {} 30 {} -50 {} 0 {} 0 {} -50 {} 0 {} -70 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} 0 {} -20 {} 0 {} -60 {} -80 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: class "Tag warning-1" 3 3 3 1
+  Class: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  Class: 5570 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde exclamdown cent sterling yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus uni00B2 uni00B3 acute mu paragraph periodcentered cedilla uni00B9 ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Ebreve ebreve Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij Jcircumflex jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron napostrophe Eng eng Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut OE oe Racute racute uni0156 uni0157 Rcaron rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 Tcaron tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Wcircumflex wcircumflex Ycircumflex ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron longs uni0237 uni0250 uni0251 uni0252 uni0253 uni0254 uni0255 uni0256 uni0257 uni0258 uni0259 uni025A uni025B uni025C uni025D uni025E uni025F uni0260 uni0261 uni0262 uni0263 uni0264 uni0265 uni0266 uni0267 uni0268 uni0269 uni026A uni026B uni026C uni026D uni026E uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027A uni027B uni027C uni027D uni027E uni027F uni0280 uni0281 uni0282 uni0283 uni0284 uni0285 uni0286 uni0287 uni0288 uni0289 uni028A uni028B uni028C uni028D uni028E uni028F uni0290 uni0291 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297 uni0298 uni0299 uni029A uni029B uni029C uni029D uni029E uni029F uni02A0 uni02A1 uni02A2 uni02A3 uni02A4 uni02A5 uni02A6 uni02A7 uni02A8 uni02A9 uni02AA uni02AB uni02AC uni02AD uni02AE uni02AF uni02BB uni02BC circumflex caron uni02C8 uni02C9 uni02CA uni02CB uni02CC uni02D0 uni02D1 breve dotaccent ring tilde hungarumlaut gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 uni0313 uni0315 uni0327 Pi Sigma theta pi sigma phi1 uni1D07 uni2010 uni2011 figuredash endash emdash quoteleft quoteright quotesinglbase quotereversed quotedblleft quotedblright quotedblbase uni201F dagger daggerdbl ellipsis uni2027 perthousand uni2031 minute guilsinglleft guilsinglright uni203E fraction uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 Euro uni20D1 uni20D7 uni210E arrowleft arrowright arrowboth uni21BD uni21C0 uni21C4 uni21C6 uni21CB uni21CC arrowdblleft arrowdblright Delta product summation minus uni2215 radical uni221B uni221C infinity angle logicaland logicalor intersection union integral similar congruent uni2247 approxequal uni2249 notequal lessequal greaterequal uni22EE uni22EF uni22F0 uni22F1 uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23A9 uni23AA uni23AB uni23AC uni23AD uni23B7 circle uni25CC uni27E8 uni27E9 startonum tagwarning percent.oldstyle-proportional dollar.oldstyle-proportional zero.oldstyle-proportional one.oldstyle-proportional two.oldstyle-proportional three.oldstyle-proportional four.oldstyle-proportional five.oldstyle-proportional six.oldstyle-proportional seven.oldstyle-proportional eight.oldstyle-proportional nine.oldstyle-proportional zero.oldstyle-monospace one.oldstyle-monospace two.oldstyle-monospace three.oldstyle-monospace four.oldstyle-monospace five.oldstyle-monospace six.oldstyle-monospace seven.oldstyle-monospace eight.oldstyle-monospace nine.oldstyle-monospace u1D434 u1D435 u1D436 u1D437 u1D438 u1D439 u1D43A u1D43B u1D43C u1D43D u1D43E u1D43F u1D440 u1D441 u1D442 u1D443 u1D444 u1D445 u1D446 u1D447 u1D448 u1D449 u1D44A u1D44B u1D44C u1D44D u1D44E u1D44F u1D450 u1D451 u1D452 u1D453 u1D454 u1D455 u1D456 u1D457 u1D458 u1D459 u1D45A u1D45B u1D45C u1D45D u1D45E u1D45F u1D460 u1D461 u1D462 u1D463 u1D464 u1D465 u1D466 u1D467 u1D703 u1D70B u1D70E u1D719 u1D6F4 u1D6F1 u1D400 u1D401 u1D402 u1D403 u1D404 u1D405 u1D406 u1D407 u1D408 u1D409 u1D40A u1D40B u1D40C u1D40D u1D40E u1D40F u1D410 u1D411 u1D412 u1D413 u1D414 u1D415 u1D416 u1D417 u1D418 u1D419 u1D41A u1D41B u1D41C u1D41D u1D41E u1D41F u1D420 u1D421 u1D422 u1D423 u1D424 u1D425 u1D426 u1D427 u1D428 u1D429 u1D42A u1D42B u1D42C u1D42D u1D42E u1D42F u1D430 u1D431 u1D432 u1D433
+  BClass: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  BClass: 5570 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde exclamdown cent sterling yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus uni00B2 uni00B3 acute mu paragraph periodcentered cedilla uni00B9 ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Ebreve ebreve Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij Jcircumflex jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron napostrophe Eng eng Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut OE oe Racute racute uni0156 uni0157 Rcaron rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 Tcaron tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Wcircumflex wcircumflex Ycircumflex ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron longs uni0237 uni0250 uni0251 uni0252 uni0253 uni0254 uni0255 uni0256 uni0257 uni0258 uni0259 uni025A uni025B uni025C uni025D uni025E uni025F uni0260 uni0261 uni0262 uni0263 uni0264 uni0265 uni0266 uni0267 uni0268 uni0269 uni026A uni026B uni026C uni026D uni026E uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027A uni027B uni027C uni027D uni027E uni027F uni0280 uni0281 uni0282 uni0283 uni0284 uni0285 uni0286 uni0287 uni0288 uni0289 uni028A uni028B uni028C uni028D uni028E uni028F uni0290 uni0291 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297 uni0298 uni0299 uni029A uni029B uni029C uni029D uni029E uni029F uni02A0 uni02A1 uni02A2 uni02A3 uni02A4 uni02A5 uni02A6 uni02A7 uni02A8 uni02A9 uni02AA uni02AB uni02AC uni02AD uni02AE uni02AF uni02BB uni02BC circumflex caron uni02C8 uni02C9 uni02CA uni02CB uni02CC uni02D0 uni02D1 breve dotaccent ring tilde hungarumlaut gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 uni0313 uni0315 uni0327 Pi Sigma theta pi sigma phi1 uni1D07 uni2010 uni2011 figuredash endash emdash quoteleft quoteright quotesinglbase quotereversed quotedblleft quotedblright quotedblbase uni201F dagger daggerdbl ellipsis uni2027 perthousand uni2031 minute guilsinglleft guilsinglright uni203E fraction uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 Euro uni20D1 uni20D7 uni210E arrowleft arrowright arrowboth uni21BD uni21C0 uni21C4 uni21C6 uni21CB uni21CC arrowdblleft arrowdblright Delta product summation minus uni2215 radical uni221B uni221C infinity angle logicaland logicalor intersection union integral similar congruent uni2247 approxequal uni2249 notequal lessequal greaterequal uni22EE uni22EF uni22F0 uni22F1 uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23A9 uni23AA uni23AB uni23AC uni23AD uni23B7 circle uni25CC uni27E8 uni27E9 startonum tagwarning percent.oldstyle-proportional dollar.oldstyle-proportional zero.oldstyle-proportional one.oldstyle-proportional two.oldstyle-proportional three.oldstyle-proportional four.oldstyle-proportional five.oldstyle-proportional six.oldstyle-proportional seven.oldstyle-proportional eight.oldstyle-proportional nine.oldstyle-proportional zero.oldstyle-monospace one.oldstyle-monospace two.oldstyle-monospace three.oldstyle-monospace four.oldstyle-monospace five.oldstyle-monospace six.oldstyle-monospace seven.oldstyle-monospace eight.oldstyle-monospace nine.oldstyle-monospace u1D434 u1D435 u1D436 u1D437 u1D438 u1D439 u1D43A u1D43B u1D43C u1D43D u1D43E u1D43F u1D440 u1D441 u1D442 u1D443 u1D444 u1D445 u1D446 u1D447 u1D448 u1D449 u1D44A u1D44B u1D44C u1D44D u1D44E u1D44F u1D450 u1D451 u1D452 u1D453 u1D454 u1D455 u1D456 u1D457 u1D458 u1D459 u1D45A u1D45B u1D45C u1D45D u1D45E u1D45F u1D460 u1D461 u1D462 u1D463 u1D464 u1D465 u1D466 u1D467 u1D703 u1D70B u1D70E u1D719 u1D6F4 u1D6F1 u1D400 u1D401 u1D402 u1D403 u1D404 u1D405 u1D406 u1D407 u1D408 u1D409 u1D40A u1D40B u1D40C u1D40D u1D40E u1D40F u1D410 u1D411 u1D412 u1D413 u1D414 u1D415 u1D416 u1D417 u1D418 u1D419 u1D41A u1D41B u1D41C u1D41D u1D41E u1D41F u1D420 u1D421 u1D422 u1D423 u1D424 u1D425 u1D426 u1D427 u1D428 u1D429 u1D42A u1D42B u1D42C u1D42D u1D42E u1D42F u1D430 u1D431 u1D432 u1D433
+  FClass: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  FClass: 5570 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde exclamdown cent sterling yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus uni00B2 uni00B3 acute mu paragraph periodcentered cedilla uni00B9 ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Ebreve ebreve Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij Jcircumflex jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron napostrophe Eng eng Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut OE oe Racute racute uni0156 uni0157 Rcaron rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 Tcaron tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Wcircumflex wcircumflex Ycircumflex ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron longs uni0237 uni0250 uni0251 uni0252 uni0253 uni0254 uni0255 uni0256 uni0257 uni0258 uni0259 uni025A uni025B uni025C uni025D uni025E uni025F uni0260 uni0261 uni0262 uni0263 uni0264 uni0265 uni0266 uni0267 uni0268 uni0269 uni026A uni026B uni026C uni026D uni026E uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027A uni027B uni027C uni027D uni027E uni027F uni0280 uni0281 uni0282 uni0283 uni0284 uni0285 uni0286 uni0287 uni0288 uni0289 uni028A uni028B uni028C uni028D uni028E uni028F uni0290 uni0291 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297 uni0298 uni0299 uni029A uni029B uni029C uni029D uni029E uni029F uni02A0 uni02A1 uni02A2 uni02A3 uni02A4 uni02A5 uni02A6 uni02A7 uni02A8 uni02A9 uni02AA uni02AB uni02AC uni02AD uni02AE uni02AF uni02BB uni02BC circumflex caron uni02C8 uni02C9 uni02CA uni02CB uni02CC uni02D0 uni02D1 breve dotaccent ring tilde hungarumlaut gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 uni0313 uni0315 uni0327 Pi Sigma theta pi sigma phi1 uni1D07 uni2010 uni2011 figuredash endash emdash quoteleft quoteright quotesinglbase quotereversed quotedblleft quotedblright quotedblbase uni201F dagger daggerdbl ellipsis uni2027 perthousand uni2031 minute guilsinglleft guilsinglright uni203E fraction uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 Euro uni20D1 uni20D7 uni210E arrowleft arrowright arrowboth uni21BD uni21C0 uni21C4 uni21C6 uni21CB uni21CC arrowdblleft arrowdblright Delta product summation minus uni2215 radical uni221B uni221C infinity angle logicaland logicalor intersection union integral similar congruent uni2247 approxequal uni2249 notequal lessequal greaterequal uni22EE uni22EF uni22F0 uni22F1 uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23A9 uni23AA uni23AB uni23AC uni23AD uni23B7 circle uni25CC uni27E8 uni27E9 startonum tagwarning percent.oldstyle-proportional dollar.oldstyle-proportional zero.oldstyle-proportional one.oldstyle-proportional two.oldstyle-proportional three.oldstyle-proportional four.oldstyle-proportional five.oldstyle-proportional six.oldstyle-proportional seven.oldstyle-proportional eight.oldstyle-proportional nine.oldstyle-proportional zero.oldstyle-monospace one.oldstyle-monospace two.oldstyle-monospace three.oldstyle-monospace four.oldstyle-monospace five.oldstyle-monospace six.oldstyle-monospace seven.oldstyle-monospace eight.oldstyle-monospace nine.oldstyle-monospace u1D434 u1D435 u1D436 u1D437 u1D438 u1D439 u1D43A u1D43B u1D43C u1D43D u1D43E u1D43F u1D440 u1D441 u1D442 u1D443 u1D444 u1D445 u1D446 u1D447 u1D448 u1D449 u1D44A u1D44B u1D44C u1D44D u1D44E u1D44F u1D450 u1D451 u1D452 u1D453 u1D454 u1D455 u1D456 u1D457 u1D458 u1D459 u1D45A u1D45B u1D45C u1D45D u1D45E u1D45F u1D460 u1D461 u1D462 u1D463 u1D464 u1D465 u1D466 u1D467 u1D703 u1D70B u1D70E u1D719 u1D6F4 u1D6F1 u1D400 u1D401 u1D402 u1D403 u1D404 u1D405 u1D406 u1D407 u1D408 u1D409 u1D40A u1D40B u1D40C u1D40D u1D40E u1D40F u1D410 u1D411 u1D412 u1D413 u1D414 u1D415 u1D416 u1D417 u1D418 u1D419 u1D41A u1D41B u1D41C u1D41D u1D41E u1D41F u1D420 u1D421 u1D422 u1D423 u1D424 u1D425 u1D426 u1D427 u1D428 u1D429 u1D42A u1D42B u1D42C u1D42D u1D42E u1D42F u1D430 u1D431 u1D432 u1D433
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "onum-fail"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "'calt' Contextual Alternates lookup 6-1" 3 3 3 1
+  Class: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  Class: 96 space dollar percent comma hyphen period zero one two three four five six seven eight nine colon
+  BClass: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  BClass: 96 space dollar percent comma hyphen period zero one two three four five six seven eight nine colon
+  FClass: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  FClass: 96 space dollar percent comma hyphen period zero one two three four five six seven eight nine colon
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "onuminverse"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "'calt' Contextual Alternates lookup 2-1" 3 3 3 1
+  Class: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  Class: 96 space dollar percent comma hyphen period zero one two three four five six seven eight nine colon
+  BClass: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  BClass: 96 space dollar percent comma hyphen period zero one two three four five six seven eight nine colon
+  FClass: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
+  FClass: 96 space dollar percent comma hyphen period zero one two three four five six seven eight nine colon
+ 1 1 0
+  ClsList: 2
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "onumflag"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 LangName: 1033
 Encoding: UnicodeBmp
 Compacted: 1
@@ -120,7 +179,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 9
+WinInfo: 437 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -149,7 +208,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 272629 136314 90876 445645 1048576 90876 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom" "'mkmk' Mark to Mark lookup 0-1" "top" "'mkmk' Mark to Mark lookup 0-1" 
-BeginChars: 65656 681
+BeginChars: 65656 700
 
 StartChar: space
 Encoding: 32 32 0
@@ -160,6 +219,8 @@ LayerCount: 2
 Back
 Fore
 Validated: 1
+Substitution2: "onumflag-1" space.onumflag
+Ligature2: "Old style closing tag-1" space.onumflag less slash o n u m greater
 EndChar
 
 StartChar: exclam
@@ -275,7 +336,8 @@ SplineSet
  207 690 l 1
 EndSplineSet
 Validated: 5
-Substitution2: "'onum' Oldstyle Figures lookup 0-1" uniF724
+Substitution2: "onumflag-1" dollar.onumflag
+Substitution2: "'onum' Oldstyle Figures lookup 0-1" dollar.oldstyle-proportional
 EndChar
 
 StartChar: percent
@@ -318,7 +380,8 @@ SplineSet
  612 637 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "'onum' Oldstyle Figures lookup 0-1" uniF642
+Substitution2: "onumflag-1" percent.onumflag
+Substitution2: "'onum' Oldstyle Figures lookup 0-1" percent.oldstyle-proportional
 EndChar
 
 StartChar: ampersand
@@ -505,6 +568,8 @@ SplineSet
  57 78 80 102 113 102 c 7
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" comma.onumflag
+Ligature2: "Old style closing tag-1" comma.onumflag less slash o n u m greater
 EndChar
 
 StartChar: hyphen
@@ -523,6 +588,8 @@ SplineSet
  45 210 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" hyphen.onumflag
+Ligature2: "Old style closing tag-1" hyphen.onumflag less slash o n u m greater
 EndChar
 
 StartChar: period
@@ -541,6 +608,8 @@ SplineSet
  60 79 85 104 115 104 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" period.onumflag
+Ligature2: "Old style closing tag-1" period.onumflag less slash o n u m greater
 EndChar
 
 StartChar: slash
@@ -584,6 +653,7 @@ SplineSet
  480 110 396 -12 254 -12 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" zero.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" zero.oldstyle-proportional
 EndChar
 
@@ -609,6 +679,7 @@ SplineSet
  231 38 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" one.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" one.oldstyle-proportional
 EndChar
 
@@ -637,6 +708,7 @@ SplineSet
  334 534 292 586 228 586 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" two.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" two.oldstyle-proportional
 EndChar
 
@@ -667,6 +739,7 @@ SplineSet
  357 304 390 265 390 197 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" three.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" three.oldstyle-proportional
 EndChar
 
@@ -696,6 +769,7 @@ SplineSet
  310 629 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "onumflag-1" four.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" four.oldstyle-proportional
 EndChar
 
@@ -725,6 +799,7 @@ SplineSet
  373 56 236 -12 50 -12 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" five.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" five.oldstyle-proportional
 EndChar
 
@@ -752,6 +827,7 @@ SplineSet
  206 313 164 296 134 270 c 5
 EndSplineSet
 Validated: 5
+Substitution2: "onumflag-1" six.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" six.oldstyle-proportional
 EndChar
 
@@ -775,6 +851,7 @@ SplineSet
  20 579 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "onumflag-1" seven.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" seven.oldstyle-proportional
 EndChar
 
@@ -806,6 +883,7 @@ SplineSet
  405 419 324 356 284 334 c 9
 EndSplineSet
 Validated: 5
+Substitution2: "onumflag-1" eight.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" eight.oldstyle-proportional
 EndChar
 
@@ -833,6 +911,7 @@ SplineSet
  284 317 321 329 351 355 c 5
 EndSplineSet
 Validated: 5
+Substitution2: "onumflag-1" nine.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" nine.oldstyle-proportional
 EndChar
 
@@ -847,6 +926,8 @@ Fore
 Refer: 14 46 S 1 0 0 1 0 303 2
 Refer: 14 46 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "onumflag-1" colon.onumflag
+Ligature2: "Old style closing tag-1" colon.onumflag less slash o n u m greater
 EndChar
 
 StartChar: semicolon
@@ -13243,6 +13324,7 @@ SplineSet
  458 77 367 -12 238 -12 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" zero.onumflag less slash o n u m greater
 EndChar
 
 StartChar: one.oldstyle-proportional
@@ -13269,6 +13351,7 @@ SplineSet
  220 387 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" one.onumflag less slash o n u m greater
 EndChar
 
 StartChar: two.oldstyle-proportional
@@ -13296,6 +13379,7 @@ SplineSet
  268 362 235 388 195 388 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" two.onumflag less slash o n u m greater
 EndChar
 
 StartChar: three.oldstyle-proportional
@@ -13325,6 +13409,7 @@ SplineSet
  302 9 279 53 242 73 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" three.onumflag less slash o n u m greater
 EndChar
 
 StartChar: four.oldstyle-proportional
@@ -13354,6 +13439,7 @@ SplineSet
  341 417 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "Old style closing tag-1" four.onumflag less slash o n u m greater
 EndChar
 
 StartChar: five.oldstyle-proportional
@@ -13382,6 +13468,7 @@ SplineSet
  373 -159 236 -230 50 -230 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" five.onumflag less slash o n u m greater
 EndChar
 
 StartChar: six.oldstyle-proportional
@@ -13408,6 +13495,7 @@ SplineSet
  198 313 169 296 139 270 c 1
 EndSplineSet
 Validated: 5
+Ligature2: "Old style closing tag-1" six.onumflag less slash o n u m greater
 EndChar
 
 StartChar: seven.oldstyle-proportional
@@ -13430,6 +13518,7 @@ SplineSet
  30 378 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" seven.onumflag less slash o n u m greater
 EndChar
 
 StartChar: eight.oldstyle-proportional
@@ -13460,6 +13549,7 @@ SplineSet
  404 419 329 356 289 334 c 9
 EndSplineSet
 Validated: 5
+Ligature2: "Old style closing tag-1" eight.onumflag less slash o n u m greater
 EndChar
 
 StartChar: nine.oldstyle-proportional
@@ -13486,6 +13576,7 @@ SplineSet
  269 116 296 128 326 159 c 1
 EndSplineSet
 Validated: 5
+Ligature2: "Old style closing tag-1" nine.onumflag less slash o n u m greater
 EndChar
 
 StartChar: u1D703
@@ -14193,18 +14284,18 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-382 608 m 3
- 310 608 269 585 238 551 c 1
- 205 500 183 455 183 330 c 3
- 183 143 266 32 366 32 c 3
- 438 32 477 56 508 90 c 1
- 541 141 559 185 559 310 c 3
- 559 497 482 608 382 608 c 3
-347 -12 m 3
- 215 -12 60 68 60 300 c 3
- 60 524 183 650 392 650 c 3
- 524 650 683 572 683 340 c 3
- 683 116 556 -12 347 -12 c 3
+382 608 m 7
+ 310 608 269 585 238 551 c 5
+ 205 500 183 455 183 330 c 7
+ 183 143 266 32 366 32 c 7
+ 438 32 477 56 508 90 c 5
+ 541 141 559 185 559 310 c 7
+ 559 497 482 608 382 608 c 7
+347 -12 m 7
+ 215 -12 60 68 60 300 c 7
+ 60 524 183 650 392 650 c 7
+ 524 650 683 572 683 340 c 7
+ 683 116 556 -12 347 -12 c 7
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -15535,7 +15626,7 @@ Refer: 653 8401 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: uniF724
+StartChar: dollar.oldstyle-proportional
 Encoding: 63268 63268 656
 Width: 370
 Flags: HMW
@@ -15569,9 +15660,10 @@ SplineSet
  51 380 104 437 192 437 c 3
 EndSplineSet
 Validated: 5
+Ligature2: "Old style closing tag-1" dollar.onumflag less slash o n u m greater
 EndChar
 
-StartChar: uniF642
+StartChar: percent.oldstyle-proportional
 Encoding: 63042 63042 657
 Width: 647
 Flags: HMW
@@ -15610,6 +15702,7 @@ SplineSet
  432 437 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Old style closing tag-1" percent.onumflag less slash o n u m greater
 EndChar
 
 StartChar: uni0302
@@ -16177,6 +16270,447 @@ SplineSet
  516 8 456 -12 364 -12 c 3
 EndSplineSet
 Validated: 1048581
+EndChar
+
+StartChar: startonum
+Encoding: 57381 57381 681
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+100 -130 m 2
+ 400 -130 l 2
+ 455.400390625 -130 500 -174.599609375 500 -230 c 3
+ 500 -285.400390625 455.400390625 -330 400 -330 c 2
+ 100 -330 l 2
+ 44.599609375 -330 0 -285.400390625 0 -230 c 3
+ 0 -174.599609375 44.599609375 -130 100 -130 c 2
+123.00390625 -187.642578125 m 3
+ 100.8046875 -187.642578125 86.64453125 -203.72265625 86.64453125 -230.961914062 c 3
+ 86.64453125 -258.682617188 100.8046875 -274.162109375 123.00390625 -274.162109375 c 3
+ 145.204101562 -274.162109375 159.244140625 -258.202148438 159.244140625 -230.841796875 c 3
+ 159.244140625 -203.122070312 145.204101562 -187.642578125 123.00390625 -187.642578125 c 3
+123.00390625 -199.762695312 m 3
+ 135.484375 -199.762695312 142.564453125 -208.642578125 142.564453125 -230.841796875 c 3
+ 142.564453125 -253.282226562 135.364257812 -262.041992188 123.00390625 -262.041992188 c 3
+ 110.884765625 -262.041992188 103.32421875 -253.282226562 103.32421875 -230.961914062 c 3
+ 103.32421875 -208.642578125 110.64453125 -199.762695312 123.00390625 -199.762695312 c 3
+235.373046875 -189.442382812 m 1
+ 220.97265625 -189.442382812 l 1
+ 220.97265625 -228.322265625 l 2
+ 220.97265625 -240.08203125 222.413085938 -252.08203125 223.1328125 -256.642578125 c 2
+ 194.212890625 -189.442382812 l 1
+ 174.172851562 -189.442382812 l 1
+ 174.172851562 -272.362304688 l 1
+ 188.573242188 -272.362304688 l 1
+ 188.573242188 -238.522460938 l 2
+ 188.573242188 -223.162109375 187.252929688 -212.602539062 186.413085938 -205.282226562 c 2
+ 214.853515625 -272.362304688 l 1
+ 235.373046875 -272.362304688 l 1
+ 235.373046875 -189.442382812 l 1
+315.278320312 -189.442382812 m 1
+ 299.318359375 -189.442382812 l 1
+ 299.318359375 -244.40234375 l 2
+ 299.318359375 -256.041992188 294.637695312 -261.801757812 284.318359375 -261.801757812 c 0
+ 274.118164062 -261.801757812 269.438476562 -256.041992188 269.438476562 -244.40234375 c 2
+ 269.438476562 -189.442382812 l 1
+ 253.59765625 -189.442382812 l 1
+ 253.59765625 -245.2421875 l 2
+ 253.59765625 -262.282226562 263.91796875 -274.162109375 284.318359375 -274.162109375 c 0
+ 304.59765625 -274.162109375 315.278320312 -261.921875 315.278320312 -245.2421875 c 2
+ 315.278320312 -189.442382812 l 1
+404.96484375 -189.442382812 m 1
+ 384.325195312 -189.442382812 l 1
+ 370.405273438 -247.522460938 l 1
+ 355.64453125 -189.442382812 l 1
+ 335.245117188 -189.442382812 l 1
+ 328.64453125 -272.362304688 l 1
+ 344.004882812 -272.362304688 l 1
+ 346.044921875 -238.162109375 l 2
+ 346.764648438 -226.282226562 347.004882812 -214.881835938 346.525390625 -203.72265625 c 2
+ 362.60546875 -263.362304688 l 1
+ 377.60546875 -263.362304688 l 1
+ 392.724609375 -203.841796875 l 2
+ 392.485351562 -212.602539062 393.084960938 -225.442382812 393.8046875 -237.682617188 c 2
+ 395.96484375 -272.362304688 l 1
+ 411.4453125 -272.362304688 l 1
+ 404.96484375 -189.442382812 l 1
+0 0 m 1
+ 500 0 l 1
+ 500 -34 l 1
+ 0 -34 l 1
+ 0 0 l 1
+EndSplineSet
+Validated: 33
+LCarets2: 5 0 0 0 0 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" less o n u m greater
+EndChar
+
+StartChar: zero.onumflag
+Encoding: 63292 -1 682
+Width: 508
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 508 0 2
+Refer: 585 63280 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" zero.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum zero
+Colour: ffff
+EndChar
+
+StartChar: one.onumflag
+Encoding: 63293 -1 683
+Width: 360
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 360 0 2
+Refer: 586 63281 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" one.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum one
+Colour: ffff
+EndChar
+
+StartChar: two.onumflag
+Encoding: 63294 -1 684
+Width: 427
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 427 0 2
+Refer: 587 63282 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" two.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum two
+Colour: ffff
+EndChar
+
+StartChar: three.onumflag
+Encoding: 63295 -1 685
+Width: 427
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 427 0 2
+Refer: 588 63283 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" three.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum three
+Colour: ffff
+EndChar
+
+StartChar: four.onumflag
+Encoding: 63296 -1 686
+Width: 514
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 514 0 2
+Refer: 589 63284 N 1 0 0 1 0 0 2
+Validated: 5
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" four.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum four
+Colour: ffff
+EndChar
+
+StartChar: five.onumflag
+Encoding: 63297 -1 687
+Width: 423
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 423 0 2
+Refer: 590 63285 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" five.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum five
+Colour: ffff
+EndChar
+
+StartChar: six.onumflag
+Encoding: 63298 -1 688
+Width: 480
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 480 0 2
+Refer: 591 63286 N 1 0 0 1 0 0 2
+Validated: 5
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" six.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum six
+Colour: ffff
+EndChar
+
+StartChar: seven.onumflag
+Encoding: 63299 -1 689
+Width: 380
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 380 0 2
+Refer: 592 63287 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" seven.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum seven
+Colour: ffff
+EndChar
+
+StartChar: eight.onumflag
+Encoding: 63300 -1 690
+Width: 509
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 509 0 2
+Refer: 593 63288 N 1 0 0 1 0 0 2
+Validated: 5
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" eight.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum eight
+Colour: ffff
+EndChar
+
+StartChar: nine.onumflag
+Encoding: 63301 -1 691
+Width: 465
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 465 0 2
+Refer: 594 63289 N 1 0 0 1 0 0 2
+Validated: 5
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" nine.oldstyle-proportional
+LCarets2: 1 0
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum nine
+Colour: ffff
+EndChar
+
+StartChar: dollar.onumflag
+Encoding: 63291 63291 692
+Width: 370
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 370 0 2
+Refer: 656 63268 N 1 0 0 1 0 0 2
+Validated: 5
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" dollar.oldstyle-proportional
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum dollar
+Colour: ffff
+EndChar
+
+StartChar: percent.onumflag
+Encoding: 63290 63290 693
+Width: 647
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 647 0 2
+Refer: 657 63042 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" percent.oldstyle-proportional
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum percent
+Colour: ffff
+EndChar
+
+StartChar: period.onumflag
+Encoding: 63302 63302 694
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 230 0 2
+Refer: 14 46 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" period
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum period
+Colour: ffff
+EndChar
+
+StartChar: comma.onumflag
+Encoding: 63303 63303 695
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 230 0 2
+Refer: 12 44 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" comma
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum comma
+Colour: ffff
+EndChar
+
+StartChar: colon.onumflag
+Encoding: 63304 63304 696
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 230 0 2
+Refer: 26 58 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" colon
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum colon
+Colour: ffff
+EndChar
+
+StartChar: hyphen.onumflag
+Encoding: 63305 63305 697
+Width: 300
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 S 1 0 0 1 300 0 2
+Refer: 13 45 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" hyphen
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum hyphen
+Colour: ffff
+EndChar
+
+StartChar: space.onumflag
+Encoding: 63306 63306 698
+Width: 260
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 681 57381 N 1 0 0 1 260 0 2
+Refer: 0 32 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "onum-fail-1" tagwarning
+Substitution2: "onumflag-2" space
+Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum space
+Colour: ffff
+EndChar
+
+StartChar: tagwarning
+Encoding: 57382 57382 699
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+100 -130 m 2
+ 400 -130 l 2
+ 455.400390625 -130 500 -174.599609375 500 -230 c 3
+ 500 -285.400390625 455.400390625 -330 400 -330 c 2
+ 100 -330 l 2
+ 44.599609375 -330 0 -285.400390625 0 -230 c 3
+ 0 -174.599609375 44.599609375 -130 100 -130 c 2
+139.169921875 -204.5625 m 1
+ 92.9697265625 -225.322265625 l 1
+ 92.9697265625 -239.602539062 l 1
+ 139.169921875 -260.2421875 l 1
+ 144.209960938 -248.602539062 l 1
+ 105.689453125 -232.40234375 l 1
+ 144.209960938 -215.961914062 l 1
+ 139.169921875 -204.5625 l 1
+187.741210938 -174.921875 m 1
+ 159.661132812 -282.202148438 l 1
+ 172.981445312 -285.322265625 l 1
+ 200.94140625 -177.921875 l 1
+ 187.741210938 -174.921875 l 1
+218.459960938 -254.72265625 m 3
+ 213.059570312 -254.72265625 208.859375 -259.041992188 208.859375 -264.442382812 c 3
+ 208.859375 -269.72265625 213.059570312 -274.162109375 218.459960938 -274.162109375 c 3
+ 223.979492188 -274.162109375 228.299804688 -269.72265625 228.299804688 -264.442382812 c 3
+ 228.299804688 -259.041992188 223.979492188 -254.72265625 218.459960938 -254.72265625 c 3
+247.979492188 -254.72265625 m 3
+ 242.580078125 -254.72265625 238.379882812 -259.041992188 238.379882812 -264.442382812 c 3
+ 238.379882812 -269.72265625 242.580078125 -274.162109375 247.979492188 -274.162109375 c 3
+ 253.5 -274.162109375 257.69921875 -269.72265625 257.69921875 -264.442382812 c 3
+ 257.69921875 -259.041992188 253.5 -254.72265625 247.979492188 -254.72265625 c 3
+277.5 -254.72265625 m 3
+ 272.099609375 -254.72265625 267.899414062 -259.041992188 267.899414062 -264.442382812 c 3
+ 267.899414062 -269.72265625 272.099609375 -274.162109375 277.5 -274.162109375 c 3
+ 283.01953125 -274.162109375 287.219726562 -269.72265625 287.219726562 -264.442382812 c 3
+ 287.219726562 -259.041992188 283.01953125 -254.72265625 277.5 -254.72265625 c 3
+302.150390625 -204.5625 m 1
+ 297.110351562 -215.961914062 l 1
+ 335.510742188 -232.40234375 l 1
+ 297.110351562 -248.602539062 l 1
+ 302.150390625 -260.2421875 l 1
+ 348.350585938 -239.602539062 l 1
+ 348.350585938 -225.322265625 l 1
+ 302.150390625 -204.5625 l 1
+405.801757812 -189.442382812 m 1
+ 389.2421875 -189.442382812 l 1
+ 391.162109375 -243.08203125 l 1
+ 404.001953125 -243.08203125 l 1
+ 405.801757812 -189.442382812 l 1
+397.642578125 -254.72265625 m 3
+ 392.2421875 -254.72265625 387.921875 -259.041992188 387.921875 -264.442382812 c 3
+ 387.921875 -269.72265625 392.2421875 -274.162109375 397.642578125 -274.162109375 c 3
+ 403.162109375 -274.162109375 407.362304688 -269.72265625 407.362304688 -264.442382812 c 3
+ 407.362304688 -259.041992188 403.162109375 -254.72265625 397.642578125 -254.72265625 c 3
+EndSplineSet
+Refer: 679 9676 N 1 0 0 1 0 0 2
+Validated: 9
 EndChar
 EndChars
 EndSplineFont
