@@ -1,0 +1,476 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem math dflt;
+
+
+# GSUB 
+
+
+lookup Opentypeshortcuts {
+  lookupflag 0;
+    sub \asciicircum \two  by \uni00B2;
+    sub \asciicircum \three  by \uni00B3;
+    sub \asciicircum \one  by \uni00B9;
+    sub \asciicircum \zero  by \uni2070;
+    sub \asciicircum \four  by \uni2074;
+    sub \asciicircum \five  by \uni2075;
+    sub \asciicircum \six  by \uni2076;
+    sub \asciicircum \seven  by \uni2077;
+    sub \asciicircum \eight  by \uni2078;
+    sub \asciicircum \nine  by \uni2079;
+    sub \less \o \n \u \m \greater  by \startonum;
+} Opentypeshortcuts;
+
+lookup Oldstyleinitialize {
+  lookupflag 0;
+    sub \startonum \zero  by \zero.onumflag;
+    sub \startonum \one  by \one.onumflag;
+    sub \startonum \two  by \two.onumflag;
+    sub \startonum \three  by \three.onumflag;
+    sub \startonum \four  by \four.onumflag;
+    sub \startonum \five  by \five.onumflag;
+    sub \startonum \six  by \six.onumflag;
+    sub \startonum \seven  by \seven.onumflag;
+    sub \startonum \eight  by \eight.onumflag;
+    sub \startonum \nine  by \nine.onumflag;
+    sub \startonum \dollar  by \dollar.onumflag;
+    sub \startonum \percent  by \percent.onumflag;
+    sub \startonum \period  by \period.onumflag;
+    sub \startonum \comma  by \comma.onumflag;
+    sub \startonum \colon  by \colon.onumflag;
+    sub \startonum \hyphen  by \hyphen.onumflag;
+    sub \startonum \space  by \space.onumflag;
+} Oldstyleinitialize;
+
+lookup Oldstylechaining {
+  lookupflag 0;
+    @cc2_match_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc2_match_2 = [\space \dollar \percent \comma \hyphen \period \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon ];
+    @cc2_back_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc2_back_2 = [\space \dollar \percent \comma \hyphen \period \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon ];
+    @cc2_ahead_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc2_ahead_2 = [\space \dollar \percent \comma \hyphen \period \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon ];
+    sub @cc2_back_1 @cc2_match_2'  by [\space.onumflag \dollar.onumflag \percent.onumflag \comma.onumflag \hyphen.onumflag \period.onumflag \zero.onumflag \one.onumflag \two.onumflag \three.onumflag \four.onumflag \five.onumflag \six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag \colon.onumflag ] ;
+} Oldstylechaining;
+
+lookup Oldstylerendering {
+  lookupflag 0;
+    @cc3_match_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc3_match_2 = [\space \dollar \percent \comma \hyphen \period \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon ];
+    @cc3_back_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc3_back_2 = [\space \dollar \percent \comma \hyphen \period \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon ];
+    @cc3_ahead_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc3_ahead_2 = [\space \dollar \percent \comma \hyphen \period \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon ];
+    sub @cc3_match_1' @cc3_ahead_1  by [\percent.oldstyleproportional \dollar.oldstyleproportional \zero.oldstyleproportional \one.oldstyleproportional \two.oldstyleproportional \three.oldstyleproportional \four.oldstyleproportional \five.oldstyleproportional \six.oldstyleproportional \seven.oldstyleproportional \eight.oldstyleproportional \nine.oldstyleproportional \period \comma \colon \hyphen \space ] ;
+} Oldstylerendering;
+
+lookup Oldstyleclosingtag {
+  lookupflag 0;
+    sub \space.onumflag \less \slash \o \n \u \m \greater  by \space;
+    sub \comma.onumflag \less \slash \o \n \u \m \greater  by \comma;
+    sub \hyphen.onumflag \less \slash \o \n \u \m \greater  by \hyphen;
+    sub \period.onumflag \less \slash \o \n \u \m \greater  by \period;
+    sub \colon.onumflag \less \slash \o \n \u \m \greater  by \colon;
+    sub \zero.onumflag \less \slash \o \n \u \m \greater  by \zero.oldstyleproportional;
+    sub \one.onumflag \less \slash \o \n \u \m \greater  by \one.oldstyleproportional;
+    sub \two.onumflag \less \slash \o \n \u \m \greater  by \two.oldstyleproportional;
+    sub \three.onumflag \less \slash \o \n \u \m \greater  by \three.oldstyleproportional;
+    sub \four.onumflag \less \slash \o \n \u \m \greater  by \four.oldstyleproportional;
+    sub \five.onumflag \less \slash \o \n \u \m \greater  by \five.oldstyleproportional;
+    sub \six.onumflag \less \slash \o \n \u \m \greater  by \six.oldstyleproportional;
+    sub \seven.onumflag \less \slash \o \n \u \m \greater  by \seven.oldstyleproportional;
+    sub \eight.onumflag \less \slash \o \n \u \m \greater  by \eight.oldstyleproportional;
+    sub \nine.onumflag \less \slash \o \n \u \m \greater  by \nine.oldstyleproportional;
+    sub \dollar.onumflag \less \slash \o \n \u \m \greater  by \dollar.oldstyleproportional;
+    sub \percent.onumflag \less \slash \o \n \u \m \greater  by \percent.oldstyleproportional;
+} Oldstyleclosingtag;
+
+lookup Tagwarning {
+  lookupflag 0;
+    @cc5_match_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc5_match_2 = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand \quotesingle 
+	\parenleft \parenright \asterisk \plus \comma \hyphen \period \slash 
+	\zero \one \two \three \four \five \six \seven \eight \nine \colon 
+	\semicolon \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N 
+	\O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q 
+	\r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde 
+	\exclamdown \cent \sterling \yen \brokenbar \section \dieresis 
+	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD 
+	\registered \macron \degree \plusminus \uni00B2 \uni00B3 \acute \mu 
+	\paragraph \periodcentered \cedilla \uni00B9 \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown 
+	\Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla 
+	\Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
+	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute 
+	\Thorn \germandbls \agrave \aacute \acircumflex \atilde \adieresis 
+	\aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute 
+	\ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \Amacron \amacron 
+	\Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex 
+	\ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron 
+	\Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
+	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex 
+	\gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 
+	\Hcircumflex \hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron 
+	\Ibreve \ibreve \Iogonek \iogonek \Idotaccent \dotlessi \IJ \ij 
+	\Jcircumflex \jcircumflex \uni0136 \uni0137 \kgreenlandic \Lacute 
+	\lacute \uni013B \uni013C \Lcaron \lcaron \Ldot \ldot \Lslash \lslash 
+	\Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \napostrophe \Eng \eng 
+	\Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe 
+	\Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute 
+	\Scircumflex \scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 
+	\uni0163 \Tcaron \tcaron \Tbar \tbar \Utilde \utilde \Umacron \umacron 
+	\Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex 
+	\Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron 
+	\longs \uni0237 \uni0250 \uni0251 \uni0252 \uni0253 \uni0254 \uni0255 
+	\uni0256 \uni0257 \uni0258 \uni0259 \uni025A \uni025B \uni025C \uni025D 
+	\uni025E \uni025F \uni0260 \uni0261 \uni0262 \uni0263 \uni0264 \uni0265 
+	\uni0266 \uni0267 \uni0268 \uni0269 \uni026A \uni026B \uni026C \uni026D 
+	\uni026E \uni026F \uni0270 \uni0271 \uni0272 \uni0273 \uni0274 \uni0275 
+	\uni0276 \uni0277 \uni0278 \uni0279 \uni027A \uni027B \uni027C \uni027D 
+	\uni027E \uni027F \uni0280 \uni0281 \uni0282 \uni0283 \uni0284 \uni0285 
+	\uni0286 \uni0287 \uni0288 \uni0289 \uni028A \uni028B \uni028C \uni028D 
+	\uni028E \uni028F \uni0290 \uni0291 \uni0292 \uni0293 \uni0294 \uni0295 
+	\uni0296 \uni0297 \uni0298 \uni0299 \uni029A \uni029B \uni029C \uni029D 
+	\uni029E \uni029F \uni02A0 \uni02A1 \uni02A2 \uni02A3 \uni02A4 \uni02A5 
+	\uni02A6 \uni02A7 \uni02A8 \uni02A9 \uni02AA \uni02AB \uni02AC \uni02AD 
+	\uni02AE \uni02AF \uni02BB \uni02BC \circumflex \caron \uni02C8 
+	\uni02C9 \uni02CA \uni02CB \uni02CC \uni02D0 \uni02D1 \breve \dotaccent 
+	\ring \tilde \hungarumlaut \gravecomb \acutecomb \uni0302 \tildecomb 
+	\uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0312 
+	\uni0313 \uni0315 \uni0327 \Pi \Sigma \theta \pi \sigma \phi1 \uni1D07 
+	\uni2010 \uni2011 \figuredash \endash \emdash \quoteleft \quoteright 
+	\quotesinglbase \quotereversed \quotedblleft \quotedblright 
+	\quotedblbase \uni201F \dagger \daggerdbl \ellipsis \uni2027 
+	\perthousand \uni2031 \minute \guilsinglleft \guilsinglright \uni203E 
+	\fraction \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 
+	\uni2079 \Euro \uni20D1 \uni20D7 \arrowleft \arrowright 
+	\arrowboth \uni21BD \uni21C0 \uni21C4 \uni21C6 \uni21CB \uni21CC 
+	\arrowdblleft \arrowdblright \Delta \product \summation \minus 
+	\uni2215 \radical \uni221B \uni221C \infinity \angle \logicaland 
+	\logicalor \intersection \union \integral \similar \congruent \uni2247 
+	\approxequal \uni2249 \notequal \lessequal \greaterequal \uni22EE 
+	\uni22EF \uni22F0 \uni22F1 \uni239B \uni239C \uni239D \uni239E \uni239F 
+	\uni23A0 \uni23A1 \uni23A2 \uni23A3 \uni23A4 \uni23A5 \uni23A6 \uni23A7 
+	\uni23A8 \uni23A9 \uni23AA \uni23AB \uni23AC \uni23AD \uni23B7 \circle 
+	\uni25CC \uni27E8 \uni27E9 \startonum \tagwarning 
+	\percent.oldstyleproportional \dollar.oldstyleproportional 
+	\zero.oldstyleproportional \one.oldstyleproportional 
+	\two.oldstyleproportional \three.oldstyleproportional 
+	\four.oldstyleproportional \five.oldstyleproportional 
+	\six.oldstyleproportional \seven.oldstyleproportional 
+	\eight.oldstyleproportional \nine.oldstyleproportional ];
+    @cc5_back_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc5_back_2 = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand \quotesingle 
+	\parenleft \parenright \asterisk \plus \comma \hyphen \period \slash 
+	\zero \one \two \three \four \five \six \seven \eight \nine \colon 
+	\semicolon \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N 
+	\O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q 
+	\r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde 
+	\exclamdown \cent \sterling \yen \brokenbar \section \dieresis 
+	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD 
+	\registered \macron \degree \plusminus \uni00B2 \uni00B3 \acute \mu 
+	\paragraph \periodcentered \cedilla \uni00B9 \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown 
+	\Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla 
+	\Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
+	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute 
+	\Thorn \germandbls \agrave \aacute \acircumflex \atilde \adieresis 
+	\aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute 
+	\ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \Amacron \amacron 
+	\Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex 
+	\ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron 
+	\Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
+	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex 
+	\gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 
+	\Hcircumflex \hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron 
+	\Ibreve \ibreve \Iogonek \iogonek \Idotaccent \dotlessi \IJ \ij 
+	\Jcircumflex \jcircumflex \uni0136 \uni0137 \kgreenlandic \Lacute 
+	\lacute \uni013B \uni013C \Lcaron \lcaron \Ldot \ldot \Lslash \lslash 
+	\Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \napostrophe \Eng \eng 
+	\Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe 
+	\Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute 
+	\Scircumflex \scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 
+	\uni0163 \Tcaron \tcaron \Tbar \tbar \Utilde \utilde \Umacron \umacron 
+	\Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex 
+	\Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron 
+	\longs \uni0237 \uni0250 \uni0251 \uni0252 \uni0253 \uni0254 \uni0255 
+	\uni0256 \uni0257 \uni0258 \uni0259 \uni025A \uni025B \uni025C \uni025D 
+	\uni025E \uni025F \uni0260 \uni0261 \uni0262 \uni0263 \uni0264 \uni0265 
+	\uni0266 \uni0267 \uni0268 \uni0269 \uni026A \uni026B \uni026C \uni026D 
+	\uni026E \uni026F \uni0270 \uni0271 \uni0272 \uni0273 \uni0274 \uni0275 
+	\uni0276 \uni0277 \uni0278 \uni0279 \uni027A \uni027B \uni027C \uni027D 
+	\uni027E \uni027F \uni0280 \uni0281 \uni0282 \uni0283 \uni0284 \uni0285 
+	\uni0286 \uni0287 \uni0288 \uni0289 \uni028A \uni028B \uni028C \uni028D 
+	\uni028E \uni028F \uni0290 \uni0291 \uni0292 \uni0293 \uni0294 \uni0295 
+	\uni0296 \uni0297 \uni0298 \uni0299 \uni029A \uni029B \uni029C \uni029D 
+	\uni029E \uni029F \uni02A0 \uni02A1 \uni02A2 \uni02A3 \uni02A4 \uni02A5 
+	\uni02A6 \uni02A7 \uni02A8 \uni02A9 \uni02AA \uni02AB \uni02AC \uni02AD 
+	\uni02AE \uni02AF \uni02BB \uni02BC \circumflex \caron \uni02C8 
+	\uni02C9 \uni02CA \uni02CB \uni02CC \uni02D0 \uni02D1 \breve \dotaccent 
+	\ring \tilde \hungarumlaut \gravecomb \acutecomb \uni0302 \tildecomb 
+	\uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0312 
+	\uni0313 \uni0315 \uni0327 \Pi \Sigma \theta \pi \sigma \phi1 \uni1D07 
+	\uni2010 \uni2011 \figuredash \endash \emdash \quoteleft \quoteright 
+	\quotesinglbase \quotereversed \quotedblleft \quotedblright 
+	\quotedblbase \uni201F \dagger \daggerdbl \ellipsis \uni2027 
+	\perthousand \uni2031 \minute \guilsinglleft \guilsinglright \uni203E 
+	\fraction \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 
+	\uni2079 \Euro \uni20D1 \uni20D7 \arrowleft \arrowright 
+	\arrowboth \uni21BD \uni21C0 \uni21C4 \uni21C6 \uni21CB \uni21CC 
+	\arrowdblleft \arrowdblright \Delta \product \summation \minus 
+	\uni2215 \radical \uni221B \uni221C \infinity \angle \logicaland 
+	\logicalor \intersection \union \integral \similar \congruent \uni2247 
+	\approxequal \uni2249 \notequal \lessequal \greaterequal \uni22EE 
+	\uni22EF \uni22F0 \uni22F1 \uni239B \uni239C \uni239D \uni239E \uni239F 
+	\uni23A0 \uni23A1 \uni23A2 \uni23A3 \uni23A4 \uni23A5 \uni23A6 \uni23A7 
+	\uni23A8 \uni23A9 \uni23AA \uni23AB \uni23AC \uni23AD \uni23B7 \circle 
+	\uni25CC \uni27E8 \uni27E9 \startonum \tagwarning 
+	\percent.oldstyleproportional \dollar.oldstyleproportional 
+	\zero.oldstyleproportional \one.oldstyleproportional 
+	\two.oldstyleproportional \three.oldstyleproportional 
+	\four.oldstyleproportional \five.oldstyleproportional 
+	\six.oldstyleproportional \seven.oldstyleproportional 
+	\eight.oldstyleproportional \nine.oldstyleproportional ];
+    @cc5_ahead_1 = [\percent.onumflag \dollar.onumflag \zero.onumflag \one.onumflag 
+	\two.onumflag \three.onumflag \four.onumflag \five.onumflag 
+	\six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\period.onumflag \comma.onumflag \colon.onumflag \hyphen.onumflag 
+	\space.onumflag ];
+    @cc5_ahead_2 = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand \quotesingle 
+	\parenleft \parenright \asterisk \plus \comma \hyphen \period \slash 
+	\zero \one \two \three \four \five \six \seven \eight \nine \colon 
+	\semicolon \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N 
+	\O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q 
+	\r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde 
+	\exclamdown \cent \sterling \yen \brokenbar \section \dieresis 
+	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD 
+	\registered \macron \degree \plusminus \uni00B2 \uni00B3 \acute \mu 
+	\paragraph \periodcentered \cedilla \uni00B9 \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown 
+	\Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla 
+	\Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
+	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute 
+	\Thorn \germandbls \agrave \aacute \acircumflex \atilde \adieresis 
+	\aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute 
+	\ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \Amacron \amacron 
+	\Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex 
+	\ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron 
+	\Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
+	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex 
+	\gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 
+	\Hcircumflex \hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron 
+	\Ibreve \ibreve \Iogonek \iogonek \Idotaccent \dotlessi \IJ \ij 
+	\Jcircumflex \jcircumflex \uni0136 \uni0137 \kgreenlandic \Lacute 
+	\lacute \uni013B \uni013C \Lcaron \lcaron \Ldot \ldot \Lslash \lslash 
+	\Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \napostrophe \Eng \eng 
+	\Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe 
+	\Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute 
+	\Scircumflex \scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 
+	\uni0163 \Tcaron \tcaron \Tbar \tbar \Utilde \utilde \Umacron \umacron 
+	\Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex 
+	\Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron 
+	\longs \uni0237 \uni0250 \uni0251 \uni0252 \uni0253 \uni0254 \uni0255 
+	\uni0256 \uni0257 \uni0258 \uni0259 \uni025A \uni025B \uni025C \uni025D 
+	\uni025E \uni025F \uni0260 \uni0261 \uni0262 \uni0263 \uni0264 \uni0265 
+	\uni0266 \uni0267 \uni0268 \uni0269 \uni026A \uni026B \uni026C \uni026D 
+	\uni026E \uni026F \uni0270 \uni0271 \uni0272 \uni0273 \uni0274 \uni0275 
+	\uni0276 \uni0277 \uni0278 \uni0279 \uni027A \uni027B \uni027C \uni027D 
+	\uni027E \uni027F \uni0280 \uni0281 \uni0282 \uni0283 \uni0284 \uni0285 
+	\uni0286 \uni0287 \uni0288 \uni0289 \uni028A \uni028B \uni028C \uni028D 
+	\uni028E \uni028F \uni0290 \uni0291 \uni0292 \uni0293 \uni0294 \uni0295 
+	\uni0296 \uni0297 \uni0298 \uni0299 \uni029A \uni029B \uni029C \uni029D 
+	\uni029E \uni029F \uni02A0 \uni02A1 \uni02A2 \uni02A3 \uni02A4 \uni02A5 
+	\uni02A6 \uni02A7 \uni02A8 \uni02A9 \uni02AA \uni02AB \uni02AC \uni02AD 
+	\uni02AE \uni02AF \uni02BB \uni02BC \circumflex \caron \uni02C8 
+	\uni02C9 \uni02CA \uni02CB \uni02CC \uni02D0 \uni02D1 \breve \dotaccent 
+	\ring \tilde \hungarumlaut \gravecomb \acutecomb \uni0302 \tildecomb 
+	\uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0312 
+	\uni0313 \uni0315 \uni0327 \Pi \Sigma \theta \pi \sigma \phi1 \uni1D07 
+	\uni2010 \uni2011 \figuredash \endash \emdash \quoteleft \quoteright 
+	\quotesinglbase \quotereversed \quotedblleft \quotedblright 
+	\quotedblbase \uni201F \dagger \daggerdbl \ellipsis \uni2027 
+	\perthousand \uni2031 \minute \guilsinglleft \guilsinglright \uni203E 
+	\fraction \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 
+	\uni2079 \Euro \uni20D1 \uni20D7 \arrowleft \arrowright 
+	\arrowboth \uni21BD \uni21C0 \uni21C4 \uni21C6 \uni21CB \uni21CC 
+	\arrowdblleft \arrowdblright \Delta \product \summation \minus 
+	\uni2215 \radical \uni221B \uni221C \infinity \angle \logicaland 
+	\logicalor \intersection \union \integral \similar \congruent \uni2247 
+	\approxequal \uni2249 \notequal \lessequal \greaterequal \uni22EE 
+	\uni22EF \uni22F0 \uni22F1 \uni239B \uni239C \uni239D \uni239E \uni239F 
+	\uni23A0 \uni23A1 \uni23A2 \uni23A3 \uni23A4 \uni23A5 \uni23A6 \uni23A7 
+	\uni23A8 \uni23A9 \uni23AA \uni23AB \uni23AC \uni23AD \uni23B7 \circle 
+	\uni25CC \uni27E8 \uni27E9 \startonum \tagwarning 
+	\percent.oldstyleproportional \dollar.oldstyleproportional 
+	\zero.oldstyleproportional \one.oldstyleproportional 
+	\two.oldstyleproportional \three.oldstyleproportional 
+	\four.oldstyleproportional \five.oldstyleproportional 
+	\six.oldstyleproportional \seven.oldstyleproportional 
+	\eight.oldstyleproportional \nine.oldstyleproportional ];
+    sub @cc5_match_1' @cc5_ahead_2  by [\tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning \tagwarning ] ;
+} Tagwarning;
+
+lookup onumOldstyleFigureslookup0 {
+  lookupflag 0;
+    sub \dollar by \dollar.oldstyleproportional ;
+    sub \percent by \percent.oldstyleproportional ;
+    sub \zero by \zero.oldstyleproportional ;
+    sub \one by \one.oldstyleproportional ;
+    sub \two by \two.oldstyleproportional ;
+    sub \three by \three.oldstyleproportional ;
+    sub \four by \four.oldstyleproportional ;
+    sub \five by \five.oldstyleproportional ;
+    sub \six by \six.oldstyleproportional ;
+    sub \seven by \seven.oldstyleproportional ;
+    sub \eight by \eight.oldstyleproportional ;
+    sub \nine by \nine.oldstyleproportional ;
+} onumOldstyleFigureslookup0;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup Opentypeshortcuts;
+      lookup Oldstyleinitialize;
+      lookup Oldstyleclosingtag;
+
+ script grek;
+     language dflt ;
+      lookup Opentypeshortcuts;
+      lookup Oldstyleinitialize;
+      lookup Oldstyleclosingtag;
+
+ script latn;
+     language dflt ;
+      lookup Opentypeshortcuts;
+      lookup Oldstyleinitialize;
+      lookup Oldstyleclosingtag;
+
+ script math;
+     language dflt ;
+      lookup Oldstyleinitialize;
+      lookup Oldstyleclosingtag;
+} liga;
+
+feature calt {
+
+ script DFLT;
+     language dflt ;
+      lookup Oldstylechaining;
+      lookup Oldstylerendering;
+      lookup Tagwarning;
+
+ script grek;
+     language dflt ;
+      lookup Oldstylechaining;
+      lookup Oldstylerendering;
+      lookup Tagwarning;
+
+ script latn;
+     language dflt ;
+      lookup Oldstylechaining;
+      lookup Oldstylerendering;
+      lookup Tagwarning;
+
+ script math;
+     language dflt ;
+      lookup Oldstylechaining;
+      lookup Oldstylerendering;
+      lookup Tagwarning;
+} calt;
+
+feature onum {
+
+ script DFLT;
+     language dflt ;
+      lookup onumOldstyleFigureslookup0;
+
+ script grek;
+     language dflt ;
+      lookup onumOldstyleFigureslookup0;
+
+ script latn;
+     language dflt ;
+      lookup onumOldstyleFigureslookup0;
+} onum;
+
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [];
+@GDEF_Ligature = [\space \comma \hyphen \period \colon \uni00B2 \uni00B3 \uni00B9 
+	\uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079 
+	\zero.oldstyleproportional \one.oldstyleproportional 
+	\two.oldstyleproportional \three.oldstyleproportional 
+	\four.oldstyleproportional \five.oldstyleproportional 
+	\six.oldstyleproportional \seven.oldstyleproportional 
+	\eight.oldstyleproportional \nine.oldstyleproportional 
+	\dollar.oldstyleproportional \percent.oldstyleproportional \startonum 
+	\zero.onumflag \one.onumflag \two.onumflag \three.onumflag \four.onumflag 
+	\five.onumflag \six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\dollar.onumflag \percent.onumflag \period.onumflag \comma.onumflag 
+	\colon.onumflag \hyphen.onumflag \space.onumflag ];
+@GDEF_Mark = [\A \C \D \E \G \H \I \J \K \L \N \O \R \S \T \U \W \Y \Z \a \c \d \e \g \h \k \l \n \o \r \s 
+	\t \u \w \y \z \dotlessi \uni0237 \uni02BC \Iogonek \uni20D1 \uni0302 \uni030C \uni0304 
+	\gravecomb \acutecomb \uni0306 \uni0307 \uni030A \tildecomb \uni030B \uni0327 
+	\uni0308 \uni0312 \uni0315 \Euro ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+

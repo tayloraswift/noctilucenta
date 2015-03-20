@@ -2,7 +2,7 @@
 lookup kernHorizontalKerninglookup0 {
   lookupflag 0;
     @kc2_first_1 = [\emdash \endash ];
-    @kc2_first_2 = [\u1D453 ];
+    @kc2_first_2 = [ ];
     @kc2_first_3 = [\a \h \m \n \agrave \aacute \acircumflex \atilde \adieresis \aring \ntilde \amacron 
 	\abreve \aogonek \hcircumflex \hbar \nacute \uni0146 \ncaron 
 	\napostrophe ];
