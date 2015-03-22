@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426963471
+ModificationTime: 1426991379
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -142,7 +142,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 518 14 9
+WinInfo: 0 14 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -208,19 +208,19 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 2
-Width: 326
+Width: 350
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-194 634 m 1
- 271 650 l 1
- 286 644 l 1
- 267 462 l 1
- 215 454 l 1
- 194 634 l 1
+218 634 m 1
+ 295 650 l 1
+ 310 644 l 1
+ 291 462 l 1
+ 239 454 l 1
+ 218 634 l 1
 40 634 m 1
  117 650 l 1
  132 644 l 1
@@ -2156,7 +2156,7 @@ SplineSet
  234 52 268 83 283 139 c 5
  283 199 l 5
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: b
@@ -2641,7 +2641,7 @@ SplineSet
  144 -12 40 44 40 205 c 7
  40 350 125 437 270 437 c 7
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: p
@@ -2781,7 +2781,7 @@ SplineSet
  108 204 60 239 60 311 c 3
  60 382 112 437 231 437 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: t
@@ -3388,7 +3388,7 @@ SplineSet
  180 433 200 447 210 484 c 1
  210 522 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -4366,7 +4366,7 @@ SplineSet
  171 425 l 1
  171 387 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Colour: ff9994
 EndChar
 
@@ -4978,7 +4978,7 @@ SplineSet
  411 -12 352 78 352 208 c 3
  352 349 438 437 562 437 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 Colour: ff9994
 EndChar
 
@@ -5268,25 +5268,25 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 210
-Width: 430
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 211 8221 N -1 0 0 -1 430 1136 2
+Refer: 211 8221 N -1 0 0 -1 450 1136 2
 Validated: 1
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 211
-Width: 430
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 209 8217 N 1 0 0 1 225 0 2
+Refer: 209 8217 N 1 0 0 1 245 0 2
 Refer: 209 8217 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
@@ -6720,7 +6720,7 @@ SplineSet
  76 380 l 1
  127 417 178 437 239 437 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 Colour: ff9994
 EndChar
 
@@ -7042,7 +7042,7 @@ SplineSet
  27 421 l 1
  200 429 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Colour: ff9994
 EndChar
 
@@ -7390,7 +7390,7 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 345
-Width: 430
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7402,13 +7402,13 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 346
-Width: 430
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 348 8219 N 1 0 0 1 225 0 2
+Refer: 348 8219 N 1 0 0 1 245 0 2
 Refer: 348 8219 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
@@ -12471,7 +12471,7 @@ SplineSet
  186 514 l 1
 EndSplineSet
 Refer: 83 115 N 1 0 0 1 -11 0 2
-Validated: 524293
+Validated: 5
 LCarets2: 7 0 0 0 0 0 0 0
 Ligature2: "Oldstyleclosingtag subtable" dollar.onumflag less slash o n u m greater
 EndChar
@@ -13497,7 +13497,7 @@ SplineSet
  407.362304688 -259.041992188 403.162109375 -254.72265625 397.642578125 -254.72265625 c 3
 EndSplineSet
 Refer: 617 9676 N 1 0 0 1 0 0 2
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

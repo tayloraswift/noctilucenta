@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426894348
+ModificationTime: 1426991457
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -150,7 +150,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 9
+WinInfo: 429 13 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -211,18 +211,18 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 2
-Width: 340
+Width: 350
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-314 637 m 1
- 394 647 l 1
- 408 641 l 1
- 355 458 l 1
- 304 458 l 1
- 314 637 l 1
+324 637 m 1
+ 404 647 l 1
+ 418 641 l 1
+ 365 458 l 1
+ 314 458 l 1
+ 324 637 l 1
 160 637 m 1
  240 647 l 1
  254 641 l 1
@@ -5273,25 +5273,25 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 209
-Width: 432
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 210 8221 N -1 0 0 -1 632 1135 2
+Refer: 210 8221 N -1 0 0 -1 650 1135 2
 Validated: 1
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 210
-Width: 432
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 208 8217 N 1 0 0 1 219 0 2
+Refer: 208 8217 N 1 0 0 1 237 0 2
 Refer: 208 8217 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
@@ -5616,7 +5616,7 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 227
-Width: 432
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5628,13 +5628,13 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 228
-Width: 444
+Width: 450
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 226 8219 N 1 0 0 1 228 0 2
+Refer: 226 8219 N 1 0 0 1 234 0 2
 Refer: 226 8219 N 1 0 0 1 26 0 2
 Validated: 1
 EndChar
@@ -11472,7 +11472,7 @@ SplineSet
  367.362304688 -259.041992188 363.162109375 -254.72265625 357.642578125 -254.72265625 c 3
 EndSplineSet
 Refer: 556 9676 S 1 0 0 1 0 0 2
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

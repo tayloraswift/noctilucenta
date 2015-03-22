@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1426963479
+ModificationTime: 1426993175
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -119,7 +119,7 @@ KernClass2: 36 27 "'kern' Horizontal Kerning lookup 0-1"
  1 X
  26 Z Zacute Zdotaccent Zcaron
  22 quotesingle quoteright
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -20 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -20 {} -20 {} -30 {} 0 {} 0 {} -20 {} -40 {} 0 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -30 {} 0 {} -50 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} -50 {} -40 {} -20 {} -40 {} -30 {} 20 {} 0 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} 0 {} 30 {} -50 {} 0 {} 0 {} -50 {} 0 {} -70 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} 0 {} -20 {} 0 {} -60 {} -80 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} -10 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 10 {} -10 {} -10 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -10 {} 10 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -20 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -20 {} -30 {} -30 {} 0 {} 0 {} -20 {} -40 {} 0 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -50 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} -50 {} -40 {} -20 {} -40 {} -30 {} 20 {} 0 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} -70 {} 0 {} -70 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} -70 {} -40 {} -50 {} -70 {} -80 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: class "Tag warning-1" 3 3 3 1
   Class: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
   Class: 4548 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde exclamdown cent sterling yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus uni00B2 uni00B3 acute mu paragraph periodcentered cedilla uni00B9 ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Ebreve ebreve Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij Jcircumflex jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron napostrophe Eng eng Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut OE oe Racute racute uni0156 uni0157 Rcaron rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 Tcaron tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Wcircumflex wcircumflex Ycircumflex ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron longs uni0237 uni0250 uni0251 uni0252 uni0253 uni0254 uni0255 uni0256 uni0257 uni0258 uni0259 uni025A uni025B uni025C uni025D uni025E uni025F uni0260 uni0261 uni0262 uni0263 uni0264 uni0265 uni0266 uni0267 uni0268 uni0269 uni026A uni026B uni026C uni026D uni026E uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027A uni027B uni027C uni027D uni027E uni027F uni0280 uni0281 uni0282 uni0283 uni0284 uni0285 uni0286 uni0287 uni0288 uni0289 uni028A uni028B uni028C uni028D uni028E uni028F uni0290 uni0291 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297 uni0298 uni0299 uni029A uni029B uni029C uni029D uni029E uni029F uni02A0 uni02A1 uni02A2 uni02A3 uni02A4 uni02A5 uni02A6 uni02A7 uni02A8 uni02A9 uni02AA uni02AB uni02AC uni02AD uni02AE uni02AF uni02BB uni02BC circumflex caron uni02C8 uni02C9 uni02CA uni02CB uni02CC uni02D0 uni02D1 breve dotaccent ring tilde hungarumlaut gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 uni0313 uni0315 uni0327 Pi Sigma theta pi sigma phi1 uni1D07 uni2010 uni2011 figuredash endash emdash quoteleft quoteright quotesinglbase quotereversed quotedblleft quotedblright quotedblbase uni201F dagger daggerdbl ellipsis uni2027 perthousand uni2031 minute guilsinglleft guilsinglright uni203E fraction uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 Euro uni20D1 uni20D7 uni210E arrowleft arrowright arrowboth uni21BD uni21C0 uni21C4 uni21C6 uni21CB uni21CC arrowdblleft arrowdblright Delta product summation minus uni2215 radical uni221B uni221C infinity angle logicaland logicalor intersection union integral similar congruent uni2247 approxequal uni2249 notequal lessequal greaterequal uni22EE uni22EF uni22F0 uni22F1 uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23A9 uni23AA uni23AB uni23AC uni23AD uni23B7 circle uni25CC uni27E8 uni27E9 startonum tagwarning percent.oldstyleproportional dollar.oldstyleproportional zero.oldstyleproportional one.oldstyleproportional two.oldstyleproportional three.oldstyleproportional four.oldstyleproportional five.oldstyleproportional six.oldstyleproportional seven.oldstyleproportional eight.oldstyleproportional nine.oldstyleproportional
@@ -179,7 +179,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 169 13 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -245,25 +245,25 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 2
-Width: 285
+Width: 350
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-174 634 m 5
- 230 650 l 5
- 245 644 l 5
- 231 462 l 5
- 190 454 l 5
- 174 634 l 5
-40 634 m 1
- 96 650 l 1
- 111 644 l 1
- 97 459 l 1
- 56 451 l 1
- 40 634 l 1
+229 634 m 1
+ 285 650 l 1
+ 300 644 l 1
+ 286 462 l 1
+ 245 454 l 1
+ 229 634 l 1
+50 634 m 1
+ 106 650 l 1
+ 121 644 l 1
+ 107 459 l 1
+ 66 451 l 1
+ 50 634 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -2142,7 +2142,7 @@ SplineSet
  213 37 268 73 283 139 c 5
  283 199 l 5
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: b
@@ -2645,7 +2645,7 @@ SplineSet
  145 -12 40 44 40 205 c 7
  40 350 126 437 253 437 c 7
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: p
@@ -4968,7 +4968,7 @@ SplineSet
  419 -12 358 78 358 208 c 3
  358 349 452 437 560 437 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 Colour: ff9994
 EndChar
 
@@ -5258,25 +5258,25 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 210
-Width: 400
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 211 8221 N -1 0 0 -1 400 1136 2
+Refer: 211 8221 N -1 0 0 -1 430 1136 2
 Validated: 1
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 211
-Width: 400
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 209 8217 N 1 0 0 1 208 0 2
+Refer: 209 8217 N 1 0 0 1 238 0 2
 Refer: 209 8217 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
@@ -6684,7 +6684,7 @@ SplineSet
  76 380 l 1
  127 417 170 437 231 437 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 Colour: ff9994
 EndChar
 
@@ -7004,7 +7004,7 @@ SplineSet
  27 421 l 1
  165 429 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Colour: ff9994
 EndChar
 
@@ -7352,7 +7352,7 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 345
-Width: 400
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7364,13 +7364,13 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 346
-Width: 400
+Width: 430
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 348 8219 N 1 0 0 1 207 0 2
+Refer: 348 8219 N 1 0 0 1 237 0 2
 Refer: 348 8219 N 1 0 0 1 25 0 2
 Validated: 1
 EndChar
@@ -9089,7 +9089,7 @@ SplineSet
  100 188 50 147 50 89 c 3
  50 35 95 -12 213 -12 c 3
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni025C
@@ -9234,7 +9234,7 @@ SplineSet
  434 579 434.143171112 533.999684645 434 469 c 2
  434 15 l 2
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0261
@@ -9595,7 +9595,7 @@ SplineSet
  125 360 l 17
 EndSplineSet
 Refer: 76 108 N 1 0 0 1 10 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni026D
@@ -10002,7 +10002,7 @@ SplineSet
  374 437 484 383 484 222 c 3
  484 77 386 -12 246 -12 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0279
@@ -10318,7 +10318,7 @@ SplineSet
  129 -9 l 1
  142 -11 158.53125 -12 169 -12 c 3
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni0284
@@ -10543,7 +10543,7 @@ SplineSet
  136 88 188 29 258 29 c 3
  343 29 380 84 380 189 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni028B
@@ -10715,7 +10715,7 @@ SplineSet
  57 312 l 5
  71 430 l 5
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0292
@@ -10747,7 +10747,7 @@ SplineSet
  57 316 l 1
  71 430 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0293
@@ -10785,7 +10785,7 @@ SplineSet
  57 316 l 1
  71 430 l 5
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0294
@@ -14613,7 +14613,7 @@ SplineSet
  234 52 268 83 283 139 c 1
  283 199 l 1
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: u1D41B
@@ -14821,7 +14821,7 @@ SplineSet
  456 398 l 1
  343 383 l 1
 EndSplineSet
-Validated: 1572869
+Validated: 1048581
 EndChar
 
 StartChar: u1D421
@@ -15089,7 +15089,7 @@ SplineSet
  144 -12 40 44 40 205 c 3
  40 350 125 437 270 437 c 3
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: u1D429
@@ -15227,7 +15227,7 @@ SplineSet
  108 204 60 239 60 311 c 3
  60 382 112 437 231 437 c 7
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: u1D42D
@@ -15441,7 +15441,7 @@ SplineSet
  33 -129 l 1
  43 -122 l 1
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: u1D433
@@ -16597,7 +16597,7 @@ SplineSet
  407.362304688 -259.041992188 403.162109375 -254.72265625 397.642578125 -254.72265625 c 3
 EndSplineSet
 Refer: 669 9676 N 1 0 0 1 0 0 2
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
