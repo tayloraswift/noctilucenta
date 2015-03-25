@@ -77,7 +77,7 @@ int main ()
 {
 
 fstream fontfile;
-fontfile.open ("SWIFTDAY Regular (copy).sfd");
+fontfile.open ("SWIFTDAY Regular.sfd");
 
 // FINDS OUT WHERE TO INSERT NEW GLYPHS
     while ( getline (fontfile,line) )
@@ -114,7 +114,7 @@ cout << enc1.at(n - 1) << " " << enc2.at(n - 1) << " " << enc3.at(n - 1) << "\n"
     cout << *max_element(enc1.begin(), enc1.end()) << "\n";*/
 
 fontfile.close();
-fontfile.open ("SWIFTDAY Regular (copy).sfd");
+fontfile.open ("SWIFTDAY Regular.sfd");
 
 // FINDS CURSOR
 
@@ -140,7 +140,7 @@ fontfile.open ("SWIFTDAY Regular (copy).sfd");
 
 
 fontfile.close();
-fontfile.open ("SWIFTDAY Regular (copy).sfd");
+fontfile.open ("SWIFTDAY Regular.sfd");
 
 // WRITES DUPLICATE GLYPHS
 
@@ -202,6 +202,9 @@ glyphs.close();
 ofstream featurefile;
 featurefile.open ("feature.fea");
 
+// Write scripts
+featurefile << "languagesystem DFLT dflt;\nlanguagesystem grek dflt;\nlanguagesystem latn dflt;\nlanguagesystem math dflt;\n\n" ;
+
 // Write letter class
 featurefile << "@sccharacters = [" ;
 
@@ -239,7 +242,9 @@ featurefile << "sub " << "\\less s c \\greater" << " by " << "\\startsc" << ";\n
 featurefile << "} SmallCapsOpen;\n" ;
 
 featurefile << "lookup SmallCapsInitialize {\n" ;
-featurefile << "sub " << "\\startsc" << " " << "@sccharacters" << " by " << "@scflags" << ";\n" ;
+for (int n = 1; n <= baseglyphs.size(); n++) {
+	featurefile << "sub " << "\\startsc" << " " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " by " << "\\" << baseglyphs.at(n - 1) << "flag" << ";\n" ;
+}
 
 featurefile << "} SmallCapsInitialize;\n" ;
 featurefile << "} liga;\n\n" ;
@@ -263,10 +268,12 @@ featurefile << "} calt;\n\n" ;
 // Write closing tag lookup
 
 featurefile << "feature liga {\n" ;
-featurefile << "lookup SmallCapsInitialize {\n" ;
-featurefile << "sub " << "@scflags" << " " << "\\less \\slash s c \\greater" << " by " << "@scbase" << ";\n" ;
+featurefile << "lookup SmallCapsClose {\n" ;
+for (int n = 1; n <= baseglyphs.size(); n++) {
+	featurefile << "sub " << "\\" << baseglyphs.at(n - 1) << "flag" << " " << "\\less \\slash s c \\greater" << " by " << "\\" << baseglyphs.at(n - 1) << ";\n" ;
+}
 
-featurefile << "} SmallCapsInitialize;\n" ;
+featurefile << "} SmallCapsClose;\n" ;
 featurefile << "} liga;\n\n" ;
 
 featurefile.close();

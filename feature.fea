@@ -1,3 +1,8 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem math dflt;
+
 @sccharacters = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
 
 @scbase = [\a.smcp \b.smcp \c.smcp \d.smcp \e.smcp \f.smcp \g.smcp \h.smcp \i.smcp \j.smcp \k.smcp \l.smcp \m.smcp \n.smcp \o.smcp \p.smcp \q.smcp \r.smcp \s.smcp \t.smcp \u.smcp \v.smcp \w.smcp \x.smcp \y.smcp \z.smcp ];
@@ -9,7 +14,32 @@ lookup SmallCapsOpen {
 sub \less s c \greater by \startsc;
 } SmallCapsOpen;
 lookup SmallCapsInitialize {
-sub \startsc @sccharacters by @scflags;
+sub \startsc \a by \a.smcpflag;
+sub \startsc \b by \b.smcpflag;
+sub \startsc \c by \c.smcpflag;
+sub \startsc \d by \d.smcpflag;
+sub \startsc \e by \e.smcpflag;
+sub \startsc \f by \f.smcpflag;
+sub \startsc \g by \g.smcpflag;
+sub \startsc \h by \h.smcpflag;
+sub \startsc \i by \i.smcpflag;
+sub \startsc \j by \j.smcpflag;
+sub \startsc \k by \k.smcpflag;
+sub \startsc \l by \l.smcpflag;
+sub \startsc \m by \m.smcpflag;
+sub \startsc \n by \n.smcpflag;
+sub \startsc \o by \o.smcpflag;
+sub \startsc \p by \p.smcpflag;
+sub \startsc \q by \q.smcpflag;
+sub \startsc \r by \r.smcpflag;
+sub \startsc \s by \s.smcpflag;
+sub \startsc \t by \t.smcpflag;
+sub \startsc \u by \u.smcpflag;
+sub \startsc \v by \v.smcpflag;
+sub \startsc \w by \w.smcpflag;
+sub \startsc \x by \x.smcpflag;
+sub \startsc \y by \y.smcpflag;
+sub \startsc \z by \z.smcpflag;
 } SmallCapsInitialize;
 } liga;
 
@@ -23,8 +53,33 @@ sub @scflags' @scflags by @scbase;
 } calt;
 
 feature liga {
-lookup SmallCapsInitialize {
-sub @scflags \less \slash s c \greater by @scbase;
-} SmallCapsInitialize;
+lookup SmallCapsClose {
+sub \a.smcpflag \less \slash s c \greater by \a.smcp;
+sub \b.smcpflag \less \slash s c \greater by \b.smcp;
+sub \c.smcpflag \less \slash s c \greater by \c.smcp;
+sub \d.smcpflag \less \slash s c \greater by \d.smcp;
+sub \e.smcpflag \less \slash s c \greater by \e.smcp;
+sub \f.smcpflag \less \slash s c \greater by \f.smcp;
+sub \g.smcpflag \less \slash s c \greater by \g.smcp;
+sub \h.smcpflag \less \slash s c \greater by \h.smcp;
+sub \i.smcpflag \less \slash s c \greater by \i.smcp;
+sub \j.smcpflag \less \slash s c \greater by \j.smcp;
+sub \k.smcpflag \less \slash s c \greater by \k.smcp;
+sub \l.smcpflag \less \slash s c \greater by \l.smcp;
+sub \m.smcpflag \less \slash s c \greater by \m.smcp;
+sub \n.smcpflag \less \slash s c \greater by \n.smcp;
+sub \o.smcpflag \less \slash s c \greater by \o.smcp;
+sub \p.smcpflag \less \slash s c \greater by \p.smcp;
+sub \q.smcpflag \less \slash s c \greater by \q.smcp;
+sub \r.smcpflag \less \slash s c \greater by \r.smcp;
+sub \s.smcpflag \less \slash s c \greater by \s.smcp;
+sub \t.smcpflag \less \slash s c \greater by \t.smcp;
+sub \u.smcpflag \less \slash s c \greater by \u.smcp;
+sub \v.smcpflag \less \slash s c \greater by \v.smcp;
+sub \w.smcpflag \less \slash s c \greater by \w.smcp;
+sub \x.smcpflag \less \slash s c \greater by \x.smcp;
+sub \y.smcpflag \less \slash s c \greater by \y.smcp;
+sub \z.smcpflag \less \slash s c \greater by \z.smcp;
+} SmallCapsClose;
 } liga;
 

@@ -1,5 +1,5 @@
 StartChar: a.smcpflag
-Encoding: 65708 -1 744
+Encoding: 65682 -1 718
 Width: 462
 VWidth: -3
 Flags: HMW
@@ -12,7 +12,7 @@ Validated: 1
 EndChar
 
 StartChar: b.smcpflag
-Encoding: 65709 -1 745
+Encoding: 65683 -1 719
 Width: 484
 VWidth: 0
 Flags: HMW
@@ -25,7 +25,7 @@ Validated: 1
 EndChar
 
 StartChar: c.smcpflag
-Encoding: 65710 -1 746
+Encoding: 65684 -1 720
 Width: 467
 VWidth: -3
 Flags: HMW
@@ -38,7 +38,7 @@ Validated: 1
 EndChar
 
 StartChar: d.smcpflag
-Encoding: 65711 -1 747
+Encoding: 65685 -1 721
 Width: 501
 VWidth: 0
 Flags: HMW
@@ -51,7 +51,7 @@ Validated: 1
 EndChar
 
 StartChar: e.smcpflag
-Encoding: 65712 -1 748
+Encoding: 65686 -1 722
 Width: 483
 VWidth: -3
 Flags: HMW
@@ -64,7 +64,7 @@ Validated: 1
 EndChar
 
 StartChar: f.smcpflag
-Encoding: 65713 -1 749
+Encoding: 65687 -1 723
 Width: 428
 VWidth: -3
 Flags: HMW
@@ -77,7 +77,7 @@ Validated: 1
 EndChar
 
 StartChar: g.smcpflag
-Encoding: 65714 -1 750
+Encoding: 65688 -1 724
 Width: 494
 VWidth: -3
 Flags: HMW
@@ -90,7 +90,7 @@ Validated: 1
 EndChar
 
 StartChar: h.smcpflag
-Encoding: 65715 -1 751
+Encoding: 65689 -1 725
 Width: 574
 VWidth: -3
 Flags: HMW
@@ -103,7 +103,7 @@ Validated: 1
 EndChar
 
 StartChar: i.smcpflag
-Encoding: 65716 -1 752
+Encoding: 65690 -1 726
 Width: 308
 VWidth: -3
 Flags: HMW
@@ -116,7 +116,7 @@ Validated: 1
 EndChar
 
 StartChar: j.smcpflag
-Encoding: 65717 -1 753
+Encoding: 65691 -1 727
 Width: 299
 VWidth: -3
 Flags: HMW
@@ -129,7 +129,7 @@ Validated: 1
 EndChar
 
 StartChar: k.smcpflag
-Encoding: 65718 -1 754
+Encoding: 65692 -1 728
 Width: 495
 VWidth: 0
 Flags: HMW
@@ -142,7 +142,7 @@ Validated: 1
 EndChar
 
 StartChar: l.smcpflag
-Encoding: 65719 -1 755
+Encoding: 65693 -1 729
 Width: 420
 VWidth: -3
 Flags: HMW
@@ -155,7 +155,7 @@ Validated: 1
 EndChar
 
 StartChar: m.smcpflag
-Encoding: 65720 -1 756
+Encoding: 65694 -1 730
 Width: 656
 VWidth: 0
 Flags: HMW
@@ -168,7 +168,7 @@ Validated: 1
 EndChar
 
 StartChar: n.smcpflag
-Encoding: 65721 -1 757
+Encoding: 65695 -1 731
 Width: 538
 VWidth: 0
 Flags: HMW
@@ -181,7 +181,7 @@ Validated: 1
 EndChar
 
 StartChar: o.smcpflag
-Encoding: 65722 -1 758
+Encoding: 65696 -1 732
 Width: 504
 VWidth: -3
 Flags: HMW
@@ -194,7 +194,7 @@ Validated: 1
 EndChar
 
 StartChar: p.smcpflag
-Encoding: 65723 -1 759
+Encoding: 65697 -1 733
 Width: 472
 VWidth: 0
 Flags: HMW
@@ -207,7 +207,7 @@ Validated: 1
 EndChar
 
 StartChar: q.smcpflag
-Encoding: 65724 -1 760
+Encoding: 65698 -1 734
 Width: 504
 VWidth: -3
 Flags: HMW
@@ -220,7 +220,7 @@ Validated: 1
 EndChar
 
 StartChar: r.smcpflag
-Encoding: 65725 -1 761
+Encoding: 65699 -1 735
 Width: 495
 VWidth: 0
 Flags: HMW
@@ -233,7 +233,7 @@ Validated: 1
 EndChar
 
 StartChar: s.smcpflag
-Encoding: 65726 -1 762
+Encoding: 65700 -1 736
 Width: 414
 VWidth: 0
 Flags: HMW
@@ -246,7 +246,7 @@ Validated: 1
 EndChar
 
 StartChar: t.smcpflag
-Encoding: 65727 -1 763
+Encoding: 65701 -1 737
 Width: 450
 VWidth: -3
 Flags: HMW
@@ -259,7 +259,7 @@ Validated: 1
 EndChar
 
 StartChar: u.smcpflag
-Encoding: 65728 -1 764
+Encoding: 65702 -1 738
 Width: 549
 VWidth: 0
 Flags: HMW
@@ -272,7 +272,7 @@ Validated: 1
 EndChar
 
 StartChar: v.smcpflag
-Encoding: 65729 -1 765
+Encoding: 65703 -1 739
 Width: 432
 VWidth: -3
 Flags: HMW
@@ -285,7 +285,7 @@ Validated: 1
 EndChar
 
 StartChar: w.smcpflag
-Encoding: 65730 -1 766
+Encoding: 65704 -1 740
 Width: 641
 VWidth: -3
 Flags: HMW
@@ -298,7 +298,7 @@ Validated: 1
 EndChar
 
 StartChar: x.smcpflag
-Encoding: 65731 -1 767
+Encoding: 65705 -1 741
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -311,7 +311,7 @@ Validated: 1
 EndChar
 
 StartChar: y.smcpflag
-Encoding: 65732 -1 768
+Encoding: 65706 -1 742
 Width: 424
 VWidth: 0
 Flags: HMW
@@ -324,7 +324,7 @@ Validated: 1
 EndChar
 
 StartChar: z.smcpflag
-Encoding: 65733 -1 769
+Encoding: 65707 -1 743
 Width: 447
 VWidth: 0
 Flags: HMW
