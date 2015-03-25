@@ -1,0 +1,30 @@
+@sccharacters = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
+
+@scbase = [\a.smcp \b.smcp \c.smcp \d.smcp \e.smcp \f.smcp \g.smcp \h.smcp \i.smcp \j.smcp \k.smcp \l.smcp \m.smcp \n.smcp \o.smcp \p.smcp \q.smcp \r.smcp \s.smcp \t.smcp \u.smcp \v.smcp \w.smcp \x.smcp \y.smcp \z.smcp ];
+
+@scflags = [\a.smcpflag \b.smcpflag \c.smcpflag \d.smcpflag \e.smcpflag \f.smcpflag \g.smcpflag \h.smcpflag \i.smcpflag \j.smcpflag \k.smcpflag \l.smcpflag \m.smcpflag \n.smcpflag \o.smcpflag \p.smcpflag \q.smcpflag \r.smcpflag \s.smcpflag \t.smcpflag \u.smcpflag \v.smcpflag \w.smcpflag \x.smcpflag \y.smcpflag \z.smcpflag ];
+
+feature liga {
+lookup SmallCapsOpen {
+sub \less s c \greater by \startsc;
+} SmallCapsOpen;
+lookup SmallCapsInitialize {
+sub \startsc @sccharacters by @scflags;
+} SmallCapsInitialize;
+} liga;
+
+feature calt {
+lookup SmallCapsChaining {
+sub @scflags @sccharacters' by @scflags;
+} SmallCapsChaining;
+lookup SmallCapsRendering {
+sub @scflags' @scflags by @scbase;
+} SmallCapsRendering;
+} calt;
+
+feature liga {
+lookup SmallCapsInitialize {
+sub @scflags \less \slash s c \greater by @scbase;
+} SmallCapsInitialize;
+} liga;
+

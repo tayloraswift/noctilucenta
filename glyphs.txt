@@ -1,0 +1,338 @@
+StartChar: a.smcpflag
+Encoding: 65708 -1 744
+Width: 462
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 691 65656 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 462 0 2
+Validated: 1
+EndChar
+
+StartChar: b.smcpflag
+Encoding: 65709 -1 745
+Width: 484
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 692 65657 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 484 0 2
+Validated: 1
+EndChar
+
+StartChar: c.smcpflag
+Encoding: 65710 -1 746
+Width: 467
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 693 65658 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 467 0 2
+Validated: 1
+EndChar
+
+StartChar: d.smcpflag
+Encoding: 65711 -1 747
+Width: 501
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 694 65659 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 501 0 2
+Validated: 1
+EndChar
+
+StartChar: e.smcpflag
+Encoding: 65712 -1 748
+Width: 483
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 695 65660 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 483 0 2
+Validated: 1
+EndChar
+
+StartChar: f.smcpflag
+Encoding: 65713 -1 749
+Width: 428
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 696 65661 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 428 0 2
+Validated: 1
+EndChar
+
+StartChar: g.smcpflag
+Encoding: 65714 -1 750
+Width: 494
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 697 65662 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 494 0 2
+Validated: 1
+EndChar
+
+StartChar: h.smcpflag
+Encoding: 65715 -1 751
+Width: 574
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 698 65663 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 574 0 2
+Validated: 1
+EndChar
+
+StartChar: i.smcpflag
+Encoding: 65716 -1 752
+Width: 308
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 699 65664 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 308 0 2
+Validated: 1
+EndChar
+
+StartChar: j.smcpflag
+Encoding: 65717 -1 753
+Width: 299
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 700 65665 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 299 0 2
+Validated: 1
+EndChar
+
+StartChar: k.smcpflag
+Encoding: 65718 -1 754
+Width: 495
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 701 65666 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 495 0 2
+Validated: 1
+EndChar
+
+StartChar: l.smcpflag
+Encoding: 65719 -1 755
+Width: 420
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 702 65667 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 420 0 2
+Validated: 1
+EndChar
+
+StartChar: m.smcpflag
+Encoding: 65720 -1 756
+Width: 656
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 703 65668 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 656 0 2
+Validated: 1
+EndChar
+
+StartChar: n.smcpflag
+Encoding: 65721 -1 757
+Width: 538
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 704 65669 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 538 0 2
+Validated: 1
+EndChar
+
+StartChar: o.smcpflag
+Encoding: 65722 -1 758
+Width: 504
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 705 65670 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 504 0 2
+Validated: 1
+EndChar
+
+StartChar: p.smcpflag
+Encoding: 65723 -1 759
+Width: 472
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 706 65671 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 472 0 2
+Validated: 1
+EndChar
+
+StartChar: q.smcpflag
+Encoding: 65724 -1 760
+Width: 504
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 707 65672 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 504 0 2
+Validated: 1
+EndChar
+
+StartChar: r.smcpflag
+Encoding: 65725 -1 761
+Width: 495
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 708 65673 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 495 0 2
+Validated: 1
+EndChar
+
+StartChar: s.smcpflag
+Encoding: 65726 -1 762
+Width: 414
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 709 65674 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 414 0 2
+Validated: 1
+EndChar
+
+StartChar: t.smcpflag
+Encoding: 65727 -1 763
+Width: 450
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 710 65675 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 450 0 2
+Validated: 1
+EndChar
+
+StartChar: u.smcpflag
+Encoding: 65728 -1 764
+Width: 549
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 711 65676 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 549 0 2
+Validated: 1
+EndChar
+
+StartChar: v.smcpflag
+Encoding: 65729 -1 765
+Width: 432
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 712 65677 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 432 0 2
+Validated: 1
+EndChar
+
+StartChar: w.smcpflag
+Encoding: 65730 -1 766
+Width: 641
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 713 65678 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 641 0 2
+Validated: 1
+EndChar
+
+StartChar: x.smcpflag
+Encoding: 65731 -1 767
+Width: 480
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 714 65679 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 480 0 2
+Validated: 1
+EndChar
+
+StartChar: y.smcpflag
+Encoding: 65732 -1 768
+Width: 424
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 715 65680 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 424 0 2
+Validated: 1
+EndChar
+
+StartChar: z.smcpflag
+Encoding: 65733 -1 769
+Width: 447
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 716 65681 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 447 0 2
+Validated: 1
+EndChar
+

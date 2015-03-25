@@ -138,39 +138,6 @@ fontfile.open ("SWIFTDAY Regular (copy).sfd");
 
     }
 
-fontfile.close();
-fontfile.open ("SWIFTDAY Regular (copy).sfd");
-
-// FINDS BASE GLYPHS
-
-/*    vector<string> baseglyphs;
-string glyphname;
-
-    while ( getline (fontfile,line) )
-    {
-
-
-	if (line.substr(0,10) == "Encoding: " && ( line.substr(0,20) != "Encoding: UnicodeBmp")) { 
-		BaseEncoding = parameter("Encoding: "); 
-		&split(BaseEncoding, ' ', BaseEncodings); 
-
-		benc1.push_back(atoi(BaseEncodings.at(i + 1).c_str()) );
-		benc2.push_back(atoi(BaseEncodings.at(i + 2).c_str()) );
-		benc3.push_back(atoi(BaseEncodings.at(i + 3).c_str()) );
-
-		i = i + 4; 
-	
-
-		if (benc3.at(i/4) >= 691 && benc3.at(i/4) < 691 + 26 ) {
-			baseglyphs.push_back(glyphname.substr(11,99));
-
-		}
-
-	}
-	glyphname = line;
-    }
-*/
-
 
 fontfile.close();
 fontfile.open ("SWIFTDAY Regular (copy).sfd");
@@ -182,9 +149,9 @@ fontfile.open ("SWIFTDAY Regular (copy).sfd");
 
     act = false;
 
-for (int n = 1; n <= baseglyphs.size(); n++) {
-	cout << baseglyphs.at(n - 1) << "\n";
-}
+//for (int n = 1; n <= baseglyphs.size(); n++) {
+//	cout << baseglyphs.at(n - 1) << "\n";
+//}
 
 int index = 1;
 
@@ -228,7 +195,81 @@ int index = 1;
 
     }
 
-			glyphs.close();
+glyphs.close();
+
+// START WRITING FEATURE RULES
+
+ofstream featurefile;
+featurefile.open ("feature.fea");
+
+// Write letter class
+featurefile << "@sccharacters = [" ;
+
+for (int n = 1; n <= baseglyphs.size(); n++) {
+	featurefile << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " ";
+}
+
+featurefile << "];\n\n" ;
+
+// Write base class
+featurefile << "@scbase = [" ;
+
+for (int n = 1; n <= baseglyphs.size(); n++) {
+	featurefile << "\\" << baseglyphs.at(n - 1) << " ";
+}
+
+featurefile << "];\n\n" ;
+
+// Write flagged class
+featurefile << "@scflags = [" ;
+
+for (int n = 1; n <= baseglyphs.size(); n++) {
+	featurefile << "\\" << baseglyphs.at(n - 1) << "flag" << " ";
+}
+
+featurefile << "];\n\n" ;
+
+// Write initial lookup
+
+featurefile << "feature liga {\n" ;
+
+featurefile << "lookup SmallCapsOpen {\n" ;
+featurefile << "sub " << "\\less s c \\greater" << " by " << "\\startsc" << ";\n" ;
+
+featurefile << "} SmallCapsOpen;\n" ;
+
+featurefile << "lookup SmallCapsInitialize {\n" ;
+featurefile << "sub " << "\\startsc" << " " << "@sccharacters" << " by " << "@scflags" << ";\n" ;
+
+featurefile << "} SmallCapsInitialize;\n" ;
+featurefile << "} liga;\n\n" ;
+
+// Write chaining lookup
+
+featurefile << "feature calt {\n" ;
+featurefile << "lookup SmallCapsChaining {\n" ;
+featurefile << "sub " << "@scflags" << " " << "@sccharacters" << "'" << " by " << "@scflags" << ";\n" ;
+
+featurefile << "} SmallCapsChaining;\n" ;
+
+// Undo repeated flags
+featurefile << "lookup SmallCapsRendering {\n" ;
+featurefile << "sub " << "@scflags" << "'" << " " << "@scflags" << " by " << "@scbase" << ";\n" ;
+
+featurefile << "} SmallCapsRendering;\n" ;
+
+featurefile << "} calt;\n\n" ;
+
+// Write closing tag lookup
+
+featurefile << "feature liga {\n" ;
+featurefile << "lookup SmallCapsInitialize {\n" ;
+featurefile << "sub " << "@scflags" << " " << "\\less \\slash s c \\greater" << " by " << "@scbase" << ";\n" ;
+
+featurefile << "} SmallCapsInitialize;\n" ;
+featurefile << "} liga;\n\n" ;
+
+featurefile.close();
 
 return(0);
 }
