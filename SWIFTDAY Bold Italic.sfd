@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427492144
+ModificationTime: 1427492475
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -150,7 +150,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 7
+WinInfo: 19 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2492,25 +2492,24 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
-416 687 m 7
- 438 687 464 683 480 678 c 5
- 453 595 l 5
- 440 590 l 5
- 415 601 381 616 354 616 c 7
- 324 616 313 597 300 516 c 6
- 218 11 l 6
- 200 -99 126 -158 81 -190 c 4
- 44 -216 19 -230 -16 -230 c 7
- -38 -230 -64 -226 -80 -221 c 5
- -53 -138 l 5
- -40 -133 l 5
- -15 -144 19 -159 46 -159 c 7
- 76 -159 87 -140 100 -59 c 6
- 182 446 l 6
- 200 556 274 615 319 647 c 4
- 356 673 381 687 416 687 c 7
+416 687 m 3
+ 438 687 464 683 480 678 c 1
+ 453 595 l 1
+ 440 590 l 1
+ 415 601 381 616 354 616 c 3
+ 324 616 313 597 300 516 c 2
+ 218 11 l 2
+ 200 -99 126 -158 81 -190 c 0
+ 44 -216 19 -230 -16 -230 c 3
+ -38 -230 -64 -226 -80 -221 c 1
+ -53 -138 l 1
+ -40 -133 l 1
+ -15 -144 19 -159 46 -159 c 3
+ 76 -159 87 -140 100 -59 c 2
+ 182 446 l 2
+ 200 556 274 615 319 647 c 0
+ 356 673 381 687 416 687 c 3
 375 387 m 1
  115 387 l 1
  118 403 l 1
@@ -2518,7 +2517,35 @@ SplineSet
  382 425 l 1
  375 387 l 1
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+416 687 m 3
+ 438 687 464 683 480 678 c 1
+ 453 595 l 1
+ 440 590 l 1
+ 415 601 381 616 354 616 c 3
+ 324 616 313 597 300 516 c 2
+ 285 425 l 1
+ 382 425 l 1
+ 375 387 l 1
+ 279 387 l 1
+ 218 11 l 2
+ 200 -99 126 -158 81 -190 c 0
+ 44 -216 19 -230 -16 -230 c 3
+ -38 -230 -64 -226 -80 -221 c 1
+ -53 -138 l 1
+ -40 -133 l 1
+ -15 -144 19 -159 46 -159 c 3
+ 76 -159 87 -140 100 -59 c 2
+ 172 387 l 1
+ 115 387 l 1
+ 118 403 l 1
+ 179 425 l 1
+ 182 446 l 2
+ 200 556 274 615 319 647 c 0
+ 356 673 381 687 416 687 c 3
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: g
@@ -2970,7 +2997,6 @@ Flags: HMW
 AnchorPoint: "bottom" 175 0 basechar 0
 LayerCount: 2
 Back
-Fore
 SplineSet
 264 540 m 1
  275 529 l 1
@@ -2989,7 +3015,29 @@ SplineSet
  351 425 l 1
  344 387 l 1
 EndSplineSet
-Validated: 1048613
+Fore
+SplineSet
+264 540 m 1
+ 275 529 l 1
+ 257 425 l 1
+ 351 425 l 1
+ 344 387 l 1
+ 250 387 l 1
+ 204 125 l 2
+ 194 69 201 49 234 49 c 3
+ 252 49 284 60 303 73 c 1
+ 313 54 l 1
+ 278 21 211 -12 160 -12 c 3
+ 106 -12 78 7 95 105 c 2
+ 145 387 l 1
+ 88 387 l 1
+ 91 403 l 1
+ 129 425 l 1
+ 152 425 l 1
+ 168 518 l 1
+ 264 540 l 1
+EndSplineSet
+Validated: 1048609
 EndChar
 
 StartChar: u
@@ -7165,7 +7213,7 @@ Back
 Fore
 Refer: 230 700 N 1 0 0 1 57 34 2
 Refer: 84 116 N 1 0 0 1 0 0 2
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Utilde
