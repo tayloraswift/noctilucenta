@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427490880
+ModificationTime: 1427492662
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -859,7 +859,6 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
 302 334 m 9
  277 361 l 1
@@ -879,7 +878,29 @@ SplineSet
  382 638 423 577 423 500 c 3
  423 419 342 356 302 334 c 9
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+219 287 m 1
+ 167 251 147 217 147 146 c 3
+ 147 67 192 27 253 27 c 3
+ 312 27 348 67 348 137 c 3
+ 348 197 284 239 219 287 c 1
+260 638 m 3
+ 382 638 423 577 423 500 c 3
+ 423 429 361 372 319 344 c 1
+ 388 297 458 248 458 162 c 3
+ 458 66 379 -12 253 -12 c 3
+ 130 -12 60 38 60 141 c 3
+ 60 213 128 275 187 311 c 1
+ 132 355 83 406 83 480 c 3
+ 83 559 143 638 260 638 c 3
+286 367 m 1
+ 329 398 339 449 339 496 c 3
+ 339 567 309 603 258 603 c 3
+ 213 603 185 562 185 505 c 3
+ 185 445 231 405 286 367 c 1
+EndSplineSet
+Validated: 1
 Substitution2: "onumOldstyleFigureslookup0 subtable" eight.oldstyleproportional
 Substitution2: "Single Substitution lookup 5 subtable" eight.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" eight.oldstyleproportional
@@ -3503,7 +3524,7 @@ SplineSet
  717 153 564 0 360 0 c 3
  156 0 4 153 4 352 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: ordfeminine
@@ -3632,7 +3653,7 @@ SplineSet
  717 153 564 0 360 0 c 3
  156 0 4 153 4 352 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: macron

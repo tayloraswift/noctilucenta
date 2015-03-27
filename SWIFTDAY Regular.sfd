@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427490848
+ModificationTime: 1427492606
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -948,6 +948,27 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+221 299 m 1
+ 161 262 124 224 124 151 c 3
+ 124 72 173 27 249 27 c 3
+ 318 27 366 67 366 137 c 3
+ 366 209 293 251 221 299 c 1
+251 638 m 3
+ 357 638 405 577 405 500 c 3
+ 405 423 332 363 290 338 c 1
+ 364 293 440 248 440 162 c 3
+ 440 66 360 -12 244 -12 c 3
+ 141 -12 60 38 60 141 c 3
+ 60 216 135 282 196 316 c 1
+ 136 358 83 406 83 480 c 3
+ 83 559 144 638 251 638 c 3
+264 354 m 1
+ 312 385 344 443 344 491 c 3
+ 344 567 309 603 244 603 c 3
+ 192 603 149 562 149 505 c 3
+ 149 434 203 392 264 354 c 1
+EndSplineSet
 Fore
 SplineSet
 284 334 m 9
@@ -3671,7 +3692,7 @@ SplineSet
  156 0 4 153 4 352 c 3
 EndSplineSet
 Refer: 693 -1 N 1 0 0 1 103 125 2
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: ordfeminine
@@ -3779,7 +3800,7 @@ SplineSet
  156 0 4 153 4 352 c 3
 EndSplineSet
 Refer: 708 -1 S 1 0 0 1 105 125 2
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: macron

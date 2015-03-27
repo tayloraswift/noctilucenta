@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427492398
+ModificationTime: 1427492705
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -151,7 +151,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 19 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -869,9 +869,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
-281 306 m 21
+281 306 m 17
  205 265 148 219 148 122 c 3
  148 61 187 27 249 27 c 3
  315 27 381 73 381 155 c 3
@@ -887,9 +886,31 @@ SplineSet
  460 73 355 -12 237 -12 c 3
  145 -12 82 28 82 109 c 3
  82 216 188 290 264 325 c 9
- 281 306 l 21
+ 281 306 l 17
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+322 354 m 1
+ 383 390 423 452 423 524 c 3
+ 423 577 395 603 344 603 c 3
+ 291 603 236 552 236 482 c 3
+ 236 425 276 388 322 354 c 1
+357 638 m 3
+ 445 638 485 592 485 530 c 3
+ 485 435 397 366 345 338 c 1
+ 402 298 460 257 460 187 c 3
+ 460 73 355 -12 237 -12 c 3
+ 145 -12 82 28 82 109 c 3
+ 82 208 173 279 247 317 c 1
+ 203 354 166 395 166 454 c 3
+ 166 551 250 638 357 638 c 3
+269 299 m 1
+ 199 260 148 214 148 122 c 3
+ 148 61 187 27 249 27 c 3
+ 315 27 381 73 381 155 c 3
+ 381 216 324 256 269 299 c 1
+EndSplineSet
+Validated: 1
 Substitution2: "onumOldstyleFigureslookup0 subtable" eight.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" eight.onumflag
 EndChar
