@@ -51,7 +51,7 @@ string Flags;
 string ReferEncoding;
 vector<string> ReferEncodings;
 
-vector<string> baseglyphs;
+vector<string> baseglyphs = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "space", "comma", "period", "colon", "semicolon", "hyphen", "parenleft", "parenright", "exclam", "question", "quotesingle", "quotedbl", "endash", "emdash", "quoteleft", "quoteright", "quotedblright", "quotedblleft", "quotedblbase", "ellipsis", "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "zero.oldstyleproportional", "one.oldstyleproportional", "two.oldstyleproportional", "three.oldstyleproportional", "four.oldstyleproportional", "five.oldstyleproportional", "six.oldstyleproportional", "seven.oldstyleproportional", "eight.oldstyleproportional", "nine.oldstyleproportional", "dollar", "percent", "dollar.oldstyleproportional", "percent.oldstyleproportional", "ampersand"};
 string glyphname;
 string writeglyphname;
 
@@ -107,6 +107,7 @@ fontfile.open ("SWIFTDAY Regular.sfd");
 
 
     }
+
 
 /*for ( int n = 1; n < enc1.size(); n++ ) {
 cout << enc1.at(n - 1) << " " << enc2.at(n - 1) << " " << enc3.at(n - 1) << "\n" ;
@@ -177,7 +178,7 @@ int index = 1;
 	if (act && line == "EndChar") {
 		act = false;
 
-			glyphs << "StartChar: " << writeglyphname << "flag" << "\n" ;
+			glyphs << "StartChar: " << writeglyphname.substr(0, writeglyphname.find(".")) << ".smcpflag" << "\n" ;
 			glyphs << "Encoding: " << *max_element(enc1.begin(), enc1.end()) + index << " -1 " << *max_element(enc3.begin(), enc3.end()) + index << "\n" ;
 			glyphs << "Width: " << Width << "\n" ;
 			glyphs << "VWidth: " << VWidth << "\n" ;
@@ -227,7 +228,7 @@ featurefile << "];\n\n" ;
 featurefile << "@scflags = [" ;
 
 for (int n = 1; n <= baseglyphs.size(); n++) {
-	featurefile << "\\" << baseglyphs.at(n - 1) << "flag" << " ";
+	featurefile << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << ".smcpflag" << " ";
 }
 
 featurefile << "];\n\n" ;
@@ -243,7 +244,7 @@ featurefile << "} SmallCapsOpen;\n" ;
 
 featurefile << "lookup SmallCapsInitialize {\n" ;
 for (int n = 1; n <= baseglyphs.size(); n++) {
-	featurefile << "sub " << "\\startsc" << " " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " by " << "\\" << baseglyphs.at(n - 1) << "flag" << ";\n" ;
+	featurefile << "sub " << "\\startsc" << " " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " by " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << ".smcpflag" << ";\n" ;
 }
 
 featurefile << "} SmallCapsInitialize;\n" ;
@@ -270,7 +271,7 @@ featurefile << "} calt;\n\n" ;
 featurefile << "feature liga {\n" ;
 featurefile << "lookup SmallCapsClose {\n" ;
 for (int n = 1; n <= baseglyphs.size(); n++) {
-	featurefile << "sub " << "\\" << baseglyphs.at(n - 1) << "flag" << " " << "\\less \\slash s c \\greater" << " by " << "\\" << baseglyphs.at(n - 1) << ";\n" ;
+	featurefile << "sub " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << ".smcpflag" << " " << "\\less \\slash s c \\greater" << " by " << "\\" << baseglyphs.at(n - 1) << ";\n" ;
 }
 
 featurefile << "} SmallCapsClose;\n" ;
