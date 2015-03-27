@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427339261
+ModificationTime: 1427492144
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -150,7 +150,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 418 19 9
+WinInfo: 0 14 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -354,19 +354,39 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+126 213 m 5
+ 306 331 476 446 476 568 c 7
+ 476 596 470 626 456 645 c 5
+ 463 661 l 5
+ 571 690 l 5
+ 580 681 587 662 587 634 c 7
+ 587 455 316 307 142 182 c 5
+ 126 213 l 5
+288 384 m 7
+ 196 384 183 330 183 222 c 7
+ 183 122 242 53 333 53 c 7
+ 454 53 544 142 544 236 c 7
+ 544 281 523 286 478 292 c 5
+ 486 367 l 5
+ 604 367 661 382 715 425 c 5
+ 730 412 l 5
+ 725 383 696 300 678 293 c 4
+ 659 285 624 281 579 278 c 5
+ 582 242 l 5
+ 582 133 467 -11 295 -12 c 7
+ 170 -12 78 74 78 183 c 7
+ 78 334 229 437 338 437 c 7
+ 372 437 391 429 408 418 c 5
+ 408 399 377 368 364 362 c 5
+ 348 374 320 384 288 384 c 7
+EndSplineSet
 Fore
 SplineSet
-126 213 m 1
- 306 331 476 446 476 568 c 3
- 476 596 470 626 456 645 c 1
- 463 661 l 1
- 571 690 l 1
+571 690 m 1
  580 681 587 662 587 634 c 3
- 587 455 316 307 142 182 c 1
- 126 213 l 1
-288 384 m 3
- 196 384 183 330 183 222 c 3
- 183 122 242 53 333 53 c 3
+ 587 469 355 330 183 211 c 1
+ 187 117 245 53 333 53 c 3
  454 53 544 142 544 236 c 3
  544 281 523 286 478 292 c 1
  486 367 l 1
@@ -378,11 +398,17 @@ SplineSet
  582 133 467 -11 295 -12 c 3
  170 -12 78 74 78 183 c 3
  78 334 229 437 338 437 c 3
- 372 437 391 429 408 418 c 1
- 408 399 377 368 364 362 c 1
- 348 374 320 384 288 384 c 3
+ 368 437 386 431 402 422 c 1
+ 448 470 476 518 476 568 c 3
+ 476 596 470 626 456 645 c 1
+ 463 661 l 1
+ 571 690 l 1
+183 251 m 1
+ 243 291 301 331 348 371 c 1
+ 332 378 311 384 288 384 c 3
+ 205 384 186 340 183 251 c 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -711,25 +737,47 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+436 629 m 5
+ 537 623 l 5
+ 433 34 l 5
+ 489 18 l 5
+ 489 0 l 5
+ 253 0 l 5
+ 253 18 l 5
+ 323 43 l 5
+ 410 540 l 5
+ 149 215 l 5
+ 582 215 l 29
+ 572 154 l 29
+ 76 154 l 29
+ 71 175 l 5
+ 436 629 l 5
+EndSplineSet
 Fore
 SplineSet
 436 629 m 1
  537 623 l 1
+ 465 215 l 1
+ 582 215 l 1
+ 572 154 l 1
+ 454 154 l 1
  433 34 l 1
  489 18 l 1
  489 0 l 1
  253 0 l 1
  253 18 l 1
  323 43 l 1
- 410 540 l 1
- 149 215 l 1
- 582 215 l 25
- 572 154 l 25
- 76 154 l 25
+ 342 154 l 1
+ 76 154 l 1
  71 175 l 1
  436 629 l 1
+410 540 m 1
+ 149 215 l 1
+ 353 215 l 1
+ 410 540 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 Substitution2: "onumOldstyleFigureslookup0 subtable" four.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" four.onumflag
 EndChar
@@ -773,23 +821,39 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+177 262 m 1
+ 177 301 l 1
+ 219 340 263 362 337 362 c 3
+ 449 362 490 289 490 223 c 3
+ 490 80 376 -12 250 -12 c 3
+ 137 -12 90 58 90 156 c 3
+ 90 414 307 566 483 638 c 1
+ 494 610 l 1
+ 348 539 204 426 204 159 c 3
+ 204 85 224 34 279 34 c 3
+ 338 34 384 64 384 190 c 3
+ 384 256 351 310 290 310 c 3
+ 244 310 221 299 177 262 c 1
+EndSplineSet
 Fore
 SplineSet
-214 245 m 5
- 214 284 l 5
- 256 328 308 367 372 367 c 7
- 473 367 499 302 499 247 c 7
- 499 90 372 -12 251 -12 c 7
- 149 -12 93 52 93 140 c 7
- 93 402 311 566 487 638 c 5
- 498 610 l 5
- 352 539 207 425 207 158 c 7
- 207 85 232 36 280 36 c 7
- 341 36 389 91 389 207 c 7
- 389 268 372 305 321 305 c 7
- 280 305 258 287 214 245 c 5
+290 310 m 3
+ 260 310 240 305 218 292 c 1
+ 209 252 204 208 204 159 c 3
+ 204 85 224 34 279 34 c 3
+ 338 34 384 64 384 190 c 3
+ 384 256 351 310 290 310 c 3
+483 638 m 1
+ 494 610 l 1
+ 386 558 280 483 231 340 c 1
+ 260 354 293 362 337 362 c 3
+ 449 362 490 289 490 223 c 3
+ 490 80 376 -12 250 -12 c 3
+ 137 -12 90 58 90 156 c 3
+ 90 414 307 566 483 638 c 1
 EndSplineSet
-Validated: 5
+Validated: 1
 Substitution2: "onumOldstyleFigureslookup0 subtable" six.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" six.onumflag
 EndChar
@@ -860,23 +924,39 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+438 370 m 1
+ 438 331 l 1
+ 396 292 352 269 278 269 c 3
+ 171 269 127 337 127 403 c 3
+ 127 546 244 638 365 638 c 3
+ 473 638 523 568 523 470 c 3
+ 523 212 308 60 132 -12 c 1
+ 121 16 l 1
+ 267 87 409 200 409 467 c 3
+ 409 541 386 592 336 592 c 3
+ 282 592 233 562 233 436 c 3
+ 233 370 269 321 325 321 c 3
+ 371 321 394 333 438 370 c 1
+EndSplineSet
 Fore
 SplineSet
-438 381 m 5
- 438 342 l 5
- 396 298 347 269 273 269 c 7
- 172 269 127 337 127 403 c 7
- 127 546 244 638 365 638 c 7
- 467 638 523 574 523 481 c 7
- 523 224 318 60 142 -12 c 5
- 131 16 l 5
- 277 87 409 206 409 478 c 7
- 409 547 386 592 336 592 c 7
- 282 592 233 562 233 436 c 7
- 233 370 264 321 320 321 c 7
- 366 321 394 339 438 381 c 5
+336 592 m 3
+ 282 592 233 562 233 436 c 3
+ 233 370 269 321 325 321 c 3
+ 354 321 374 326 396 339 c 1
+ 404 377 409 420 409 467 c 3
+ 409 541 386 592 336 592 c 3
+365 638 m 3
+ 473 638 523 568 523 470 c 3
+ 523 212 308 60 132 -12 c 1
+ 121 16 l 1
+ 230 69 337 146 384 292 c 1
+ 355 277 322 269 278 269 c 3
+ 171 269 127 337 127 403 c 3
+ 127 546 244 638 365 638 c 3
 EndSplineSet
-Validated: 5
+Validated: 1
 Substitution2: "onumOldstyleFigureslookup0 subtable" nine.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" nine.onumflag
 EndChar
@@ -1054,14 +1134,13 @@ AnchorPoint: "bottom" 529 0 basemark 0
 AnchorPoint: "top" 410 638 basechar 0
 LayerCount: 2
 Back
-Fore
 SplineSet
 201 216 m 1
  207 253 l 1
  523 253 l 1
  517 216 l 1
  201 216 l 1
-393 650 m 5
+393 650 m 1
  445 650 l 1
  573 36 l 1
  629 20 l 1
@@ -1076,9 +1155,33 @@ SplineSet
  14 0 l 1
  14 20 l 1
  79 37 l 1
- 393 650 l 5
+ 393 650 l 1
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+393 650 m 1
+ 445 650 l 1
+ 573 36 l 1
+ 629 20 l 1
+ 629 0 l 1
+ 388 0 l 1
+ 388 20 l 1
+ 453 39 l 1
+ 419 216 l 1
+ 222 216 l 1
+ 134 38 l 1
+ 204 20 l 1
+ 204 0 l 1
+ 14 0 l 1
+ 14 20 l 1
+ 79 37 l 1
+ 393 650 l 1
+412 253 m 1
+ 364 505 l 1
+ 240 253 l 1
+ 412 253 l 1
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: B
@@ -1088,13 +1191,44 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+146 638 m 5
+ 425 638 l 6
+ 556 638 606 609 606 510 c 7
+ 606 422 529 358 471 341 c 5
+ 539 331 601 294 601 200 c 7
+ 601 81 518 0 359 0 c 6
+ 49 0 l 5
+ 49 20 l 5
+ 127 45 l 5
+ 215 599 l 5
+ 146 618 l 5
+ 146 638 l 5
+333 39 m 6
+ 441 39 481 92 481 190 c 7
+ 481 289 447 315 352 315 c 6
+ 283 315 l 5
+ 289 350 l 5
+ 344 350 l 6
+ 430 350 486 401 486 499 c 7
+ 486 589 442 600 366 600 c 6
+ 328 600 l 5
+ 241 39 l 5
+ 333 39 l 6
+EndSplineSet
 Fore
 SplineSet
+333 39 m 2
+ 441 39 481 92 481 190 c 0
+ 481 289 447 315 352 315 c 2
+ 284 315 l 1
+ 241 39 l 1
+ 333 39 l 2
 146 638 m 1
  425 638 l 2
- 556 638 606 609 606 510 c 3
+ 556 638 606 609 606 510 c 0
  606 422 529 358 471 341 c 1
- 539 331 601 294 601 200 c 3
+ 539 331 601 294 601 200 c 0
  601 81 518 0 359 0 c 2
  49 0 l 1
  49 20 l 1
@@ -1102,19 +1236,14 @@ SplineSet
  215 599 l 1
  146 618 l 1
  146 638 l 1
-333 39 m 2
- 441 39 481 92 481 190 c 3
- 481 289 447 315 352 315 c 2
- 283 315 l 1
- 289 350 l 1
+289 350 m 1
  344 350 l 2
- 430 350 486 401 486 499 c 3
+ 430 350 486 401 486 499 c 0
  486 589 442 600 366 600 c 2
  328 600 l 1
- 241 39 l 1
- 333 39 l 2
+ 289 350 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: C
@@ -1185,7 +1314,6 @@ Flags: HMW
 AnchorPoint: "top" 374 638 basechar 0
 LayerCount: 2
 Back
-Fore
 SplineSet
 283 312 m 1
  289 353 l 1
@@ -1214,7 +1342,35 @@ SplineSet
  329 596 l 1
  241 44 l 1
 EndSplineSet
-Validated: 1048581
+Fore
+SplineSet
+146 638 m 1
+ 579 638 l 1
+ 562 510 l 1
+ 517 510 l 1
+ 517 596 l 1
+ 329 596 l 1
+ 290 353 l 1
+ 429 353 l 1
+ 447 409 l 1
+ 492 409 l 1
+ 468 256 l 1
+ 423 256 l 1
+ 422 312 l 1
+ 284 312 l 1
+ 241 44 l 1
+ 461 44 l 1
+ 501 142 l 1
+ 547 134 l 1
+ 511 0 l 1
+ 49 0 l 1
+ 49 20 l 1
+ 127 45 l 1
+ 215 599 l 1
+ 146 618 l 1
+ 146 638 l 1
+EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: F
@@ -1224,7 +1380,6 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
 281 302 m 1
  287 343 l 1
@@ -1236,7 +1391,7 @@ SplineSet
  415 302 l 1
  281 302 l 1
 573 638 m 1
- 556 510 l 5
+ 556 510 l 1
  511 510 l 1
  511 596 l 1
  328 596 l 1
@@ -1251,7 +1406,33 @@ SplineSet
  145 638 l 1
  573 638 l 1
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+145 638 m 1
+ 573 638 l 1
+ 556 510 l 1
+ 511 510 l 1
+ 511 596 l 1
+ 328 596 l 1
+ 288 343 l 1
+ 422 343 l 1
+ 440 399 l 1
+ 485 399 l 1
+ 461 246 l 1
+ 416 246 l 1
+ 415 302 l 1
+ 281 302 l 1
+ 239 39 l 1
+ 318 20 l 1
+ 318 0 l 1
+ 49 0 l 1
+ 49 20 l 1
+ 127 45 l 1
+ 214 599 l 1
+ 145 618 l 1
+ 145 638 l 1
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: G
@@ -1297,7 +1478,6 @@ AnchorPoint: "bottom" 333 0 basechar 0
 AnchorPoint: "top" 458 638 basechar 0
 LayerCount: 2
 Back
-Fore
 SplineSet
 695 593 m 1
  607 39 l 1
@@ -1331,7 +1511,39 @@ SplineSet
  553 309 l 1
  271 309 l 1
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+147 638 m 1
+ 401 638 l 1
+ 401 618 l 1
+ 328 593 l 1
+ 290 352 l 1
+ 544 352 l 1
+ 583 599 l 1
+ 519 618 l 1
+ 519 638 l 1
+ 773 638 l 1
+ 773 618 l 1
+ 695 593 l 1
+ 607 39 l 1
+ 676 20 l 1
+ 676 0 l 1
+ 422 0 l 1
+ 422 20 l 1
+ 495 45 l 1
+ 537 309 l 1
+ 283 309 l 1
+ 240 39 l 1
+ 304 20 l 1
+ 304 0 l 1
+ 50 0 l 1
+ 50 20 l 1
+ 128 45 l 1
+ 216 599 l 1
+ 147 618 l 1
+ 147 638 l 1
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: I
@@ -1467,27 +1679,6 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-701 638 m 1
- 721 584 l 1
- 430 8 l 1
- 379 8 l 1
- 261 581 l 1
- 364 638 l 1
- 461 158 l 1
- 701 638 l 1
-751 39 m 1
- 824 21 l 1
- 824 0 l 1
- 567 0 l 1
- 567 21 l 1
- 638 39 l 1
- 724 584 l 1
- 721 584 l 1
- 701 638 l 1
- 915 638 l 1
- 915 617 l 1
- 839 598 l 1
- 751 39 l 1
 170 39 m 1
  234 21 l 1
  234 0 l 1
@@ -1498,11 +1689,26 @@ SplineSet
  145 617 l 1
  145 638 l 1
  364 638 l 1
+ 461 158 l 1
+ 701 638 l 1
+ 915 638 l 1
+ 915 617 l 1
+ 839 598 l 1
+ 751 39 l 1
+ 824 21 l 1
+ 824 0 l 1
+ 567 0 l 1
+ 567 21 l 1
+ 638 39 l 1
+ 724 584 l 1
+ 721 584 l 1
+ 430 8 l 1
+ 379 8 l 1
  261 581 l 1
  257 581 l 1
  170 39 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: N
@@ -1832,7 +2038,6 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
 338 356 m 1
  363 332 l 1
@@ -1868,7 +2073,39 @@ SplineSet
  360 617 l 1
  322 601 l 1
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+152 638 m 1
+ 360 638 l 1
+ 360 617 l 1
+ 322 601 l 1
+ 393 397 l 1
+ 521 597 l 1
+ 491 617 l 1
+ 491 638 l 1
+ 641 638 l 1
+ 641 617 l 1
+ 574 598 l 1
+ 408 356 l 1
+ 539 34 l 1
+ 583 21 l 1
+ 583 0 l 1
+ 393 0 l 1
+ 393 21 l 1
+ 416 32 l 1
+ 327 278 l 1
+ 166 42 l 1
+ 211 21 l 1
+ 211 0 l 1
+ 44 0 l 1
+ 44 21 l 1
+ 112 41 l 1
+ 311 319 l 1
+ 197 603 l 1
+ 152 617 l 1
+ 152 638 l 1
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Y
@@ -1879,14 +2116,36 @@ Flags: HMW
 AnchorPoint: "top" 395 638 basechar 0
 LayerCount: 2
 Back
+SplineSet
+587 598 m 5
+ 355 237 l 5
+ 295 237 l 5
+ 174 601 l 5
+ 120 617 l 5
+ 120 638 l 5
+ 339 638 l 5
+ 339 617 l 5
+ 298 598 l 5
+ 377 337 l 5
+ 536 597 l 5
+ 489 617 l 5
+ 489 638 l 5
+ 651 638 l 5
+ 651 617 l 5
+ 587 598 l 5
+350 39 m 5
+ 417 20 l 5
+ 417 0 l 5
+ 166 0 l 5
+ 166 20 l 5
+ 238 45 l 5
+ 278 294 l 5
+ 391 294 l 5
+ 350 39 l 5
+EndSplineSet
 Fore
 SplineSet
-587 598 m 1
- 355 237 l 1
- 295 237 l 1
- 174 601 l 1
- 120 617 l 1
- 120 638 l 1
+120 638 m 1
  339 638 l 1
  339 617 l 1
  298 598 l 1
@@ -1897,17 +2156,19 @@ SplineSet
  651 638 l 1
  651 617 l 1
  587 598 l 1
-350 39 m 1
+ 391 293 l 1
+ 350 39 l 1
  417 20 l 1
  417 0 l 1
  166 0 l 1
  166 20 l 1
  238 45 l 1
- 278 294 l 1
- 391 294 l 1
- 350 39 l 1
+ 277 290 l 1
+ 174 601 l 1
+ 120 617 l 1
+ 120 638 l 1
 EndSplineSet
-Validated: 1048581
+Validated: 1048577
 EndChar
 
 StartChar: Z
@@ -2126,19 +2387,6 @@ AnchorPoint: "bottom" 219 0 basechar 0
 AnchorPoint: "top" 313 425 basechar 0
 LayerCount: 2
 Back
-SplineSet
-301 377 m 4
- 195 377 148 273 148 165 c 4
- 148 79 189 45 235 45 c 4
- 277 45 333 84 369 123 c 5
- 369 123 390 101 390 101 c 5
- 333 41 263 -12 196 -12 c 4
- 137 -12 78 20 78 133 c 4
- 78 285 229 437 355 437 c 4
- 395 437 413 424 413 400 c 4
- 413 381 396 352 383 346 c 5
- 361 362 335 377 301 377 c 4
-EndSplineSet
 Fore
 SplineSet
 363 437 m 7
@@ -2202,23 +2450,39 @@ Flags: HMW
 AnchorPoint: "top" 298 425 basechar 0
 LayerCount: 2
 Back
+SplineSet
+334 437 m 3
+ 385 437 420 399 420 352 c 3
+ 420 273 323 218 189 203 c 1
+ 189 233 l 1
+ 309 245 320 298 320 349 c 3
+ 320 374 305 385 288 385 c 3
+ 217 385 192 299 192 161 c 3
+ 192 81 222 55 258 55 c 3
+ 310 55 364 89 400 123 c 1
+ 421 101 l 1
+ 364 41 286 -12 219 -12 c 3
+ 145 -12 83 20 83 133 c 3
+ 83 290 217 437 334 437 c 3
+EndSplineSet
 Fore
 SplineSet
-334 437 m 7
- 385 437 420 399 420 352 c 7
- 420 273 323 218 189 203 c 5
- 189 233 l 5
- 309 245 320 298 320 349 c 7
- 320 374 305 385 288 385 c 7
- 217 385 192 299 192 161 c 7
- 192 81 222 55 258 55 c 7
- 310 55 364 89 400 123 c 5
- 421 101 l 5
- 364 41 286 -12 219 -12 c 7
- 145 -12 83 20 83 133 c 7
- 83 290 217 437 334 437 c 7
+334 437 m 3
+ 385 437 420 399 420 352 c 3
+ 420 274 325 219 193 203 c 1
+ 192 189 192 176 192 161 c 3
+ 192 81 222 55 258 55 c 3
+ 310 55 364 89 400 123 c 1
+ 421 101 l 1
+ 364 41 286 -12 219 -12 c 3
+ 145 -12 83 20 83 133 c 3
+ 83 290 217 437 334 437 c 3
+288 385 m 3
+ 230 385 203 329 195 234 c 1
+ 310 247 320 299 320 349 c 3
+ 320 374 305 385 288 385 c 3
 EndSplineSet
-Validated: 1048581
+Validated: 1048577
 EndChar
 
 StartChar: f
@@ -2265,29 +2529,6 @@ Flags: HMW
 AnchorPoint: "top" 340 425 basechar 0
 LayerCount: 2
 Back
-SplineSet
-396 7 m 6
- 373 -130 310 -177 263 -206 c 4
- 227 -228 194 -230 137 -230 c 4
- 97 -230 37 -216 37 -192 c 4
- 37 -173 53 -139 66 -132 c 5
- 105 -162 165 -179 210 -179 c 4
- 266 -179 296 -169 314 -63 c 6
- 314 -63 355 174 355 174 c 5
- 300 56 229 -12 169 -12 c 4
- 130 -12 77 9 77 111 c 4
- 77 263 189 437 396 437 c 4
- 418 437 446 433 466 426 c 5
- 466 426 477 415 477 415 c 5
- 477 415 437 248 437 248 c 5
- 437 248 396 7 396 7 c 6
-393 377 m 5
- 378 383 348 389 323 389 c 4
- 202 389 152 262 152 136 c 4
- 152 64 180 45 208 45 c 4
- 250 45 331 156 383 329 c 5
- 383 329 393 377 393 377 c 5
-EndSplineSet
 Fore
 SplineSet
 396 437 m 3
@@ -2390,21 +2631,6 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-SplineSet
-16 -164 m 4
- 60 -164 84 -105 106 32 c 6
- 106 32 159 356 159 356 c 6
- 164 384 156 390 97 390 c 5
- 97 390 95 414 95 414 c 5
- 95 414 226 437 226 437 c 5
- 226 437 240 424 240 424 c 5
- 240 424 183 65 183 65 c 6
- 166 -38 115 -113 89 -145 c 4
- 60 -181 1 -230 -47 -230 c 4
- -87 -230 -86 -217 -86 -193 c 4
- -86 -174 -70 -152 -61 -146 c 5
- -36 -160 -20 -164 16 -164 c 4
-EndSplineSet
 Fore
 SplineSet
 228 672 m 3
@@ -2713,23 +2939,6 @@ AnchorPoint: "bottom" 182 0 basechar 0
 AnchorPoint: "top" 258 425 basechar 0
 LayerCount: 2
 Back
-SplineSet
-156 -12 m 4
- 116 -12 43 0 43 24 c 4
- 43 43 56 76 69 87 c 5
- 92 65 163 36 197 36 c 4
- 249 36 264 53 264 83 c 4
- 264 124 243 143 188 182 c 4
- 133 221 97 253 97 299 c 4
- 97 379 201 437 292 437 c 4
- 332 437 356 424 356 400 c 4
- 356 381 338 355 329 349 c 5
- 307 365 260 386 215 386 c 4
- 180 386 157 371 157 339 c 4
- 157 300 189 279 231 249 c 4
- 289 208 325 176 325 118 c 4
- 325 46 240 -12 156 -12 c 4
-EndSplineSet
 Fore
 SplineSet
 305 437 m 3
@@ -2827,22 +3036,6 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-SplineSet
-224 39 m 7
- 278 39 375 199 375 303 c 7
- 375 331 369 373 355 392 c 5
- 367 411 402 437 423 437 c 4
- 438 437 456 423 456 381 c 7
- 456 250 296 -12 185 -12 c 7
- 149 -12 129 0 133 67 c 6
- 133 67 147 356 147 356 c 6
- 149 384 144 390 85 390 c 5
- 85 390 83 414 83 414 c 5
- 83 414 209 437 209 437 c 5
- 209 437 223 424 223 424 c 5
- 223 424 202 86 202 86 c 6
- 199 49 206 39 224 39 c 7
-EndSplineSet
 Fore
 SplineSet
 258 437 m 5
@@ -2912,38 +3105,6 @@ Flags: HMW
 LayerCount: 2
 Back
 SplineSet
-244 227 m 5
- 303 327 315 352 338 383 c 4
- 359 412 385 437 420 437 c 4
- 450 437 467 434 467 415 c 4
- 467 396 451 360 442 354 c 5
- 421 360 406 366 384 366 c 4
- 355 366 333 324 277 227 c 5
- 277 227 244 227 244 227 c 5
-248 211 m 5
- 179 94 171 75 147 42 c 4
- 126 13 100 -12 65 -12 c 4
- 35 -12 18 -9 18 10 c 4
- 18 29 34 65 43 71 c 5
- 64 65 79 59 101 59 c 4
- 131 59 154 103 216 211 c 5
- 216 211 248 211 248 211 c 5
-229 424 m 5
- 229 424 274 249 274 249 c 5
- 274 249 325 76 325 76 c 6
- 332 51 347 43 406 43 c 5
- 406 43 408 19 408 19 c 5
- 408 19 290 -9 290 -9 c 5
- 290 -9 271 3 271 3 c 5
- 271 3 225 191 225 191 c 5
- 225 191 175 356 175 356 c 6
- 168 381 157 385 98 385 c 5
- 98 385 96 409 96 409 c 5
- 96 409 216 437 216 437 c 5
- 216 437 229 424 229 424 c 5
-EndSplineSet
-Fore
-SplineSet
 265 437 m 1
  307 259 l 1
  361 76 l 9
@@ -2976,7 +3137,37 @@ SplineSet
  324 327 336 352 359 383 c 0
  380 412 406 437 441 437 c 3
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+265 437 m 1
+ 300 287 l 1
+ 330 339 342 359 359 383 c 0
+ 380 412 406 437 441 437 c 0
+ 462 437 477 434 489 425 c 1
+ 466 342 l 1
+ 453 335 l 1
+ 432 341 420 346 398 346 c 0
+ 371 346 356 327 310 248 c 1
+ 361 76 l 1
+ 388 43 l 1
+ 442 43 l 1
+ 444 19 l 1
+ 270 -9 l 1
+ 234 151 l 1
+ 196 86 187 68 168 42 c 0
+ 147 13 116 -12 81 -12 c 0
+ 60 -12 45 -9 33 0 c 1
+ 56 83 l 1
+ 69 90 l 1
+ 90 84 107 79 129 79 c 0
+ 157 79 173 99 225 189 c 1
+ 176 352 l 1
+ 149 385 l 1
+ 95 385 l 1
+ 93 409 l 1
+ 265 437 l 1
+EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: y
@@ -3950,7 +4141,7 @@ Back
 Fore
 Refer: 439 768 N 1 0 0 1 500 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -3963,7 +4154,7 @@ Back
 Fore
 Refer: 440 769 N 1 0 0 1 500 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Acircumflex
@@ -3976,7 +4167,7 @@ Back
 Fore
 Refer: 441 770 N 1 0 0 1 493 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Atilde
@@ -3989,7 +4180,7 @@ Back
 Fore
 Refer: 442 771 N 1 0 0 1 522 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Adieresis
@@ -4002,7 +4193,7 @@ Back
 Fore
 Refer: 446 776 N 1 0 0 1 528 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Aring
@@ -4015,7 +4206,7 @@ Back
 Fore
 Refer: 447 778 N 1 0 0 1 533 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: AE
@@ -4094,7 +4285,7 @@ Back
 Fore
 Refer: 439 768 N 1 0 0 1 464 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -4107,7 +4298,7 @@ Back
 Fore
 Refer: 440 769 N 1 0 0 1 464 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -4120,7 +4311,7 @@ Back
 Fore
 Refer: 441 770 N 1 0 0 1 457 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -4133,7 +4324,7 @@ Back
 Fore
 Refer: 446 776 N 1 0 0 1 492 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -4391,7 +4582,7 @@ Back
 Fore
 Refer: 440 769 N 1 0 0 1 485 213 2
 Refer: 57 89 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Thorn
@@ -4693,7 +4884,7 @@ Back
 Fore
 Refer: 439 768 N 1 0 0 1 388 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: eacute
@@ -4706,7 +4897,7 @@ Back
 Fore
 Refer: 440 769 N 1 0 0 1 388 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -4719,7 +4910,7 @@ Back
 Fore
 Refer: 441 770 N 1 0 0 1 381 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -4732,7 +4923,7 @@ Back
 Fore
 Refer: 446 776 N 1 0 0 1 416 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: igrave
@@ -5196,7 +5387,7 @@ Back
 Fore
 Refer: 446 776 N 1 0 0 1 513 213 2
 Refer: 57 89 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Zcaron
@@ -5941,7 +6132,7 @@ Back
 Fore
 Refer: 443 772 N 1 0 0 1 553 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: amacron
@@ -5967,7 +6158,7 @@ Back
 Fore
 Refer: 444 774 N 1 0 0 1 530 213 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: abreve
@@ -6124,7 +6315,7 @@ Back
 Fore
 Refer: 443 772 N 1 0 0 1 517 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: emacron
@@ -6137,7 +6328,7 @@ Back
 Fore
 Refer: 443 772 N 1 0 0 1 441 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Ebreve
@@ -6150,7 +6341,7 @@ Back
 Fore
 Refer: 444 774 N 1 0 0 1 494 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: ebreve
@@ -6163,7 +6354,7 @@ Back
 Fore
 Refer: 444 774 N 1 0 0 1 418 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Edotaccent
@@ -6176,7 +6367,7 @@ Back
 Fore
 Refer: 445 775 N 1 0 0 1 492 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: edotaccent
@@ -6189,7 +6380,7 @@ Back
 Fore
 Refer: 445 775 N 1 0 0 1 416 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Ecaron
@@ -6202,7 +6393,7 @@ Back
 Fore
 Refer: 449 780 N 1 0 0 1 457 213 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: ecaron
@@ -6215,7 +6406,7 @@ Back
 Fore
 Refer: 449 780 N 1 0 0 1 381 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: Gcircumflex
@@ -6332,7 +6523,7 @@ Back
 Fore
 Refer: 441 770 N 1 0 0 1 541 213 2
 Refer: 40 72 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: hcircumflex
@@ -7143,7 +7334,7 @@ Back
 Fore
 Refer: 441 770 N 1 0 0 1 478 213 2
 Refer: 57 89 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: ycircumflex
