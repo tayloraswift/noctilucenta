@@ -1,13 +1,15 @@
 a yet unnamed text font. Read more about this font at https://commons.wikimedia.org/wiki/File:A_proposed_free_and_open_source_typeface.pdf
 
-![Typeface sample](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kelvinsong%E2%80%94Font_type_square.svg/800px-Kelvinsong%E2%80%94Font_type_square.svg.png)
+![Typeface sample](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kelvinsong%E2%80%94Font_type_square.svg/700px-Kelvinsong%E2%80%94Font_type_square.svg.png)
 
 Contains:
 
 * Regular
   * Latin Basic, Supplement, Latin-A
-  * Old style numerals
+  * Old style numerals (*portable compositor)
   * Superscript numerals
+
+  * Small capitals (*portable compositor)
   
   * Most important and unimportant General Punctuation
   * Most important and unimportant Math Symbols and arrows
@@ -26,7 +28,7 @@ Contains:
 
 * Italic
   * Latin Basic, Supplement, Latin-A
-  * Old style numerals
+  * Old style numerals (*portable compositor)
   * Superscript numerals
   
   * Most important and unimportant General Punctuation
@@ -39,7 +41,7 @@ Contains:
 
 * Bold
   * Latin Basic, Supplement, Latin-A
-  * Old style numerals
+  * Old style numerals (*portable compositor)
   * Superscript numerals
 
   * Most important and unimportant General Punctuation
@@ -54,7 +56,7 @@ Contains:
 
 * Bold Italic
   * Latin Basic, Supplement, Latin-A
-  * Old style numerals
+  * Old style numerals (*portable compositor)
   * Superscript numerals
 
   * Most important and unimportant General Punctuation
