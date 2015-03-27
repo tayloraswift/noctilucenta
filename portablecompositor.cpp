@@ -99,12 +99,7 @@ fontfile.open ("SWIFTDAY Regular.sfd");
 	if (line.substr(0,10) == "Encoding: " && ( line.substr(0,20) != "Encoding: Custom")) {
 		encoding = line;
 		&split(encoding, ' ', encodings);
-//		cout << encoding << "\n";
 
-/*		cout << number.at(i) << "\n";
-		cout << number.at(i + 1) << "\n";
-		cout << number.at(i + 2) << "\n";
-		cout << number.at(i + 3) << "\n";*/
 		enc1.push_back(atoi(encodings.at(i + 1).c_str()) );
 		enc2.push_back(atoi(encodings.at(i + 2).c_str()) );
 		enc3.push_back(atoi(encodings.at(i + 3).c_str()) );
@@ -121,12 +116,6 @@ fontfile.open ("SWIFTDAY Regular.sfd");
 
 
     }
-
-
-/*for ( int n = 1; n < enc1.size(); n++ ) {
-cout << enc1.at(n - 1) << " " << enc2.at(n - 1) << " " << enc3.at(n - 1) << "\n" ;
-}
-    cout << *max_element(enc1.begin(), enc1.end()) << "\n";*/
 
 fontfile.close();
 fontfile.open ("SWIFTDAY Regular.sfd");
@@ -163,10 +152,6 @@ fontfile.open ("SWIFTDAY Regular.sfd");
 			glyphs.open ("glyphs.txt");
 
     act = false;
-
-//for (int n = 1; n <= baseglyphs.size(); n++) {
-//	cout << baseglyphs.at(n - 1) << "\n";
-//}
 
 int index = 1;
 
