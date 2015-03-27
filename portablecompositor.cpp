@@ -22,6 +22,8 @@ using namespace std;
 
 // GLYPHS YOU WANT TO CONVERT
 
+string FileName = "SWIFTDAY Bold.sfd";
+
 string suffix = ".smcp";
 
 string tagname = "sc";
@@ -90,7 +92,7 @@ int main ()
 {
 
 fstream fontfile;
-fontfile.open ("SWIFTDAY Regular.sfd");
+fontfile.open (FileName);
 
 // FINDS OUT WHERE TO INSERT NEW GLYPHS
     while ( getline (fontfile,line) )
@@ -118,7 +120,7 @@ fontfile.open ("SWIFTDAY Regular.sfd");
     }
 
 fontfile.close();
-fontfile.open ("SWIFTDAY Regular.sfd");
+fontfile.open (FileName);
 
 // FINDS CURSOR
 
@@ -144,7 +146,7 @@ fontfile.open ("SWIFTDAY Regular.sfd");
 
 
 fontfile.close();
-fontfile.open ("SWIFTDAY Regular.sfd");
+fontfile.open (FileName);
 
 // WRITES DUPLICATE GLYPHS
 
