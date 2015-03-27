@@ -22,8 +22,13 @@ using namespace std;
 
 // GLYPHS YOU WANT TO CONVERT
 
-int startGlyphIndex = 691;
-int endGlyphIndex = 691 + 26;
+string suffix = ".smcp";
+
+string tagname = "sc";
+
+string spacedtagname = "s c";
+
+string featurename = "SmallCaps";
 
 //
 
@@ -51,7 +56,7 @@ string Flags;
 string ReferEncoding;
 vector<string> ReferEncodings;
 
-vector<string> baseglyphs = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "space", "comma", "period", "colon", "semicolon", "hyphen", "parenleft", "parenright", "exclam", "question", "quotesingle", "quotedbl", "endash", "emdash", "quoteleft", "quoteright", "quotedblright", "quotedblleft", "quotedblbase", "ellipsis", "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "zero.oldstyleproportional", "one.oldstyleproportional", "two.oldstyleproportional", "three.oldstyleproportional", "four.oldstyleproportional", "five.oldstyleproportional", "six.oldstyleproportional", "seven.oldstyleproportional", "eight.oldstyleproportional", "nine.oldstyleproportional", "dollar", "percent", "dollar.oldstyleproportional", "percent.oldstyleproportional", "ampersand"};
+vector<string> baseglyphs = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "space", "comma", "period", "colon", "semicolon", "hyphen", "parenleft", "parenright", "exclam", "question", "quotesingle", "quotedbl", "endash", "emdash", "quoteleft", "quoteright", "quotedblright", "quotedblleft", "quotedblbase", "ellipsis", "ampersand"};
 string glyphname;
 string writeglyphname;
 
@@ -73,6 +78,14 @@ string parameter ( string param ) {
 	return value;
 }
 
+bool hasEnding (std::string const &fullString, std::string const &ending) {
+    if (fullString.length() >= ending.length()) {
+        return (0 == fullString.compare (fullString.length() - ending.length(), ending.length(), ending));
+    } else {
+        return false;
+    }
+}
+
 int main () 
 {
 
@@ -83,7 +96,7 @@ fontfile.open ("SWIFTDAY Regular.sfd");
     while ( getline (fontfile,line) )
     {
 
-	if (line.substr(0,10) == "Encoding: " && ( line.substr(0,20) != "Encoding: UnicodeBmp")) {
+	if (line.substr(0,10) == "Encoding: " && ( line.substr(0,20) != "Encoding: Custom")) {
 		encoding = line;
 		&split(encoding, ' ', encodings);
 //		cout << encoding << "\n";
@@ -96,8 +109,9 @@ fontfile.open ("SWIFTDAY Regular.sfd");
 		enc2.push_back(atoi(encodings.at(i + 2).c_str()) );
 		enc3.push_back(atoi(encodings.at(i + 3).c_str()) );
 
-		if (atoi(encodings.at(i + 3).c_str()) >= startGlyphIndex && atoi(encodings.at(i + 3).c_str()) < endGlyphIndex ) {
+		if (hasEnding(glyphname, suffix) ) {
 			baseglyphs.push_back(glyphname.substr(11,99));
+
 
 		}
 
@@ -125,7 +139,7 @@ fontfile.open ("SWIFTDAY Regular.sfd");
     {
 
 
-	if (line.substr(0,11) == "StartChar: " && line.substr(11,99) == "startsc") {
+	if (line.substr(0,11) == "StartChar: " && line.substr(11,99) == "start" + tagname) {
 
 		act = true;
 	}
@@ -178,7 +192,7 @@ int index = 1;
 	if (act && line == "EndChar") {
 		act = false;
 
-			glyphs << "StartChar: " << writeglyphname.substr(0, writeglyphname.find(".")) << ".smcpflag" << "\n" ;
+			glyphs << "StartChar: " << writeglyphname.substr(0, writeglyphname.find(".")) << suffix << "flag" << "\n" ;
 			glyphs << "Encoding: " << *max_element(enc1.begin(), enc1.end()) + index << " -1 " << *max_element(enc3.begin(), enc3.end()) + index << "\n" ;
 			glyphs << "Width: " << Width << "\n" ;
 			glyphs << "VWidth: " << VWidth << "\n" ;
@@ -207,7 +221,7 @@ featurefile.open ("feature.fea");
 featurefile << "languagesystem DFLT dflt;\nlanguagesystem grek dflt;\nlanguagesystem latn dflt;\nlanguagesystem math dflt;\n\n" ;
 
 // Write letter class
-featurefile << "@sccharacters = [" ;
+featurefile << "@" << tagname << "characters = [" ;
 
 for (int n = 1; n <= baseglyphs.size(); n++) {
 	featurefile << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " ";
@@ -216,7 +230,7 @@ for (int n = 1; n <= baseglyphs.size(); n++) {
 featurefile << "];\n\n" ;
 
 // Write base class
-featurefile << "@scbase = [" ;
+featurefile << "@" << tagname << "base = [" ;
 
 for (int n = 1; n <= baseglyphs.size(); n++) {
 	featurefile << "\\" << baseglyphs.at(n - 1) << " ";
@@ -225,10 +239,10 @@ for (int n = 1; n <= baseglyphs.size(); n++) {
 featurefile << "];\n\n" ;
 
 // Write flagged class
-featurefile << "@scflags = [" ;
+featurefile << "@" << tagname << "flags = [" ;
 
 for (int n = 1; n <= baseglyphs.size(); n++) {
-	featurefile << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << ".smcpflag" << " ";
+	featurefile << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << suffix << "flag" << " ";
 }
 
 featurefile << "];\n\n" ;
@@ -237,44 +251,44 @@ featurefile << "];\n\n" ;
 
 featurefile << "feature liga {\n" ;
 
-featurefile << "lookup SmallCapsOpen {\n" ;
-featurefile << "sub " << "\\less s c \\greater" << " by " << "\\startsc" << ";\n" ;
+featurefile << "lookup " << featurename << "Open {\n" ;
+featurefile << "sub " << "\\less " << spacedtagname << " \\greater" << " by " << "\\start" << tagname << ";\n" ;
 
-featurefile << "} SmallCapsOpen;\n" ;
+featurefile << "} " << featurename << "Open;\n" ;
 
-featurefile << "lookup SmallCapsInitialize {\n" ;
+featurefile << "lookup " << featurename << "Initialize {\n" ;
 for (int n = 1; n <= baseglyphs.size(); n++) {
-	featurefile << "sub " << "\\startsc" << " " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " by " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << ".smcpflag" << ";\n" ;
+	featurefile << "sub " << "\\start" << tagname << " " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << " by " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << suffix << "flag" << ";\n" ;
 }
 
-featurefile << "} SmallCapsInitialize;\n" ;
+featurefile << "} " << featurename << "Initialize;\n" ;
 featurefile << "} liga;\n\n" ;
 
 // Write chaining lookup
 
 featurefile << "feature calt {\n" ;
-featurefile << "lookup SmallCapsChaining {\n" ;
-featurefile << "sub " << "@scflags" << " " << "@sccharacters" << "'" << " by " << "@scflags" << ";\n" ;
+featurefile << "lookup " << featurename << "Chaining {\n" ;
+featurefile << "sub " << "@" << tagname << "flags" << " " << "@" << tagname << "characters" << "'" << " by " << "@" << tagname << "flags" << ";\n" ;
 
-featurefile << "} SmallCapsChaining;\n" ;
+featurefile << "} " << featurename << "Chaining;\n" ;
 
 // Undo repeated flags
-featurefile << "lookup SmallCapsRendering {\n" ;
-featurefile << "sub " << "@scflags" << "'" << " " << "@scflags" << " by " << "@scbase" << ";\n" ;
+featurefile << "lookup " << featurename << "Rendering {\n" ;
+featurefile << "sub " << "@" << tagname << "flags" << "'" << " " << "@" << tagname << "flags" << " by " << "@" << tagname << "base" << ";\n" ;
 
-featurefile << "} SmallCapsRendering;\n" ;
+featurefile << "} " << featurename << "Rendering;\n" ;
 
 featurefile << "} calt;\n\n" ;
 
 // Write closing tag lookup
 
 featurefile << "feature liga {\n" ;
-featurefile << "lookup SmallCapsClose {\n" ;
+featurefile << "lookup " << featurename << "Close {\n" ;
 for (int n = 1; n <= baseglyphs.size(); n++) {
-	featurefile << "sub " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << ".smcpflag" << " " << "\\less \\slash s c \\greater" << " by " << "\\" << baseglyphs.at(n - 1) << ";\n" ;
+	featurefile << "sub " << "\\" << baseglyphs.at(n - 1).substr(0, baseglyphs.at(n - 1).find(".")) << suffix << "flag" << " " << "\\less \\slash " << spacedtagname << " \\greater" << " by " << "\\" << baseglyphs.at(n - 1) << ";\n" ;
 }
 
-featurefile << "} SmallCapsClose;\n" ;
+featurefile << "} " << featurename << "Close;\n" ;
 featurefile << "} liga;\n\n" ;
 
 featurefile.close();

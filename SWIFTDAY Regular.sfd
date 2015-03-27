@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427153759
+ModificationTime: 1427489003
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,13 @@ Lookup: 1 0 0 "onuminverse" { "onumflag-2" ("onumflag") } []
 Lookup: 1 0 0 "onum-fail" { "onum-fail-1"  } []
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0" { "'onum' Oldstyle Figures lookup 0-1" ("oldstyle-proportional") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals lookup 10" { "'smcp' Lowercase to Small Capitals lookup 10-1" ("smcp") } ['smcp' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
+Lookup: 4 0 1 "SmallCapsOpen" { "SmallCapsOpen subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "SmallCapsInitialize" { "SmallCapsInitialize subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "SmallCapsChaining" { "SmallCapsChaining subtable"  } ['calt' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
+Lookup: 6 0 0 "SmallCapsRendering" { "SmallCapsRendering subtable"  } ['calt' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
+Lookup: 4 0 1 "SmallCapsClose" { "SmallCapsClose subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [1000,15,2] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 0" { "'mkmk' Mark to Mark lookup 0-1"  } ['mkmk' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -121,6 +128,20 @@ KernClass2: 36 27 "'kern' Horizontal Kerning lookup 0-1"
  26 Z Zacute Zdotaccent Zcaron
  22 quotesingle quoteright
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} -10 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 10 {} -10 {} -10 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} -10 {} 10 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -20 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -20 {} -30 {} -30 {} 0 {} 0 {} -20 {} -40 {} 0 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -50 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} -50 {} -40 {} -20 {} -40 {} -30 {} 20 {} 0 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} -70 {} 0 {} -70 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} -70 {} -40 {} -50 {} -70 {} -80 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: coverage "SmallCapsRendering subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag dollar.smcpflag percent.smcpflag
+  FCoverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag dollar.smcpflag percent.smcpflag
+ 1
+  SeqLookup: 0 "Single Substitution lookup 16"
+EndFPST
+ChainSub2: coverage "SmallCapsChaining subtable" 0 0 0 1
+ 1 1 0
+  Coverage: 362 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z space comma period colon semicolon hyphen parenleft parenright exclam question quotesingle quotedbl endash emdash quoteleft quoteright quotedblright quotedblleft quotedblbase ellipsis ampersand a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine dollar percent
+  BCoverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag dollar.smcpflag percent.smcpflag
+ 1
+  SeqLookup: 0 "Single Substitution lookup 14"
+EndFPST
 ChainSub2: class "Tag warning-1" 3 3 3 1
   Class: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
   Class: 4548 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde exclamdown cent sterling yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus uni00B2 uni00B3 acute mu paragraph periodcentered cedilla uni00B9 ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Ebreve ebreve Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij Jcircumflex jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron napostrophe Eng eng Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut OE oe Racute racute uni0156 uni0157 Rcaron rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 Tcaron tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Wcircumflex wcircumflex Ycircumflex ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron longs uni0237 uni0250 uni0251 uni0252 uni0253 uni0254 uni0255 uni0256 uni0257 uni0258 uni0259 uni025A uni025B uni025C uni025D uni025E uni025F uni0260 uni0261 uni0262 uni0263 uni0264 uni0265 uni0266 uni0267 uni0268 uni0269 uni026A uni026B uni026C uni026D uni026E uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027A uni027B uni027C uni027D uni027E uni027F uni0280 uni0281 uni0282 uni0283 uni0284 uni0285 uni0286 uni0287 uni0288 uni0289 uni028A uni028B uni028C uni028D uni028E uni028F uni0290 uni0291 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297 uni0298 uni0299 uni029A uni029B uni029C uni029D uni029E uni029F uni02A0 uni02A1 uni02A2 uni02A3 uni02A4 uni02A5 uni02A6 uni02A7 uni02A8 uni02A9 uni02AA uni02AB uni02AC uni02AD uni02AE uni02AF uni02BB uni02BC circumflex caron uni02C8 uni02C9 uni02CA uni02CB uni02CC uni02D0 uni02D1 breve dotaccent ring tilde hungarumlaut gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 uni0313 uni0315 uni0327 Pi Sigma theta pi sigma phi1 uni1D07 uni2010 uni2011 figuredash endash emdash quoteleft quoteright quotesinglbase quotereversed quotedblleft quotedblright quotedblbase uni201F dagger daggerdbl ellipsis uni2027 perthousand uni2031 minute guilsinglleft guilsinglright uni203E fraction uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 Euro uni20D1 uni20D7 uni210E arrowleft arrowright arrowboth uni21BD uni21C0 uni21C4 uni21C6 uni21CB uni21CC arrowdblleft arrowdblright Delta product summation minus uni2215 radical uni221B uni221C infinity angle logicaland logicalor intersection union integral similar congruent uni2247 approxequal uni2249 notequal lessequal greaterequal uni22EE uni22EF uni22F0 uni22F1 uni239B uni239C uni239D uni239E uni239F uni23A0 uni23A1 uni23A2 uni23A3 uni23A4 uni23A5 uni23A6 uni23A7 uni23A8 uni23A9 uni23AA uni23AB uni23AC uni23AD uni23B7 circle uni25CC uni27E8 uni27E9 startonum tagwarning percent.oldstyleproportional dollar.oldstyleproportional zero.oldstyleproportional one.oldstyleproportional two.oldstyleproportional three.oldstyleproportional four.oldstyleproportional five.oldstyleproportional six.oldstyleproportional seven.oldstyleproportional eight.oldstyleproportional nine.oldstyleproportional
@@ -173,17 +194,19 @@ ChainSub2: class "'calt' Contextual Alternates lookup 2-1" 3 3 3 1
   FClassNames: "All_Others" "1" "2"
 EndFPST
 LangName: 1033
-Encoding: UnicodeBmp
-Compacted: 1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 551 19 9
+WinInfo: 646 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
+-1000 449 m 0
+ 2000 449 l 1024
+  Named: "SC"
 -1000 938 m 0
  2000 938 l 1024
   Named: "radical-top"
@@ -209,10 +232,10 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 272629 136314 90876 445645 1048576 90876 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom" "'mkmk' Mark to Mark lookup 0-1" "top" "'mkmk' Mark to Mark lookup 0-1" 
-BeginChars: 65682 718
+BeginChars: 815 815
 
 StartChar: space
-Encoding: 32 32 0
+Encoding: 0 32 0
 Width: 260
 VWidth: 0
 Flags: HMW
@@ -220,12 +243,14 @@ LayerCount: 2
 Back
 Fore
 Validated: 1
+Ligature2: "SmallCapsClose subtable" space.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" space.smcpflag
 Substitution2: "onumflag-1" space.onumflag
 Ligature2: "Old style closing tag-1" space.onumflag less slash o n u m greater
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 1
+Encoding: 1 33 1
 Width: 250
 VWidth: 0
 Flags: HMW
@@ -242,10 +267,12 @@ SplineSet
 EndSplineSet
 Refer: 14 46 N 1 0 0 1 10 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" exclam.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" exclam.smcpflag
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 2
+Encoding: 2 34 2
 Width: 350
 VWidth: -3
 Flags: HMW
@@ -267,10 +294,12 @@ SplineSet
  50 634 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedbl.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedbl.smcpflag
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 3
+Encoding: 3 35 3
 Width: 437
 VWidth: 0
 Flags: HMW
@@ -303,7 +332,7 @@ Validated: 5
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 4
+Encoding: 4 36 4
 Width: 454
 VWidth: 0
 Flags: HMW
@@ -337,12 +366,14 @@ SplineSet
  207 690 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" dollar.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" dollar.smcp
 Substitution2: "onumflag-1" dollar.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" dollar.oldstyleproportional
 EndChar
 
 StartChar: percent
-Encoding: 37 37 5
+Encoding: 5 37 5
 Width: 898
 VWidth: 0
 Flags: HMW
@@ -381,12 +412,14 @@ SplineSet
  612 637 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" percent.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" percent.smcp
 Substitution2: "onumflag-1" percent.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" percent.oldstyleproportional
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 6
+Encoding: 6 38 6
 Width: 700
 VWidth: 0
 Flags: HMW
@@ -427,10 +460,12 @@ SplineSet
  182 475 223 423 251 391 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" ampersand.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" ampersand.smcpflag
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 7
+Encoding: 7 39 7
 Width: 152
 VWidth: -3
 Flags: HMW
@@ -446,10 +481,12 @@ SplineSet
  40 634 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotesingle.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotesingle.smcpflag
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 8
+Encoding: 8 40 8
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -466,10 +503,12 @@ SplineSet
  183 594 109 464 109 265 c 7
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" parenleft.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" parenleft.smcpflag
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 9
+Encoding: 9 41 9
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -486,10 +525,12 @@ SplineSet
  127 -64 201 66 201 265 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" parenright.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" parenright.smcpflag
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 10
+Encoding: 10 42 10
 Width: 443
 VWidth: 0
 Flags: HMW
@@ -528,7 +569,7 @@ Validated: 1
 EndChar
 
 StartChar: plus
-Encoding: 43 43 11
+Encoding: 11 43 11
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -551,7 +592,7 @@ Validated: 5
 EndChar
 
 StartChar: comma
-Encoding: 44 44 12
+Encoding: 12 44 12
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -569,12 +610,14 @@ SplineSet
  57 78 80 102 113 102 c 7
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" comma.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" comma.smcpflag
 Substitution2: "onumflag-1" comma.onumflag
 Ligature2: "Old style closing tag-1" comma.onumflag less slash o n u m greater
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 13
+Encoding: 13 45 13
 Width: 300
 VWidth: 0
 Flags: HMW
@@ -589,12 +632,14 @@ SplineSet
  45 210 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" hyphen.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" hyphen.smcpflag
 Substitution2: "onumflag-1" hyphen.onumflag
 Ligature2: "Old style closing tag-1" hyphen.onumflag less slash o n u m greater
 EndChar
 
 StartChar: period
-Encoding: 46 46 14
+Encoding: 14 46 14
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -609,12 +654,14 @@ SplineSet
  60 79 85 104 115 104 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" period.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" period.smcpflag
 Substitution2: "onumflag-1" period.onumflag
 Ligature2: "Old style closing tag-1" period.onumflag less slash o n u m greater
 EndChar
 
 StartChar: slash
-Encoding: 47 47 15
+Encoding: 15 47 15
 Width: 280
 VWidth: 0
 Flags: HMW
@@ -632,7 +679,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 48 48 16
+Encoding: 16 48 16
 Width: 540
 VWidth: 0
 Flags: HMW
@@ -654,12 +701,14 @@ SplineSet
  480 110 396 -12 254 -12 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" zero.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" zero.smcp
 Substitution2: "onumflag-1" zero.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" zero.oldstyleproportional
 EndChar
 
 StartChar: one
-Encoding: 49 49 17
+Encoding: 17 49 17
 Width: 370
 VWidth: -3
 Flags: HMW
@@ -680,12 +729,14 @@ SplineSet
  231 38 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" one.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" one.smcp
 Substitution2: "onumflag-1" one.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" one.oldstyleproportional
 EndChar
 
 StartChar: two
-Encoding: 50 50 18
+Encoding: 18 50 18
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -709,12 +760,14 @@ SplineSet
  334 534 292 586 228 586 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" two.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" two.smcp
 Substitution2: "onumflag-1" two.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" two.oldstyleproportional
 EndChar
 
 StartChar: three
-Encoding: 51 51 19
+Encoding: 19 51 19
 Width: 440
 VWidth: 0
 Flags: HMW
@@ -740,12 +793,14 @@ SplineSet
  357 304 390 265 390 197 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" three.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" three.smcp
 Substitution2: "onumflag-1" three.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" three.oldstyleproportional
 EndChar
 
 StartChar: four
-Encoding: 52 52 20
+Encoding: 20 52 20
 Width: 525
 VWidth: -3
 Flags: HMW
@@ -770,12 +825,14 @@ SplineSet
  310 629 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" four.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" four.smcp
 Substitution2: "onumflag-1" four.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" four.oldstyleproportional
 EndChar
 
 StartChar: five
-Encoding: 53 53 21
+Encoding: 21 53 21
 Width: 433
 VWidth: 0
 Flags: HMW
@@ -800,12 +857,14 @@ SplineSet
  373 56 236 -12 50 -12 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" five.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" five.smcp
 Substitution2: "onumflag-1" five.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" five.oldstyleproportional
 EndChar
 
 StartChar: six
-Encoding: 54 54 22
+Encoding: 22 54 22
 Width: 490
 VWidth: 0
 Flags: HMW
@@ -828,12 +887,14 @@ SplineSet
  206 313 164 296 134 270 c 5
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" six.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" six.smcp
 Substitution2: "onumflag-1" six.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" six.oldstyleproportional
 EndChar
 
 StartChar: seven
-Encoding: 55 55 23
+Encoding: 23 55 23
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -852,12 +913,14 @@ SplineSet
  20 579 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" seven.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" seven.smcp
 Substitution2: "onumflag-1" seven.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" seven.oldstyleproportional
 EndChar
 
 StartChar: eight
-Encoding: 56 56 24
+Encoding: 24 56 24
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -884,12 +947,14 @@ SplineSet
  405 419 324 356 284 334 c 9
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" eight.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" eight.smcp
 Substitution2: "onumflag-1" eight.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" eight.oldstyleproportional
 EndChar
 
 StartChar: nine
-Encoding: 57 57 25
+Encoding: 25 57 25
 Width: 485
 VWidth: 0
 Flags: HMW
@@ -912,12 +977,14 @@ SplineSet
  284 317 321 329 351 355 c 5
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" nine.smcpflag
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" nine.smcp
 Substitution2: "onumflag-1" nine.onumflag
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" nine.oldstyleproportional
 EndChar
 
 StartChar: colon
-Encoding: 58 58 26
+Encoding: 26 58 26
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -927,12 +994,14 @@ Fore
 Refer: 14 46 S 1 0 0 1 0 303 2
 Refer: 14 46 N 1 0 0 1 0 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" colon.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" colon.smcpflag
 Substitution2: "onumflag-1" colon.onumflag
 Ligature2: "Old style closing tag-1" colon.onumflag less slash o n u m greater
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 27
+Encoding: 27 59 27
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -942,10 +1011,12 @@ Fore
 Refer: 14 46 N 1 0 0 1 0 303 2
 Refer: 12 44 N 1 0 0 1 0 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" semicolon.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" semicolon.smcpflag
 EndChar
 
 StartChar: less
-Encoding: 60 60 28
+Encoding: 28 60 28
 Width: 320
 VWidth: 0
 Flags: HMW
@@ -965,7 +1036,7 @@ Validated: 1
 EndChar
 
 StartChar: equal
-Encoding: 61 61 29
+Encoding: 29 61 29
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -988,7 +1059,7 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 62 62 30
+Encoding: 30 62 30
 Width: 320
 VWidth: 0
 Flags: HMW
@@ -1008,7 +1079,7 @@ Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 63 63 31
+Encoding: 31 63 31
 Width: 420
 VWidth: 0
 Flags: HMW
@@ -1033,10 +1104,12 @@ SplineSet
 EndSplineSet
 Refer: 14 46 N 1 0 0 1 80 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" question.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" question.smcpflag
 EndChar
 
 StartChar: at
-Encoding: 64 64 32
+Encoding: 32 64 32
 Width: 740
 VWidth: -3
 Flags: HMW
@@ -1076,7 +1149,7 @@ Validated: 33
 EndChar
 
 StartChar: A
-Encoding: 65 65 33
+Encoding: 33 65 33
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -1132,10 +1205,12 @@ SplineSet
  410 253 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" A.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" A.smcpflag
 EndChar
 
 StartChar: B
-Encoding: 66 66 34
+Encoding: 34 66 34
 Width: 605
 VWidth: 0
 Flags: HMW
@@ -1168,10 +1243,12 @@ SplineSet
  312 41 l 6
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" B.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" B.smcpflag
 EndChar
 
 StartChar: C
-Encoding: 67 67 35
+Encoding: 35 67 35
 Width: 653
 VWidth: 0
 Flags: HMW
@@ -1198,10 +1275,12 @@ SplineSet
  551 15 480 -12 384 -12 c 7
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" C.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" C.smcpflag
 EndChar
 
 StartChar: D
-Encoding: 68 68 36
+Encoding: 36 68 36
 Width: 704
 VWidth: 0
 Flags: HMW
@@ -1228,10 +1307,12 @@ SplineSet
  209 598 l 1
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" D.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" D.smcpflag
 EndChar
 
 StartChar: E
-Encoding: 69 69 37
+Encoding: 37 69 37
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -1268,10 +1349,12 @@ SplineSet
  209 312 l 1
 EndSplineSet
 Validated: 1048581
+Ligature2: "SmallCapsClose subtable" E.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" E.smcpflag
 EndChar
 
 StartChar: F
-Encoding: 70 70 38
+Encoding: 38 70 38
 Width: 504
 VWidth: 0
 Flags: HMW
@@ -1305,10 +1388,12 @@ SplineSet
  206 302 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" F.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" F.smcpflag
 EndChar
 
 StartChar: G
-Encoding: 71 71 39
+Encoding: 39 71 39
 Width: 687
 VWidth: 0
 Flags: HMW
@@ -1339,10 +1424,12 @@ SplineSet
  458 33 507 42 520 50 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" G.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" G.smcpflag
 EndChar
 
 StartChar: H
-Encoding: 72 72 40
+Encoding: 40 72 40
 Width: 700
 VWidth: 0
 Flags: HMW
@@ -1382,10 +1469,12 @@ SplineSet
  55 638 l 1
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" H.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" H.smcpflag
 EndChar
 
 StartChar: I
-Encoding: 73 73 41
+Encoding: 41 73 41
 Width: 343
 VWidth: 0
 Flags: HMW
@@ -1409,10 +1498,12 @@ SplineSet
  210 596 l 5
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" I.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" I.smcpflag
 EndChar
 
 StartChar: J
-Encoding: 74 74 42
+Encoding: 42 74 42
 Width: 331
 VWidth: 0
 Flags: HMW
@@ -1434,10 +1525,12 @@ SplineSet
  203 596 l 5
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" J.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" J.smcpflag
 EndChar
 
 StartChar: K
-Encoding: 75 75 43
+Encoding: 43 75 43
 Width: 628
 VWidth: 0
 Flags: HMW
@@ -1475,10 +1568,12 @@ SplineSet
  509 599 l 1
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" K.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" K.smcpflag
 EndChar
 
 StartChar: L
-Encoding: 76 76 44
+Encoding: 44 76 44
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -1505,10 +1600,12 @@ SplineSet
  209 596 l 9
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" L.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" L.smcpflag
 EndChar
 
 StartChar: M
-Encoding: 77 77 45
+Encoding: 45 77 45
 Width: 860
 VWidth: 0
 Flags: HMW
@@ -1552,10 +1649,12 @@ SplineSet
  179 43 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" M.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" M.smcpflag
 EndChar
 
 StartChar: N
-Encoding: 78 78 46
+Encoding: 46 78 46
 Width: 703
 VWidth: 0
 Flags: HMW
@@ -1595,10 +1694,12 @@ SplineSet
  593 595 l 17
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" N.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" N.smcpflag
 EndChar
 
 StartChar: O
-Encoding: 79 79 47
+Encoding: 47 79 47
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -1621,10 +1722,12 @@ SplineSet
  647 116 518 -12 329 -12 c 3
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" O.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" O.smcpflag
 EndChar
 
 StartChar: P
-Encoding: 80 80 48
+Encoding: 48 80 48
 Width: 523
 VWidth: 0
 Flags: HMW
@@ -1653,10 +1756,12 @@ SplineSet
  205 600 l 13
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" P.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" P.smcpflag
 EndChar
 
 StartChar: Q
-Encoding: 81 81 49
+Encoding: 49 81 49
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -1673,10 +1778,12 @@ SplineSet
 EndSplineSet
 Refer: 47 79 N 1 0 0 1 0 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" Q.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" Q.smcpflag
 EndChar
 
 StartChar: R
-Encoding: 82 82 50
+Encoding: 50 82 50
 Width: 584
 VWidth: 0
 Flags: HMW
@@ -1710,10 +1817,12 @@ SplineSet
  205 600 l 9
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" R.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" R.smcpflag
 EndChar
 
 StartChar: S
-Encoding: 83 83 51
+Encoding: 51 83 51
 Width: 490
 VWidth: 0
 Flags: HMW
@@ -1744,10 +1853,12 @@ SplineSet
  106 56 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" S.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" S.smcpflag
 EndChar
 
 StartChar: T
-Encoding: 84 84 52
+Encoding: 52 84 52
 Width: 534
 VWidth: 0
 Flags: HMW
@@ -1780,10 +1891,12 @@ SplineSet
  306 598 l 9
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" T.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" T.smcpflag
 EndChar
 
 StartChar: U
-Encoding: 85 85 53
+Encoding: 53 85 53
 Width: 670
 VWidth: 0
 Flags: HMW
@@ -1813,10 +1926,12 @@ SplineSet
  452 38 509 82 509 245 c 2
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" U.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" U.smcpflag
 EndChar
 
 StartChar: V
-Encoding: 86 86 54
+Encoding: 54 86 54
 Width: 626
 VWidth: 0
 Flags: HMW
@@ -1842,10 +1957,12 @@ SplineSet
  548 599 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" V.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" V.smcpflag
 EndChar
 
 StartChar: W
-Encoding: 87 87 55
+Encoding: 55 87 55
 Width: 912
 VWidth: 0
 Flags: HMW
@@ -1878,10 +1995,12 @@ SplineSet
  497 598 l 1
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" W.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" W.smcpflag
 EndChar
 
 StartChar: X
-Encoding: 88 88 56
+Encoding: 56 88 56
 Width: 621
 VWidth: 0
 Flags: HMW
@@ -1924,10 +2043,12 @@ SplineSet
  206 601 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" X.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" X.smcpflag
 EndChar
 
 StartChar: Y
-Encoding: 89 89 57
+Encoding: 57 89 57
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -1963,10 +2084,12 @@ SplineSet
  319 39 l 9
 EndSplineSet
 Validated: 1048581
+Ligature2: "SmallCapsClose subtable" Y.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" Y.smcpflag
 EndChar
 
 StartChar: Z
-Encoding: 90 90 58
+Encoding: 58 90 58
 Width: 556
 VWidth: 0
 Flags: HMW
@@ -1994,10 +2117,12 @@ SplineSet
  444 44 l 1
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" Z.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" Z.smcpflag
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 59
+Encoding: 59 91 59
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -2019,7 +2144,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 60
+Encoding: 60 92 60
 Width: 280
 VWidth: 0
 Flags: HMW
@@ -2037,7 +2162,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 61
+Encoding: 61 93 61
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -2059,7 +2184,7 @@ Validated: 1
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 62
+Encoding: 62 94 62
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -2079,7 +2204,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 63
+Encoding: 63 95 63
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -2097,7 +2222,7 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 96 96 64
+Encoding: 64 96 64
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -2109,7 +2234,7 @@ Validated: 1
 EndChar
 
 StartChar: a
-Encoding: 97 97 65
+Encoding: 65 97 65
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -2142,11 +2267,12 @@ SplineSet
  118 72 130 37 181 37 c 3
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" a.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" a.smcp
 EndChar
 
 StartChar: b
-Encoding: 98 98 66
+Encoding: 66 98 66
 Width: 520
 VWidth: -3
 Flags: HMW
@@ -2175,11 +2301,12 @@ SplineSet
  402 437 475 379 475 235 c 3
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" b.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" b.smcp
 EndChar
 
 StartChar: c
-Encoding: 99 99 67
+Encoding: 67 99 67
 Width: 413
 VWidth: -3
 Flags: HMW
@@ -2204,11 +2331,12 @@ SplineSet
  292 391 264 396 241 396 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" c.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" c.smcp
 EndChar
 
 StartChar: d
-Encoding: 100 100 68
+Encoding: 68 100 68
 Width: 529
 VWidth: -3
 Flags: HMW
@@ -2253,11 +2381,12 @@ SplineSet
  434 693 l 1
 EndSplineSet
 Validated: 1048581
+Substitution2: "Single Substitution lookup 14 subtable" d.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" d.smcp
 EndChar
 
 StartChar: e
-Encoding: 101 101 69
+Encoding: 69 101 69
 Width: 423
 VWidth: -3
 Flags: HMW
@@ -2283,11 +2412,12 @@ SplineSet
  309 365 284 400 226 400 c 3
 EndSplineSet
 Validated: 1048581
+Substitution2: "Single Substitution lookup 14 subtable" e.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" e.smcp
 EndChar
 
 StartChar: f
-Encoding: 102 102 70
+Encoding: 70 102 70
 Width: 317
 VWidth: -3
 Flags: HMW
@@ -2320,11 +2450,12 @@ SplineSet
  112 604 198 679 280 679 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" f.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" f.smcp
 EndChar
 
 StartChar: g
-Encoding: 103 103 71
+Encoding: 71 103 71
 Width: 466
 VWidth: 0
 Flags: HMW
@@ -2369,11 +2500,12 @@ SplineSet
  328 383 l 1
 EndSplineSet
 Validated: 1048581
+Substitution2: "Single Substitution lookup 14 subtable" g.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" g.smcp
 EndChar
 
 StartChar: h
-Encoding: 104 104 72
+Encoding: 72 104 72
 Width: 569
 VWidth: -3
 Flags: HMW
@@ -2407,11 +2539,12 @@ SplineSet
  186 693 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" h.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" h.smcp
 EndChar
 
 StartChar: i
-Encoding: 105 105 73
+Encoding: 73 105 73
 Width: 278
 VWidth: -3
 Flags: HMW
@@ -2437,11 +2570,12 @@ SplineSet
  166 665 189 643 189 616 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" i.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" i.smcp
 EndChar
 
 StartChar: j
-Encoding: 106 106 74
+Encoding: 74 106 74
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -2465,11 +2599,12 @@ SplineSet
  45 419 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" j.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" j.smcp
 EndChar
 
 StartChar: k
-Encoding: 107 107 75
+Encoding: 75 107 75
 Width: 516
 VWidth: 0
 Flags: HMW
@@ -2504,11 +2639,12 @@ SplineSet
  340 384 l 9
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" k.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" k.smcp
 EndChar
 
 StartChar: l
-Encoding: 108 108 76
+Encoding: 76 108 76
 Width: 284
 VWidth: -3
 Flags: HMW
@@ -2531,11 +2667,12 @@ SplineSet
  44 677 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" l.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" l.smcp
 EndChar
 
 StartChar: m
-Encoding: 109 109 77
+Encoding: 77 109 77
 Width: 826
 VWidth: -3
 Flags: HMW
@@ -2581,11 +2718,12 @@ SplineSet
  180 432 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" m.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" m.smcp
 EndChar
 
 StartChar: n
-Encoding: 110 110 78
+Encoding: 78 110 78
 Width: 553
 VWidth: -3
 Flags: HMW
@@ -2620,11 +2758,12 @@ SplineSet
  180 432 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" n.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" n.smcp
 EndChar
 
 StartChar: o
-Encoding: 111 111 79
+Encoding: 79 111 79
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -2659,11 +2798,12 @@ SplineSet
  40 350 126 437 253 437 c 7
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" o.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" o.smcp
 EndChar
 
 StartChar: p
-Encoding: 112 112 80
+Encoding: 80 112 80
 Width: 529
 VWidth: -3
 Flags: HMW
@@ -2695,11 +2835,12 @@ SplineSet
  31 419 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" p.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" p.smcp
 EndChar
 
 StartChar: q
-Encoding: 113 113 81
+Encoding: 81 113 81
 Width: 529
 VWidth: -3
 Flags: HMW
@@ -2732,11 +2873,12 @@ SplineSet
  434 -196 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" q.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" q.smcp
 EndChar
 
 StartChar: r
-Encoding: 114 114 82
+Encoding: 82 114 82
 Width: 383
 VWidth: -3
 Flags: HMW
@@ -2766,11 +2908,12 @@ SplineSet
  180 432 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" r.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" r.smcp
 EndChar
 
 StartChar: s
-Encoding: 115 115 83
+Encoding: 83 115 83
 Width: 393
 VWidth: 0
 Flags: HMW
@@ -2801,11 +2944,12 @@ SplineSet
  55 380 106 437 209 437 c 7
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" s.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" s.smcp
 EndChar
 
 StartChar: t
-Encoding: 116 116 84
+Encoding: 84 116 84
 Width: 348
 VWidth: 0
 Flags: HMW
@@ -2835,11 +2979,12 @@ SplineSet
  167 547 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" t.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" t.smcp
 EndChar
 
 StartChar: u
-Encoding: 117 117 85
+Encoding: 85 117 85
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -2870,11 +3015,12 @@ SplineSet
  165 429 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" u.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" u.smcp
 EndChar
 
 StartChar: v
-Encoding: 118 118 86
+Encoding: 86 118 86
 Width: 461
 VWidth: -3
 Flags: HMW
@@ -2900,11 +3046,12 @@ SplineSet
  401 389 l 21
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" v.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" v.smcp
 EndChar
 
 StartChar: w
-Encoding: 119 119 87
+Encoding: 87 119 87
 Width: 710
 VWidth: -3
 Flags: HMW
@@ -2937,11 +3084,12 @@ SplineSet
  391 406 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" w.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" w.smcp
 EndChar
 
 StartChar: x
-Encoding: 120 120 88
+Encoding: 88 120 88
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -2984,11 +3132,12 @@ SplineSet
  183 393 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" x.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" x.smcp
 EndChar
 
 StartChar: y
-Encoding: 121 121 89
+Encoding: 89 121 89
 Width: 451
 VWidth: -3
 Flags: HMW
@@ -3021,11 +3170,12 @@ SplineSet
  34 -154 l 1
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" y.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" y.smcp
 EndChar
 
 StartChar: z
-Encoding: 122 122 90
+Encoding: 90 122 90
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -3053,11 +3203,12 @@ SplineSet
  327 36 l 5
 EndSplineSet
 Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" z.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" z.smcp
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 91
+Encoding: 91 123 91
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -3086,7 +3237,7 @@ Validated: 33
 EndChar
 
 StartChar: bar
-Encoding: 124 124 92
+Encoding: 92 124 92
 Width: 204
 VWidth: 0
 Flags: HMW
@@ -3104,7 +3255,7 @@ Validated: 1
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 93
+Encoding: 93 125 93
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -3116,7 +3267,7 @@ Validated: 1
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 94
+Encoding: 94 126 94
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -3138,7 +3289,7 @@ Validated: 1
 EndChar
 
 StartChar: exclamdown
-Encoding: 161 161 95
+Encoding: 96 161 95
 Width: 250
 VWidth: 0
 Flags: HMW
@@ -3150,7 +3301,7 @@ Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 162 162 96
+Encoding: 97 162 96
 Width: 453
 VWidth: 0
 Flags: HMW
@@ -3169,7 +3320,7 @@ Validated: 5
 EndChar
 
 StartChar: sterling
-Encoding: 163 163 97
+Encoding: 98 163 97
 Width: 444
 VWidth: -3
 Flags: HMW
@@ -3207,7 +3358,7 @@ Validated: 1
 EndChar
 
 StartChar: yen
-Encoding: 165 165 98
+Encoding: 99 165 98
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -3263,7 +3414,7 @@ Validated: 5
 EndChar
 
 StartChar: brokenbar
-Encoding: 166 166 99
+Encoding: 100 166 99
 Width: 204
 VWidth: 0
 Flags: HMW
@@ -3286,7 +3437,7 @@ Validated: 1
 EndChar
 
 StartChar: section
-Encoding: 167 167 100
+Encoding: 101 167 100
 Width: 454
 VWidth: 0
 Flags: HMW
@@ -3329,7 +3480,7 @@ Validated: 5
 EndChar
 
 StartChar: dieresis
-Encoding: 168 168 101
+Encoding: 102 168 101
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -3342,7 +3493,7 @@ Validated: 1
 EndChar
 
 StartChar: copyright
-Encoding: 169 169 102
+Encoding: 103 169 102
 Width: 721
 VWidth: 0
 Flags: HMW
@@ -3378,7 +3529,7 @@ Validated: 1
 EndChar
 
 StartChar: ordfeminine
-Encoding: 170 170 103
+Encoding: 104 170 103
 Width: 354
 VWidth: -3
 Flags: HMW
@@ -3414,7 +3565,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotleft
-Encoding: 171 171 104
+Encoding: 105 171 104
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -3427,7 +3578,7 @@ Validated: 1
 EndChar
 
 StartChar: logicalnot
-Encoding: 172 172 105
+Encoding: 106 172 105
 Width: 494
 VWidth: 0
 Flags: HMW
@@ -3450,7 +3601,7 @@ Validated: 5
 EndChar
 
 StartChar: uni00AD
-Encoding: 173 173 106
+Encoding: 107 173 106
 Width: 300
 VWidth: 0
 Flags: HMW
@@ -3462,7 +3613,7 @@ Validated: 1
 EndChar
 
 StartChar: registered
-Encoding: 174 174 107
+Encoding: 108 174 107
 Width: 721
 VWidth: 0
 Flags: HMW
@@ -3507,7 +3658,7 @@ Validated: 1
 EndChar
 
 StartChar: macron
-Encoding: 175 175 108
+Encoding: 109 175 108
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -3519,7 +3670,7 @@ Validated: 1
 EndChar
 
 StartChar: degree
-Encoding: 176 176 109
+Encoding: 110 176 109
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -3544,7 +3695,7 @@ Validated: 1
 EndChar
 
 StartChar: plusminus
-Encoding: 177 177 110
+Encoding: 111 177 110
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -3572,7 +3723,7 @@ Validated: 5
 EndChar
 
 StartChar: uni00B2
-Encoding: 178 178 111
+Encoding: 112 178 111
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -3601,7 +3752,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum two
 EndChar
 
 StartChar: uni00B3
-Encoding: 179 179 112
+Encoding: 113 179 112
 Width: 368
 VWidth: 0
 Flags: HMW
@@ -3632,7 +3783,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum three
 EndChar
 
 StartChar: acute
-Encoding: 180 180 113
+Encoding: 114 180 113
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -3644,7 +3795,7 @@ Validated: 1
 EndChar
 
 StartChar: mu
-Encoding: 181 181 114
+Encoding: 115 181 114
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -3681,7 +3832,7 @@ Validated: 1
 EndChar
 
 StartChar: paragraph
-Encoding: 182 182 115
+Encoding: 116 182 115
 Width: 523
 VWidth: 0
 Flags: HMW
@@ -3707,7 +3858,7 @@ Validated: 1
 EndChar
 
 StartChar: periodcentered
-Encoding: 183 183 116
+Encoding: 117 183 116
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -3719,7 +3870,7 @@ Validated: 1
 EndChar
 
 StartChar: cedilla
-Encoding: 184 184 117
+Encoding: 118 184 117
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -3731,7 +3882,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B9
-Encoding: 185 185 118
+Encoding: 119 185 118
 Width: 322
 VWidth: -3
 Flags: HMW
@@ -3757,7 +3908,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum one
 EndChar
 
 StartChar: ordmasculine
-Encoding: 186 186 119
+Encoding: 120 186 119
 Width: 362
 VWidth: -3
 Flags: HMW
@@ -3782,7 +3933,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotright
-Encoding: 187 187 120
+Encoding: 121 187 120
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -3795,7 +3946,7 @@ Validated: 1
 EndChar
 
 StartChar: onequarter
-Encoding: 188 188 121
+Encoding: 122 188 121
 Width: 840
 VWidth: 0
 Flags: HMW
@@ -3809,7 +3960,7 @@ Validated: 5
 EndChar
 
 StartChar: onehalf
-Encoding: 189 189 122
+Encoding: 123 189 122
 Width: 840
 VWidth: 0
 Flags: HMW
@@ -3823,7 +3974,7 @@ Validated: 1
 EndChar
 
 StartChar: threequarters
-Encoding: 190 190 123
+Encoding: 124 190 123
 Width: 840
 VWidth: 0
 Flags: HMW
@@ -3837,7 +3988,7 @@ Validated: 5
 EndChar
 
 StartChar: questiondown
-Encoding: 191 191 124
+Encoding: 125 191 124
 Width: 420
 VWidth: 0
 Flags: HMW
@@ -3849,7 +4000,7 @@ Validated: 1
 EndChar
 
 StartChar: Agrave
-Encoding: 192 192 125
+Encoding: 126 192 125
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -3862,7 +4013,7 @@ Validated: 1
 EndChar
 
 StartChar: Aacute
-Encoding: 193 193 126
+Encoding: 127 193 126
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -3875,7 +4026,7 @@ Validated: 1
 EndChar
 
 StartChar: Acircumflex
-Encoding: 194 194 127
+Encoding: 128 194 127
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -3888,7 +4039,7 @@ Validated: 1
 EndChar
 
 StartChar: Atilde
-Encoding: 195 195 128
+Encoding: 129 195 128
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -3901,7 +4052,7 @@ Validated: 1
 EndChar
 
 StartChar: Adieresis
-Encoding: 196 196 129
+Encoding: 130 196 129
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -3914,7 +4065,7 @@ Validated: 1
 EndChar
 
 StartChar: Aring
-Encoding: 197 197 130
+Encoding: 131 197 130
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -3927,7 +4078,7 @@ Validated: 1
 EndChar
 
 StartChar: AE
-Encoding: 198 198 131
+Encoding: 132 198 131
 Width: 855
 VWidth: 0
 Flags: HMW
@@ -3982,7 +4133,7 @@ Colour: ff9994
 EndChar
 
 StartChar: Ccedilla
-Encoding: 199 199 132
+Encoding: 133 199 132
 Width: 653
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -3995,7 +4146,7 @@ Refer: 35 67 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Egrave
-Encoding: 200 200 133
+Encoding: 134 200 133
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -4008,7 +4159,7 @@ Validated: 5
 EndChar
 
 StartChar: Eacute
-Encoding: 201 201 134
+Encoding: 135 201 134
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -4021,7 +4172,7 @@ Validated: 5
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 202 202 135
+Encoding: 136 202 135
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -4034,7 +4185,7 @@ Validated: 5
 EndChar
 
 StartChar: Edieresis
-Encoding: 203 203 136
+Encoding: 137 203 136
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -4047,7 +4198,7 @@ Validated: 5
 EndChar
 
 StartChar: Igrave
-Encoding: 204 204 137
+Encoding: 138 204 137
 Width: 343
 VWidth: 0
 Flags: HMW
@@ -4060,7 +4211,7 @@ Validated: 1
 EndChar
 
 StartChar: Iacute
-Encoding: 205 205 138
+Encoding: 139 205 138
 Width: 343
 VWidth: 0
 Flags: HMW
@@ -4073,7 +4224,7 @@ Validated: 1
 EndChar
 
 StartChar: Icircumflex
-Encoding: 206 206 139
+Encoding: 140 206 139
 Width: 343
 VWidth: 0
 Flags: HMW
@@ -4086,7 +4237,7 @@ Validated: 1
 EndChar
 
 StartChar: Idieresis
-Encoding: 207 207 140
+Encoding: 141 207 140
 Width: 343
 VWidth: 0
 Flags: HMW
@@ -4099,7 +4250,7 @@ Validated: 1
 EndChar
 
 StartChar: Eth
-Encoding: 208 208 141
+Encoding: 142 208 141
 Width: 733
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -4118,7 +4269,7 @@ Refer: 36 68 N 1 0 0 1 5 0 2
 EndChar
 
 StartChar: Ntilde
-Encoding: 209 209 142
+Encoding: 143 209 142
 Width: 703
 VWidth: 0
 Flags: HMW
@@ -4131,7 +4282,7 @@ Validated: 5
 EndChar
 
 StartChar: Ograve
-Encoding: 210 210 143
+Encoding: 144 210 143
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -4144,7 +4295,7 @@ Validated: 1
 EndChar
 
 StartChar: Oacute
-Encoding: 211 211 144
+Encoding: 145 211 144
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -4157,7 +4308,7 @@ Validated: 1
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 212 212 145
+Encoding: 146 212 145
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -4170,7 +4321,7 @@ Validated: 1
 EndChar
 
 StartChar: Otilde
-Encoding: 213 213 146
+Encoding: 147 213 146
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -4183,7 +4334,7 @@ Validated: 1
 EndChar
 
 StartChar: Odieresis
-Encoding: 214 214 147
+Encoding: 148 214 147
 Width: 707
 VWidth: 0
 Flags: HMW
@@ -4196,7 +4347,7 @@ Validated: 1
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 148
+Encoding: 149 215 148
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -4219,7 +4370,7 @@ Validated: 5
 EndChar
 
 StartChar: Oslash
-Encoding: 216 216 149
+Encoding: 150 216 149
 Width: 707
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -4238,7 +4389,7 @@ Refer: 47 79 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ugrave
-Encoding: 217 217 150
+Encoding: 151 217 150
 Width: 670
 VWidth: 0
 Flags: HMW
@@ -4251,7 +4402,7 @@ Validated: 1
 EndChar
 
 StartChar: Uacute
-Encoding: 218 218 151
+Encoding: 152 218 151
 Width: 670
 VWidth: 0
 Flags: HMW
@@ -4264,7 +4415,7 @@ Validated: 1
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 219 219 152
+Encoding: 153 219 152
 Width: 670
 VWidth: 0
 Flags: HMW
@@ -4277,7 +4428,7 @@ Validated: 1
 EndChar
 
 StartChar: Udieresis
-Encoding: 220 220 153
+Encoding: 154 220 153
 Width: 670
 VWidth: 0
 Flags: HMW
@@ -4290,7 +4441,7 @@ Validated: 1
 EndChar
 
 StartChar: Yacute
-Encoding: 221 221 154
+Encoding: 155 221 154
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -4303,7 +4454,7 @@ Validated: 5
 EndChar
 
 StartChar: Thorn
-Encoding: 222 222 155
+Encoding: 156 222 155
 Width: 532
 VWidth: 0
 Flags: HMW
@@ -4341,7 +4492,7 @@ Colour: ff9994
 EndChar
 
 StartChar: germandbls
-Encoding: 223 223 156
+Encoding: 157 223 156
 Width: 543
 VWidth: -3
 Flags: HMW
@@ -4387,7 +4538,7 @@ Colour: ff9994
 EndChar
 
 StartChar: agrave
-Encoding: 224 224 157
+Encoding: 158 224 157
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -4400,7 +4551,7 @@ Validated: 1
 EndChar
 
 StartChar: aacute
-Encoding: 225 225 158
+Encoding: 159 225 158
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -4413,7 +4564,7 @@ Validated: 1
 EndChar
 
 StartChar: acircumflex
-Encoding: 226 226 159
+Encoding: 160 226 159
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -4426,7 +4577,7 @@ Validated: 1
 EndChar
 
 StartChar: atilde
-Encoding: 227 227 160
+Encoding: 161 227 160
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -4439,7 +4590,7 @@ Validated: 1
 EndChar
 
 StartChar: adieresis
-Encoding: 228 228 161
+Encoding: 162 228 161
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -4452,7 +4603,7 @@ Validated: 1
 EndChar
 
 StartChar: aring
-Encoding: 229 229 162
+Encoding: 163 229 162
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -4465,7 +4616,7 @@ Validated: 1
 EndChar
 
 StartChar: ae
-Encoding: 230 230 163
+Encoding: 164 230 163
 Width: 648
 VWidth: -3
 Flags: HMW
@@ -4510,7 +4661,7 @@ Colour: ff9994
 EndChar
 
 StartChar: ccedilla
-Encoding: 231 231 164
+Encoding: 165 231 164
 Width: 413
 VWidth: -3
 UnlinkRmOvrlpSave: 1
@@ -4523,7 +4674,7 @@ Refer: 67 99 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: egrave
-Encoding: 232 232 165
+Encoding: 166 232 165
 Width: 423
 VWidth: -3
 Flags: HMW
@@ -4536,7 +4687,7 @@ Validated: 5
 EndChar
 
 StartChar: eacute
-Encoding: 233 233 166
+Encoding: 167 233 166
 Width: 423
 VWidth: -3
 Flags: HMW
@@ -4549,7 +4700,7 @@ Validated: 5
 EndChar
 
 StartChar: ecircumflex
-Encoding: 234 234 167
+Encoding: 168 234 167
 Width: 423
 VWidth: -3
 Flags: HMW
@@ -4562,7 +4713,7 @@ Validated: 5
 EndChar
 
 StartChar: edieresis
-Encoding: 235 235 168
+Encoding: 169 235 168
 Width: 423
 VWidth: -3
 Flags: HMW
@@ -4575,7 +4726,7 @@ Validated: 5
 EndChar
 
 StartChar: igrave
-Encoding: 236 236 169
+Encoding: 170 236 169
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -4588,7 +4739,7 @@ Validated: 1
 EndChar
 
 StartChar: iacute
-Encoding: 237 237 170
+Encoding: 171 237 170
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -4601,7 +4752,7 @@ Validated: 1
 EndChar
 
 StartChar: icircumflex
-Encoding: 238 238 171
+Encoding: 172 238 171
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -4614,7 +4765,7 @@ Validated: 1
 EndChar
 
 StartChar: idieresis
-Encoding: 239 239 172
+Encoding: 173 239 172
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -4627,7 +4778,7 @@ Validated: 1
 EndChar
 
 StartChar: eth
-Encoding: 240 240 173
+Encoding: 174 240 173
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -4658,7 +4809,7 @@ Validated: 5
 EndChar
 
 StartChar: ntilde
-Encoding: 241 241 174
+Encoding: 175 241 174
 Width: 553
 VWidth: -3
 Flags: HMW
@@ -4671,7 +4822,7 @@ Validated: 1
 EndChar
 
 StartChar: ograve
-Encoding: 242 242 175
+Encoding: 176 242 175
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -4684,7 +4835,7 @@ Validated: 1
 EndChar
 
 StartChar: oacute
-Encoding: 243 243 176
+Encoding: 177 243 176
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -4697,7 +4848,7 @@ Validated: 1
 EndChar
 
 StartChar: ocircumflex
-Encoding: 244 244 177
+Encoding: 178 244 177
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -4710,7 +4861,7 @@ Validated: 1
 EndChar
 
 StartChar: otilde
-Encoding: 245 245 178
+Encoding: 179 245 178
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -4723,7 +4874,7 @@ Validated: 1
 EndChar
 
 StartChar: odieresis
-Encoding: 246 246 179
+Encoding: 180 246 179
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -4736,7 +4887,7 @@ Validated: 1
 EndChar
 
 StartChar: divide
-Encoding: 247 247 180
+Encoding: 181 247 180
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -4756,7 +4907,7 @@ Validated: 1
 EndChar
 
 StartChar: oslash
-Encoding: 248 248 181
+Encoding: 182 248 181
 Width: 484
 VWidth: -3
 UnlinkRmOvrlpSave: 1
@@ -4775,7 +4926,7 @@ Refer: 79 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ugrave
-Encoding: 249 249 182
+Encoding: 183 249 182
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -4788,7 +4939,7 @@ Validated: 1
 EndChar
 
 StartChar: uacute
-Encoding: 250 250 183
+Encoding: 184 250 183
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -4801,7 +4952,7 @@ Validated: 1
 EndChar
 
 StartChar: ucircumflex
-Encoding: 251 251 184
+Encoding: 185 251 184
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -4814,7 +4965,7 @@ Validated: 1
 EndChar
 
 StartChar: udieresis
-Encoding: 252 252 185
+Encoding: 186 252 185
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -4827,7 +4978,7 @@ Validated: 1
 EndChar
 
 StartChar: yacute
-Encoding: 253 253 186
+Encoding: 187 253 186
 Width: 451
 VWidth: -3
 Flags: HMW
@@ -4840,7 +4991,7 @@ Validated: 1
 EndChar
 
 StartChar: thorn
-Encoding: 254 254 187
+Encoding: 188 254 187
 Width: 529
 VWidth: -3
 Flags: HMW
@@ -4876,7 +5027,7 @@ Colour: ff9994
 EndChar
 
 StartChar: ydieresis
-Encoding: 255 255 188
+Encoding: 189 255 188
 Width: 451
 VWidth: -3
 Flags: HMW
@@ -4889,7 +5040,7 @@ Validated: 1
 EndChar
 
 StartChar: dotlessi
-Encoding: 305 305 189
+Encoding: 239 305 189
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -4915,7 +5066,7 @@ Colour: ff9994
 EndChar
 
 StartChar: OE
-Encoding: 338 338 190
+Encoding: 272 338 190
 Width: 869
 VWidth: 0
 Flags: HMW
@@ -4959,7 +5110,7 @@ Colour: ff9994
 EndChar
 
 StartChar: oe
-Encoding: 339 339 191
+Encoding: 273 339 191
 Width: 729
 VWidth: -3
 Flags: HMW
@@ -4998,7 +5149,7 @@ Colour: ff9994
 EndChar
 
 StartChar: Scaron
-Encoding: 352 352 192
+Encoding: 286 352 192
 Width: 490
 VWidth: 0
 Flags: HMW
@@ -5011,7 +5162,7 @@ Validated: 1
 EndChar
 
 StartChar: scaron
-Encoding: 353 353 193
+Encoding: 287 353 193
 Width: 393
 VWidth: 0
 Flags: HMW
@@ -5024,7 +5175,7 @@ Validated: 1
 EndChar
 
 StartChar: Ydieresis
-Encoding: 376 376 194
+Encoding: 310 376 194
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -5037,7 +5188,7 @@ Validated: 5
 EndChar
 
 StartChar: Zcaron
-Encoding: 381 381 195
+Encoding: 315 381 195
 Width: 556
 VWidth: 0
 Flags: HMW
@@ -5050,7 +5201,7 @@ Validated: 1
 EndChar
 
 StartChar: zcaron
-Encoding: 382 382 196
+Encoding: 316 382 196
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -5063,7 +5214,7 @@ Validated: 1
 EndChar
 
 StartChar: longs
-Encoding: 383 383 197
+Encoding: 317 383 197
 Width: 317
 VWidth: -3
 Flags: HMW
@@ -5097,7 +5248,7 @@ Validated: 5
 EndChar
 
 StartChar: circumflex
-Encoding: 710 710 198
+Encoding: 417 710 198
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5109,7 +5260,7 @@ Validated: 1
 EndChar
 
 StartChar: caron
-Encoding: 711 711 199
+Encoding: 418 711 199
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5122,7 +5273,7 @@ Validated: 5
 EndChar
 
 StartChar: uni02CA
-Encoding: 714 714 200
+Encoding: 421 714 200
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5134,7 +5285,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02CB
-Encoding: 715 715 201
+Encoding: 422 715 201
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5146,7 +5297,7 @@ Validated: 1
 EndChar
 
 StartChar: ring
-Encoding: 730 730 202
+Encoding: 428 730 202
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5158,7 +5309,7 @@ Validated: 1
 EndChar
 
 StartChar: tilde
-Encoding: 732 732 203
+Encoding: 429 732 203
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5170,7 +5321,7 @@ Validated: 1
 EndChar
 
 StartChar: Sigma
-Encoding: 931 931 204
+Encoding: 447 931 204
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -5201,7 +5352,7 @@ Validated: 1
 EndChar
 
 StartChar: figuredash
-Encoding: 8210 8210 205
+Encoding: 455 8210 205
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5213,7 +5364,7 @@ Validated: 1
 EndChar
 
 StartChar: endash
-Encoding: 8211 8211 206
+Encoding: 456 8211 206
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5228,10 +5379,12 @@ SplineSet
  20 217 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" endash.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" endash.smcpflag
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 207
+Encoding: 457 8212 207
 Width: 940
 VWidth: 0
 Flags: HMW
@@ -5246,10 +5399,12 @@ SplineSet
  20 217 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" emdash.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" emdash.smcpflag
 EndChar
 
 StartChar: quoteleft
-Encoding: 8216 8216 208
+Encoding: 458 8216 208
 Width: 167
 VWidth: 0
 Flags: HMW
@@ -5258,10 +5413,12 @@ Back
 Fore
 Refer: 209 8217 S -1 0 0 -1 167 1136 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quoteleft.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quoteleft.smcpflag
 EndChar
 
 StartChar: quoteright
-Encoding: 8217 8217 209
+Encoding: 459 8217 209
 Width: 167
 VWidth: 0
 Flags: HMW
@@ -5279,10 +5436,12 @@ SplineSet
  25 665 46 690 81 690 c 7
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quoteright.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quoteright.smcpflag
 EndChar
 
 StartChar: quotedblleft
-Encoding: 8220 8220 210
+Encoding: 462 8220 210
 Width: 430
 VWidth: 0
 Flags: HMW
@@ -5291,10 +5450,12 @@ Back
 Fore
 Refer: 211 8221 N -1 0 0 -1 430 1136 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedblleft.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedblleft.smcpflag
 EndChar
 
 StartChar: quotedblright
-Encoding: 8221 8221 211
+Encoding: 463 8221 211
 Width: 430
 VWidth: 0
 Flags: HMW
@@ -5304,10 +5465,12 @@ Fore
 Refer: 209 8217 N 1 0 0 1 238 0 2
 Refer: 209 8217 N 1 0 0 1 25 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedblright.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedblright.smcpflag
 EndChar
 
 StartChar: ellipsis
-Encoding: 8230 8230 212
+Encoding: 468 8230 212
 Width: 1000
 VWidth: 0
 Flags: HMW
@@ -5318,10 +5481,12 @@ Refer: 14 46 N 1 0 0 1 710 1 2
 Refer: 14 46 N 1 0 0 1 385 1 2
 Refer: 14 46 N 1 0 0 1 60 1 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" ellipsis.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" ellipsis.smcpflag
 EndChar
 
 StartChar: Delta
-Encoding: 8710 8710 213
+Encoding: 499 8710 213
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -5343,7 +5508,7 @@ Validated: 1
 EndChar
 
 StartChar: summation
-Encoding: 8721 8721 214
+Encoding: 501 8721 214
 Width: 750
 VWidth: 0
 Flags: HMW
@@ -5374,7 +5539,7 @@ Validated: 1
 EndChar
 
 StartChar: minus
-Encoding: 8722 8722 215
+Encoding: 502 8722 215
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -5392,7 +5557,7 @@ Validated: 1
 EndChar
 
 StartChar: radical
-Encoding: 8730 8730 216
+Encoding: 504 8730 216
 Width: 580
 Flags: HMW
 LayerCount: 2
@@ -5415,7 +5580,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02C9
-Encoding: 713 713 217
+Encoding: 420 713 217
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5427,7 +5592,7 @@ Validated: 1
 EndChar
 
 StartChar: amacron
-Encoding: 257 257 218
+Encoding: 191 257 218
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -5440,7 +5605,7 @@ Validated: 1
 EndChar
 
 StartChar: dotaccent
-Encoding: 729 729 219
+Encoding: 427 729 219
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5452,7 +5617,7 @@ Validated: 1
 EndChar
 
 StartChar: breve
-Encoding: 728 728 220
+Encoding: 426 728 220
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -5464,7 +5629,7 @@ Validated: 1
 EndChar
 
 StartChar: eogonek
-Encoding: 281 281 221
+Encoding: 215 281 221
 Width: 423
 VWidth: -3
 UnlinkRmOvrlpSave: 1
@@ -5487,7 +5652,7 @@ Refer: 69 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Amacron
-Encoding: 256 256 222
+Encoding: 190 256 222
 Width: 652
 VWidth: 0
 Flags: HM
@@ -5500,7 +5665,7 @@ Validated: 1
 EndChar
 
 StartChar: Abreve
-Encoding: 258 258 223
+Encoding: 192 258 223
 Width: 652
 VWidth: 0
 Flags: HM
@@ -5513,7 +5678,7 @@ Validated: 1
 EndChar
 
 StartChar: abreve
-Encoding: 259 259 224
+Encoding: 193 259 224
 Width: 448
 VWidth: 0
 Flags: HM
@@ -5526,7 +5691,7 @@ Validated: 1
 EndChar
 
 StartChar: Cacute
-Encoding: 262 262 225
+Encoding: 196 262 225
 Width: 653
 VWidth: 0
 Flags: HMW
@@ -5539,7 +5704,7 @@ Validated: 1
 EndChar
 
 StartChar: cacute
-Encoding: 263 263 226
+Encoding: 197 263 226
 Width: 413
 VWidth: 0
 Flags: HM
@@ -5552,7 +5717,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccircumflex
-Encoding: 264 264 227
+Encoding: 198 264 227
 Width: 653
 VWidth: 0
 Flags: HMW
@@ -5565,7 +5730,7 @@ Validated: 1
 EndChar
 
 StartChar: ccircumflex
-Encoding: 265 265 228
+Encoding: 199 265 228
 Width: 413
 VWidth: 0
 Flags: HM
@@ -5578,7 +5743,7 @@ Validated: 1
 EndChar
 
 StartChar: Cdotaccent
-Encoding: 266 266 229
+Encoding: 200 266 229
 Width: 653
 VWidth: 0
 Flags: HMW
@@ -5591,7 +5756,7 @@ Validated: 1
 EndChar
 
 StartChar: cdotaccent
-Encoding: 267 267 230
+Encoding: 201 267 230
 Width: 413
 VWidth: 0
 Flags: HM
@@ -5604,7 +5769,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccaron
-Encoding: 268 268 231
+Encoding: 202 268 231
 Width: 653
 VWidth: 0
 Flags: HMW
@@ -5617,7 +5782,7 @@ Validated: 1
 EndChar
 
 StartChar: ccaron
-Encoding: 269 269 232
+Encoding: 203 269 232
 Width: 413
 VWidth: 0
 Flags: HM
@@ -5630,7 +5795,7 @@ Validated: 1
 EndChar
 
 StartChar: Dcaron
-Encoding: 270 270 233
+Encoding: 204 270 233
 Width: 704
 VWidth: 0
 Flags: HM
@@ -5643,7 +5808,7 @@ Validated: 1
 EndChar
 
 StartChar: dcaron
-Encoding: 271 271 234
+Encoding: 205 271 234
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -5656,7 +5821,7 @@ Validated: 5
 EndChar
 
 StartChar: Emacron
-Encoding: 274 274 235
+Encoding: 208 274 235
 Width: 579
 VWidth: 0
 Flags: HM
@@ -5669,7 +5834,7 @@ Validated: 5
 EndChar
 
 StartChar: emacron
-Encoding: 275 275 236
+Encoding: 209 275 236
 Width: 423
 VWidth: 0
 Flags: HMW
@@ -5682,7 +5847,7 @@ Validated: 5
 EndChar
 
 StartChar: Ebreve
-Encoding: 276 276 237
+Encoding: 210 276 237
 Width: 579
 VWidth: 0
 Flags: HM
@@ -5695,7 +5860,7 @@ Validated: 5
 EndChar
 
 StartChar: ebreve
-Encoding: 277 277 238
+Encoding: 211 277 238
 Width: 423
 VWidth: 0
 Flags: HMW
@@ -5708,7 +5873,7 @@ Validated: 5
 EndChar
 
 StartChar: Edotaccent
-Encoding: 278 278 239
+Encoding: 212 278 239
 Width: 579
 VWidth: 0
 Flags: HM
@@ -5721,7 +5886,7 @@ Validated: 5
 EndChar
 
 StartChar: edotaccent
-Encoding: 279 279 240
+Encoding: 213 279 240
 Width: 423
 VWidth: 0
 Flags: HMW
@@ -5734,7 +5899,7 @@ Validated: 5
 EndChar
 
 StartChar: Ecaron
-Encoding: 282 282 241
+Encoding: 216 282 241
 Width: 579
 VWidth: 0
 Flags: HM
@@ -5747,7 +5912,7 @@ Validated: 5
 EndChar
 
 StartChar: ecaron
-Encoding: 283 283 242
+Encoding: 217 283 242
 Width: 423
 VWidth: 0
 Flags: HMW
@@ -5760,7 +5925,7 @@ Validated: 5
 EndChar
 
 StartChar: Gcircumflex
-Encoding: 284 284 243
+Encoding: 218 284 243
 Width: 687
 VWidth: 0
 Flags: HM
@@ -5773,7 +5938,7 @@ Validated: 1
 EndChar
 
 StartChar: gcircumflex
-Encoding: 285 285 244
+Encoding: 219 285 244
 Width: 466
 VWidth: 0
 Flags: HM
@@ -5786,7 +5951,7 @@ Validated: 5
 EndChar
 
 StartChar: Gbreve
-Encoding: 286 286 245
+Encoding: 220 286 245
 Width: 687
 VWidth: 0
 Flags: HM
@@ -5799,7 +5964,7 @@ Validated: 1
 EndChar
 
 StartChar: gbreve
-Encoding: 287 287 246
+Encoding: 221 287 246
 Width: 466
 VWidth: 0
 Flags: HM
@@ -5812,7 +5977,7 @@ Validated: 5
 EndChar
 
 StartChar: Gdotaccent
-Encoding: 288 288 247
+Encoding: 222 288 247
 Width: 687
 VWidth: 0
 Flags: HM
@@ -5825,7 +5990,7 @@ Validated: 1
 EndChar
 
 StartChar: gdotaccent
-Encoding: 289 289 248
+Encoding: 223 289 248
 Width: 466
 VWidth: 0
 Flags: HM
@@ -5838,7 +6003,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0122
-Encoding: 290 290 249
+Encoding: 224 290 249
 Width: 687
 VWidth: 0
 Flags: HM
@@ -5851,7 +6016,7 @@ Validated: 1
 EndChar
 
 StartChar: Hcircumflex
-Encoding: 292 292 250
+Encoding: 226 292 250
 Width: 700
 VWidth: 0
 Flags: HM
@@ -5864,7 +6029,7 @@ Validated: 1
 EndChar
 
 StartChar: hcircumflex
-Encoding: 293 293 251
+Encoding: 227 293 251
 Width: 569
 VWidth: 0
 Flags: HM
@@ -5877,7 +6042,7 @@ Validated: 1
 EndChar
 
 StartChar: Itilde
-Encoding: 296 296 252
+Encoding: 230 296 252
 Width: 343
 VWidth: 0
 Flags: HM
@@ -5890,7 +6055,7 @@ Validated: 1
 EndChar
 
 StartChar: itilde
-Encoding: 297 297 253
+Encoding: 231 297 253
 Width: 282
 VWidth: 0
 Flags: HM
@@ -5903,7 +6068,7 @@ Validated: 1
 EndChar
 
 StartChar: Imacron
-Encoding: 298 298 254
+Encoding: 232 298 254
 Width: 343
 VWidth: 0
 Flags: HM
@@ -5916,7 +6081,7 @@ Validated: 1
 EndChar
 
 StartChar: imacron
-Encoding: 299 299 255
+Encoding: 233 299 255
 Width: 282
 VWidth: 0
 Flags: HM
@@ -5929,7 +6094,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibreve
-Encoding: 300 300 256
+Encoding: 234 300 256
 Width: 343
 VWidth: 0
 Flags: HM
@@ -5942,7 +6107,7 @@ Validated: 1
 EndChar
 
 StartChar: ibreve
-Encoding: 301 301 257
+Encoding: 235 301 257
 Width: 282
 VWidth: 0
 Flags: HM
@@ -5955,7 +6120,7 @@ Validated: 1
 EndChar
 
 StartChar: Idotaccent
-Encoding: 304 304 258
+Encoding: 238 304 258
 Width: 343
 VWidth: 0
 Flags: HM
@@ -5968,7 +6133,7 @@ Validated: 1
 EndChar
 
 StartChar: Jcircumflex
-Encoding: 308 308 259
+Encoding: 242 308 259
 Width: 331
 VWidth: 0
 Flags: HM
@@ -5981,7 +6146,7 @@ Validated: 1
 EndChar
 
 StartChar: jcircumflex
-Encoding: 309 309 260
+Encoding: 243 309 260
 Width: 282
 VWidth: 0
 Flags: HM
@@ -5994,7 +6159,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0136
-Encoding: 310 310 261
+Encoding: 244 310 261
 Width: 628
 VWidth: 0
 Flags: HM
@@ -6007,7 +6172,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0137
-Encoding: 311 311 262
+Encoding: 245 311 262
 Width: 516
 VWidth: 0
 Flags: HMW
@@ -6020,7 +6185,7 @@ Validated: 1
 EndChar
 
 StartChar: Lacute
-Encoding: 313 313 263
+Encoding: 247 313 263
 Width: 552
 VWidth: 0
 Flags: HM
@@ -6033,7 +6198,7 @@ Validated: 1
 EndChar
 
 StartChar: lacute
-Encoding: 314 314 264
+Encoding: 248 314 264
 Width: 284
 VWidth: 0
 Flags: HM
@@ -6046,7 +6211,7 @@ Validated: 1
 EndChar
 
 StartChar: uni013B
-Encoding: 315 315 265
+Encoding: 249 315 265
 Width: 552
 VWidth: 0
 Flags: HM
@@ -6059,7 +6224,7 @@ Validated: 1
 EndChar
 
 StartChar: uni013C
-Encoding: 316 316 266
+Encoding: 250 316 266
 Width: 284
 VWidth: 0
 Flags: HM
@@ -6072,7 +6237,7 @@ Validated: 1
 EndChar
 
 StartChar: Lcaron
-Encoding: 317 317 267
+Encoding: 251 317 267
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -6085,7 +6250,7 @@ Validated: 1
 EndChar
 
 StartChar: lcaron
-Encoding: 318 318 268
+Encoding: 252 318 268
 Width: 420
 VWidth: 0
 Flags: HMW
@@ -6098,7 +6263,7 @@ Validated: 1
 EndChar
 
 StartChar: Ldot
-Encoding: 319 319 269
+Encoding: 253 319 269
 Width: 552
 VWidth: 0
 Flags: HM
@@ -6111,7 +6276,7 @@ Validated: 1
 EndChar
 
 StartChar: ldot
-Encoding: 320 320 270
+Encoding: 254 320 270
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -6124,7 +6289,7 @@ Validated: 1
 EndChar
 
 StartChar: Nacute
-Encoding: 323 323 271
+Encoding: 257 323 271
 Width: 703
 VWidth: 0
 Flags: HM
@@ -6137,7 +6302,7 @@ Validated: 5
 EndChar
 
 StartChar: nacute
-Encoding: 324 324 272
+Encoding: 258 324 272
 Width: 553
 VWidth: 0
 Flags: HM
@@ -6150,7 +6315,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0145
-Encoding: 325 325 273
+Encoding: 259 325 273
 Width: 703
 VWidth: 0
 Flags: HM
@@ -6163,7 +6328,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0146
-Encoding: 326 326 274
+Encoding: 260 326 274
 Width: 553
 VWidth: 0
 Flags: HM
@@ -6176,7 +6341,7 @@ Validated: 1
 EndChar
 
 StartChar: Ncaron
-Encoding: 327 327 275
+Encoding: 261 327 275
 Width: 703
 VWidth: 0
 Flags: HM
@@ -6189,7 +6354,7 @@ Validated: 5
 EndChar
 
 StartChar: ncaron
-Encoding: 328 328 276
+Encoding: 262 328 276
 Width: 553
 VWidth: 0
 Flags: HM
@@ -6202,7 +6367,7 @@ Validated: 1
 EndChar
 
 StartChar: Omacron
-Encoding: 332 332 277
+Encoding: 266 332 277
 Width: 707
 VWidth: 0
 Flags: HM
@@ -6215,7 +6380,7 @@ Validated: 1
 EndChar
 
 StartChar: omacron
-Encoding: 333 333 278
+Encoding: 267 333 278
 Width: 484
 VWidth: 0
 Flags: HM
@@ -6228,7 +6393,7 @@ Validated: 1
 EndChar
 
 StartChar: Obreve
-Encoding: 334 334 279
+Encoding: 268 334 279
 Width: 707
 VWidth: 0
 Flags: HM
@@ -6241,7 +6406,7 @@ Validated: 1
 EndChar
 
 StartChar: obreve
-Encoding: 335 335 280
+Encoding: 269 335 280
 Width: 484
 VWidth: 0
 Flags: HM
@@ -6254,7 +6419,7 @@ Validated: 1
 EndChar
 
 StartChar: Racute
-Encoding: 340 340 281
+Encoding: 274 340 281
 Width: 584
 VWidth: 0
 Flags: HMW
@@ -6267,7 +6432,7 @@ Validated: 1
 EndChar
 
 StartChar: racute
-Encoding: 341 341 282
+Encoding: 275 341 282
 Width: 383
 VWidth: 0
 Flags: HM
@@ -6280,7 +6445,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0156
-Encoding: 342 342 283
+Encoding: 276 342 283
 Width: 584
 VWidth: 0
 Flags: HMW
@@ -6293,7 +6458,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0157
-Encoding: 343 343 284
+Encoding: 277 343 284
 Width: 383
 VWidth: 0
 Flags: HM
@@ -6306,7 +6471,7 @@ Validated: 1
 EndChar
 
 StartChar: Rcaron
-Encoding: 344 344 285
+Encoding: 278 344 285
 Width: 584
 VWidth: 0
 Flags: HMW
@@ -6319,7 +6484,7 @@ Validated: 1
 EndChar
 
 StartChar: rcaron
-Encoding: 345 345 286
+Encoding: 279 345 286
 Width: 383
 VWidth: 0
 Flags: HM
@@ -6332,7 +6497,7 @@ Validated: 1
 EndChar
 
 StartChar: Sacute
-Encoding: 346 346 287
+Encoding: 280 346 287
 Width: 490
 VWidth: 0
 Flags: HM
@@ -6345,7 +6510,7 @@ Validated: 1
 EndChar
 
 StartChar: sacute
-Encoding: 347 347 288
+Encoding: 281 347 288
 Width: 393
 VWidth: 0
 Flags: HMW
@@ -6358,7 +6523,7 @@ Validated: 1
 EndChar
 
 StartChar: Scircumflex
-Encoding: 348 348 289
+Encoding: 282 348 289
 Width: 490
 VWidth: 0
 Flags: HM
@@ -6371,7 +6536,7 @@ Validated: 1
 EndChar
 
 StartChar: scircumflex
-Encoding: 349 349 290
+Encoding: 283 349 290
 Width: 393
 VWidth: 0
 Flags: HMW
@@ -6384,7 +6549,7 @@ Validated: 1
 EndChar
 
 StartChar: Scedilla
-Encoding: 350 350 291
+Encoding: 284 350 291
 Width: 490
 VWidth: 0
 Flags: HM
@@ -6397,7 +6562,7 @@ Validated: 5
 EndChar
 
 StartChar: scedilla
-Encoding: 351 351 292
+Encoding: 285 351 292
 Width: 393
 VWidth: 0
 Flags: HMW
@@ -6410,7 +6575,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0162
-Encoding: 354 354 293
+Encoding: 288 354 293
 Width: 534
 VWidth: 0
 Flags: HM
@@ -6423,7 +6588,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0163
-Encoding: 355 355 294
+Encoding: 289 355 294
 Width: 348
 VWidth: 0
 Flags: HM
@@ -6436,7 +6601,7 @@ Validated: 5
 EndChar
 
 StartChar: Tcaron
-Encoding: 356 356 295
+Encoding: 290 356 295
 Width: 534
 VWidth: 0
 Flags: HM
@@ -6449,7 +6614,7 @@ Validated: 1
 EndChar
 
 StartChar: tcaron
-Encoding: 357 357 296
+Encoding: 291 357 296
 Width: 348
 VWidth: 0
 Flags: HMW
@@ -6462,7 +6627,7 @@ Validated: 1
 EndChar
 
 StartChar: Utilde
-Encoding: 360 360 297
+Encoding: 294 360 297
 Width: 670
 VWidth: 0
 Flags: HM
@@ -6475,7 +6640,7 @@ Validated: 1
 EndChar
 
 StartChar: utilde
-Encoding: 361 361 298
+Encoding: 295 361 298
 Width: 535
 VWidth: 0
 Flags: HM
@@ -6488,7 +6653,7 @@ Validated: 1
 EndChar
 
 StartChar: Umacron
-Encoding: 362 362 299
+Encoding: 296 362 299
 Width: 670
 VWidth: 0
 Flags: HM
@@ -6501,7 +6666,7 @@ Validated: 1
 EndChar
 
 StartChar: umacron
-Encoding: 363 363 300
+Encoding: 297 363 300
 Width: 535
 VWidth: 0
 Flags: HM
@@ -6514,7 +6679,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubreve
-Encoding: 364 364 301
+Encoding: 298 364 301
 Width: 670
 VWidth: 0
 Flags: HM
@@ -6527,7 +6692,7 @@ Validated: 1
 EndChar
 
 StartChar: ubreve
-Encoding: 365 365 302
+Encoding: 299 365 302
 Width: 535
 VWidth: 0
 Flags: HM
@@ -6540,7 +6705,7 @@ Validated: 1
 EndChar
 
 StartChar: Uring
-Encoding: 366 366 303
+Encoding: 300 366 303
 Width: 670
 VWidth: 0
 Flags: HM
@@ -6553,7 +6718,7 @@ Validated: 1
 EndChar
 
 StartChar: uring
-Encoding: 367 367 304
+Encoding: 301 367 304
 Width: 535
 VWidth: 0
 Flags: HM
@@ -6566,7 +6731,7 @@ Validated: 1
 EndChar
 
 StartChar: Wcircumflex
-Encoding: 372 372 305
+Encoding: 306 372 305
 Width: 912
 VWidth: 0
 Flags: HM
@@ -6579,7 +6744,7 @@ Validated: 1
 EndChar
 
 StartChar: wcircumflex
-Encoding: 373 373 306
+Encoding: 307 373 306
 Width: 710
 VWidth: 0
 Flags: HM
@@ -6592,7 +6757,7 @@ Validated: 1
 EndChar
 
 StartChar: Ycircumflex
-Encoding: 374 374 307
+Encoding: 308 374 307
 Width: 552
 VWidth: 0
 Flags: HM
@@ -6605,7 +6770,7 @@ Validated: 5
 EndChar
 
 StartChar: ycircumflex
-Encoding: 375 375 308
+Encoding: 309 375 308
 Width: 451
 VWidth: 0
 Flags: HM
@@ -6618,7 +6783,7 @@ Validated: 1
 EndChar
 
 StartChar: Zacute
-Encoding: 377 377 309
+Encoding: 311 377 309
 Width: 556
 VWidth: 0
 Flags: HM
@@ -6631,7 +6796,7 @@ Validated: 1
 EndChar
 
 StartChar: zacute
-Encoding: 378 378 310
+Encoding: 312 378 310
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -6644,7 +6809,7 @@ Validated: 1
 EndChar
 
 StartChar: Zdotaccent
-Encoding: 379 379 311
+Encoding: 313 379 311
 Width: 556
 VWidth: 0
 Flags: HM
@@ -6657,7 +6822,7 @@ Validated: 1
 EndChar
 
 StartChar: zdotaccent
-Encoding: 380 380 312
+Encoding: 314 380 312
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -6670,7 +6835,7 @@ Validated: 1
 EndChar
 
 StartChar: aogonek
-Encoding: 261 261 313
+Encoding: 195 261 313
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -6713,7 +6878,7 @@ Colour: ff9994
 EndChar
 
 StartChar: Aogonek
-Encoding: 260 260 314
+Encoding: 194 260 314
 Width: 652
 VWidth: 0
 Flags: HMW
@@ -6753,7 +6918,7 @@ Validated: 5
 EndChar
 
 StartChar: Eogonek
-Encoding: 280 280 315
+Encoding: 214 280 315
 Width: 579
 VWidth: 0
 Flags: HMW
@@ -6776,7 +6941,7 @@ Validated: 5
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 733 733 316
+Encoding: 430 733 316
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -6788,7 +6953,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0237
-Encoding: 567 567 317
+Encoding: 318 567 317
 Width: 282
 VWidth: -3
 Flags: HMW
@@ -6812,7 +6977,7 @@ Colour: ff9994
 EndChar
 
 StartChar: Ohungarumlaut
-Encoding: 336 336 318
+Encoding: 270 336 318
 Width: 707
 VWidth: 0
 Flags: HM
@@ -6825,7 +6990,7 @@ Validated: 1
 EndChar
 
 StartChar: ohungarumlaut
-Encoding: 337 337 319
+Encoding: 271 337 319
 Width: 484
 VWidth: 0
 Flags: HM
@@ -6838,7 +7003,7 @@ Validated: 1
 EndChar
 
 StartChar: Uhungarumlaut
-Encoding: 368 368 320
+Encoding: 302 368 320
 Width: 670
 VWidth: 0
 Flags: HM
@@ -6851,7 +7016,7 @@ Validated: 1
 EndChar
 
 StartChar: uhungarumlaut
-Encoding: 369 369 321
+Encoding: 303 369 321
 Width: 535
 VWidth: 0
 Flags: HM
@@ -6864,7 +7029,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02BC
-Encoding: 700 700 322
+Encoding: 416 700 322
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -6878,7 +7043,7 @@ Validated: 1
 EndChar
 
 StartChar: napostrophe
-Encoding: 329 329 323
+Encoding: 263 329 323
 Width: 573
 VWidth: 0
 Flags: HMW
@@ -6891,7 +7056,7 @@ Validated: 1
 EndChar
 
 StartChar: Iogonek
-Encoding: 302 302 324
+Encoding: 236 302 324
 Width: 343
 VWidth: 0
 Flags: HMW
@@ -6923,7 +7088,7 @@ Validated: 1048577
 EndChar
 
 StartChar: iogonek
-Encoding: 303 303 325
+Encoding: 237 303 325
 Width: 278
 VWidth: -3
 Flags: HMW
@@ -6958,7 +7123,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: Dcroat
-Encoding: 272 272 326
+Encoding: 206 272 326
 Width: 733
 VWidth: 0
 Flags: HM
@@ -6969,7 +7134,7 @@ Refer: 141 208 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Uogonek
-Encoding: 370 370 327
+Encoding: 304 370 327
 Width: 670
 VWidth: 0
 Flags: HMW
@@ -6992,7 +7157,7 @@ Validated: 5
 EndChar
 
 StartChar: uogonek
-Encoding: 371 371 328
+Encoding: 305 371 328
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -7033,7 +7198,7 @@ Colour: ff9994
 EndChar
 
 StartChar: uni0123
-Encoding: 291 291 329
+Encoding: 225 291 329
 Width: 466
 VWidth: 0
 Flags: HMW
@@ -7046,7 +7211,7 @@ Validated: 5
 EndChar
 
 StartChar: uni02BB
-Encoding: 699 699 330
+Encoding: 415 699 330
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -7058,7 +7223,7 @@ Validated: 1
 EndChar
 
 StartChar: dcroat
-Encoding: 273 273 331
+Encoding: 207 273 331
 Width: 529
 VWidth: -3
 UnlinkRmOvrlpSave: 1
@@ -7078,7 +7243,7 @@ Refer: 68 100 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Hbar
-Encoding: 294 294 332
+Encoding: 228 294 332
 Width: 700
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -7098,7 +7263,7 @@ Refer: 40 72 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: hbar
-Encoding: 295 295 333
+Encoding: 229 295 333
 Width: 569
 VWidth: -3
 UnlinkRmOvrlpSave: 1
@@ -7118,7 +7283,7 @@ Refer: 72 104 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: kgreenlandic
-Encoding: 312 312 334
+Encoding: 246 312 334
 Width: 513
 VWidth: 0
 Flags: HMW
@@ -7156,7 +7321,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: lslash
-Encoding: 322 322 335
+Encoding: 256 322 335
 Width: 284
 VWidth: -3
 Flags: HMW
@@ -7179,7 +7344,7 @@ Validated: 5
 EndChar
 
 StartChar: Lslash
-Encoding: 321 321 336
+Encoding: 255 321 336
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -7202,7 +7367,7 @@ Validated: 5
 EndChar
 
 StartChar: eng
-Encoding: 331 331 337
+Encoding: 265 331 337
 Width: 553
 VWidth: -3
 Flags: HMW
@@ -7242,7 +7407,7 @@ Colour: ff9994
 EndChar
 
 StartChar: Eng
-Encoding: 330 330 338
+Encoding: 264 330 338
 Width: 703
 VWidth: 0
 Flags: HMW
@@ -7285,7 +7450,7 @@ Colour: ff9994
 EndChar
 
 StartChar: Tbar
-Encoding: 358 358 339
+Encoding: 292 358 339
 Width: 534
 VWidth: 0
 Flags: HMW
@@ -7305,7 +7470,7 @@ Validated: 5
 EndChar
 
 StartChar: tbar
-Encoding: 359 359 340
+Encoding: 293 359 340
 Width: 348
 VWidth: 0
 Flags: HMW
@@ -7325,7 +7490,7 @@ Validated: 5
 EndChar
 
 StartChar: IJ
-Encoding: 306 306 341
+Encoding: 240 306 341
 Width: 674
 VWidth: 0
 Flags: HM
@@ -7338,7 +7503,7 @@ Validated: 1
 EndChar
 
 StartChar: ij
-Encoding: 307 307 342
+Encoding: 241 307 342
 Width: 560
 VWidth: 0
 Flags: HM
@@ -7351,7 +7516,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2010
-Encoding: 8208 8208 343
+Encoding: 453 8208 343
 Width: 300
 VWidth: 0
 Flags: HMW
@@ -7363,7 +7528,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2011
-Encoding: 8209 8209 344
+Encoding: 454 8209 344
 Width: 300
 VWidth: 0
 Flags: HMW
@@ -7375,7 +7540,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblbase
-Encoding: 8222 8222 345
+Encoding: 464 8222 345
 Width: 430
 VWidth: 0
 Flags: HMW
@@ -7384,10 +7549,12 @@ Back
 Fore
 Refer: 211 8221 N 1 0 0 1 0 -586 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedblbase.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedblbase.smcpflag
 EndChar
 
 StartChar: uni201F
-Encoding: 8223 8223 346
+Encoding: 465 8223 346
 Width: 430
 VWidth: 0
 Flags: HMW
@@ -7400,7 +7567,7 @@ Validated: 1
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 8218 8218 347
+Encoding: 460 8218 347
 Width: 167
 VWidth: 0
 Flags: HMW
@@ -7412,7 +7579,7 @@ Validated: 1
 EndChar
 
 StartChar: quotereversed
-Encoding: 8219 8219 348
+Encoding: 461 8219 348
 Width: 168
 VWidth: 0
 Flags: HMW
@@ -7433,7 +7600,7 @@ Validated: 1
 EndChar
 
 StartChar: dagger
-Encoding: 8224 8224 349
+Encoding: 466 8224 349
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -7456,7 +7623,7 @@ Validated: 5
 EndChar
 
 StartChar: daggerdbl
-Encoding: 8225 8225 350
+Encoding: 467 8225 350
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -7484,7 +7651,7 @@ Validated: 5
 EndChar
 
 StartChar: uni2027
-Encoding: 8231 8231 351
+Encoding: 469 8231 351
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -7496,7 +7663,7 @@ Validated: 1
 EndChar
 
 StartChar: perthousand
-Encoding: 8240 8240 352
+Encoding: 470 8240 352
 Width: 1275
 VWidth: 0
 Flags: HMW
@@ -7522,7 +7689,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2031
-Encoding: 8241 8241 353
+Encoding: 471 8241 353
 Width: 1652
 VWidth: 0
 Flags: HMW
@@ -7548,7 +7715,7 @@ Validated: 1
 EndChar
 
 StartChar: minute
-Encoding: 8242 8242 354
+Encoding: 472 8242 354
 Width: 205
 VWidth: -3
 Flags: HMW
@@ -7567,7 +7734,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 8249 8249 355
+Encoding: 473 8249 355
 Width: 292
 VWidth: 0
 Flags: HMW
@@ -7587,7 +7754,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglright
-Encoding: 8250 8250 356
+Encoding: 474 8250 356
 Width: 292
 VWidth: 0
 Flags: HMW
@@ -7599,7 +7766,7 @@ Validated: 1
 EndChar
 
 StartChar: uni203E
-Encoding: 8254 8254 357
+Encoding: 475 8254 357
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -7617,7 +7784,7 @@ Validated: 1
 EndChar
 
 StartChar: fraction
-Encoding: 8260 8260 358
+Encoding: 476 8260 358
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -7635,7 +7802,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowdblleft
-Encoding: 8656 8656 359
+Encoding: 497 8656 359
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7647,7 +7814,7 @@ Validated: 5
 EndChar
 
 StartChar: arrowdblright
-Encoding: 8658 8658 360
+Encoding: 498 8658 360
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7677,7 +7844,7 @@ Validated: 5
 EndChar
 
 StartChar: uni21C0
-Encoding: 8640 8640 361
+Encoding: 492 8640 361
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7698,7 +7865,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21BD
-Encoding: 8637 8637 362
+Encoding: 491 8637 362
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7710,7 +7877,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowleft
-Encoding: 8592 8592 363
+Encoding: 488 8592 363
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7722,7 +7889,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowright
-Encoding: 8594 8594 364
+Encoding: 489 8594 364
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7745,7 +7912,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21C4
-Encoding: 8644 8644 365
+Encoding: 493 8644 365
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7778,7 +7945,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21CB
-Encoding: 8651 8651 366
+Encoding: 495 8651 366
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7807,7 +7974,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21CC
-Encoding: 8652 8652 367
+Encoding: 496 8652 367
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7820,7 +7987,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21C6
-Encoding: 8646 8646 368
+Encoding: 494 8646 368
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -7853,7 +8020,7 @@ Validated: 1
 EndChar
 
 StartChar: product
-Encoding: 8719 8719 369
+Encoding: 500 8719 369
 Width: 800
 VWidth: 0
 Flags: HMW
@@ -7887,7 +8054,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2215
-Encoding: 8725 8725 370
+Encoding: 503 8725 370
 Width: 280
 VWidth: 0
 Flags: HMW
@@ -7899,7 +8066,7 @@ Validated: 1
 EndChar
 
 StartChar: infinity
-Encoding: 8734 8734 371
+Encoding: 507 8734 371
 Width: 708
 VWidth: 0
 Flags: HMW
@@ -7929,7 +8096,7 @@ Validated: 5
 EndChar
 
 StartChar: angle
-Encoding: 8736 8736 372
+Encoding: 508 8736 372
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -7950,7 +8117,7 @@ Validated: 1
 EndChar
 
 StartChar: logicaland
-Encoding: 8743 8743 373
+Encoding: 509 8743 373
 Width: 460
 VWidth: -3
 Flags: HMW
@@ -7962,7 +8129,7 @@ Validated: 1
 EndChar
 
 StartChar: logicalor
-Encoding: 8744 8744 374
+Encoding: 510 8744 374
 Width: 460
 VWidth: -3
 Flags: HMW
@@ -7985,7 +8152,7 @@ Validated: 1
 EndChar
 
 StartChar: intersection
-Encoding: 8745 8745 375
+Encoding: 511 8745 375
 Width: 436
 VWidth: 0
 Flags: HMW
@@ -7997,7 +8164,7 @@ Validated: 1
 EndChar
 
 StartChar: union
-Encoding: 8746 8746 376
+Encoding: 512 8746 376
 Width: 436
 VWidth: 0
 Flags: HMW
@@ -8023,7 +8190,7 @@ Validated: 1
 EndChar
 
 StartChar: integral
-Encoding: 8747 8747 377
+Encoding: 513 8747 377
 Width: 310
 VWidth: -3
 Flags: HMW
@@ -8053,7 +8220,7 @@ Validated: 1
 EndChar
 
 StartChar: congruent
-Encoding: 8773 8773 378
+Encoding: 515 8773 378
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -8077,7 +8244,7 @@ Validated: 1
 EndChar
 
 StartChar: lessequal
-Encoding: 8804 8804 379
+Encoding: 520 8804 379
 Width: 330
 VWidth: 0
 Flags: HMW
@@ -8102,7 +8269,7 @@ Validated: 1
 EndChar
 
 StartChar: greaterequal
-Encoding: 8805 8805 380
+Encoding: 521 8805 380
 Width: 330
 VWidth: 0
 Flags: HMW
@@ -8127,7 +8294,7 @@ Validated: 1
 EndChar
 
 StartChar: approxequal
-Encoding: 8776 8776 381
+Encoding: 517 8776 381
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -8140,7 +8307,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2249
-Encoding: 8777 8777 382
+Encoding: 518 8777 382
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -8159,7 +8326,7 @@ Validated: 5
 EndChar
 
 StartChar: uni2247
-Encoding: 8775 8775 383
+Encoding: 516 8775 383
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -8178,7 +8345,7 @@ Validated: 5
 EndChar
 
 StartChar: uni221B
-Encoding: 8731 8731 384
+Encoding: 505 8731 384
 Width: 580
 Flags: HMW
 LayerCount: 2
@@ -8205,7 +8372,7 @@ Validated: 1
 EndChar
 
 StartChar: uni221C
-Encoding: 8732 8732 385
+Encoding: 506 8732 385
 Width: 580
 Flags: HMW
 LayerCount: 2
@@ -8234,7 +8401,7 @@ Validated: 5
 EndChar
 
 StartChar: Pi
-Encoding: 928 928 386
+Encoding: 446 928 386
 Width: 680
 VWidth: 0
 Flags: HMW
@@ -8268,7 +8435,7 @@ Validated: 1
 EndChar
 
 StartChar: pi
-Encoding: 960 960 387
+Encoding: 449 960 387
 Width: 540
 VWidth: 0
 Flags: HMW
@@ -8310,7 +8477,7 @@ Validated: 5
 EndChar
 
 StartChar: uni2070
-Encoding: 8304 8304 388
+Encoding: 477 8304 388
 Width: 428
 VWidth: -3
 Flags: HMW
@@ -8337,7 +8504,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum zero
 EndChar
 
 StartChar: uni2074
-Encoding: 8308 8308 389
+Encoding: 478 8308 389
 Width: 360
 VWidth: -3
 Flags: HMW
@@ -8364,7 +8531,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum four
 EndChar
 
 StartChar: uni2075
-Encoding: 8309 8309 390
+Encoding: 479 8309 390
 Width: 327
 VWidth: 0
 Flags: HMW
@@ -8394,7 +8561,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum five
 EndChar
 
 StartChar: uni2076
-Encoding: 8310 8310 391
+Encoding: 480 8310 391
 Width: 355
 VWidth: 0
 Flags: HMW
@@ -8422,7 +8589,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum six
 EndChar
 
 StartChar: uni2077
-Encoding: 8311 8311 392
+Encoding: 481 8311 392
 Width: 305
 VWidth: 0
 Flags: HMW
@@ -8446,7 +8613,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum seven
 EndChar
 
 StartChar: uni2078
-Encoding: 8312 8312 393
+Encoding: 482 8312 393
 Width: 379
 VWidth: 109
 Flags: HMW
@@ -8478,7 +8645,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum eight
 EndChar
 
 StartChar: uni2079
-Encoding: 8313 8313 394
+Encoding: 483 8313 394
 Width: 355
 VWidth: 0
 Flags: HMW
@@ -8506,7 +8673,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" asciicircum nine
 EndChar
 
 StartChar: uni0283
-Encoding: 643 643 395
+Encoding: 370 643 395
 Width: 310
 VWidth: -3
 Flags: HMW
@@ -8536,7 +8703,7 @@ Validated: 1
 EndChar
 
 StartChar: notequal
-Encoding: 8800 8800 396
+Encoding: 519 8800 396
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -8555,7 +8722,7 @@ Validated: 5
 EndChar
 
 StartChar: similar
-Encoding: 8764 8764 397
+Encoding: 514 8764 397
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -8577,7 +8744,7 @@ Validated: 1
 EndChar
 
 StartChar: sigma
-Encoding: 963 963 398
+Encoding: 450 963 398
 Width: 520
 VWidth: -3
 Flags: HMW
@@ -8607,7 +8774,7 @@ Validated: 1
 EndChar
 
 StartChar: theta
-Encoding: 952 952 399
+Encoding: 448 952 399
 Width: 541
 VWidth: 0
 Flags: HMW
@@ -8638,7 +8805,7 @@ Validated: 5
 EndChar
 
 StartChar: phi1
-Encoding: 981 981 400
+Encoding: 451 981 400
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -8668,7 +8835,7 @@ Validated: 5
 EndChar
 
 StartChar: uni22EF
-Encoding: 8943 8943 401
+Encoding: 523 8943 401
 Width: 1000
 VWidth: 0
 Flags: HMW
@@ -8680,7 +8847,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22EE
-Encoding: 8942 8942 402
+Encoding: 522 8942 402
 Width: 1000
 VWidth: 0
 Flags: HMW
@@ -8692,7 +8859,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22F0
-Encoding: 8944 8944 403
+Encoding: 524 8944 403
 Width: 1000
 VWidth: 0
 Flags: HMW
@@ -8706,7 +8873,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22F1
-Encoding: 8945 8945 404
+Encoding: 525 8945 404
 Width: 1000
 VWidth: 0
 Flags: HMW
@@ -8718,7 +8885,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0250
-Encoding: 592 592 405
+Encoding: 319 592 405
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -8730,7 +8897,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0251
-Encoding: 593 593 406
+Encoding: 320 593 406
 Width: 523
 VWidth: -3
 Flags: HMW
@@ -8763,7 +8930,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0252
-Encoding: 594 594 407
+Encoding: 321 594 407
 Width: 520
 VWidth: -3
 Flags: HMW
@@ -8795,7 +8962,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0253
-Encoding: 595 595 408
+Encoding: 322 595 408
 Width: 520
 VWidth: -3
 Flags: HMW
@@ -8831,7 +8998,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0254
-Encoding: 596 596 409
+Encoding: 323 596 409
 Width: 433
 VWidth: -3
 Flags: HMW
@@ -8857,7 +9024,7 @@ Validated: 9
 EndChar
 
 StartChar: uni0255
-Encoding: 597 597 410
+Encoding: 324 597 410
 Width: 435
 VWidth: -3
 Flags: HMW
@@ -8889,7 +9056,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0256
-Encoding: 598 598 411
+Encoding: 325 598 411
 Width: 529
 VWidth: -3
 Flags: HMW
@@ -8924,7 +9091,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0257
-Encoding: 599 599 412
+Encoding: 326 599 412
 Width: 540
 VWidth: -3
 Flags: HMW
@@ -8962,7 +9129,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0258
-Encoding: 600 600 413
+Encoding: 327 600 413
 Width: 433
 VWidth: -3
 Flags: HMW
@@ -9008,7 +9175,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0259
-Encoding: 601 601 414
+Encoding: 328 601 414
 Width: 442
 VWidth: -3
 Flags: HMW
@@ -9054,7 +9221,7 @@ Validated: 5
 EndChar
 
 StartChar: uni025A
-Encoding: 602 602 415
+Encoding: 329 602 415
 Width: 550
 VWidth: -3
 Flags: HMW
@@ -9086,7 +9253,7 @@ Validated: 5
 EndChar
 
 StartChar: uni025B
-Encoding: 603 603 416
+Encoding: 330 603 416
 Width: 400
 VWidth: -3
 Flags: HMW
@@ -9117,7 +9284,7 @@ Validated: 9
 EndChar
 
 StartChar: uni025C
-Encoding: 604 604 417
+Encoding: 331 604 417
 Width: 420
 VWidth: 0
 Flags: HMW
@@ -9148,7 +9315,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025D
-Encoding: 605 605 418
+Encoding: 332 605 418
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -9172,7 +9339,7 @@ Validated: 5
 EndChar
 
 StartChar: uni025E
-Encoding: 606 606 419
+Encoding: 333 606 419
 Width: 470
 VWidth: -3
 Flags: HMW
@@ -9201,7 +9368,7 @@ Validated: 9
 EndChar
 
 StartChar: uni025F
-Encoding: 607 607 420
+Encoding: 334 607 420
 Width: 312
 VWidth: -3
 Flags: HMW
@@ -9221,7 +9388,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0260
-Encoding: 608 608 421
+Encoding: 335 608 421
 Width: 540
 VWidth: -3
 Flags: HMW
@@ -9262,7 +9429,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0261
-Encoding: 609 609 422
+Encoding: 336 609 422
 Width: 516
 VWidth: -3
 Flags: HMW
@@ -9298,19 +9465,38 @@ Validated: 5
 EndChar
 
 StartChar: uni0262
-Encoding: 610 610 423
-Width: 473
+Encoding: 337 610 423
+Width: 494
 VWidth: -3
 Flags: HMW
+AnchorPoint: "top" 243 425 basemark 0
 LayerCount: 2
 Back
 Fore
-Refer: 697 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+125 232 m 3
+ 125 103 185 31 281 31 c 3
+ 309 31 326 34 340 38 c 1
+ 340 176 l 1
+ 281 190 l 1
+ 281 208 l 1
+ 414 216 l 1
+ 414 30 l 1
+ 365 -1 325 -12 249 -12 c 3
+ 147 -12 50 57 50 205 c 3
+ 50 363 161 437 276 437 c 3
+ 333 437 377 427 395 420 c 1
+ 400 315 l 1
+ 362 309 l 1
+ 344 383 l 1
+ 328 391 300 397 271 397 c 3
+ 181 397 125 352 125 232 c 3
+EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: uni0263
-Encoding: 611 611 424
+Encoding: 338 611 424
 Width: 461
 VWidth: -3
 Flags: HMW
@@ -9346,7 +9532,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0264
-Encoding: 612 612 425
+Encoding: 339 612 425
 Width: 404
 VWidth: -3
 Flags: HMW
@@ -9381,7 +9567,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0265
-Encoding: 613 613 426
+Encoding: 340 613 426
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -9415,7 +9601,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0266
-Encoding: 614 614 427
+Encoding: 341 614 427
 Width: 569
 VWidth: -3
 Flags: HMW
@@ -9455,7 +9641,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0267
-Encoding: 615 615 428
+Encoding: 342 615 428
 Width: 560
 VWidth: -3
 Flags: HMW
@@ -9497,7 +9683,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0268
-Encoding: 616 616 429
+Encoding: 343 616 429
 Width: 300
 VWidth: -3
 Flags: HMW
@@ -9517,7 +9703,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0269
-Encoding: 617 617 430
+Encoding: 344 617 430
 Width: 300
 VWidth: 0
 Flags: HMW
@@ -9541,7 +9727,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026A
-Encoding: 618 618 431
+Encoding: 345 618 431
 Width: 350
 VWidth: -3
 Flags: HMW
@@ -9567,7 +9753,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026B
-Encoding: 619 619 432
+Encoding: 346 619 432
 Width: 304
 VWidth: -3
 Flags: HMW
@@ -9580,7 +9766,7 @@ Validated: 5
 EndChar
 
 StartChar: uni026C
-Encoding: 620 620 433
+Encoding: 347 620 433
 Width: 304
 VWidth: -3
 Flags: HMW
@@ -9605,7 +9791,7 @@ Validated: 5
 EndChar
 
 StartChar: uni026D
-Encoding: 621 621 434
+Encoding: 348 621 434
 Width: 284
 VWidth: -3
 Flags: HMW
@@ -9630,7 +9816,7 @@ Validated: 1048585
 EndChar
 
 StartChar: uni026E
-Encoding: 622 622 435
+Encoding: 349 622 435
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -9641,7 +9827,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026F
-Encoding: 623 623 436
+Encoding: 350 623 436
 Width: 805
 VWidth: -3
 Flags: HMW
@@ -9686,7 +9872,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0270
-Encoding: 624 624 437
+Encoding: 351 624 437
 Width: 805
 VWidth: -3
 Flags: HMW
@@ -9731,7 +9917,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0271
-Encoding: 625 625 438
+Encoding: 352 625 438
 Width: 826
 VWidth: -3
 Flags: HMW
@@ -9782,7 +9968,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0272
-Encoding: 626 626 439
+Encoding: 353 626 439
 Width: 553
 VWidth: -3
 Flags: HMW
@@ -9820,7 +10006,7 @@ Validated: 9
 EndChar
 
 StartChar: uni0273
-Encoding: 627 627 440
+Encoding: 354 627 440
 Width: 553
 VWidth: -3
 Flags: HMW
@@ -9859,19 +10045,42 @@ Validated: 5
 EndChar
 
 StartChar: uni0274
-Encoding: 628 628 441
+Encoding: 355 628 441
 Width: 538
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 704 -1 N 1 0 0 1 0 0 2
+SplineSet
+435 389 m 5
+ 435 -5 l 1
+ 390 -5 l 1
+ 159 330 l 1
+ 157 330 l 1
+ 157 36 l 1
+ 213 20 l 1
+ 213 0 l 1
+ 40 0 l 1
+ 40 20 l 1
+ 108 36 l 1
+ 108 389 l 1
+ 44 404 l 1
+ 44 425 l 1
+ 184 425 l 1
+ 386 133 l 1
+ 386 389 l 5
+ 330 405 l 5
+ 330 425 l 5
+ 498 425 l 5
+ 498 405 l 5
+ 435 389 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0275
-Encoding: 629 629 442
+Encoding: 356 629 442
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -9891,7 +10100,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0276
-Encoding: 630 630 443
+Encoding: 357 630 443
 Width: 635
 VWidth: -3
 Flags: HMW
@@ -9935,7 +10144,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0277
-Encoding: 631 631 444
+Encoding: 358 631 444
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -9946,7 +10155,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0278
-Encoding: 632 632 445
+Encoding: 359 632 445
 Width: 524
 VWidth: -3
 Flags: HMW
@@ -9989,7 +10198,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0279
-Encoding: 633 633 446
+Encoding: 360 633 446
 Width: 363
 VWidth: -3
 Flags: HMW
@@ -10020,7 +10229,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027A
-Encoding: 634 634 447
+Encoding: 361 634 447
 Width: 363
 VWidth: -3
 Flags: HMW
@@ -10051,7 +10260,7 @@ Validated: 9
 EndChar
 
 StartChar: uni027B
-Encoding: 635 635 448
+Encoding: 362 635 448
 Width: 363
 VWidth: -3
 Flags: HMW
@@ -10082,7 +10291,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027C
-Encoding: 636 636 449
+Encoding: 363 636 449
 Width: 383
 VWidth: -3
 Flags: HMW
@@ -10113,7 +10322,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027D
-Encoding: 637 637 450
+Encoding: 364 637 450
 Width: 383
 VWidth: -3
 Flags: HMW
@@ -10144,7 +10353,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027E
-Encoding: 638 638 451
+Encoding: 365 638 451
 Width: 359
 VWidth: -3
 Flags: HMW
@@ -10172,7 +10381,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027F
-Encoding: 639 639 452
+Encoding: 366 639 452
 Width: 380
 VWidth: -3
 Flags: HMW
@@ -10198,19 +10407,42 @@ Validated: 1
 EndChar
 
 StartChar: uni0280
-Encoding: 640 640 453
-Width: 490
+Encoding: 367 640 453
+Width: 495
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 708 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+194 389 m 1
+ 194 31 l 1
+ 253 20 l 1
+ 253 0 l 1
+ 50 0 l 1
+ 50 18 l 1
+ 120 43 l 1
+ 120 389 l 1
+ 54 407 l 1
+ 54 425 l 1
+ 276 425 l 2
+ 370 425 421 408.022460938 421 325 c 3
+ 421 261 360 218 303 205 c 1
+ 423 63 l 1
+ 465 18 l 1
+ 465 0 l 1
+ 374 0 l 1
+ 217 211 l 1
+ 217 222 l 17
+ 306 222 341 261.967773438 341 319 c 3
+ 341 377.0078125 305 389 253 389 c 2
+ 194 389 l 1
+EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: uni0281
-Encoding: 641 641 454
+Encoding: 368 641 454
 Width: 485
 VWidth: 0
 Flags: HMW
@@ -10245,7 +10477,7 @@ Validated: 9
 EndChar
 
 StartChar: uni0282
-Encoding: 642 642 455
+Encoding: 369 642 455
 Width: 393
 VWidth: 0
 Flags: HMW
@@ -10278,11 +10510,11 @@ SplineSet
  129 -9 l 1
  142 -11 165.53125 -12 176 -12 c 3
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: uni0284
-Encoding: 644 644 456
+Encoding: 371 644 456
 Width: 310
 VWidth: -3
 Flags: HMW
@@ -10318,7 +10550,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0285
-Encoding: 645 645 457
+Encoding: 372 645 457
 Width: 380
 VWidth: -3
 Flags: HMW
@@ -10344,7 +10576,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0286
-Encoding: 646 646 458
+Encoding: 373 646 458
 Width: 380
 VWidth: -3
 Flags: HMW
@@ -10377,7 +10609,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0287
-Encoding: 647 647 459
+Encoding: 374 647 459
 Width: 348
 VWidth: 0
 Flags: HMW
@@ -10406,7 +10638,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0288
-Encoding: 648 648 460
+Encoding: 375 648 460
 Width: 348
 VWidth: 0
 Flags: HMW
@@ -10435,7 +10667,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0289
-Encoding: 649 649 461
+Encoding: 376 649 461
 Width: 535
 VWidth: -3
 Flags: HMW
@@ -10455,7 +10687,7 @@ Validated: 5
 EndChar
 
 StartChar: uni028A
-Encoding: 650 650 462
+Encoding: 377 650 462
 Width: 516
 VWidth: -3
 Flags: HMW
@@ -10507,7 +10739,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028B
-Encoding: 651 651 463
+Encoding: 378 651 463
 Width: 464
 Flags: HMW
 LayerCount: 2
@@ -10533,7 +10765,7 @@ Validated: 9
 EndChar
 
 StartChar: uni028C
-Encoding: 652 652 464
+Encoding: 379 652 464
 Width: 461
 VWidth: -3
 Flags: HMW
@@ -10545,7 +10777,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028D
-Encoding: 653 653 465
+Encoding: 380 653 465
 Width: 710
 VWidth: -3
 Flags: HMW
@@ -10557,7 +10789,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028E
-Encoding: 654 654 466
+Encoding: 381 654 466
 Width: 451
 VWidth: -3
 Flags: HMW
@@ -10569,19 +10801,45 @@ Validated: 1
 EndChar
 
 StartChar: uni028F
-Encoding: 655 655 467
+Encoding: 382 655 467
 Width: 424
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 715 -1 N 1 0 0 1 0 0 2
+SplineSet
+172 184 m 1
+ 246 184 l 1
+ 246 34 l 1
+ 310 18 l 1
+ 310 0 l 1
+ 102 0 l 1
+ 102 18 l 1
+ 172 43 l 1
+ 172 184 l 1
+5 425 m 1
+ 182 425 l 1
+ 182 407 l 1
+ 143 391 l 1
+ 227 225 l 1
+ 308 392 l 9
+ 258 407 l 1
+ 258 425 l 1
+ 419 425 l 1
+ 419 407 l 1
+ 356 389 l 17
+ 217 127 l 1
+ 199 127 l 1
+ 58 393 l 1
+ 5 407 l 1
+ 5 425 l 1
+EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: uni0290
-Encoding: 656 656 468
+Encoding: 383 656 468
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -10617,7 +10875,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0291
-Encoding: 657 657 469
+Encoding: 384 657 469
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -10653,7 +10911,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0292
-Encoding: 658 658 470
+Encoding: 385 658 470
 Width: 419
 VWidth: 0
 Flags: HMW
@@ -10685,7 +10943,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0293
-Encoding: 659 659 471
+Encoding: 386 659 471
 Width: 419
 VWidth: 0
 Flags: HMW
@@ -10723,7 +10981,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0294
-Encoding: 660 660 472
+Encoding: 387 660 472
 Width: 412
 VWidth: -3
 Flags: HMW
@@ -10751,7 +11009,7 @@ Validated: 9
 EndChar
 
 StartChar: uni0295
-Encoding: 661 661 473
+Encoding: 388 661 473
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10762,7 +11020,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0296
-Encoding: 662 662 474
+Encoding: 389 662 474
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10773,7 +11031,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0297
-Encoding: 663 663 475
+Encoding: 390 663 475
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10784,7 +11042,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0298
-Encoding: 664 664 476
+Encoding: 391 664 476
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10795,7 +11053,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0299
-Encoding: 665 665 477
+Encoding: 392 665 477
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10806,7 +11064,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029A
-Encoding: 666 666 478
+Encoding: 393 666 478
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10817,7 +11075,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029B
-Encoding: 667 667 479
+Encoding: 394 667 479
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10828,7 +11086,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029C
-Encoding: 668 668 480
+Encoding: 395 668 480
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10839,7 +11097,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029D
-Encoding: 669 669 481
+Encoding: 396 669 481
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10850,7 +11108,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029E
-Encoding: 670 670 482
+Encoding: 397 670 482
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10861,7 +11119,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029F
-Encoding: 671 671 483
+Encoding: 398 671 483
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10872,7 +11130,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A0
-Encoding: 672 672 484
+Encoding: 399 672 484
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10883,7 +11141,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A1
-Encoding: 673 673 485
+Encoding: 400 673 485
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10894,7 +11152,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A2
-Encoding: 674 674 486
+Encoding: 401 674 486
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10905,7 +11163,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A3
-Encoding: 675 675 487
+Encoding: 402 675 487
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10916,7 +11174,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A4
-Encoding: 676 676 488
+Encoding: 403 676 488
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10927,7 +11185,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A5
-Encoding: 677 677 489
+Encoding: 404 677 489
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10938,7 +11196,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A6
-Encoding: 678 678 490
+Encoding: 405 678 490
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10949,7 +11207,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A7
-Encoding: 679 679 491
+Encoding: 406 679 491
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10960,7 +11218,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A8
-Encoding: 680 680 492
+Encoding: 407 680 492
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10971,7 +11229,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A9
-Encoding: 681 681 493
+Encoding: 408 681 493
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10982,7 +11240,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AA
-Encoding: 682 682 494
+Encoding: 409 682 494
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -10993,7 +11251,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AB
-Encoding: 683 683 495
+Encoding: 410 683 495
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -11004,7 +11262,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AC
-Encoding: 684 684 496
+Encoding: 411 684 496
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -11015,7 +11273,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AD
-Encoding: 685 685 497
+Encoding: 412 685 497
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -11026,7 +11284,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AE
-Encoding: 686 686 498
+Encoding: 413 686 498
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -11037,7 +11295,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AF
-Encoding: 687 687 499
+Encoding: 414 687 499
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -11048,7 +11306,7 @@ Validated: 1
 EndChar
 
 StartChar: uni27E8
-Encoding: 10216 10216 500
+Encoding: 548 10216 500
 Width: 280
 VWidth: 0
 Flags: HMW
@@ -11068,7 +11326,7 @@ Validated: 1
 EndChar
 
 StartChar: uni27E9
-Encoding: 10217 10217 501
+Encoding: 549 10217 501
 Width: 280
 VWidth: 0
 Flags: HMW
@@ -11080,7 +11338,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A7
-Encoding: 9127 9127 502
+Encoding: 538 9127 502
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -11100,7 +11358,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A8
-Encoding: 9128 9128 503
+Encoding: 539 9128 503
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -11125,7 +11383,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A9
-Encoding: 9129 9129 504
+Encoding: 540 9129 504
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -11145,7 +11403,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239B
-Encoding: 9115 9115 505
+Encoding: 526 9115 505
 Width: 390
 VWidth: 0
 Flags: HMW
@@ -11163,7 +11421,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239C
-Encoding: 9116 9116 506
+Encoding: 527 9116 506
 Width: 390
 VWidth: 0
 Flags: HMW
@@ -11175,7 +11433,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239D
-Encoding: 9117 9117 507
+Encoding: 528 9117 507
 Width: 390
 VWidth: 0
 Flags: HMW
@@ -11193,7 +11451,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239E
-Encoding: 9118 9118 508
+Encoding: 529 9118 508
 Width: 390
 VWidth: 0
 Flags: HMW
@@ -11205,7 +11463,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239F
-Encoding: 9119 9119 509
+Encoding: 530 9119 509
 Width: 390
 VWidth: 0
 Flags: HMW
@@ -11217,7 +11475,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A0
-Encoding: 9120 9120 510
+Encoding: 531 9120 510
 Width: 390
 VWidth: 0
 Flags: HMW
@@ -11229,7 +11487,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A1
-Encoding: 9121 9121 511
+Encoding: 532 9121 511
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -11249,7 +11507,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A2
-Encoding: 9122 9122 512
+Encoding: 533 9122 512
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -11267,7 +11525,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A3
-Encoding: 9123 9123 513
+Encoding: 534 9123 513
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -11287,7 +11545,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A4
-Encoding: 9124 9124 514
+Encoding: 535 9124 514
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -11299,7 +11557,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A5
-Encoding: 9125 9125 515
+Encoding: 536 9125 515
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -11311,7 +11569,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A6
-Encoding: 9126 9126 516
+Encoding: 537 9126 516
 Width: 310
 VWidth: 0
 Flags: HMW
@@ -11323,7 +11581,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AB
-Encoding: 9131 9131 517
+Encoding: 542 9131 517
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -11335,7 +11593,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AC
-Encoding: 9132 9132 518
+Encoding: 543 9132 518
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -11347,7 +11605,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AD
-Encoding: 9133 9133 519
+Encoding: 544 9133 519
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -11359,7 +11617,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowboth
-Encoding: 8596 8596 520
+Encoding: 490 8596 520
 Width: 760
 VWidth: 0
 Flags: HMW
@@ -11387,7 +11645,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D434
-Encoding: 65536 119860 521
+Encoding: 572 119860 521
 Width: 610
 Flags: HMW
 AnchorPoint: "top" 359 638 basechar 0
@@ -11421,7 +11679,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D435
-Encoding: 65537 119861 522
+Encoding: 573 119861 522
 Width: 584
 Flags: HMW
 LayerCount: 2
@@ -11456,7 +11714,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D436
-Encoding: 65538 119862 523
+Encoding: 574 119862 523
 Width: 565
 Flags: HMW
 AnchorPoint: "top" 395 638 basechar 0
@@ -11485,7 +11743,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D437
-Encoding: 65539 119863 524
+Encoding: 575 119863 524
 Width: 646
 Flags: HMW
 AnchorPoint: "top" 345 638 basechar 0
@@ -11514,7 +11772,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D438
-Encoding: 65540 119864 525
+Encoding: 576 119864 525
 Width: 563
 Flags: HMW
 AnchorPoint: "top" 339 638 basechar 0
@@ -11553,7 +11811,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D439
-Encoding: 65541 119865 526
+Encoding: 577 119865 526
 Width: 489
 Flags: HMW
 LayerCount: 2
@@ -11589,7 +11847,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D43A
-Encoding: 65542 119866 527
+Encoding: 578 119866 527
 Width: 630
 Flags: HMW
 AnchorPoint: "bottom" 299 0 basechar 0
@@ -11622,7 +11880,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D43B
-Encoding: 65543 119867 528
+Encoding: 579 119867 528
 Width: 680
 Flags: HMW
 AnchorPoint: "top" 395 638 basechar 0
@@ -11666,7 +11924,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D43C
-Encoding: 65544 119868 529
+Encoding: 580 119868 529
 Width: 335
 Flags: HMW
 AnchorPoint: "top" 230 638 basechar 0
@@ -11692,7 +11950,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D43D
-Encoding: 65545 119869 530
+Encoding: 581 119869 530
 Width: 335
 Flags: HMW
 AnchorPoint: "top" 223 638 basechar 0
@@ -11716,7 +11974,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D43E
-Encoding: 65546 119870 531
+Encoding: 582 119870 531
 Width: 615
 Flags: HMW
 AnchorPoint: "bottom" 299 0 basechar 0
@@ -11757,7 +12015,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D43F
-Encoding: 65547 119871 532
+Encoding: 583 119871 532
 Width: 545
 Flags: HMW
 AnchorPoint: "bottom" 275 0 basechar 0
@@ -11786,7 +12044,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D440
-Encoding: 65548 119872 533
+Encoding: 584 119872 533
 Width: 834
 Flags: HMW
 LayerCount: 2
@@ -11832,7 +12090,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D441
-Encoding: 65549 119873 534
+Encoding: 585 119873 534
 Width: 656
 Flags: HMW
 AnchorPoint: "bottom" 305 0 basechar 0
@@ -11867,7 +12125,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D442
-Encoding: 65550 119874 535
+Encoding: 586 119874 535
 Width: 660
 Flags: HMW
 AnchorPoint: "top" 395 638 basechar 0
@@ -11890,7 +12148,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D443
-Encoding: 65551 119875 536
+Encoding: 587 119875 536
 Width: 536
 Flags: HMW
 LayerCount: 2
@@ -11921,7 +12179,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D444
-Encoding: 65552 119876 537
+Encoding: 588 119876 537
 Width: 660
 Flags: HMW
 LayerCount: 2
@@ -11941,7 +12199,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D445
-Encoding: 65553 119877 538
+Encoding: 589 119877 538
 Width: 576
 Flags: HMW
 AnchorPoint: "bottom" 285 0 basechar 0
@@ -11977,7 +12235,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D446
-Encoding: 65554 119878 539
+Encoding: 590 119878 539
 Width: 477
 Flags: HMW
 AnchorPoint: "bottom" 205 0 basechar 0
@@ -12010,7 +12268,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D447
-Encoding: 65555 119879 540
+Encoding: 591 119879 540
 Width: 557
 Flags: HMW
 AnchorPoint: "bottom" 258 0 basechar 0
@@ -12046,7 +12304,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D448
-Encoding: 65556 119880 541
+Encoding: 592 119880 541
 Width: 637
 Flags: HMW
 AnchorPoint: "top" 390 638 basechar 0
@@ -12078,7 +12336,7 @@ Validated: 1048609
 EndChar
 
 StartChar: u1D449
-Encoding: 65557 119881 542
+Encoding: 593 119881 542
 Width: 554
 Flags: HMW
 LayerCount: 2
@@ -12106,7 +12364,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D44A
-Encoding: 65558 119882 543
+Encoding: 594 119882 543
 Width: 863
 Flags: HMW
 AnchorPoint: "top" 508 638 basechar 0
@@ -12141,7 +12399,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D44B
-Encoding: 65559 119883 544
+Encoding: 595 119883 544
 Width: 592
 Flags: HMW
 LayerCount: 2
@@ -12186,7 +12444,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D44C
-Encoding: 65560 119884 545
+Encoding: 596 119884 545
 Width: 528
 Flags: HMW
 AnchorPoint: "top" 338 638 basechar 0
@@ -12224,7 +12482,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D44D
-Encoding: 65561 119885 546
+Encoding: 597 119885 546
 Width: 531
 Flags: HMW
 AnchorPoint: "top" 301 638 basechar 0
@@ -12254,7 +12512,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D44E
-Encoding: 65562 119886 547
+Encoding: 598 119886 547
 Width: 486
 Flags: HMW
 AnchorPoint: "top" 287 425 basechar 0
@@ -12286,7 +12544,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D44F
-Encoding: 65563 119887 548
+Encoding: 599 119887 548
 Width: 487
 Flags: HMW
 LayerCount: 2
@@ -12315,7 +12573,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D450
-Encoding: 65564 119888 549
+Encoding: 600 119888 549
 Width: 391
 Flags: HMW
 AnchorPoint: "bottom" 166 0 basechar 0
@@ -12341,7 +12599,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D451
-Encoding: 65565 119889 550
+Encoding: 601 119889 550
 Width: 495
 Flags: HMW
 AnchorPoint: "top" 435 685 basechar 0
@@ -12377,7 +12635,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D452
-Encoding: 65566 119890 551
+Encoding: 602 119890 551
 Width: 418
 Flags: HMW
 AnchorPoint: "top" 245 425 basechar 0
@@ -12403,7 +12661,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D453
-Encoding: 65567 119891 552
+Encoding: 603 119891 552
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -12438,7 +12696,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D454
-Encoding: 65568 119892 553
+Encoding: 604 119892 553
 Width: 475
 Flags: HMW
 AnchorPoint: "top" 305 425 basechar 0
@@ -12472,7 +12730,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D455
-Encoding: 65569 119893 554
+Encoding: 605 119893 554
 Width: 513
 Flags: HMW
 AnchorPoint: "top" 315 678 basechar 0
@@ -12508,7 +12766,7 @@ Validated: 1048609
 EndChar
 
 StartChar: u1D456
-Encoding: 65570 119894 555
+Encoding: 606 119894 555
 Width: 268
 Flags: HMW
 LayerCount: 2
@@ -12538,7 +12796,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D457
-Encoding: 65571 119895 556
+Encoding: 607 119895 556
 Width: 255
 Flags: HMW
 LayerCount: 2
@@ -12569,7 +12827,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D458
-Encoding: 65572 119896 557
+Encoding: 608 119896 557
 Width: 478
 Flags: HMW
 AnchorPoint: "bottom" 214 0 basechar 0
@@ -12608,7 +12866,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D459
-Encoding: 65573 119897 558
+Encoding: 609 119897 558
 Width: 259
 Flags: HMW
 AnchorPoint: "bottom" 115 0 basechar 0
@@ -12635,7 +12893,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D45A
-Encoding: 65574 119898 559
+Encoding: 610 119898 559
 Width: 752
 Flags: HMW
 LayerCount: 2
@@ -12680,7 +12938,7 @@ Validated: 33
 EndChar
 
 StartChar: u1D45B
-Encoding: 65575 119899 560
+Encoding: 611 119899 560
 Width: 509
 Flags: HMW
 AnchorPoint: "bottom" 239 0 basechar 0
@@ -12717,7 +12975,7 @@ Validated: 33
 EndChar
 
 StartChar: u1D45C
-Encoding: 65576 119900 561
+Encoding: 612 119900 561
 Width: 451
 Flags: HMW
 AnchorPoint: "top" 265 425 basechar 0
@@ -12740,7 +12998,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D45D
-Encoding: 65577 119901 562
+Encoding: 613 119901 562
 Width: 493
 Flags: HMW
 LayerCount: 2
@@ -12773,7 +13031,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D45E
-Encoding: 65578 119902 563
+Encoding: 614 119902 563
 Width: 476
 Flags: HMW
 LayerCount: 2
@@ -12804,7 +13062,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D45F
-Encoding: 65579 119903 564
+Encoding: 615 119903 564
 Width: 376
 Flags: HMW
 AnchorPoint: "bottom" 93 0 basechar 0
@@ -12835,7 +13093,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D460
-Encoding: 65580 119904 565
+Encoding: 616 119904 565
 Width: 342
 Flags: HMW
 AnchorPoint: "bottom" 137 0 basechar 0
@@ -12866,7 +13124,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D461
-Encoding: 65581 119905 566
+Encoding: 617 119905 566
 Width: 293
 Flags: HMW
 AnchorPoint: "bottom" 122 0 basechar 0
@@ -12895,7 +13153,7 @@ Validated: 1048613
 EndChar
 
 StartChar: u1D462
-Encoding: 65582 119906 567
+Encoding: 618 119906 567
 Width: 512
 Flags: HMW
 AnchorPoint: "top" 279 425 basechar 0
@@ -12931,7 +13189,7 @@ Validated: 1048609
 EndChar
 
 StartChar: u1D463
-Encoding: 65583 119907 568
+Encoding: 619 119907 568
 Width: 439
 Flags: HMW
 LayerCount: 2
@@ -12958,7 +13216,7 @@ Validated: 33
 EndChar
 
 StartChar: u1D464
-Encoding: 65584 119908 569
+Encoding: 620 119908 569
 Width: 660
 Flags: HMW
 AnchorPoint: "top" 372 425 basechar 0
@@ -12997,7 +13255,7 @@ Validated: 1048609
 EndChar
 
 StartChar: u1D465
-Encoding: 65585 119909 570
+Encoding: 621 119909 570
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -13040,7 +13298,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D466
-Encoding: 65586 119910 571
+Encoding: 622 119910 571
 Width: 479
 Flags: HMW
 AnchorPoint: "top" 265 425 basechar 0
@@ -13078,7 +13336,7 @@ Validated: 1048609
 EndChar
 
 StartChar: u1D467
-Encoding: 65587 119911 572
+Encoding: 623 119911 572
 Width: 401
 Flags: HMW
 AnchorPoint: "top" 215 425 basechar 0
@@ -13112,7 +13370,7 @@ Validated: 1048609
 EndChar
 
 StartChar: uni23AA
-Encoding: 9130 9130 573
+Encoding: 541 9130 573
 Width: 404
 VWidth: 0
 Flags: HMW
@@ -13130,7 +13388,7 @@ Validated: 1
 EndChar
 
 StartChar: uni210E
-Encoding: 8462 8462 574
+Encoding: 487 8462 574
 Width: 513
 Flags: HMW
 LayerCount: 2
@@ -13141,7 +13399,7 @@ Validated: 1
 EndChar
 
 StartChar: zero.oldstyleproportional
-Encoding: 63280 63280 575
+Encoding: 555 63280 575
 Width: 508
 VWidth: -3
 Flags: HMW
@@ -13167,7 +13425,7 @@ Ligature2: "Old style closing tag-1" zero.onumflag less slash o n u m greater
 EndChar
 
 StartChar: one.oldstyleproportional
-Encoding: 63281 63281 576
+Encoding: 556 63281 576
 Width: 360
 VWidth: -3
 Flags: HMW
@@ -13194,7 +13452,7 @@ Ligature2: "Old style closing tag-1" one.onumflag less slash o n u m greater
 EndChar
 
 StartChar: two.oldstyleproportional
-Encoding: 63282 63282 577
+Encoding: 557 63282 577
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -13222,7 +13480,7 @@ Ligature2: "Old style closing tag-1" two.onumflag less slash o n u m greater
 EndChar
 
 StartChar: three.oldstyleproportional
-Encoding: 63283 63283 578
+Encoding: 558 63283 578
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -13252,7 +13510,7 @@ Ligature2: "Old style closing tag-1" three.onumflag less slash o n u m greater
 EndChar
 
 StartChar: four.oldstyleproportional
-Encoding: 63284 63284 579
+Encoding: 559 63284 579
 Width: 514
 VWidth: -3
 Flags: HMW
@@ -13282,7 +13540,7 @@ Ligature2: "Old style closing tag-1" four.onumflag less slash o n u m greater
 EndChar
 
 StartChar: five.oldstyleproportional
-Encoding: 63285 63285 580
+Encoding: 560 63285 580
 Width: 423
 VWidth: 0
 Flags: HMW
@@ -13311,7 +13569,7 @@ Ligature2: "Old style closing tag-1" five.onumflag less slash o n u m greater
 EndChar
 
 StartChar: six.oldstyleproportional
-Encoding: 63286 63286 581
+Encoding: 561 63286 581
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -13338,7 +13596,7 @@ Ligature2: "Old style closing tag-1" six.onumflag less slash o n u m greater
 EndChar
 
 StartChar: seven.oldstyleproportional
-Encoding: 63287 63287 582
+Encoding: 562 63287 582
 Width: 380
 VWidth: 0
 Flags: HMW
@@ -13361,7 +13619,7 @@ Ligature2: "Old style closing tag-1" seven.onumflag less slash o n u m greater
 EndChar
 
 StartChar: eight.oldstyleproportional
-Encoding: 63288 63288 583
+Encoding: 563 63288 583
 Width: 509
 VWidth: 0
 Flags: HMW
@@ -13392,7 +13650,7 @@ Ligature2: "Old style closing tag-1" eight.onumflag less slash o n u m greater
 EndChar
 
 StartChar: nine.oldstyleproportional
-Encoding: 63289 63289 584
+Encoding: 564 63289 584
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -13419,7 +13677,7 @@ Ligature2: "Old style closing tag-1" nine.onumflag less slash o n u m greater
 EndChar
 
 StartChar: u1D703
-Encoding: 65588 120579 585
+Encoding: 624 120579 585
 Width: 530
 VWidth: 0
 Flags: HMW
@@ -13448,7 +13706,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D70B
-Encoding: 65589 120587 586
+Encoding: 625 120587 586
 Width: 540
 VWidth: 0
 Flags: HMW
@@ -13490,7 +13748,7 @@ Validated: 37
 EndChar
 
 StartChar: u1D70E
-Encoding: 65590 120590 587
+Encoding: 626 120590 587
 Width: 480
 VWidth: -3
 Flags: HMW
@@ -13519,7 +13777,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D719
-Encoding: 65591 120601 588
+Encoding: 627 120601 588
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -13548,7 +13806,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D6F4
-Encoding: 65592 120564 589
+Encoding: 628 120564 589
 Width: 560
 VWidth: 0
 Flags: HMW
@@ -13579,7 +13837,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D6F1
-Encoding: 65593 120561 590
+Encoding: 629 120561 590
 Width: 640
 VWidth: 0
 Flags: HMW
@@ -13613,7 +13871,7 @@ Validated: 9
 EndChar
 
 StartChar: u1D400
-Encoding: 65594 119808 591
+Encoding: 630 119808 591
 Width: 672
 VWidth: 0
 Flags: HMW
@@ -13649,7 +13907,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D401
-Encoding: 65595 119809 592
+Encoding: 631 119809 592
 Width: 641
 VWidth: 0
 Flags: HMW
@@ -13685,7 +13943,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D402
-Encoding: 65596 119810 593
+Encoding: 632 119810 593
 Width: 671
 VWidth: 0
 Flags: HMW
@@ -13715,7 +13973,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D403
-Encoding: 65597 119811 594
+Encoding: 633 119811 594
 Width: 740
 VWidth: 0
 Flags: HMW
@@ -13745,7 +14003,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D404
-Encoding: 65598 119812 595
+Encoding: 634 119812 595
 Width: 589
 VWidth: 0
 Flags: HMW
@@ -13785,7 +14043,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D405
-Encoding: 65599 119813 596
+Encoding: 635 119813 596
 Width: 514
 VWidth: 0
 Flags: HMW
@@ -13822,7 +14080,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D406
-Encoding: 65600 119814 597
+Encoding: 636 119814 597
 Width: 705
 VWidth: 0
 Flags: HMW
@@ -13856,7 +14114,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D407
-Encoding: 65601 119815 598
+Encoding: 637 119815 598
 Width: 736
 VWidth: 0
 Flags: HMW
@@ -13901,7 +14159,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D408
-Encoding: 65602 119816 599
+Encoding: 638 119816 599
 Width: 380
 VWidth: 0
 Flags: HMW
@@ -13928,7 +14186,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D409
-Encoding: 65603 119817 600
+Encoding: 639 119817 600
 Width: 368
 VWidth: 0
 Flags: HMW
@@ -13953,7 +14211,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D40A
-Encoding: 65604 119818 601
+Encoding: 640 119818 601
 Width: 669
 VWidth: 0
 Flags: HMW
@@ -13994,7 +14252,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D40B
-Encoding: 65605 119819 602
+Encoding: 641 119819 602
 Width: 562
 VWidth: 0
 Flags: HMW
@@ -14024,7 +14282,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D40C
-Encoding: 65606 119820 603
+Encoding: 642 119820 603
 Width: 910
 VWidth: 0
 Flags: HMW
@@ -14071,7 +14329,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D40D
-Encoding: 65607 119821 604
+Encoding: 643 119821 604
 Width: 703
 VWidth: 0
 Flags: HMW
@@ -14114,7 +14372,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D40E
-Encoding: 65608 119822 605
+Encoding: 644 119822 605
 Width: 743
 VWidth: 0
 Flags: HMW
@@ -14140,7 +14398,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D40F
-Encoding: 65609 119823 606
+Encoding: 645 119823 606
 Width: 559
 VWidth: 0
 Flags: HMW
@@ -14172,7 +14430,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D410
-Encoding: 65610 119824 607
+Encoding: 646 119824 607
 Width: 743
 VWidth: 0
 Flags: HMW
@@ -14193,7 +14451,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D411
-Encoding: 65611 119825 608
+Encoding: 647 119825 608
 Width: 630
 VWidth: 0
 Flags: HMW
@@ -14230,7 +14488,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D412
-Encoding: 65612 119826 609
+Encoding: 648 119826 609
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -14264,7 +14522,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D413
-Encoding: 65613 119827 610
+Encoding: 649 119827 610
 Width: 552
 VWidth: 0
 Flags: HMW
@@ -14300,7 +14558,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D414
-Encoding: 65614 119828 611
+Encoding: 650 119828 611
 Width: 688
 VWidth: 0
 Flags: HMW
@@ -14333,7 +14591,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D415
-Encoding: 65615 119829 612
+Encoding: 651 119829 612
 Width: 646
 VWidth: 0
 Flags: HMW
@@ -14362,7 +14620,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D416
-Encoding: 65616 119830 613
+Encoding: 652 119830 613
 Width: 952
 VWidth: 0
 Flags: HMW
@@ -14398,7 +14656,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D417
-Encoding: 65617 119831 614
+Encoding: 653 119831 614
 Width: 639
 VWidth: 0
 Flags: HMW
@@ -14444,7 +14702,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D418
-Encoding: 65618 119832 615
+Encoding: 654 119832 615
 Width: 593
 VWidth: 0
 Flags: HMW
@@ -14483,7 +14741,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D419
-Encoding: 65619 119833 616
+Encoding: 655 119833 616
 Width: 570
 VWidth: 0
 Flags: HMW
@@ -14514,7 +14772,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D41A
-Encoding: 65620 119834 617
+Encoding: 656 119834 617
 Width: 484
 VWidth: -3
 Flags: HMW
@@ -14551,7 +14809,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D41B
-Encoding: 65621 119835 618
+Encoding: 657 119835 618
 Width: 556
 VWidth: -3
 Flags: HMW
@@ -14583,7 +14841,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D41C
-Encoding: 65622 119836 619
+Encoding: 658 119836 619
 Width: 433
 VWidth: -3
 Flags: HMW
@@ -14611,7 +14869,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D41D
-Encoding: 65623 119837 620
+Encoding: 659 119837 620
 Width: 540
 VWidth: -3
 Flags: HMW
@@ -14646,7 +14904,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D41E
-Encoding: 65624 119838 621
+Encoding: 660 119838 621
 Width: 448
 VWidth: -3
 Flags: HMW
@@ -14675,7 +14933,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D41F
-Encoding: 65625 119839 622
+Encoding: 661 119839 622
 Width: 353
 VWidth: -3
 Flags: HMW
@@ -14711,7 +14969,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D420
-Encoding: 65626 119840 623
+Encoding: 662 119840 623
 Width: 492
 VWidth: 0
 Flags: HMW
@@ -14759,7 +15017,7 @@ Validated: 1048581
 EndChar
 
 StartChar: u1D421
-Encoding: 65627 119841 624
+Encoding: 663 119841 624
 Width: 605
 VWidth: -3
 Flags: HMW
@@ -14796,7 +15054,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D422
-Encoding: 65628 119842 625
+Encoding: 664 119842 625
 Width: 314
 VWidth: -3
 Flags: HMW
@@ -14825,7 +15083,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D423
-Encoding: 65629 119843 626
+Encoding: 665 119843 626
 Width: 318
 VWidth: -3
 Flags: HMW
@@ -14852,7 +15110,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D424
-Encoding: 65630 119844 627
+Encoding: 666 119844 627
 Width: 555
 VWidth: 0
 Flags: HMW
@@ -14890,7 +15148,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D425
-Encoding: 65631 119845 628
+Encoding: 667 119845 628
 Width: 320
 VWidth: -3
 Flags: HMW
@@ -14916,7 +15174,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D426
-Encoding: 65632 119846 629
+Encoding: 668 119846 629
 Width: 863
 VWidth: -3
 Flags: HMW
@@ -14965,7 +15223,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D427
-Encoding: 65633 119847 630
+Encoding: 669 119847 630
 Width: 591
 VWidth: -3
 Flags: HMW
@@ -15003,7 +15261,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D428
-Encoding: 65634 119848 631
+Encoding: 670 119848 631
 Width: 518
 VWidth: -3
 Flags: HMW
@@ -15027,7 +15285,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D429
-Encoding: 65635 119849 632
+Encoding: 671 119849 632
 Width: 565
 VWidth: -3
 Flags: HMW
@@ -15062,7 +15320,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D42A
-Encoding: 65636 119850 633
+Encoding: 672 119850 633
 Width: 565
 VWidth: -3
 Flags: HMW
@@ -15098,7 +15356,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D42B
-Encoding: 65637 119851 634
+Encoding: 673 119851 634
 Width: 419
 VWidth: -3
 Flags: HMW
@@ -15131,7 +15389,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D42C
-Encoding: 65638 119852 635
+Encoding: 674 119852 635
 Width: 430
 VWidth: 0
 Flags: HMW
@@ -15165,7 +15423,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D42D
-Encoding: 65639 119853 636
+Encoding: 675 119853 636
 Width: 384
 VWidth: 0
 Flags: HMW
@@ -15198,7 +15456,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D42E
-Encoding: 65640 119854 637
+Encoding: 676 119854 637
 Width: 570
 VWidth: -3
 Flags: HMW
@@ -15232,7 +15490,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D42F
-Encoding: 65641 119855 638
+Encoding: 677 119855 638
 Width: 486
 VWidth: -3
 Flags: HMW
@@ -15261,7 +15519,7 @@ Validated: 1
 EndChar
 
 StartChar: u1D430
-Encoding: 65642 119856 639
+Encoding: 678 119856 639
 Width: 750
 VWidth: -3
 Flags: HMW
@@ -15297,7 +15555,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D431
-Encoding: 65643 119857 640
+Encoding: 679 119857 640
 Width: 490
 VWidth: 0
 Flags: HMW
@@ -15343,7 +15601,7 @@ Validated: 5
 EndChar
 
 StartChar: u1D432
-Encoding: 65644 119858 641
+Encoding: 680 119858 641
 Width: 461
 VWidth: -3
 Flags: HMW
@@ -15379,7 +15637,7 @@ Validated: 1048577
 EndChar
 
 StartChar: u1D433
-Encoding: 65645 119859 642
+Encoding: 681 119859 642
 Width: 435
 VWidth: 0
 Flags: HMW
@@ -15410,7 +15668,7 @@ Validated: 1048577
 EndChar
 
 StartChar: uni20D1
-Encoding: 8401 8401 643
+Encoding: 485 8401 643
 Width: 0
 Flags: HMW
 AnchorPoint: "top" -231 425 mark 0
@@ -15431,7 +15689,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23B7
-Encoding: 9143 9143 644
+Encoding: 545 9143 644
 Width: 1000
 Flags: MW
 LayerCount: 2
@@ -15454,7 +15712,7 @@ Validated: 1
 EndChar
 
 StartChar: uni20D7
-Encoding: 8407 8407 645
+Encoding: 486 8407 645
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -15465,7 +15723,7 @@ Validated: 1
 EndChar
 
 StartChar: dollar.oldstyleproportional
-Encoding: 63268 63268 646
+Encoding: 554 63268 646
 Width: 370
 Flags: HMW
 LayerCount: 2
@@ -15485,7 +15743,7 @@ Ligature2: "Old style closing tag-1" dollar.onumflag less slash o n u m greater
 EndChar
 
 StartChar: percent.oldstyleproportional
-Encoding: 63042 63042 647
+Encoding: 553 63042 647
 Width: 647
 Flags: HMW
 LayerCount: 2
@@ -15527,7 +15785,7 @@ Ligature2: "Old style closing tag-1" percent.onumflag less slash o n u m greater
 EndChar
 
 StartChar: uni0302
-Encoding: 770 770 648
+Encoding: 433 770 648
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15548,7 +15806,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030C
-Encoding: 780 780 649
+Encoding: 441 780 649
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15561,7 +15819,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0304
-Encoding: 772 772 650
+Encoding: 435 772 650
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15580,7 +15838,7 @@ Validated: 1
 EndChar
 
 StartChar: gravecomb
-Encoding: 768 768 651
+Encoding: 431 768 651
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15600,7 +15858,7 @@ Validated: 1
 EndChar
 
 StartChar: acutecomb
-Encoding: 769 769 652
+Encoding: 432 769 652
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15620,7 +15878,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0306
-Encoding: 774 774 653
+Encoding: 436 774 653
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15641,7 +15899,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0307
-Encoding: 775 775 654
+Encoding: 437 775 654
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15660,7 +15918,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030A
-Encoding: 778 778 655
+Encoding: 439 778 655
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15684,7 +15942,7 @@ Validated: 1
 EndChar
 
 StartChar: tildecomb
-Encoding: 771 771 656
+Encoding: 434 771 656
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15707,7 +15965,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030B
-Encoding: 779 779 657
+Encoding: 440 779 657
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15733,7 +15991,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0327
-Encoding: 807 807 658
+Encoding: 445 807 658
 Width: 0
 VWidth: 0
 Flags: MW
@@ -15758,7 +16016,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0308
-Encoding: 776 776 659
+Encoding: 438 776 659
 Width: 0
 VWidth: -3
 Flags: MW
@@ -15772,7 +16030,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0312
-Encoding: 786 786 660
+Encoding: 442 786 660
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -15785,7 +16043,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0313
-Encoding: 787 787 661
+Encoding: 443 787 661
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -15797,7 +16055,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0315
-Encoding: 789 789 662
+Encoding: 444 789 662
 Width: 0
 VWidth: 0
 Flags: MW
@@ -15820,19 +16078,47 @@ Validated: 1
 EndChar
 
 StartChar: uni1D07
-Encoding: 7431 7431 663
-Width: 460
+Encoding: 452 7431 663
+Width: 483
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 695 -1 N 1 0 0 1 0 0 2
+SplineSet
+54 425 m 1
+ 326 425 l 1
+ 381 430 l 1
+ 400 430 l 1
+ 408 324 l 1
+ 374 320 l 1
+ 358 389 l 1
+ 194 389 l 1
+ 194 241 l 1
+ 305 241 l 1
+ 320 290 l 1
+ 348 290 l 1
+ 348 160 l 1
+ 320 160 l 1
+ 305 209 l 1
+ 194 209 l 1
+ 194 36 l 5
+ 371 36 l 5
+ 394 116 l 5
+ 428 111 l 5
+ 415 0 l 5
+ 50 0 l 1
+ 50 18 l 1
+ 120 43 l 1
+ 120 389 l 1
+ 54 407 l 1
+ 54 425 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni02D0
-Encoding: 720 720 664
+Encoding: 424 720 664
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -15855,7 +16141,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02D1
-Encoding: 721 721 665
+Encoding: 425 721 665
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -15873,7 +16159,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02CC
-Encoding: 716 716 666
+Encoding: 423 716 666
 Width: 150
 VWidth: -3
 Flags: HMW
@@ -15891,7 +16177,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02C8
-Encoding: 712 712 667
+Encoding: 419 712 667
 Width: 150
 VWidth: -3
 Flags: HMW
@@ -15909,7 +16195,7 @@ Validated: 1
 EndChar
 
 StartChar: circle
-Encoding: 9675 9675 668
+Encoding: 546 9675 668
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -15932,7 +16218,7 @@ Validated: 1
 EndChar
 
 StartChar: uni25CC
-Encoding: 9676 9676 669
+Encoding: 547 9676 669
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -16025,7 +16311,7 @@ Validated: 1
 EndChar
 
 StartChar: Euro
-Encoding: 8364 8364 670
+Encoding: 484 8364 670
 Width: 623
 VWidth: 0
 Flags: HMW
@@ -16066,7 +16352,7 @@ Validated: 1048581
 EndChar
 
 StartChar: startonum
-Encoding: 57381 57381 671
+Encoding: 550 57381 671
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -16143,7 +16429,7 @@ Ligature2: "'dlig' Discretionary Ligatures lookup 3-1" less o n u m greater
 EndChar
 
 StartChar: zero.onumflag
-Encoding: 65646 -1 672
+Encoding: 682 -1 672
 Width: 508
 VWidth: -3
 Flags: HMW
@@ -16161,7 +16447,7 @@ Colour: ffff
 EndChar
 
 StartChar: one.onumflag
-Encoding: 65647 -1 673
+Encoding: 683 -1 673
 Width: 360
 VWidth: -3
 Flags: HMW
@@ -16179,7 +16465,7 @@ Colour: ffff
 EndChar
 
 StartChar: two.onumflag
-Encoding: 65648 -1 674
+Encoding: 684 -1 674
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -16197,7 +16483,7 @@ Colour: ffff
 EndChar
 
 StartChar: three.onumflag
-Encoding: 65649 -1 675
+Encoding: 685 -1 675
 Width: 427
 VWidth: 0
 Flags: HMW
@@ -16215,7 +16501,7 @@ Colour: ffff
 EndChar
 
 StartChar: four.onumflag
-Encoding: 65650 -1 676
+Encoding: 686 -1 676
 Width: 514
 VWidth: -3
 Flags: HMW
@@ -16233,7 +16519,7 @@ Colour: ffff
 EndChar
 
 StartChar: five.onumflag
-Encoding: 65651 -1 677
+Encoding: 687 -1 677
 Width: 423
 VWidth: 0
 Flags: HMW
@@ -16251,7 +16537,7 @@ Colour: ffff
 EndChar
 
 StartChar: six.onumflag
-Encoding: 65652 -1 678
+Encoding: 688 -1 678
 Width: 480
 VWidth: 0
 Flags: MW
@@ -16269,7 +16555,7 @@ Colour: ffff
 EndChar
 
 StartChar: seven.onumflag
-Encoding: 65653 -1 679
+Encoding: 689 -1 679
 Width: 380
 VWidth: 0
 Flags: HMW
@@ -16287,7 +16573,7 @@ Colour: ffff
 EndChar
 
 StartChar: eight.onumflag
-Encoding: 65654 -1 680
+Encoding: 690 -1 680
 Width: 509
 VWidth: 0
 Flags: HMW
@@ -16305,7 +16591,7 @@ Colour: ffff
 EndChar
 
 StartChar: nine.onumflag
-Encoding: 65655 -1 681
+Encoding: 691 -1 681
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -16323,7 +16609,7 @@ Colour: ffff
 EndChar
 
 StartChar: dollar.onumflag
-Encoding: 63291 63291 682
+Encoding: 566 63291 682
 Width: 370
 Flags: HMW
 LayerCount: 2
@@ -16339,7 +16625,7 @@ Colour: ffff
 EndChar
 
 StartChar: percent.onumflag
-Encoding: 63290 63290 683
+Encoding: 565 63290 683
 Width: 647
 Flags: HMW
 LayerCount: 2
@@ -16355,7 +16641,7 @@ Colour: ffff
 EndChar
 
 StartChar: period.onumflag
-Encoding: 63302 63302 684
+Encoding: 567 63302 684
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -16372,7 +16658,7 @@ Colour: ffff
 EndChar
 
 StartChar: comma.onumflag
-Encoding: 63303 63303 685
+Encoding: 568 63303 685
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -16389,7 +16675,7 @@ Colour: ffff
 EndChar
 
 StartChar: colon.onumflag
-Encoding: 63304 63304 686
+Encoding: 569 63304 686
 Width: 230
 VWidth: -3
 Flags: HMW
@@ -16406,7 +16692,7 @@ Colour: ffff
 EndChar
 
 StartChar: hyphen.onumflag
-Encoding: 63305 63305 687
+Encoding: 570 63305 687
 Width: 300
 VWidth: 0
 Flags: HMW
@@ -16423,7 +16709,7 @@ Colour: ffff
 EndChar
 
 StartChar: space.onumflag
-Encoding: 63306 63306 688
+Encoding: 571 63306 688
 Width: 260
 VWidth: 0
 Flags: HMW
@@ -16440,7 +16726,7 @@ Colour: ffff
 EndChar
 
 StartChar: tagwarning
-Encoding: 57382 57382 689
+Encoding: 551 57382 689
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -16507,7 +16793,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 690
+Encoding: 95 160 690
 Width: 260
 VWidth: 0
 Flags: HMW
@@ -16519,29 +16805,29 @@ Validated: 1
 EndChar
 
 StartChar: a.smcp
-Encoding: 65656 -1 691
-Width: 462
+Encoding: 692 -1 691
+Width: 474
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-125 174 m 5
- 348 174 l 5
- 348 136 l 5
- 125 136 l 5
- 125 174 l 5
+125 184 m 1
+ 360 184 l 1
+ 360 146 l 1
+ 125 146 l 1
+ 125 184 l 1
 53 36 m 17
- 210 431 l 1
- 258 431 l 1
- 419 32 l 1
- 472 18 l 1
- 472 0 l 1
- 290 0 l 1
- 290 18 l 1
- 334 34 l 1
- 216 345 l 1
+ 216 456 l 1
+ 264 456 l 1
+ 431 32 l 1
+ 484 18 l 1
+ 484 0 l 1
+ 302 0 l 1
+ 302 18 l 1
+ 346 34 l 1
+ 222 370 l 1
  101 33 l 1
  156 18 l 1
  156 0 l 1
@@ -16550,258 +16836,274 @@ SplineSet
  53 36 l 17
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" a.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: b.smcp
-Encoding: 65657 -1 692
-Width: 484
+Encoding: 693 -1 692
+Width: 496
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-194 232 m 1
- 194 201 l 1
- 248 201 l 2
- 332 201 355 172.052734375 355 119 c 3
- 355 53.869140625 317 36 251 36 c 2
+194 244 m 1
+ 194 213 l 1
+ 254 213 l 2
+ 344 213 367 183.052734375 367 125 c 3
+ 367 54.869140625 329 36 257 36 c 2
  194 36 l 1
- 194 389 l 1
- 248 389 l 2
- 300 389 335 375.0078125 335 317 c 3
- 335 259.967773438 306 232 242 232 c 2
- 194 232 l 1
-336 226 m 1
- 374 239 411 272 411 327 c 3
- 411 408.022460938 360 425 261 425 c 2
- 54 425 l 1
- 54 407 l 1
- 120 389 l 1
+ 194 413 l 1
+ 254 413 l 2
+ 312 413 347 399.0078125 347 336 c 3
+ 347 273.967773438 318 244 248 244 c 2
+ 194 244 l 1
+348 238 m 1
+ 386 251 423 286 423 346 c 3
+ 423 432.022460938 372 449 267 449 c 2
+ 54 449 l 1
+ 54 431 l 1
+ 120 413 l 1
  120 43 l 1
  50 18 l 1
  50 0 l 1
- 257 0 l 2
- 376 0 434 38.669921875 434 123 c 3
- 434 192.077148438 385 217 336 226 c 1
+ 263 0 l 2
+ 388 -1.53080849893e-14 446 39.669921875 446 129 c 3
+ 446 203.077148438 397 229 348 238 c 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" b.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: c.smcp
-Encoding: 65658 -1 693
-Width: 467
+Encoding: 694 -1 693
+Width: 479
 VWidth: -3
 Flags: HMW
-AnchorPoint: "top" 243 425 basemark 0
-AnchorPoint: "bottom" 253 0 basemark 0
+AnchorPoint: "top" 251 449 basemark 0
+AnchorPoint: "bottom" 261 0 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-259 -12 m 3
- 142 -12 50 58 50 205 c 7
- 50 363 161 437 276 437 c 7
- 333 437 377 427 395 420 c 5
- 400 315 l 5
- 362 309 l 5
- 344 383 l 5
- 328 391 300 397 271 397 c 7
- 181 397 125 352 125 232 c 7
- 125 111 180.994140625 30 280 30 c 3
- 314 30 332 33 352 40 c 1
- 363 120 l 1
- 407 117 l 1
- 402 21 l 1
- 368 4 322 -12 259 -12 c 3
+267 -12 m 3
+ 142 -12 50 57 50 216 c 3
+ 50 386 161 461 284 461 c 3
+ 341 461 389 451 407 444 c 1
+ 412 339 l 1
+ 374 333 l 1
+ 356 407 l 1
+ 340 415 308 421 279 421 c 3
+ 181 421 125 375 125 243 c 3
+ 125 110 180.994140625 30 288 30 c 3
+ 322 30 344 33 364 40 c 1
+ 375 120 l 1
+ 419 117 l 1
+ 414 21 l 1
+ 380 4 330 -12 267 -12 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" c.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: d.smcp
-Encoding: 65659 -1 694
-Width: 501
+Encoding: 695 -1 694
+Width: 520
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-194 389 m 1
+194 413 m 1
  194 36 l 1
- 243 36 l 2
- 340 36 382 83.1435546875 382 223 c 3
- 382 352 336 389 238 389 c 2
- 194 389 l 1
-54 425 m 1
- 256 425 l 2
- 400 425 461 370.029296875 461 227 c 3
- 461 65.9970703125 383 0 254 0 c 2
+ 253 36 l 2
+ 358 36 401 83.1435546875 401 235 c 3
+ 401 376 354 413 248 413 c 2
+ 194 413 l 1
+54 449 m 1
+ 266 449 l 2
+ 418 449 480 394.029296875 480 239 c 3
+ 480 65.9970703125 401 -1.67776611483e-14 264 0 c 2
  50 0 l 1
  50 18 l 1
  120 43 l 1
- 120 389 l 1
- 54 407 l 1
- 54 425 l 1
+ 120 413 l 1
+ 54 431 l 1
+ 54 449 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" d.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: e.smcp
-Encoding: 65660 -1 695
-Width: 483
+Encoding: 696 -1 695
+Width: 490
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-54 425 m 1
- 326 425 l 1
- 381 430 l 1
- 400 430 l 1
- 408 324 l 1
- 374 320 l 1
- 358 389 l 1
- 194 389 l 1
- 194 241 l 1
- 305 241 l 1
- 320 290 l 1
- 348 290 l 1
- 348 160 l 1
- 320 160 l 1
- 305 209 l 1
- 194 209 l 1
- 194 36 l 5
- 371 36 l 5
- 394 116 l 5
- 428 111 l 5
- 415 0 l 5
+54 449 m 1
+ 333 449 l 5
+ 388 454 l 5
+ 407 454 l 5
+ 415 348 l 5
+ 381 344 l 5
+ 365 413 l 5
+ 194 413 l 1
+ 194 253 l 1
+ 312 253 l 5
+ 327 302 l 5
+ 355 302 l 5
+ 355 172 l 5
+ 327 172 l 5
+ 312 221 l 5
+ 194 221 l 1
+ 194 36 l 1
+ 378 36 l 5
+ 401 116 l 5
+ 435 111 l 5
+ 422 0 l 5
  50 0 l 1
  50 18 l 1
  120 43 l 1
- 120 389 l 1
- 54 407 l 1
- 54 425 l 1
+ 120 413 l 1
+ 54 431 l 1
+ 54 449 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" e.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: f.smcp
-Encoding: 65661 -1 696
-Width: 428
+Encoding: 697 -1 696
+Width: 435
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-54 425 m 1
- 54 407 l 1
- 120 389 l 1
- 120 43 l 5
- 50 18 l 5
- 50 0 l 5
- 268 0 l 5
- 268 18 l 5
- 194 34 l 5
- 194 200 l 1
- 295 200 l 1
- 310 151 l 1
- 338 151 l 1
- 338 281 l 1
- 310 281 l 1
- 295 232 l 1
- 194 232 l 1
- 194 389 l 1
- 348 389 l 1
- 364 320 l 1
- 398 324 l 1
- 390 430 l 1
- 371 430 l 1
- 316 425 l 1
- 54 425 l 1
+54 449 m 1
+ 54 431 l 1
+ 120 413 l 1
+ 120 43 l 1
+ 50 18 l 1
+ 50 0 l 1
+ 268 0 l 1
+ 268 18 l 1
+ 194 34 l 1
+ 194 212 l 1
+ 302 212 l 5
+ 317 163 l 5
+ 345 163 l 5
+ 345 293 l 5
+ 317 293 l 5
+ 302 244 l 5
+ 194 244 l 1
+ 194 413 l 1
+ 355 413 l 5
+ 371 344 l 5
+ 405 348 l 5
+ 397 454 l 5
+ 378 454 l 5
+ 323 449 l 5
+ 54 449 l 1
 EndSplineSet
 Validated: 9
+Ligature2: "SmallCapsClose subtable" f.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: g.smcp
-Encoding: 65662 -1 697
-Width: 494
+Encoding: 698 -1 697
+Width: 506
 VWidth: -3
 Flags: HMW
-AnchorPoint: "top" 243 425 basemark 0
+AnchorPoint: "top" 251 449 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-125 232 m 3
- 125 103 185 31 281 31 c 3
- 309 31 326 34 340 38 c 1
- 340 176 l 1
- 281 190 l 1
- 281 208 l 1
- 414 216 l 1
- 414 30 l 1
- 365 -1 325 -12 249 -12 c 3
- 147 -12 50 57 50 205 c 3
- 50 363 161 437 276 437 c 3
- 333 437 377 427 395 420 c 1
- 400 315 l 1
- 362 309 l 1
- 344 383 l 1
- 328 391 300 397 271 397 c 3
- 181 397 125 352 125 232 c 3
+50 215 m 3
+ 50 386 161 461 284 461 c 3
+ 341 461 389 451 407 444 c 1
+ 412 339 l 1
+ 374 333 l 1
+ 356 407 l 1
+ 340 415 308 421 279 421 c 3
+ 181 421 125 375 125 242 c 3
+ 125 103 185 28 289 28 c 3
+ 317 28 338 31 352 35 c 1
+ 352 176 l 1
+ 293 190 l 1
+ 293 208 l 1
+ 426 216 l 1
+ 426 30 l 1
+ 377 -1 333 -12 257 -12 c 3
+ 147 -12 50 57 50 215 c 3
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" g.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: h.smcp
-Encoding: 65663 -1 698
-Width: 574
+Encoding: 699 -1 698
+Width: 580
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-178 242 m 1
- 401 242 l 1
- 401 204 l 1
- 178 204 l 1
- 178 242 l 1
-332 425 m 1
- 524 425 l 1
- 524 407 l 1
- 460 386 l 1
- 460 34 l 1
- 524 18 l 1
- 524 0 l 1
- 326 0 l 1
- 326 18 l 1
- 386 43 l 1
- 386 386 l 1
- 332 407 l 1
- 332 425 l 1
-56 425 m 5
- 248 425 l 5
- 248 407 l 5
- 194 386 l 5
- 194 34 l 5
- 248 18 l 5
- 248 0 l 5
- 50 0 l 5
- 50 18 l 5
- 120 43 l 5
- 120 386 l 5
- 56 407 l 5
- 56 425 l 5
+178 254 m 1
+ 407 254 l 1
+ 407 216 l 1
+ 178 216 l 1
+ 178 254 l 1
+338 449 m 1
+ 530 449 l 1
+ 530 431 l 1
+ 466 410 l 1
+ 466 34 l 1
+ 530 18 l 1
+ 530 0 l 1
+ 332 0 l 1
+ 332 18 l 1
+ 392 43 l 1
+ 392 410 l 1
+ 338 431 l 1
+ 338 449 l 1
+56 449 m 1
+ 248 449 l 1
+ 248 431 l 1
+ 194 410 l 1
+ 194 34 l 1
+ 248 18 l 1
+ 248 0 l 1
+ 50 0 l 1
+ 50 18 l 1
+ 120 43 l 1
+ 120 410 l 1
+ 56 431 l 1
+ 56 449 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" h.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: i.smcp
-Encoding: 65664 -1 699
+Encoding: 700 -1 699
 Width: 308
 VWidth: -3
 Flags: HMW
@@ -16809,25 +17111,27 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-56 425 m 5
- 258 425 l 5
- 258 407 l 5
- 194 386 l 5
+56 449 m 5
+ 258 449 l 5
+ 258 431 l 5
+ 194 410 l 5
  194 34 l 1
  258 18 l 1
  258 0 l 1
  50 0 l 1
  50 18 l 1
  120 43 l 1
- 120 386 l 5
- 56 407 l 5
- 56 425 l 5
+ 120 410 l 5
+ 56 431 l 5
+ 56 449 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" i.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: j.smcp
-Encoding: 65665 -1 700
+Encoding: 701 -1 700
 Width: 299
 VWidth: -3
 Flags: HMW
@@ -16835,445 +17139,206 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-47 425 m 1
- 47 407 l 1
- 111 386 l 1
+47 449 m 5
+ 47 431 l 5
+ 111 410 l 5
  111 22 l 2
  111 -41 93 -151 20 -215 c 1
  32 -232 l 1
  145 -166 185 -26 185 61 c 2
- 185 386 l 1
- 249 407 l 1
- 249 425 l 1
- 47 425 l 1
+ 185 410 l 5
+ 249 431 l 5
+ 249 449 l 5
+ 47 449 l 5
 EndSplineSet
 Validated: 9
+Ligature2: "SmallCapsClose subtable" j.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: k.smcp
-Encoding: 65666 -1 701
-Width: 495
+Encoding: 702 -1 701
+Width: 505
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-194 425 m 1
- 56 425 l 1
- 56 407 l 1
- 120 386 l 1
+194 449 m 1
+ 56 449 l 1
+ 56 431 l 1
+ 120 410 l 1
  120 43 l 1
  50 18 l 1
  50 0 l 1
  248 0 l 1
  248 18 l 1
  194 34 l 1
- 194 425 l 1
-297 425 m 1
- 442 425 l 1
- 442 402 l 1
- 375 381 l 17
- 267 248 l 1
- 419 63 l 1
- 465 18 l 1
- 465 0 l 1
- 371 0 l 1
- 203 217 l 1
- 327 384 l 9
- 297 402 l 1
- 297 425 l 1
+ 194 449 l 1
+310 449 m 1
+ 455 449 l 1
+ 455 426 l 1
+ 388 405 l 17
+ 266 247 l 1
+ 429 63 l 1
+ 475 18 l 1
+ 475 0 l 1
+ 381 0 l 1
+ 203 219 l 1
+ 340 408 l 9
+ 310 426 l 1
+ 310 449 l 1
 EndSplineSet
 Validated: 9
+Ligature2: "SmallCapsClose subtable" k.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: l.smcp
-Encoding: 65667 -1 702
-Width: 420
+Encoding: 703 -1 702
+Width: 440
 VWidth: -3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-56 425 m 1
- 56 407 l 1
- 120 386 l 1
+56 449 m 1
+ 56 431 l 1
+ 120 410 l 1
  120 43 l 1
  50 18 l 1
  50 0 l 1
- 387 0 l 1
- 400 111 l 1
- 366 116 l 1
- 343 36 l 1
+ 407 0 l 1
+ 420 111 l 1
+ 386 116 l 1
+ 363 36 l 1
  194 36 l 1
- 194 386 l 1
- 258 407 l 1
- 258 425 l 1
- 56 425 l 1
+ 194 410 l 1
+ 258 431 l 1
+ 258 449 l 1
+ 56 449 l 1
 EndSplineSet
 Validated: 9
+Ligature2: "SmallCapsClose subtable" l.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: m.smcp
-Encoding: 65668 -1 703
-Width: 656
+Encoding: 704 -1 703
+Width: 670
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-606 425 m 1
- 606 407 l 1
- 542 386 l 1
- 542 34 l 1
- 606 18 l 1
- 606 0 l 1
- 404 0 l 1
- 404 18 l 1
- 468 43 l 1
- 468 371 l 1
- 465 371 l 1
- 443 425 l 1
- 606 425 l 1
-443 425 m 1
- 465 371 l 25
- 327 32 l 1
- 293 32 l 1
- 162 368 l 1
- 220 425 l 1
- 332 141 l 1
- 443 425 l 1
-44 425 m 1
- 220 425 l 1
- 162 368 l 1
- 157 368 l 1
+620 449 m 1
+ 620 431 l 1
+ 556 410 l 1
+ 556 34 l 1
+ 620 18 l 1
+ 620 0 l 1
+ 418 0 l 1
+ 418 18 l 1
+ 482 43 l 1
+ 482 395 l 1
+ 479 395 l 1
+ 457 449 l 1
+ 620 449 l 1
+457 449 m 1
+ 479 395 l 25
+ 334 32 l 1
+ 300 32 l 1
+ 162 392 l 1
+ 220 449 l 1
+ 339 152 l 1
+ 457 449 l 1
+44 449 m 1
+ 220 449 l 1
+ 162 392 l 1
+ 157 392 l 1
  157 36 l 1
  213 20 l 1
  213 0 l 1
  40 0 l 1
  40 20 l 1
  108 36 l 1
- 108 389 l 1
- 44 404 l 1
- 44 425 l 1
+ 108 413 l 1
+ 44 428 l 1
+ 44 449 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" m.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: n.smcp
-Encoding: 65669 -1 704
-Width: 538
+Encoding: 705 -1 704
+Width: 560
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-435 389 m 5
- 435 -5 l 1
- 390 -5 l 1
- 159 330 l 1
- 157 330 l 1
+457 413 m 1
+ 457 -5 l 1
+ 412 -5 l 1
+ 159 351 l 1
+ 157 351 l 1
  157 36 l 1
  213 20 l 1
  213 0 l 1
  40 0 l 1
  40 20 l 1
  108 36 l 1
- 108 389 l 1
- 44 404 l 1
- 44 425 l 1
- 184 425 l 1
- 386 133 l 1
- 386 389 l 5
- 330 405 l 5
- 330 425 l 5
- 498 425 l 5
- 498 405 l 5
- 435 389 l 5
+ 108 413 l 1
+ 44 428 l 1
+ 44 449 l 1
+ 179 449 l 1
+ 408 133 l 1
+ 408 413 l 1
+ 352 429 l 1
+ 352 449 l 1
+ 520 449 l 1
+ 520 429 l 1
+ 457 413 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" n.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: o.smcp
-Encoding: 65670 -1 705
-Width: 504
+Encoding: 706 -1 705
+Width: 526
 VWidth: -3
 Flags: HMW
-AnchorPoint: "top" 258 425 basemark 0
+AnchorPoint: "top" 269 449 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-256 399 m 3
- 159 399 130 337 130 220 c 3
- 130 101 177 27 252 27 c 3
- 349 27 374 90 374 207 c 3
- 374 326 331 399 256 399 c 3
-263 437 m 3
- 356 437 454 383 454 222 c 3
- 454 77 372 -12 240 -12 c 3
- 150 -12 50 44 50 205 c 3
- 50 350 131 437 263 437 c 3
+267 423 m 3
+ 159 423 130 361 130 232 c 3
+ 130 101 177 27 263 27 c 3
+ 371 27 396 90 396 219 c 3
+ 396 350 353 423 267 423 c 3
+274 461 m 3
+ 378 461 476 407 476 234 c 3
+ 476 77 394 -12 251 -12 c 3
+ 150 -12 50 44 50 217 c 3
+ 50 374 131 461 274 461 c 3
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" o.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: p.smcp
-Encoding: 65671 -1 706
-Width: 472
-VWidth: 0
-Flags: HMW
-LayerCount: 2
-Back
-Fore
-SplineSet
-217 172 m 1
- 217 204 l 1
- 315 204 342 236.967773438 342 303 c 3
- 342 367.0078125 311 389 253 389 c 2
- 194 389 l 1
- 194 34 l 1
- 268 18 l 1
- 268 0 l 1
- 50 0 l 1
- 50 18 l 1
- 120 43 l 1
- 120 389 l 1
- 54 407 l 1
- 54 425 l 1
- 276 425 l 2
- 370 425 422 397.022460938 422 310 c 3
- 422 232 370 172 217 172 c 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: q.smcp
-Encoding: 65672 -1 707
-Width: 504
-VWidth: -3
-Flags: HMW
-LayerCount: 2
-Back
-Fore
-SplineSet
-186 -16 m 1
- 359 -51 l 1
- 359 -66 l 1
- 332 -117 l 1
- 175 -44 l 1
- 186 -16 l 1
-EndSplineSet
-Refer: 705 -1 N 1 0 0 1 0 0 2
-Validated: 1
-EndChar
-
-StartChar: r.smcp
-Encoding: 65673 -1 708
-Width: 495
-VWidth: 0
-Flags: HMW
-LayerCount: 2
-Back
-Fore
-SplineSet
-194 389 m 1
- 194 31 l 1
- 253 20 l 1
- 253 0 l 1
- 50 0 l 1
- 50 18 l 1
- 120 43 l 1
- 120 389 l 1
- 54 407 l 1
- 54 425 l 1
- 276 425 l 2
- 370 425 421 408.022460938 421 325 c 3
- 421 261 360 218 303 205 c 1
- 423 63 l 1
- 465 18 l 1
- 465 0 l 1
- 374 0 l 1
- 217 211 l 1
- 217 222 l 17
- 306 222 341 261.967773438 341 319 c 3
- 341 377.0078125 305 389 253 389 c 2
- 194 389 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: s.smcp
-Encoding: 65674 -1 709
-Width: 414
-VWidth: 0
-Flags: HMW
-AnchorPoint: "bottom" 213 0 basemark 0
-AnchorPoint: "top" 217 425 basemark 0
-LayerCount: 2
-Back
-Fore
-SplineSet
-227 437 m 3
- 273 437 310 428 339 420 c 1
- 341 315 l 1
- 307 312 l 1
- 288 384 l 1
- 273 394 243 402 209 402 c 3
- 153 402 128 379 128 343 c 3
- 128 298 182 275 235 250 c 0
- 318 211 364 185 364 115 c 3
- 364 48 317 -12 200 -12 c 3
- 150 -12 102 -2 66 10 c 1
- 60 118 l 1
- 99 121 l 1
- 114 49 l 1
- 134 38 175 26 210 26 c 3
- 269 26 293 48 293 90 c 3
- 293 135 251 154 190 182 c 0
- 109 219 66 252 66 319 c 3
- 66 380 119 437 227 437 c 3
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: t.smcp
-Encoding: 65675 -1 710
-Width: 450
-VWidth: -3
-Flags: HMW
-LayerCount: 2
-Back
-Fore
-SplineSet
-38 430 m 1
- 57 430 l 1
- 112 425 l 1
- 338 425 l 1
- 393 430 l 1
- 412 430 l 1
- 420 324 l 1
- 386 320 l 1
- 370 389 l 1
- 262 389 l 1
- 262 34 l 1
- 326 18 l 1
- 326 0 l 1
- 118 0 l 1
- 118 18 l 1
- 188 43 l 1
- 188 389 l 1
- 80 389 l 1
- 64 320 l 1
- 30 324 l 1
- 38 430 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: u.smcp
-Encoding: 65676 -1 711
-Width: 549
-VWidth: 0
-Flags: HMW
-AnchorPoint: "top" 288 425 basemark 0
-LayerCount: 2
-Back
-Fore
-SplineSet
-446 389 m 1
- 509 405 l 1
- 509 425 l 1
- 341 425 l 1
- 341 405 l 1
- 397 389 l 1
- 397 187 l 2
- 397 74 377 37 291 37 c 3
- 196 37 178 91 178 184 c 2
- 178 386 l 1
- 237 407 l 1
- 237 425 l 1
- 40 425 l 1
- 40 407 l 1
- 104 386 l 1
- 104 185 l 2
- 104 60 134 -12 276 -12 c 3
- 426 -12 446 82 446 188 c 2
- 446 389 l 1
-EndSplineSet
-Validated: 1048585
-EndChar
-
-StartChar: v.smcp
-Encoding: 65677 -1 712
-Width: 432
-VWidth: -3
-Flags: HMW
-LayerCount: 2
-Back
-Fore
-SplineSet
-389 389 m 17
- 232 -12 l 1
- 204 -12 l 1
- 43 393 l 1
- -10 407 l 1
- -10 425 l 1
- 172 425 l 1
- 172 407 l 1
- 128 391 l 1
- 238 101 l 1
- 341 392 l 9
- 286 407 l 1
- 286 425 l 1
- 452 425 l 1
- 452 407 l 1
- 389 389 l 17
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: w.smcp
-Encoding: 65678 -1 713
-Width: 641
-VWidth: -3
-Flags: HMW
-AnchorPoint: "top" 333 425 basemark 0
-LayerCount: 2
-Back
-Fore
-SplineSet
-359 406 m 1
- 461 108 l 1
- 550 392 l 9
- 495 407 l 1
- 495 425 l 1
- 661 425 l 1
- 661 407 l 1
- 598 389 l 17
- 461 -6 l 1
- 428 -6 l 1
- 320 299 l 1
- 217 -6 l 1
- 184 -6 l 1
- 43 393 l 1
- -10 407 l 1
- -10 425 l 1
- 172 425 l 1
- 172 407 l 1
- 126 391 l 1
- 220 113 l 1
- 317 406 l 1
- 359 406 l 1
-EndSplineSet
-Validated: 1048577
-EndChar
-
-StartChar: x.smcp
-Encoding: 65679 -1 714
+Encoding: 707 -1 706
 Width: 480
 VWidth: 0
 Flags: HMW
@@ -17281,114 +17346,387 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-222 238 m 1
- 245 214 l 1
+217 184 m 1
+ 217 216 l 1
+ 325 216 350 248.967773438 350 321 c 3
+ 350 391.0078125 317 413 253 413 c 2
+ 194 413 l 1
+ 194 34 l 1
+ 268 18 l 1
+ 268 0 l 1
+ 50 0 l 1
+ 50 18 l 1
+ 120 43 l 1
+ 120 413 l 1
+ 54 431 l 1
+ 54 449 l 1
+ 276 449 l 2
+ 376 449 430 421.022460938 430 328 c 3
+ 430 244 380 184 217 184 c 1
+EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" p.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: q.smcp
+Encoding: 708 -1 707
+Width: 526
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+197 -16 m 1
+ 370 -51 l 1
+ 370 -66 l 1
+ 343 -117 l 1
+ 186 -44 l 1
+ 197 -16 l 1
+EndSplineSet
+Refer: 705 -1 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" q.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: r.smcp
+Encoding: 709 -1 708
+Width: 501
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+194 413 m 1
+ 194 31 l 1
+ 253 20 l 1
+ 253 0 l 1
+ 50 0 l 1
+ 50 18 l 1
+ 120 43 l 1
+ 120 413 l 1
+ 54 431 l 1
+ 54 449 l 1
+ 279 449 l 2
+ 376 449 427 432.022460938 427 343 c 3
+ 427 273 366 230 303 217 c 1
+ 429 63 l 1
+ 471 18 l 1
+ 471 0 l 1
+ 380 0 l 1
+ 217 223 l 1
+ 217 234 l 17
+ 312 234 347 273.967773438 347 337 c 3
+ 347 401.0078125 311 413 256 413 c 2
+ 194 413 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" r.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: s.smcp
+Encoding: 710 -1 709
+Width: 430
+VWidth: 0
+Flags: HMW
+AnchorPoint: "bottom" 218 0 basemark 0
+AnchorPoint: "top" 225 449 basemark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+235 461 m 3
+ 284 461 326 449 355 441 c 1
+ 357 336 l 1
+ 323 333 l 1
+ 304 405 l 1
+ 289 415 254 426 217 426 c 3
+ 153 426 128 403 128 361 c 3
+ 128 310 190 287 243 262 c 0
+ 326 223 380 197 380 121 c 3
+ 380 48 330 -12 205 -12 c 3
+ 152 -12 102 1 66 13 c 1
+ 60 121 l 1
+ 99 124 l 1
+ 114 52 l 1
+ 134 41 177 26 215 26 c 3
+ 282 26 309 48 309 96 c 3
+ 309 147 259 166 198 194 c 0
+ 117 231 66 264 66 337 c 3
+ 66 404 119 461 235 461 c 3
+EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" s.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: t.smcp
+Encoding: 711 -1 710
+Width: 470
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+38 454 m 1
+ 57 454 l 1
+ 112 449 l 1
+ 358 449 l 1
+ 413 454 l 1
+ 432 454 l 1
+ 440 348 l 1
+ 406 344 l 1
+ 390 413 l 1
+ 272 413 l 1
+ 272 34 l 1
+ 336 18 l 1
+ 336 0 l 1
+ 128 0 l 1
+ 128 18 l 1
+ 198 43 l 1
+ 198 413 l 1
+ 80 413 l 1
+ 64 344 l 1
+ 30 348 l 1
+ 38 454 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" t.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: u.smcp
+Encoding: 712 -1 711
+Width: 549
+VWidth: 0
+Flags: HMW
+AnchorPoint: "top" 288 449 basemark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+446 413 m 1
+ 509 429 l 1
+ 509 449 l 1
+ 341 449 l 1
+ 341 429 l 1
+ 397 413 l 1
+ 397 187 l 2
+ 397 74 377 37 291 37 c 3
+ 196 37 178 91 178 184 c 2
+ 178 410 l 1
+ 237 431 l 1
+ 237 449 l 1
+ 40 449 l 1
+ 40 431 l 1
+ 104 410 l 1
+ 104 185 l 2
+ 104 60 134 -12 276 -12 c 3
+ 426 -12 446 82 446 188 c 2
+ 446 413 l 1
+EndSplineSet
+Validated: 1048585
+Ligature2: "SmallCapsClose subtable" u.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: v.smcp
+Encoding: 713 -1 712
+Width: 442
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+399 413 m 17
+ 237 -12 l 1
+ 209 -12 l 1
+ 43 417 l 1
+ -10 431 l 1
+ -10 449 l 1
+ 172 449 l 1
+ 172 431 l 1
+ 128 415 l 1
+ 243 101 l 1
+ 351 416 l 9
+ 296 431 l 1
+ 296 449 l 1
+ 462 449 l 1
+ 462 431 l 1
+ 399 413 l 17
+EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" v.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: w.smcp
+Encoding: 714 -1 713
+Width: 641
+VWidth: -3
+Flags: HMW
+AnchorPoint: "top" 333 449 basemark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+359 430 m 1
+ 462 114 l 1
+ 550 416 l 9
+ 495 431 l 1
+ 495 449 l 1
+ 661 449 l 1
+ 661 431 l 1
+ 598 413 l 17
+ 461 -6 l 1
+ 428 -6 l 1
+ 319 320 l 1
+ 217 -6 l 1
+ 184 -6 l 1
+ 43 417 l 1
+ -10 431 l 1
+ -10 449 l 1
+ 172 449 l 1
+ 172 431 l 1
+ 126 415 l 1
+ 220 116 l 1
+ 317 430 l 1
+ 359 430 l 1
+EndSplineSet
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" w.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
+EndChar
+
+StartChar: x.smcp
+Encoding: 715 -1 714
+Width: 480
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+222 251 m 1
+ 245 227 l 1
  141 34 l 1
  175 18 l 1
  175 0 l 1
  30 0 l 1
  30 18 l 1
  95 36 l 1
- 222 238 l 1
-264 222 m 1
- 241 246 l 1
- 323 393 l 1
- 301 407 l 1
- 301 425 l 1
- 432 425 l 1
- 432 407 l 1
- 369 391 l 1
- 264 222 l 1
-183 393 m 1
- 264 246 l 1
+ 222 251 l 1
+264 235 m 1
+ 241 259 l 1
+ 323 417 l 1
+ 301 431 l 1
+ 301 449 l 1
+ 432 449 l 1
+ 432 431 l 1
+ 369 415 l 1
+ 264 235 l 1
+183 417 m 1
+ 264 259 l 1
  394 36 l 1
  450 18 l 1
  450 0 l 1
  296 0 l 1
  296 18 l 1
  309 30 l 1
- 215 201 l 1
- 97 390 l 1
- 41 407 l 1
- 41 425 l 1
- 201 425 l 1
- 201 407 l 1
- 183 393 l 1
+ 215 214 l 1
+ 97 414 l 1
+ 41 431 l 1
+ 41 449 l 1
+ 201 449 l 1
+ 201 431 l 1
+ 183 417 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" x.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: y.smcp
-Encoding: 65680 -1 715
-Width: 424
+Encoding: 716 -1 715
+Width: 436
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-172 184 m 1
- 246 184 l 1
- 246 34 l 1
- 310 18 l 1
- 310 0 l 1
- 102 0 l 1
- 102 18 l 1
- 172 43 l 1
- 172 184 l 1
-5 425 m 1
- 182 425 l 1
- 182 407 l 1
- 143 391 l 1
- 227 225 l 1
- 308 392 l 9
- 258 407 l 1
- 258 425 l 1
- 419 425 l 1
- 419 407 l 1
- 356 389 l 17
- 217 127 l 1
- 199 127 l 1
- 58 393 l 1
- 5 407 l 1
- 5 425 l 1
+178 194 m 1
+ 252 194 l 1
+ 252 34 l 1
+ 316 18 l 1
+ 316 0 l 1
+ 108 0 l 1
+ 108 18 l 1
+ 178 43 l 1
+ 178 194 l 1
+5 449 m 1
+ 182 449 l 1
+ 182 431 l 1
+ 143 415 l 1
+ 233 237 l 1
+ 320 416 l 9
+ 270 431 l 1
+ 270 449 l 1
+ 431 449 l 1
+ 431 431 l 1
+ 368 413 l 17
+ 223 137 l 1
+ 205 137 l 1
+ 58 417 l 1
+ 5 431 l 1
+ 5 449 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" y.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: z.smcp
-Encoding: 65681 -1 716
-Width: 447
+Encoding: 717 -1 716
+Width: 463
 VWidth: 0
 Flags: HMW
-AnchorPoint: "top" 235 425 basemark 0
+AnchorPoint: "top" 235 449 basemark 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-337 36 m 5
- 361 121 l 5
- 397 116 l 5
- 381 0 l 5
- 57 0 l 5
- 50 18 l 5
- 284 389 l 5
- 124 389 l 5
- 104 308 l 5
- 67 312 l 5
- 81 430 l 5
- 101 430 l 5
- 156 425 l 5
- 374 425 l 5
- 383 408 l 5
- 147 36 l 5
- 337 36 l 5
+353 36 m 1
+ 377 121 l 1
+ 413 116 l 1
+ 397 0 l 1
+ 57 0 l 1
+ 50 18 l 1
+ 302 413 l 1
+ 124 413 l 1
+ 104 332 l 1
+ 67 336 l 1
+ 81 454 l 1
+ 101 454 l 1
+ 156 449 l 1
+ 390 449 l 1
+ 399 432 l 1
+ 145 36 l 1
+ 353 36 l 1
 EndSplineSet
 Validated: 1048577
+Ligature2: "SmallCapsClose subtable" z.smcpflag less slash s c greater
+LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: startsc
-Encoding: 57383 57383 717
+Encoding: 552 57383 717
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -17436,6 +17774,1436 @@ SplineSet
  0 0 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsOpen subtable" less s c greater
+EndChar
+
+StartChar: zero.smcp
+Encoding: 718 -1 718
+Width: 508
+VWidth: -3
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 575 63280 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" zero.smcpflag less slash s c greater
+EndChar
+
+StartChar: one.smcp
+Encoding: 719 -1 719
+Width: 360
+VWidth: -3
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 576 63281 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" one.smcpflag less slash s c greater
+EndChar
+
+StartChar: two.smcp
+Encoding: 720 -1 720
+Width: 427
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 577 63282 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" two.smcpflag less slash s c greater
+EndChar
+
+StartChar: three.smcp
+Encoding: 721 -1 721
+Width: 427
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 578 63283 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" three.smcpflag less slash s c greater
+EndChar
+
+StartChar: four.smcp
+Encoding: 722 -1 722
+Width: 514
+VWidth: -3
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 579 63284 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" four.smcpflag less slash s c greater
+EndChar
+
+StartChar: five.smcp
+Encoding: 723 -1 723
+Width: 423
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 580 63285 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" five.smcpflag less slash s c greater
+EndChar
+
+StartChar: six.smcp
+Encoding: 724 -1 724
+Width: 480
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 581 63286 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" six.smcpflag less slash s c greater
+EndChar
+
+StartChar: seven.smcp
+Encoding: 725 -1 725
+Width: 380
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 582 63287 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" seven.smcpflag less slash s c greater
+EndChar
+
+StartChar: eight.smcp
+Encoding: 726 -1 726
+Width: 509
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 583 63288 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" eight.smcpflag less slash s c greater
+EndChar
+
+StartChar: nine.smcp
+Encoding: 727 -1 727
+Width: 465
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 584 63289 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" nine.smcpflag less slash s c greater
+EndChar
+
+StartChar: dollar.smcp
+Encoding: 728 -1 728
+Width: 370
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 646 63268 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" dollar.smcpflag less slash s c greater
+EndChar
+
+StartChar: percent.smcp
+Encoding: 729 -1 729
+Width: 647
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 647 63042 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" percent.smcpflag less slash s c greater
+EndChar
+
+StartChar: space.smcpflag
+Encoding: 730 -1 730
+Width: 260
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 0 32 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 260 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" space
+Ligature2: "SmallCapsInitialize subtable" startsc space
+EndChar
+
+StartChar: exclam.smcpflag
+Encoding: 731 -1 731
+Width: 250
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 1 33 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 250 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" exclam
+Ligature2: "SmallCapsInitialize subtable" startsc exclam
+EndChar
+
+StartChar: quotedbl.smcpflag
+Encoding: 732 -1 732
+Width: 350
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 2 34 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 350 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedbl
+Ligature2: "SmallCapsInitialize subtable" startsc quotedbl
+EndChar
+
+StartChar: ampersand.smcpflag
+Encoding: 733 -1 733
+Width: 700
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 6 38 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 700 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" ampersand
+Ligature2: "SmallCapsInitialize subtable" startsc ampersand
+EndChar
+
+StartChar: quotesingle.smcpflag
+Encoding: 734 -1 734
+Width: 152
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 7 39 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 152 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotesingle
+Ligature2: "SmallCapsInitialize subtable" startsc quotesingle
+EndChar
+
+StartChar: parenleft.smcpflag
+Encoding: 735 -1 735
+Width: 310
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 8 40 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 310 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" parenleft
+Ligature2: "SmallCapsInitialize subtable" startsc parenleft
+EndChar
+
+StartChar: parenright.smcpflag
+Encoding: 736 -1 736
+Width: 310
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 9 41 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 310 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" parenright
+Ligature2: "SmallCapsInitialize subtable" startsc parenright
+EndChar
+
+StartChar: comma.smcpflag
+Encoding: 737 -1 737
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 12 44 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 230 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" comma
+Ligature2: "SmallCapsInitialize subtable" startsc comma
+EndChar
+
+StartChar: hyphen.smcpflag
+Encoding: 738 -1 738
+Width: 300
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 13 45 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 300 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" hyphen
+Ligature2: "SmallCapsInitialize subtable" startsc hyphen
+EndChar
+
+StartChar: period.smcpflag
+Encoding: 739 -1 739
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 14 46 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 230 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" period
+Ligature2: "SmallCapsInitialize subtable" startsc period
+EndChar
+
+StartChar: colon.smcpflag
+Encoding: 740 -1 740
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 26 58 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 230 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" colon
+Ligature2: "SmallCapsInitialize subtable" startsc colon
+EndChar
+
+StartChar: semicolon.smcpflag
+Encoding: 741 -1 741
+Width: 230
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 27 59 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 230 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" semicolon
+Ligature2: "SmallCapsInitialize subtable" startsc semicolon
+EndChar
+
+StartChar: question.smcpflag
+Encoding: 742 -1 742
+Width: 420
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 31 63 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 420 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" question
+Ligature2: "SmallCapsInitialize subtable" startsc question
+EndChar
+
+StartChar: A.smcpflag
+Encoding: 743 -1 743
+Width: 652
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 33 65 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 652 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" A
+Ligature2: "SmallCapsInitialize subtable" startsc A
+EndChar
+
+StartChar: B.smcpflag
+Encoding: 744 -1 744
+Width: 605
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 34 66 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 605 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" B
+Ligature2: "SmallCapsInitialize subtable" startsc B
+EndChar
+
+StartChar: C.smcpflag
+Encoding: 745 -1 745
+Width: 653
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 35 67 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 653 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" C
+Ligature2: "SmallCapsInitialize subtable" startsc C
+EndChar
+
+StartChar: D.smcpflag
+Encoding: 746 -1 746
+Width: 704
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 36 68 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 704 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" D
+Ligature2: "SmallCapsInitialize subtable" startsc D
+EndChar
+
+StartChar: E.smcpflag
+Encoding: 747 -1 747
+Width: 579
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 37 69 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 579 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" E
+Ligature2: "SmallCapsInitialize subtable" startsc E
+EndChar
+
+StartChar: F.smcpflag
+Encoding: 748 -1 748
+Width: 504
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 38 70 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 504 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" F
+Ligature2: "SmallCapsInitialize subtable" startsc F
+EndChar
+
+StartChar: G.smcpflag
+Encoding: 749 -1 749
+Width: 687
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 39 71 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 687 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" G
+Ligature2: "SmallCapsInitialize subtable" startsc G
+EndChar
+
+StartChar: H.smcpflag
+Encoding: 750 -1 750
+Width: 700
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 40 72 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 700 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" H
+Ligature2: "SmallCapsInitialize subtable" startsc H
+EndChar
+
+StartChar: I.smcpflag
+Encoding: 751 -1 751
+Width: 343
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 41 73 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 343 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" I
+Ligature2: "SmallCapsInitialize subtable" startsc I
+EndChar
+
+StartChar: J.smcpflag
+Encoding: 752 -1 752
+Width: 331
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 42 74 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 331 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" J
+Ligature2: "SmallCapsInitialize subtable" startsc J
+EndChar
+
+StartChar: K.smcpflag
+Encoding: 753 -1 753
+Width: 628
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 43 75 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 628 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" K
+Ligature2: "SmallCapsInitialize subtable" startsc K
+EndChar
+
+StartChar: L.smcpflag
+Encoding: 754 -1 754
+Width: 552
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 44 76 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 552 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" L
+Ligature2: "SmallCapsInitialize subtable" startsc L
+EndChar
+
+StartChar: M.smcpflag
+Encoding: 755 -1 755
+Width: 860
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 45 77 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 860 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" M
+Ligature2: "SmallCapsInitialize subtable" startsc M
+EndChar
+
+StartChar: N.smcpflag
+Encoding: 756 -1 756
+Width: 703
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 46 78 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 703 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" N
+Ligature2: "SmallCapsInitialize subtable" startsc N
+EndChar
+
+StartChar: O.smcpflag
+Encoding: 757 -1 757
+Width: 707
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 47 79 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 707 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" O
+Ligature2: "SmallCapsInitialize subtable" startsc O
+EndChar
+
+StartChar: P.smcpflag
+Encoding: 758 -1 758
+Width: 523
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 48 80 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 523 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" P
+Ligature2: "SmallCapsInitialize subtable" startsc P
+EndChar
+
+StartChar: Q.smcpflag
+Encoding: 759 -1 759
+Width: 707
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 49 81 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 707 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" Q
+Ligature2: "SmallCapsInitialize subtable" startsc Q
+EndChar
+
+StartChar: R.smcpflag
+Encoding: 760 -1 760
+Width: 584
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 50 82 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 584 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" R
+Ligature2: "SmallCapsInitialize subtable" startsc R
+EndChar
+
+StartChar: S.smcpflag
+Encoding: 761 -1 761
+Width: 490
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 51 83 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 490 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" S
+Ligature2: "SmallCapsInitialize subtable" startsc S
+EndChar
+
+StartChar: T.smcpflag
+Encoding: 762 -1 762
+Width: 534
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 52 84 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 534 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" T
+Ligature2: "SmallCapsInitialize subtable" startsc T
+EndChar
+
+StartChar: U.smcpflag
+Encoding: 763 -1 763
+Width: 670
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 53 85 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 670 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" U
+Ligature2: "SmallCapsInitialize subtable" startsc U
+EndChar
+
+StartChar: V.smcpflag
+Encoding: 764 -1 764
+Width: 626
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 54 86 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 626 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" V
+Ligature2: "SmallCapsInitialize subtable" startsc V
+EndChar
+
+StartChar: W.smcpflag
+Encoding: 765 -1 765
+Width: 912
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 55 87 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 912 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" W
+Ligature2: "SmallCapsInitialize subtable" startsc W
+EndChar
+
+StartChar: X.smcpflag
+Encoding: 766 -1 766
+Width: 621
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 56 88 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 621 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" X
+Ligature2: "SmallCapsInitialize subtable" startsc X
+EndChar
+
+StartChar: Y.smcpflag
+Encoding: 767 -1 767
+Width: 552
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 57 89 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 552 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" Y
+Ligature2: "SmallCapsInitialize subtable" startsc Y
+EndChar
+
+StartChar: Z.smcpflag
+Encoding: 768 -1 768
+Width: 556
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 58 90 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 556 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" Z
+Ligature2: "SmallCapsInitialize subtable" startsc Z
+EndChar
+
+StartChar: endash.smcpflag
+Encoding: 769 -1 769
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 206 8211 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 500 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" endash
+Ligature2: "SmallCapsInitialize subtable" startsc endash
+EndChar
+
+StartChar: emdash.smcpflag
+Encoding: 770 -1 770
+Width: 940
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 207 8212 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 940 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" emdash
+Ligature2: "SmallCapsInitialize subtable" startsc emdash
+EndChar
+
+StartChar: quoteleft.smcpflag
+Encoding: 771 -1 771
+Width: 167
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 208 8216 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 167 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quoteleft
+Ligature2: "SmallCapsInitialize subtable" startsc quoteleft
+EndChar
+
+StartChar: quoteright.smcpflag
+Encoding: 772 -1 772
+Width: 167
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 209 8217 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 167 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quoteright
+Ligature2: "SmallCapsInitialize subtable" startsc quoteright
+EndChar
+
+StartChar: quotedblleft.smcpflag
+Encoding: 773 -1 773
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 210 8220 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedblleft
+Ligature2: "SmallCapsInitialize subtable" startsc quotedblleft
+EndChar
+
+StartChar: quotedblright.smcpflag
+Encoding: 774 -1 774
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 211 8221 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedblright
+Ligature2: "SmallCapsInitialize subtable" startsc quotedblright
+EndChar
+
+StartChar: ellipsis.smcpflag
+Encoding: 775 -1 775
+Width: 1000
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 212 8230 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 1000 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" ellipsis
+Ligature2: "SmallCapsInitialize subtable" startsc ellipsis
+EndChar
+
+StartChar: quotedblbase.smcpflag
+Encoding: 776 -1 776
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 345 8222 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedblbase
+Ligature2: "SmallCapsInitialize subtable" startsc quotedblbase
+EndChar
+
+StartChar: a.smcpflag
+Encoding: 777 -1 777
+Width: 474
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 691 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 474 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" a.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc a
+EndChar
+
+StartChar: b.smcpflag
+Encoding: 778 -1 778
+Width: 496
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 692 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 496 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" b.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc b
+EndChar
+
+StartChar: c.smcpflag
+Encoding: 779 -1 779
+Width: 479
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 693 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 479 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" c.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc c
+EndChar
+
+StartChar: d.smcpflag
+Encoding: 780 -1 780
+Width: 520
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 694 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 520 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" d.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc d
+EndChar
+
+StartChar: e.smcpflag
+Encoding: 781 -1 781
+Width: 490
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 695 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 490 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" e.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc e
+EndChar
+
+StartChar: f.smcpflag
+Encoding: 782 -1 782
+Width: 435
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 696 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 435 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" f.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc f
+EndChar
+
+StartChar: g.smcpflag
+Encoding: 783 -1 783
+Width: 506
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 697 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 506 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" g.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc g
+EndChar
+
+StartChar: h.smcpflag
+Encoding: 784 -1 784
+Width: 580
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 698 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 580 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" h.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc h
+EndChar
+
+StartChar: i.smcpflag
+Encoding: 785 -1 785
+Width: 308
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 699 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 308 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" i.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc i
+EndChar
+
+StartChar: j.smcpflag
+Encoding: 786 -1 786
+Width: 299
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 700 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 299 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" j.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc j
+EndChar
+
+StartChar: k.smcpflag
+Encoding: 787 -1 787
+Width: 505
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 701 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 505 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" k.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc k
+EndChar
+
+StartChar: l.smcpflag
+Encoding: 788 -1 788
+Width: 440
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 702 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 440 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" l.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc l
+EndChar
+
+StartChar: m.smcpflag
+Encoding: 789 -1 789
+Width: 670
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 703 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 670 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" m.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc m
+EndChar
+
+StartChar: n.smcpflag
+Encoding: 790 -1 790
+Width: 560
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 704 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 560 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" n.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc n
+EndChar
+
+StartChar: o.smcpflag
+Encoding: 791 -1 791
+Width: 526
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 705 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 526 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" o.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc o
+EndChar
+
+StartChar: p.smcpflag
+Encoding: 792 -1 792
+Width: 480
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 706 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 480 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" p.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc p
+EndChar
+
+StartChar: q.smcpflag
+Encoding: 793 -1 793
+Width: 526
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 707 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 526 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" q.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc q
+EndChar
+
+StartChar: r.smcpflag
+Encoding: 794 -1 794
+Width: 501
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 708 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 501 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" r.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc r
+EndChar
+
+StartChar: s.smcpflag
+Encoding: 795 -1 795
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 709 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" s.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc s
+EndChar
+
+StartChar: t.smcpflag
+Encoding: 796 -1 796
+Width: 470
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 710 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 470 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" t.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc t
+EndChar
+
+StartChar: u.smcpflag
+Encoding: 797 -1 797
+Width: 549
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 711 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 549 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" u.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc u
+EndChar
+
+StartChar: v.smcpflag
+Encoding: 798 -1 798
+Width: 442
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 712 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 442 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" v.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc v
+EndChar
+
+StartChar: w.smcpflag
+Encoding: 799 -1 799
+Width: 641
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 713 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 641 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" w.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc w
+EndChar
+
+StartChar: x.smcpflag
+Encoding: 800 -1 800
+Width: 480
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 714 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 480 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" x.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc x
+EndChar
+
+StartChar: y.smcpflag
+Encoding: 801 -1 801
+Width: 436
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 715 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 436 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" y.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc y
+EndChar
+
+StartChar: z.smcpflag
+Encoding: 802 -1 802
+Width: 463
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 716 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 463 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" z.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc z
+EndChar
+
+StartChar: zero.smcpflag
+Encoding: 803 -1 803
+Width: 508
+VWidth: -3
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 718 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 508 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" zero.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc zero
+EndChar
+
+StartChar: one.smcpflag
+Encoding: 804 -1 804
+Width: 360
+VWidth: -3
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 719 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 360 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" one.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc one
+EndChar
+
+StartChar: two.smcpflag
+Encoding: 805 -1 805
+Width: 427
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 720 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 427 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" two.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc two
+EndChar
+
+StartChar: three.smcpflag
+Encoding: 806 -1 806
+Width: 427
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 721 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 427 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" three.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc three
+EndChar
+
+StartChar: four.smcpflag
+Encoding: 807 -1 807
+Width: 514
+VWidth: -3
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 722 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 514 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" four.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc four
+EndChar
+
+StartChar: five.smcpflag
+Encoding: 808 -1 808
+Width: 423
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 723 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 423 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" five.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc five
+EndChar
+
+StartChar: six.smcpflag
+Encoding: 809 -1 809
+Width: 480
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 724 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 480 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" six.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc six
+EndChar
+
+StartChar: seven.smcpflag
+Encoding: 810 -1 810
+Width: 380
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 725 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 380 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" seven.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc seven
+EndChar
+
+StartChar: eight.smcpflag
+Encoding: 811 -1 811
+Width: 509
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 726 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 509 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" eight.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc eight
+EndChar
+
+StartChar: nine.smcpflag
+Encoding: 812 -1 812
+Width: 465
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 727 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 465 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" nine.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc nine
+EndChar
+
+StartChar: dollar.smcpflag
+Encoding: 813 -1 813
+Width: 370
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 728 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 370 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" dollar.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc dollar
+EndChar
+
+StartChar: percent.smcpflag
+Encoding: 814 -1 814
+Width: 647
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 729 -1 N 1 0 0 1 0 0 1
+Refer: 717 57383 N 1 0 0 1 647 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" percent.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc percent
 EndChar
 EndChars
 EndSplineFont
