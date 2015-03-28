@@ -22,7 +22,7 @@ using namespace std;
 
 // GLYPHS YOU WANT TO CONVERT
 
-string FileName = "SWIFTDAY Bold.sfd";
+string FileName = "SWIFTDAY Italic.sfd";
 
 string suffix = ".smcp";
 

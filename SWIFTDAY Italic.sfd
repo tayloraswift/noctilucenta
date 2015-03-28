@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427511428
+ModificationTime: 1427511653
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,13 @@ Lookup: 6 0 0 "Tagwarning" { "Tagwarning subtable"  } ['calt' ('math' <'dflt' > 
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
 Lookup: 1 0 0 "onumOldstyleFigureslookup0" { "onumOldstyleFigureslookup0 subtable" ("oldstyle") } ['onum' ('latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals lookup 10" { "'smcp' Lowercase to Small Capitals lookup 10-1" ("smcp") } ['smcp' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "SmallCapsOpen" { "SmallCapsOpen subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "SmallCapsInitialize" { "SmallCapsInitialize subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "SmallCapsChaining" { "SmallCapsChaining subtable"  } ['calt' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
+Lookup: 6 0 0 "SmallCapsRendering" { "SmallCapsRendering subtable"  } ['calt' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
+Lookup: 4 0 1 "SmallCapsClose" { "SmallCapsClose subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kernHorizontalKerningITALICOVER" { "kernHorizontalKerningITALICOVER subtable" [150,0,0] } ['kern' ('latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable"  } ['kern' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -123,6 +130,20 @@ KernClass2: 5 6 "kernHorizontalKerningITALICOVER subtable"
  21 t tbar tcaron uni0163
  1 f
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} -6 {} 0 {} 30 {} -40 {} 0 {} 0 {} 0 {} 4 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {}
+ChainSub2: coverage "SmallCapsRendering subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag dollar.smcpflag percent.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag
+  FCoverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag dollar.smcpflag percent.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag
+ 1
+  SeqLookup: 0 "Single Substitution lookup 16"
+EndFPST
+ChainSub2: coverage "SmallCapsChaining subtable" 0 0 0 1
+ 1 1 0
+  Coverage: 362 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z space comma period colon semicolon hyphen parenleft parenright exclam question quotesingle quotedbl endash emdash quoteleft quoteright quotedblright quotedblleft quotedblbase ellipsis ampersand dollar percent zero one two three four five six seven eight nine a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag dollar.smcpflag percent.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag
+ 1
+  SeqLookup: 0 "Single Substitution lookup 14"
+EndFPST
 ChainSub2: coverage "Tagwarning subtable" 0 0 0 1
  1 0 1
   Coverage: 249 percent.onumflag dollar.onumflag zero.onumflag one.onumflag two.onumflag three.onumflag four.onumflag five.onumflag six.onumflag seven.onumflag eight.onumflag nine.onumflag period.onumflag comma.onumflag colon.onumflag hyphen.onumflag space.onumflag
@@ -151,7 +172,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 456 19 9
+WinInfo: 532 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -176,7 +197,7 @@ Grid
  -1000 425 2000 425 2000 425 c 1028
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning lookup 0-1" "top" "'mark' Mark Positioning lookup 0-1" 
-BeginChars: 618 618
+BeginChars: 703 703
 
 StartChar: space
 Encoding: 0 32 0
@@ -187,6 +208,8 @@ LayerCount: 2
 Back
 Fore
 Validated: 1
+Ligature2: "SmallCapsClose subtable" space.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" space.smcpflag
 Ligature2: "Oldstyleclosingtag subtable" space.onumflag less slash o n u m greater
 Substitution2: "Single Substitution lookup 3 subtable" space.onumflag
 EndChar
@@ -208,6 +231,8 @@ SplineSet
 EndSplineSet
 Refer: 14 46 N 1 0 0 1 5 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" exclam.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" exclam.smcpflag
 EndChar
 
 StartChar: quotedbl
@@ -232,6 +257,8 @@ SplineSet
  160 637 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedbl.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedbl.smcpflag
 EndChar
 
 StartChar: numbersign
@@ -300,6 +327,7 @@ SplineSet
  322 689 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Single Substitution lookup 14 subtable" dollar.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" dollar.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" dollar.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" dollar.onumflag
@@ -340,6 +368,7 @@ SplineSet
  683 638 l 5
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" percent.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" percent.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" percent.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" percent.onumflag
@@ -406,6 +435,8 @@ SplineSet
  198 387 150 331 148 227 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" ampersand.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" ampersand.smcpflag
 EndChar
 
 StartChar: quotesingle
@@ -424,6 +455,8 @@ SplineSet
  160 637 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotesingle.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotesingle.smcpflag
 EndChar
 
 StartChar: parenleft
@@ -443,6 +476,8 @@ SplineSet
  267 582 147 415 147 211 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" parenleft.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" parenleft.smcpflag
 EndChar
 
 StartChar: parenright
@@ -454,6 +489,8 @@ Back
 Fore
 Refer: 8 40 N -1 0 0 -1 419 530 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" parenright.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" parenright.smcpflag
 EndChar
 
 StartChar: asterisk
@@ -543,6 +580,8 @@ SplineSet
  82 -92 121 -58 123 -10 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" comma.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" comma.smcpflag
 Ligature2: "Oldstyleclosingtag subtable" comma.onumflag less slash o n u m greater
 Substitution2: "Single Substitution lookup 3 subtable" comma.onumflag
 EndChar
@@ -563,6 +602,8 @@ SplineSet
  91 210 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" hyphen.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" hyphen.smcpflag
 Ligature2: "Oldstyleclosingtag subtable" hyphen.onumflag less slash o n u m greater
 Substitution2: "Single Substitution lookup 3 subtable" hyphen.onumflag
 EndChar
@@ -583,6 +624,8 @@ SplineSet
  76 79 101 104 131 104 c 7
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" period.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" period.smcpflag
 Ligature2: "Oldstyleclosingtag subtable" period.onumflag less slash o n u m greater
 Substitution2: "Single Substitution lookup 3 subtable" period.onumflag
 EndChar
@@ -624,6 +667,7 @@ SplineSet
  513 189 393 -12 244 -12 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" zero.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" zero.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" zero.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" zero.onumflag
@@ -651,6 +695,7 @@ SplineSet
  344 639 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" one.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" one.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" one.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" one.onumflag
@@ -681,6 +726,7 @@ SplineSet
  417 538 395 586 331 586 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" two.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" two.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" two.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" two.onumflag
@@ -713,6 +759,7 @@ SplineSet
  410 305 427 272 427 215 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" three.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" three.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" three.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" three.onumflag
@@ -766,6 +813,7 @@ SplineSet
  411 547 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" four.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" four.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" four.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" four.onumflag
@@ -797,6 +845,7 @@ SplineSet
  413 78 255 -12 48 -12 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" five.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" five.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" five.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" five.onumflag
@@ -842,6 +891,7 @@ SplineSet
  91 412 295 566 471 638 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" six.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" six.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" six.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" six.onumflag
@@ -867,6 +917,7 @@ SplineSet
  122 579 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" seven.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" seven.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" seven.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" seven.onumflag
@@ -921,6 +972,7 @@ SplineSet
  381 216 324 256 269 299 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" eight.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" eight.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" eight.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" eight.onumflag
@@ -966,6 +1018,7 @@ SplineSet
  216 72 343 154 393 316 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" nine.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" nine.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" nine.oldstyleproportional
 Substitution2: "Single Substitution lookup 3 subtable" nine.onumflag
@@ -982,6 +1035,8 @@ Fore
 Refer: 14 46 N 1 0 0 1 54 303 2
 Refer: 14 46 N 1 0 0 1 0 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" colon.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" colon.smcpflag
 Ligature2: "Oldstyleclosingtag subtable" colon.onumflag less slash o n u m greater
 Substitution2: "Single Substitution lookup 3 subtable" colon.onumflag
 EndChar
@@ -996,6 +1051,8 @@ Fore
 Refer: 14 46 N 1 0 0 1 54 303 2
 Refer: 12 44 N 1 0 0 1 -5 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" semicolon.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" semicolon.smcpflag
 EndChar
 
 StartChar: less
@@ -1084,6 +1141,8 @@ SplineSet
 EndSplineSet
 Refer: 14 46 S 1 0 0 1 56 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" question.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" question.smcpflag
 EndChar
 
 StartChar: at
@@ -1181,7 +1240,9 @@ SplineSet
  240 253 l 1
  428 253 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" A.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" A.smcpflag
 EndChar
 
 StartChar: B
@@ -1243,6 +1304,8 @@ SplineSet
  253 350 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" B.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" B.smcpflag
 EndChar
 
 StartChar: C
@@ -1273,6 +1336,8 @@ SplineSet
  540 595 488 607 442 607 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" C.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" C.smcpflag
 EndChar
 
 StartChar: D
@@ -1302,7 +1367,9 @@ SplineSet
  563 638 646 583 646 392 c 3
  646 137 481 0 298 0 c 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" D.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" D.smcpflag
 EndChar
 
 StartChar: E
@@ -1369,7 +1436,9 @@ SplineSet
  146 618 l 1
  146 638 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" E.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" E.smcpflag
 EndChar
 
 StartChar: F
@@ -1431,6 +1500,8 @@ SplineSet
  145 638 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" F.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" F.smcpflag
 EndChar
 
 StartChar: G
@@ -1465,6 +1536,8 @@ SplineSet
  546 37 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" G.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" G.smcpflag
 EndChar
 
 StartChar: H
@@ -1540,7 +1613,9 @@ SplineSet
  147 618 l 1
  147 638 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" H.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" H.smcpflag
 EndChar
 
 StartChar: I
@@ -1567,7 +1642,9 @@ SplineSet
  155 618 l 1
  155 638 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" I.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" I.smcpflag
 EndChar
 
 StartChar: J
@@ -1592,7 +1669,9 @@ SplineSet
  81 -149 112 -41 122 22 c 2
  214 599 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" J.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" J.smcpflag
 EndChar
 
 StartChar: K
@@ -1635,6 +1714,8 @@ SplineSet
  560 599 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" K.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" K.smcpflag
 EndChar
 
 StartChar: L
@@ -1665,6 +1746,8 @@ SplineSet
  204 44 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" L.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" L.smcpflag
 EndChar
 
 StartChar: M
@@ -1705,6 +1788,8 @@ SplineSet
  145 638 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" M.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" M.smcpflag
 EndChar
 
 StartChar: N
@@ -1741,6 +1826,8 @@ SplineSet
  140 638 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" N.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" N.smcpflag
 EndChar
 
 StartChar: O
@@ -1764,7 +1851,9 @@ SplineSet
  610 650 681 526 681 381 c 7
  681 155 520 -12 331 -12 c 7
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" O.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" O.smcpflag
 EndChar
 
 StartChar: P
@@ -1796,6 +1885,8 @@ SplineSet
  146 638 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" P.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" P.smcpflag
 EndChar
 
 StartChar: Q
@@ -1816,6 +1907,8 @@ SplineSet
 EndSplineSet
 Refer: 47 79 N 1 0 0 1 0 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" Q.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" Q.smcpflag
 EndChar
 
 StartChar: R
@@ -1853,6 +1946,8 @@ SplineSet
  292 600 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" R.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" R.smcpflag
 EndChar
 
 StartChar: S
@@ -1887,6 +1982,8 @@ SplineSet
  114 58 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" S.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" S.smcpflag
 EndChar
 
 StartChar: T
@@ -1924,6 +2021,8 @@ SplineSet
  581 602 l 1
 EndSplineSet
 Validated: 5
+Ligature2: "SmallCapsClose subtable" T.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" T.smcpflag
 EndChar
 
 StartChar: U
@@ -1956,7 +2055,9 @@ SplineSet
  206 99 244 39 342 39 c 3
  434 39 496 81 522 245 c 2
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Ligature2: "SmallCapsClose subtable" U.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" U.smcpflag
 EndChar
 
 StartChar: V
@@ -1985,6 +2086,8 @@ SplineSet
  591 599 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" V.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" V.smcpflag
 EndChar
 
 StartChar: W
@@ -2020,7 +2123,9 @@ SplineSet
  522 598 l 1
  564 598 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" W.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" W.smcpflag
 EndChar
 
 StartChar: X
@@ -2097,6 +2202,8 @@ SplineSet
  161 638 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" X.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" X.smcpflag
 EndChar
 
 StartChar: Y
@@ -2159,7 +2266,9 @@ SplineSet
  120 617 l 1
  120 638 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" Y.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" Y.smcpflag
 EndChar
 
 StartChar: Z
@@ -2190,7 +2299,9 @@ SplineSet
  158 44 l 1
  428 44 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" Z.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" Z.smcpflag
 EndChar
 
 StartChar: bracketleft
@@ -2330,7 +2441,8 @@ SplineSet
  384 377 l 1
  369 383 339 389 314 389 c 3
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" a.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" a.smcp
 EndChar
 
@@ -2361,6 +2473,7 @@ SplineSet
  404 361 376 381 348 381 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" b.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" b.smcp
 EndChar
 
@@ -2389,6 +2502,7 @@ SplineSet
  78 285 219 437 345 437 c 7
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" c.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" c.smcp
 EndChar
 
@@ -2426,7 +2540,8 @@ SplineSet
  393 370 l 1
  378 381 349 389 324 389 c 3
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" d.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" d.smcp
 EndChar
 
@@ -2470,7 +2585,8 @@ SplineSet
  293 247 322 294 322 344 c 3
  322 369 302 391 280 391 c 3
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" e.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" e.smcp
 EndChar
 
@@ -2534,6 +2650,7 @@ SplineSet
  333 673 360 687 395 687 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" f.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" f.smcp
 EndChar
 
@@ -2569,7 +2686,8 @@ SplineSet
  393 377 l 1
  378 383 348 389 323 389 c 3
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" g.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" g.smcp
 EndChar
 
@@ -2607,7 +2725,8 @@ SplineSet
  134 667 l 1
  284 690 l 1
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Substitution2: "Single Substitution lookup 14 subtable" h.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" h.smcp
 EndChar
 
@@ -2639,6 +2758,7 @@ SplineSet
  235 437 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" i.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" i.smcp
 EndChar
 
@@ -2671,6 +2791,7 @@ SplineSet
  242 437 l 5
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" j.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" j.smcp
 EndChar
 
@@ -2711,7 +2832,8 @@ SplineSet
  320 339 326 354 348 383 c 4
  371 413 398 437 433 437 c 7
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" k.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" k.smcp
 EndChar
 
@@ -2741,6 +2863,7 @@ SplineSet
  271 690 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" l.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" l.smcp
 EndChar
 
@@ -2787,6 +2910,7 @@ SplineSet
  242 437 l 1
 EndSplineSet
 Validated: 33
+Substitution2: "Single Substitution lookup 14 subtable" m.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" m.smcp
 EndChar
 
@@ -2826,6 +2950,7 @@ SplineSet
  242 437 l 1
 EndSplineSet
 Validated: 33
+Substitution2: "Single Substitution lookup 14 subtable" n.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" n.smcp
 EndChar
 
@@ -2850,7 +2975,8 @@ SplineSet
  323 37 368 131 368 260 c 7
  368 346 327 389 281 389 c 7
 EndSplineSet
-Validated: 1
+Validated: 1048577
+Substitution2: "Single Substitution lookup 14 subtable" o.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" o.smcp
 EndChar
 
@@ -2885,6 +3011,7 @@ SplineSet
  410 361 382 381 354 381 c 7
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" p.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" p.smcp
 EndChar
 
@@ -2917,6 +3044,7 @@ SplineSet
  378 383 348 389 323 389 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" q.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" q.smcp
 EndChar
 
@@ -2950,6 +3078,7 @@ SplineSet
  240 437 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" r.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" r.smcp
 EndChar
 
@@ -2983,6 +3112,7 @@ SplineSet
  97 379 199 437 290 437 c 3
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" s.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" s.smcp
 EndChar
 
@@ -3034,7 +3164,8 @@ SplineSet
  168 518 l 1
  228 540 l 1
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Substitution2: "Single Substitution lookup 14 subtable" t.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" t.smcp
 EndChar
 
@@ -3072,7 +3203,8 @@ SplineSet
  88 414 l 1
  234 437 l 1
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Substitution2: "Single Substitution lookup 14 subtable" u.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" u.smcp
 EndChar
 
@@ -3101,6 +3233,7 @@ SplineSet
  224 437 l 1
 EndSplineSet
 Validated: 33
+Substitution2: "Single Substitution lookup 14 subtable" v.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" v.smcp
 EndChar
 
@@ -3141,7 +3274,8 @@ SplineSet
  83 414 l 1
  224 437 l 5
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Substitution2: "Single Substitution lookup 14 subtable" w.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" w.smcp
 EndChar
 
@@ -3215,6 +3349,7 @@ SplineSet
  226 437 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 14 subtable" x.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" x.smcp
 EndChar
 
@@ -3254,7 +3389,8 @@ SplineSet
  75 414 l 1
  221 437 l 1
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Substitution2: "Single Substitution lookup 14 subtable" y.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" y.smcp
 EndChar
 
@@ -3290,7 +3426,8 @@ SplineSet
  91 324 l 1
  123 437 l 5
 EndSplineSet
-Validated: 33
+Validated: 1048609
+Substitution2: "Single Substitution lookup 14 subtable" z.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" z.smcp
 EndChar
 
@@ -5201,7 +5338,7 @@ SplineSet
  88 414 l 5
  235 437 l 5
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Colour: ff8f94
 EndChar
 
@@ -5484,6 +5621,8 @@ SplineSet
  56 217 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" endash.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" endash.smcpflag
 EndChar
 
 StartChar: emdash
@@ -5502,6 +5641,8 @@ SplineSet
  56 217 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" emdash.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" emdash.smcpflag
 EndChar
 
 StartChar: quoteleft
@@ -5514,6 +5655,8 @@ Back
 Fore
 Refer: 208 8217 N -1 0 0 -1 372 1135 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quoteleft.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quoteleft.smcpflag
 EndChar
 
 StartChar: quoteright
@@ -5534,6 +5677,8 @@ SplineSet
  163 495 197 540 197 583 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quoteright.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quoteright.smcpflag
 EndChar
 
 StartChar: quotedblleft
@@ -5546,6 +5691,8 @@ Back
 Fore
 Refer: 210 8221 N -1 0 0 -1 630 1135 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedblleft.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedblleft.smcpflag
 EndChar
 
 StartChar: quotedblright
@@ -5559,6 +5706,8 @@ Fore
 Refer: 208 8217 N 1 0 0 1 233 0 2
 Refer: 208 8217 N 1 0 0 1 25 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedblright.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedblright.smcpflag
 EndChar
 
 StartChar: ellipsis
@@ -5573,6 +5722,8 @@ Refer: 14 46 N 1 0 0 1 573 0 2
 Refer: 14 46 N 1 0 0 1 293 0 2
 Refer: 14 46 N 1 0 0 1 13 0 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" ellipsis.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" ellipsis.smcpflag
 EndChar
 
 StartChar: Delta
@@ -5889,6 +6040,8 @@ Back
 Fore
 Refer: 210 8221 N 1 0 0 1 -103 -583 2
 Validated: 1
+Ligature2: "SmallCapsClose subtable" quotedblbase.smcpflag less slash s c greater
+Substitution2: "Single Substitution lookup 14 subtable" quotedblbase.smcpflag
 EndChar
 
 StartChar: uni201F
@@ -6014,7 +6167,7 @@ SplineSet
  95 414 l 1
  242 437 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Amacron
@@ -11782,6 +11935,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 559 63268 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" dollar.smcpflag less slash s c greater
 EndChar
 
 StartChar: percent.smcp
@@ -11792,6 +11947,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 558 63042 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" percent.smcpflag less slash s c greater
 EndChar
 
 StartChar: zero.smcp
@@ -11802,6 +11959,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 424 63280 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" zero.smcpflag less slash s c greater
 EndChar
 
 StartChar: one.smcp
@@ -11813,6 +11972,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 425 63281 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" one.smcpflag less slash s c greater
 EndChar
 
 StartChar: two.smcp
@@ -11824,6 +11985,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 426 63282 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" two.smcpflag less slash s c greater
 EndChar
 
 StartChar: three.smcp
@@ -11835,6 +11998,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 427 63283 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" three.smcpflag less slash s c greater
 EndChar
 
 StartChar: four.smcp
@@ -11846,6 +12011,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 428 63284 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" four.smcpflag less slash s c greater
 EndChar
 
 StartChar: five.smcp
@@ -11857,6 +12024,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 429 63285 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" five.smcpflag less slash s c greater
 EndChar
 
 StartChar: six.smcp
@@ -11868,6 +12037,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 430 63286 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" six.smcpflag less slash s c greater
 EndChar
 
 StartChar: seven.smcp
@@ -11879,6 +12050,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 431 63287 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" seven.smcpflag less slash s c greater
 EndChar
 
 StartChar: eight.smcp
@@ -11890,6 +12063,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 432 63288 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" eight.smcpflag less slash s c greater
 EndChar
 
 StartChar: nine.smcp
@@ -11901,6 +12076,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 433 63289 N 1 0 0 1 0 0 2
+Validated: 5
+Ligature2: "SmallCapsClose subtable" nine.smcpflag less slash s c greater
 EndChar
 
 StartChar: a.smcp
@@ -11934,6 +12111,8 @@ SplineSet
  187 184 l 1
  323 184 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" a.smcpflag less slash s c greater
 EndChar
 
 StartChar: b.smcp
@@ -11969,6 +12148,8 @@ SplineSet
  445 449 486 435.297851562 486 353 c 3
  486 292 430 251 390 238 c 1
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" b.smcpflag less slash s c greater
 EndChar
 
 StartChar: c.smcp
@@ -12015,6 +12196,8 @@ SplineSet
  423 21 l 1
  386 4 335 -12 270 -12 c 7
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" c.smcpflag less slash s c greater
 EndChar
 
 StartChar: d.smcp
@@ -12043,6 +12226,8 @@ SplineSet
  130 431 l 1
  130 449 l 1
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" d.smcpflag less slash s c greater
 EndChar
 
 StartChar: e.smcp
@@ -12082,6 +12267,8 @@ SplineSet
  130 431 l 1
  130 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" e.smcpflag less slash s c greater
 EndChar
 
 StartChar: f.smcp
@@ -12119,6 +12306,8 @@ SplineSet
  130 431 l 1
  130 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" f.smcpflag less slash s c greater
 EndChar
 
 StartChar: g.smcp
@@ -12149,6 +12338,8 @@ SplineSet
  431 30 l 1
  377 -1 329 -12 270 -12 c 3
 EndSplineSet
+Validated: 1572865
+Ligature2: "SmallCapsClose subtable" g.smcpflag less slash s c greater
 EndChar
 
 StartChar: h.smcp
@@ -12190,6 +12381,8 @@ SplineSet
  132 431 l 1
  132 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" h.smcpflag less slash s c greater
 EndChar
 
 StartChar: i.smcp
@@ -12215,6 +12408,8 @@ SplineSet
  132 431 l 1
  132 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" i.smcpflag less slash s c greater
 EndChar
 
 StartChar: j.smcp
@@ -12238,6 +12433,8 @@ SplineSet
  123 431 l 1
  123 449 l 1
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" j.smcpflag less slash s c greater
 EndChar
 
 StartChar: k.smcp
@@ -12274,6 +12471,8 @@ SplineSet
  385 426 l 1
  385 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" k.smcpflag less slash s c greater
 EndChar
 
 StartChar: l.smcp
@@ -12301,6 +12500,8 @@ SplineSet
  132 431 l 1
  132 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" l.smcpflag less slash s c greater
 EndChar
 
 StartChar: m.smcp
@@ -12341,6 +12542,8 @@ SplineSet
  119 428 l 1
  119 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" m.smcpflag less slash s c greater
 EndChar
 
 StartChar: n.smcp
@@ -12375,6 +12578,8 @@ SplineSet
  119 428 l 1
  119 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" n.smcpflag less slash s c greater
 EndChar
 
 StartChar: o.smcp
@@ -12409,6 +12614,8 @@ SplineSet
  132 -12 81 71 81 175 c 3
  81 338 197 461 341 461 c 3
 EndSplineSet
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" o.smcpflag less slash s c greater
 EndChar
 
 StartChar: p.smcp
@@ -12438,6 +12645,8 @@ SplineSet
  450 449 493 432.153170129 493 352 c 3
  493 250.955455367 412 184 249 184 c 1
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" p.smcpflag less slash s c greater
 EndChar
 
 StartChar: q.smcp
@@ -12457,6 +12666,8 @@ SplineSet
  194 -16 l 1
 EndSplineSet
 Refer: 605 -1 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "SmallCapsClose subtable" q.smcpflag less slash s c greater
 EndChar
 
 StartChar: r.smcp
@@ -12491,6 +12702,8 @@ SplineSet
  407 400.16015625 384 413 329 413 c 2
  267 413 l 1
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" r.smcpflag less slash s c greater
 EndChar
 
 StartChar: s.smcp
@@ -12545,6 +12758,8 @@ SplineSet
  161 231 122 263.8515625 122 325 c 3
  122 402.06640625 194 461 310 461 c 3
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsClose subtable" s.smcpflag less slash s c greater
 EndChar
 
 StartChar: t.smcp
@@ -12578,6 +12793,8 @@ SplineSet
  93 348 l 1
  115 454 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" t.smcpflag less slash s c greater
 EndChar
 
 StartChar: u.smcp
@@ -12610,6 +12827,8 @@ SplineSet
  585 429 l 1
  519 413 l 1
 EndSplineSet
+Validated: 1572897
+Ligature2: "SmallCapsClose subtable" u.smcpflag less slash s c greater
 EndChar
 
 StartChar: v.smcp
@@ -12638,6 +12857,8 @@ SplineSet
  538 431 l 1
  472 413 l 17
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" v.smcpflag less slash s c greater
 EndChar
 
 StartChar: w.smcp
@@ -12673,6 +12894,8 @@ SplineSet
  393 430 l 1
  435 430 l 1
 EndSplineSet
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" w.smcpflag less slash s c greater
 EndChar
 
 StartChar: x.smcp
@@ -12718,6 +12941,8 @@ SplineSet
  275 431 l 1
  255 417 l 1
 EndSplineSet
+Validated: 5
+Ligature2: "SmallCapsClose subtable" x.smcpflag less slash s c greater
 EndChar
 
 StartChar: y.smcp
@@ -12752,6 +12977,8 @@ SplineSet
  81 431 l 1
  81 449 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "SmallCapsClose subtable" y.smcpflag less slash s c greater
 EndChar
 
 StartChar: z.smcp
@@ -12782,6 +13009,8 @@ SplineSet
  160 36 l 1
  364 36 l 1
 EndSplineSet
+Validated: 1048577
+Ligature2: "SmallCapsClose subtable" z.smcpflag less slash s c greater
 EndChar
 
 StartChar: startsc
@@ -12832,6 +13061,1283 @@ SplineSet
  0 -34 l 1
  0 0 l 1
 EndSplineSet
+Validated: 524289
+Ligature2: "SmallCapsOpen subtable" less s c greater
+EndChar
+
+StartChar: space.smcpflag
+Encoding: 618 -1 618
+Width: 220
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 0 32 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 220 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" space
+Ligature2: "SmallCapsInitialize subtable" startsc space
+EndChar
+
+StartChar: exclam.smcpflag
+Encoding: 619 -1 619
+Width: 266
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 1 33 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 266 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" exclam
+Ligature2: "SmallCapsInitialize subtable" startsc exclam
+EndChar
+
+StartChar: quotedbl.smcpflag
+Encoding: 620 -1 620
+Width: 350
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 2 34 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 350 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedbl
+Ligature2: "SmallCapsInitialize subtable" startsc quotedbl
+EndChar
+
+StartChar: ampersand.smcpflag
+Encoding: 621 -1 621
+Width: 696
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 6 38 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 696 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" ampersand
+Ligature2: "SmallCapsInitialize subtable" startsc ampersand
+EndChar
+
+StartChar: quotesingle.smcpflag
+Encoding: 622 -1 622
+Width: 168
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 7 39 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 168 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotesingle
+Ligature2: "SmallCapsInitialize subtable" startsc quotesingle
+EndChar
+
+StartChar: parenleft.smcpflag
+Encoding: 623 -1 623
+Width: 326
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 8 40 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 326 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" parenleft
+Ligature2: "SmallCapsInitialize subtable" startsc parenleft
+EndChar
+
+StartChar: parenright.smcpflag
+Encoding: 624 -1 624
+Width: 326
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 9 41 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 326 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" parenright
+Ligature2: "SmallCapsInitialize subtable" startsc parenright
+EndChar
+
+StartChar: comma.smcpflag
+Encoding: 625 -1 625
+Width: 258
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 12 44 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 258 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" comma
+Ligature2: "SmallCapsInitialize subtable" startsc comma
+EndChar
+
+StartChar: hyphen.smcpflag
+Encoding: 626 -1 626
+Width: 316
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 13 45 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 316 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" hyphen
+Ligature2: "SmallCapsInitialize subtable" startsc hyphen
+EndChar
+
+StartChar: period.smcpflag
+Encoding: 627 -1 627
+Width: 246
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 14 46 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 246 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" period
+Ligature2: "SmallCapsInitialize subtable" startsc period
+EndChar
+
+StartChar: colon.smcpflag
+Encoding: 628 -1 628
+Width: 246
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 26 58 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 246 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" colon
+Ligature2: "SmallCapsInitialize subtable" startsc colon
+EndChar
+
+StartChar: semicolon.smcpflag
+Encoding: 629 -1 629
+Width: 246
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 27 59 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 246 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" semicolon
+Ligature2: "SmallCapsInitialize subtable" startsc semicolon
+EndChar
+
+StartChar: question.smcpflag
+Encoding: 630 -1 630
+Width: 387
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 31 63 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 387 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" question
+Ligature2: "SmallCapsInitialize subtable" startsc question
+EndChar
+
+StartChar: A.smcpflag
+Encoding: 631 -1 631
+Width: 610
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 33 65 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 610 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" A
+Ligature2: "SmallCapsInitialize subtable" startsc A
+EndChar
+
+StartChar: B.smcpflag
+Encoding: 632 -1 632
+Width: 584
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 34 66 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 584 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" B
+Ligature2: "SmallCapsInitialize subtable" startsc B
+EndChar
+
+StartChar: C.smcpflag
+Encoding: 633 -1 633
+Width: 565
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 35 67 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 565 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" C
+Ligature2: "SmallCapsInitialize subtable" startsc C
+EndChar
+
+StartChar: D.smcpflag
+Encoding: 634 -1 634
+Width: 646
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 36 68 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 646 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" D
+Ligature2: "SmallCapsInitialize subtable" startsc D
+EndChar
+
+StartChar: E.smcpflag
+Encoding: 635 -1 635
+Width: 563
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 37 69 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 563 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" E
+Ligature2: "SmallCapsInitialize subtable" startsc E
+EndChar
+
+StartChar: F.smcpflag
+Encoding: 636 -1 636
+Width: 489
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 38 70 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 489 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" F
+Ligature2: "SmallCapsInitialize subtable" startsc F
+EndChar
+
+StartChar: G.smcpflag
+Encoding: 637 -1 637
+Width: 630
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 39 71 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 630 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" G
+Ligature2: "SmallCapsInitialize subtable" startsc G
+EndChar
+
+StartChar: H.smcpflag
+Encoding: 638 -1 638
+Width: 680
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 40 72 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 680 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" H
+Ligature2: "SmallCapsInitialize subtable" startsc H
+EndChar
+
+StartChar: I.smcpflag
+Encoding: 639 -1 639
+Width: 335
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 41 73 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 335 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" I
+Ligature2: "SmallCapsInitialize subtable" startsc I
+EndChar
+
+StartChar: J.smcpflag
+Encoding: 640 -1 640
+Width: 335
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 42 74 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 335 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" J
+Ligature2: "SmallCapsInitialize subtable" startsc J
+EndChar
+
+StartChar: K.smcpflag
+Encoding: 641 -1 641
+Width: 615
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 43 75 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 615 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" K
+Ligature2: "SmallCapsInitialize subtable" startsc K
+EndChar
+
+StartChar: L.smcpflag
+Encoding: 642 -1 642
+Width: 545
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 44 76 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 545 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" L
+Ligature2: "SmallCapsInitialize subtable" startsc L
+EndChar
+
+StartChar: M.smcpflag
+Encoding: 643 -1 643
+Width: 834
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 45 77 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 834 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" M
+Ligature2: "SmallCapsInitialize subtable" startsc M
+EndChar
+
+StartChar: N.smcpflag
+Encoding: 644 -1 644
+Width: 656
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 46 78 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 656 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" N
+Ligature2: "SmallCapsInitialize subtable" startsc N
+EndChar
+
+StartChar: O.smcpflag
+Encoding: 645 -1 645
+Width: 660
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 47 79 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 660 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" O
+Ligature2: "SmallCapsInitialize subtable" startsc O
+EndChar
+
+StartChar: P.smcpflag
+Encoding: 646 -1 646
+Width: 536
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 48 80 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 536 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" P
+Ligature2: "SmallCapsInitialize subtable" startsc P
+EndChar
+
+StartChar: Q.smcpflag
+Encoding: 647 -1 647
+Width: 660
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 49 81 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 660 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" Q
+Ligature2: "SmallCapsInitialize subtable" startsc Q
+EndChar
+
+StartChar: R.smcpflag
+Encoding: 648 -1 648
+Width: 576
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 50 82 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 576 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" R
+Ligature2: "SmallCapsInitialize subtable" startsc R
+EndChar
+
+StartChar: S.smcpflag
+Encoding: 649 -1 649
+Width: 477
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 51 83 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 477 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" S
+Ligature2: "SmallCapsInitialize subtable" startsc S
+EndChar
+
+StartChar: T.smcpflag
+Encoding: 650 -1 650
+Width: 557
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 52 84 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 557 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" T
+Ligature2: "SmallCapsInitialize subtable" startsc T
+EndChar
+
+StartChar: U.smcpflag
+Encoding: 651 -1 651
+Width: 637
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 53 85 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 637 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" U
+Ligature2: "SmallCapsInitialize subtable" startsc U
+EndChar
+
+StartChar: V.smcpflag
+Encoding: 652 -1 652
+Width: 554
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 54 86 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 554 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" V
+Ligature2: "SmallCapsInitialize subtable" startsc V
+EndChar
+
+StartChar: W.smcpflag
+Encoding: 653 -1 653
+Width: 863
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 55 87 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 863 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" W
+Ligature2: "SmallCapsInitialize subtable" startsc W
+EndChar
+
+StartChar: X.smcpflag
+Encoding: 654 -1 654
+Width: 592
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 56 88 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 592 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" X
+Ligature2: "SmallCapsInitialize subtable" startsc X
+EndChar
+
+StartChar: Y.smcpflag
+Encoding: 655 -1 655
+Width: 528
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 57 89 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 528 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" Y
+Ligature2: "SmallCapsInitialize subtable" startsc Y
+EndChar
+
+StartChar: Z.smcpflag
+Encoding: 656 -1 656
+Width: 531
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 58 90 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 531 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" Z
+Ligature2: "SmallCapsInitialize subtable" startsc Z
+EndChar
+
+StartChar: endash.smcpflag
+Encoding: 657 -1 657
+Width: 426
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 205 8211 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 426 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" endash
+Ligature2: "SmallCapsInitialize subtable" startsc endash
+EndChar
+
+StartChar: emdash.smcpflag
+Encoding: 658 -1 658
+Width: 873
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 206 8212 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 873 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" emdash
+Ligature2: "SmallCapsInitialize subtable" startsc emdash
+EndChar
+
+StartChar: quoteleft.smcpflag
+Encoding: 659 -1 659
+Width: 172
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 207 8216 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 172 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quoteleft
+Ligature2: "SmallCapsInitialize subtable" startsc quoteleft
+EndChar
+
+StartChar: quoteright.smcpflag
+Encoding: 660 -1 660
+Width: 172
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 208 8217 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 172 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quoteright
+Ligature2: "SmallCapsInitialize subtable" startsc quoteright
+EndChar
+
+StartChar: quotedblleft.smcpflag
+Encoding: 661 -1 661
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 209 8220 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedblleft
+Ligature2: "SmallCapsInitialize subtable" startsc quotedblleft
+EndChar
+
+StartChar: quotedblright.smcpflag
+Encoding: 662 -1 662
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 210 8221 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedblright
+Ligature2: "SmallCapsInitialize subtable" startsc quotedblright
+EndChar
+
+StartChar: ellipsis.smcpflag
+Encoding: 663 -1 663
+Width: 830
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 211 8230 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 830 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" ellipsis
+Ligature2: "SmallCapsInitialize subtable" startsc ellipsis
+EndChar
+
+StartChar: quotedblbase.smcpflag
+Encoding: 664 -1 664
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 227 8222 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" quotedblbase
+Ligature2: "SmallCapsInitialize subtable" startsc quotedblbase
+EndChar
+
+StartChar: dollar.smcpflag
+Encoding: 665 -1 665
+Width: 342
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 579 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 342 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" dollar.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc dollar
+EndChar
+
+StartChar: percent.smcpflag
+Encoding: 666 -1 666
+Width: 586
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 580 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 586 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" percent.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc percent
+EndChar
+
+StartChar: zero.smcpflag
+Encoding: 667 -1 667
+Width: 451
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 581 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 451 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" zero.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc zero
+EndChar
+
+StartChar: one.smcpflag
+Encoding: 668 -1 668
+Width: 360
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 582 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 360 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" one.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc one
+EndChar
+
+StartChar: two.smcpflag
+Encoding: 669 -1 669
+Width: 427
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 583 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 427 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" two.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc two
+EndChar
+
+StartChar: three.smcpflag
+Encoding: 670 -1 670
+Width: 427
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 584 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 427 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" three.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc three
+EndChar
+
+StartChar: four.smcpflag
+Encoding: 671 -1 671
+Width: 514
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 585 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 514 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" four.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc four
+EndChar
+
+StartChar: five.smcpflag
+Encoding: 672 -1 672
+Width: 423
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 586 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 423 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" five.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc five
+EndChar
+
+StartChar: six.smcpflag
+Encoding: 673 -1 673
+Width: 475
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 587 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 475 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" six.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc six
+EndChar
+
+StartChar: seven.smcpflag
+Encoding: 674 -1 674
+Width: 380
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 588 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 380 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" seven.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc seven
+EndChar
+
+StartChar: eight.smcpflag
+Encoding: 675 -1 675
+Width: 489
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 589 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 489 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" eight.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc eight
+EndChar
+
+StartChar: nine.smcpflag
+Encoding: 676 -1 676
+Width: 462
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 590 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 462 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" nine.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc nine
+EndChar
+
+StartChar: a.smcpflag
+Encoding: 677 -1 677
+Width: 474
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 591 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 474 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" a.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc a
+EndChar
+
+StartChar: b.smcpflag
+Encoding: 678 -1 678
+Width: 496
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 592 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 496 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" b.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc b
+EndChar
+
+StartChar: c.smcpflag
+Encoding: 679 -1 679
+Width: 479
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 593 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 479 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" c.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc c
+EndChar
+
+StartChar: d.smcpflag
+Encoding: 680 -1 680
+Width: 520
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Back
+Fore
+Refer: 594 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 520 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" d.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc d
+EndChar
+
+StartChar: e.smcpflag
+Encoding: 681 -1 681
+Width: 490
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 595 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 490 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" e.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc e
+EndChar
+
+StartChar: f.smcpflag
+Encoding: 682 -1 682
+Width: 435
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 596 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 435 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" f.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc f
+EndChar
+
+StartChar: g.smcpflag
+Encoding: 683 -1 683
+Width: 506
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 597 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 506 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" g.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc g
+EndChar
+
+StartChar: h.smcpflag
+Encoding: 684 -1 684
+Width: 580
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 598 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 580 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" h.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc h
+EndChar
+
+StartChar: i.smcpflag
+Encoding: 685 -1 685
+Width: 308
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 599 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 308 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" i.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc i
+EndChar
+
+StartChar: j.smcpflag
+Encoding: 686 -1 686
+Width: 299
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 600 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 299 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" j.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc j
+EndChar
+
+StartChar: k.smcpflag
+Encoding: 687 -1 687
+Width: 505
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 601 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 505 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" k.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc k
+EndChar
+
+StartChar: l.smcpflag
+Encoding: 688 -1 688
+Width: 440
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 602 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 440 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" l.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc l
+EndChar
+
+StartChar: m.smcpflag
+Encoding: 689 -1 689
+Width: 670
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 603 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 670 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" m.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc m
+EndChar
+
+StartChar: n.smcpflag
+Encoding: 690 -1 690
+Width: 560
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 604 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 560 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" n.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc n
+EndChar
+
+StartChar: o.smcpflag
+Encoding: 691 -1 691
+Width: 524
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 605 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 524 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" o.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc o
+EndChar
+
+StartChar: p.smcpflag
+Encoding: 692 -1 692
+Width: 480
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 606 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 480 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" p.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc p
+EndChar
+
+StartChar: q.smcpflag
+Encoding: 693 -1 693
+Width: 524
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 607 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 524 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" q.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc q
+EndChar
+
+StartChar: r.smcpflag
+Encoding: 694 -1 694
+Width: 501
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 608 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 501 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" r.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc r
+EndChar
+
+StartChar: s.smcpflag
+Encoding: 695 -1 695
+Width: 430
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 609 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 430 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" s.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc s
+EndChar
+
+StartChar: t.smcpflag
+Encoding: 696 -1 696
+Width: 470
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 610 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 470 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" t.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc t
+EndChar
+
+StartChar: u.smcpflag
+Encoding: 697 -1 697
+Width: 549
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 611 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 549 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" u.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc u
+EndChar
+
+StartChar: v.smcpflag
+Encoding: 698 -1 698
+Width: 442
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 612 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 442 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" v.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc v
+EndChar
+
+StartChar: w.smcpflag
+Encoding: 699 -1 699
+Width: 641
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 613 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 641 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" w.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc w
+EndChar
+
+StartChar: x.smcpflag
+Encoding: 700 -1 700
+Width: 480
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 614 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 480 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" x.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc x
+EndChar
+
+StartChar: y.smcpflag
+Encoding: 701 -1 701
+Width: 436
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 615 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 436 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" y.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc y
+EndChar
+
+StartChar: z.smcpflag
+Encoding: 702 -1 702
+Width: 463
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 616 -1 N 1 0 0 1 0 0 1
+Refer: 617 57383 N 1 0 0 1 463 0 2
+Validated: 1
+Substitution2: "Single Substitution lookup 16 subtable" z.smcp
+Ligature2: "SmallCapsInitialize subtable" startsc z
 EndChar
 EndChars
 EndSplineFont
