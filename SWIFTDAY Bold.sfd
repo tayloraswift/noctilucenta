@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427497043
+ModificationTime: 1427578237
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -163,7 +163,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 608 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -13889,7 +13889,7 @@ SplineSet
  418 449 459 432.022460938 459 346 c 3
  459 286 426 251 368 238 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Ligature2: "SmallCapsClose subtable" b.smcpflag less slash s c greater
 EndChar
 
@@ -13920,7 +13920,7 @@ SplineSet
  367 410 l 1
  352 416 320 421 297 421 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "SmallCapsClose subtable" c.smcpflag less slash s c greater
 EndChar
 
@@ -13950,7 +13950,7 @@ SplineSet
  54 431 l 1
  54 449 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "SmallCapsClose subtable" d.smcpflag less slash s c greater
 EndChar
 
@@ -14062,7 +14062,7 @@ SplineSet
  460 30 l 1
  411 0 361 -12 285 -12 c 3
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 Ligature2: "SmallCapsClose subtable" g.smcpflag less slash s c greater
 EndChar
 
@@ -14358,7 +14358,7 @@ SplineSet
  412 449 466 421.022460938 466 328 c 3
  466 244 416 184 253 184 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "SmallCapsClose subtable" p.smcpflag less slash s c greater
 EndChar
 
@@ -14415,7 +14415,7 @@ SplineSet
  347 401.0078125 327 413 277 413 c 2
  230 413 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "SmallCapsClose subtable" r.smcpflag less slash s c greater
 EndChar
 
@@ -14450,7 +14450,7 @@ SplineSet
  205 302 151 320 151 361 c 3
  151 398 171 423 235 423 c 3
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "SmallCapsClose subtable" s.smcpflag less slash s c greater
 EndChar
 
@@ -14906,11 +14906,12 @@ SplineSet
  308.451171875 -190.762695312 301.611328125 -187.642578125 290.69140625 -187.642578125 c 3
 0 0 m 1
  500 0 l 1
- 500 -34 l 1
- 0 -34 l 1
+ 500 -44 l 1
+ 0 -44 l 1
  0 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 524289
+LCarets2: 3 0 0 0
 Ligature2: "SmallCapsOpen subtable" less s c greater
 EndChar
 
@@ -15134,7 +15135,7 @@ Back
 Fore
 Refer: 34 66 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 641 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" B
 Ligature2: "SmallCapsInitialize subtable" startsc B
 EndChar
@@ -15179,7 +15180,7 @@ Back
 Fore
 Refer: 37 69 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 589 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" E
 Ligature2: "SmallCapsInitialize subtable" startsc E
 EndChar
@@ -15194,7 +15195,7 @@ Back
 Fore
 Refer: 38 70 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 514 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" F
 Ligature2: "SmallCapsInitialize subtable" startsc F
 EndChar
@@ -15314,7 +15315,7 @@ Back
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 703 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" N
 Ligature2: "SmallCapsInitialize subtable" startsc N
 EndChar
@@ -15629,7 +15630,7 @@ Back
 Fore
 Refer: 638 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 495 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" a.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc a
 EndChar
@@ -15644,7 +15645,7 @@ Back
 Fore
 Refer: 639 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 532 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" b.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc b
 EndChar
@@ -15794,7 +15795,7 @@ Back
 Fore
 Refer: 649 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 470 0 2
-Validated: 1
+Validated: 9
 Substitution2: "Single Substitution lookup 18 subtable" l.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc l
 EndChar
@@ -15899,7 +15900,7 @@ Back
 Fore
 Refer: 656 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 466 0 2
-Validated: 1
+Validated: 9
 Substitution2: "Single Substitution lookup 18 subtable" s.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc s
 EndChar
@@ -15974,7 +15975,7 @@ Back
 Fore
 Refer: 661 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 510 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" x.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc x
 EndChar
@@ -15989,7 +15990,7 @@ Back
 Fore
 Refer: 662 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 472 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" y.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc y
 EndChar
@@ -16079,7 +16080,7 @@ Back
 Fore
 Refer: 668 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 514 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" four.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc four
 EndChar
@@ -16109,7 +16110,7 @@ Back
 Fore
 Refer: 670 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 480 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" six.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc six
 EndChar
@@ -16139,7 +16140,7 @@ Back
 Fore
 Refer: 672 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 509 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" eight.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc eight
 EndChar
@@ -16154,7 +16155,7 @@ Back
 Fore
 Refer: 673 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 465 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" nine.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc nine
 EndChar
@@ -16169,7 +16170,7 @@ Back
 Fore
 Refer: 674 -1 N 1 0 0 1 0 0 1
 Refer: 676 57383 N 1 0 0 1 370 0 2
-Validated: 1
+Validated: 5
 Substitution2: "Single Substitution lookup 18 subtable" dollar.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc dollar
 EndChar

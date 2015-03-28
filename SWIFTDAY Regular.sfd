@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427494444
+ModificationTime: 1427578284
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -200,7 +200,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 532 19 9
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -949,6 +949,23 @@ Flags: HMW
 LayerCount: 2
 Back
 SplineSet
+284 334 m 9
+ 259 351 l 1
+ 309 381 344 441 344 491 c 3
+ 344 567 309 603 244 603 c 3
+ 192 603 149 562 149 505 c 3
+ 149 340 440 331 440 162 c 3
+ 440 66 360 -12 244 -12 c 3
+ 141 -12 60 38 60 141 c 3
+ 60 223 149 294 212 325 c 9
+ 232 306 l 17
+ 165 267 124 228 124 151 c 3
+ 124 72 173 27 249 27 c 3
+ 318 27 366 67 366 137 c 3
+ 366 278 83 308 83 480 c 3
+ 83 559 144 638 251 638 c 3
+ 357 638 405 577 405 500 c 3
+ 405 419 324 356 284 334 c 9
 221 299 m 1
  161 262 124 224 124 151 c 3
  124 72 173 27 249 27 c 3
@@ -971,25 +988,27 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-284 334 m 9
- 259 351 l 1
- 309 381 344 441 344 491 c 3
- 344 567 309 603 244 603 c 3
- 192 603 149 562 149 505 c 3
- 149 340 440 331 440 162 c 3
- 440 66 360 -12 244 -12 c 3
- 141 -12 60 38 60 141 c 3
- 60 223 149 294 212 325 c 9
- 232 306 l 17
- 165 267 124 228 124 151 c 3
+221 299 m 1
+ 161 262 124 224 124 151 c 3
  124 72 173 27 249 27 c 3
  318 27 366 67 366 137 c 3
- 366 278 83 308 83 480 c 3
- 83 559 144 638 251 638 c 3
+ 366 209 293 251 221 299 c 1
+251 638 m 3
  357 638 405 577 405 500 c 3
- 405 419 324 356 284 334 c 9
+ 405 423 332 363 290 338 c 1
+ 364 293 440 248 440 162 c 3
+ 440 66 360 -12 244 -12 c 3
+ 141 -12 60 38 60 141 c 3
+ 60 216 135 282 196 316 c 1
+ 136 358 83 406 83 480 c 3
+ 83 559 144 638 251 638 c 3
+264 354 m 1
+ 312 385 344 443 344 491 c 3
+ 344 567 309 603 244 603 c 3
+ 192 603 149 562 149 505 c 3
+ 149 434 203 392 264 354 c 1
 EndSplineSet
-Validated: 5
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" eight.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" eight.smcp
 Substitution2: "onumflag-1" eight.onumflag
@@ -9426,7 +9445,7 @@ SplineSet
  365 46 l 1
  322 0 254 -12 213 -12 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni025C
@@ -9510,7 +9529,7 @@ SplineSet
  135 335 120 297 120 220 c 3
  120 101 169.974609375 29 249 29 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni025F
@@ -9709,7 +9728,7 @@ SplineSet
  10 407 l 1
  138 435 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0265
@@ -10619,7 +10638,7 @@ SplineSet
  360 381 l 1
  264 244 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0282
@@ -10656,7 +10675,7 @@ SplineSet
  302 211 343 185 343 115 c 3
  343 48 293 -12 176 -12 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0284
@@ -10751,7 +10770,7 @@ SplineSet
  146 -50 l 2
  66 -50 53 -69 53 -115 c 3
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0287
@@ -10886,7 +10905,7 @@ SplineSet
  20 421 l 1
  155 429 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni028C
@@ -14110,7 +14129,7 @@ SplineSet
  549 525 490 598 310 598 c 2
  245 598 l 1
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: u1D404
@@ -14618,7 +14637,7 @@ SplineSet
  95 154 l 5
  116 54 l 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: u1D413
@@ -14898,7 +14917,7 @@ SplineSet
  234 52 268 83 283 139 c 1
  283 199 l 1
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: u1D41B
@@ -15509,7 +15528,7 @@ SplineSet
  108 204 60 239 60 311 c 3
  60 382 112 437 231 437 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: u1D42D
@@ -15719,7 +15738,7 @@ SplineSet
  33 -129 l 1
  43 -122 l 1
 EndSplineSet
-Validated: 1572865
+Validated: 1048577
 EndChar
 
 StartChar: u1D433
@@ -16982,7 +17001,7 @@ SplineSet
  372 449 423 432.022460938 423 346 c 3
  423 286 386 251 348 238 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Ligature2: "SmallCapsClose subtable" b.smcpflag less slash s c greater
 LCarets2: 5 0 0 0 0 0
 EndChar
