@@ -31,6 +31,8 @@ Contains:
   * Latin Basic, Supplement, Latin-A
   * Old style numerals (*portable compositor)
   * Superscript numerals
+
+  * Small capitals (*portable compositor)
   
   * Most important and unimportant General Punctuation
   * Most important and unimportant Math Symbols and arrows
