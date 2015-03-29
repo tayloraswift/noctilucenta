@@ -1,0 +1,291 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem math dflt;
+
+
+
+
+# GPOS 
+
+
+lookup markMarktoMarklookup0 {
+  lookupflag 0;
+  markClass [\uni02BC ] <anchor 214 690> @bottom;
+  markClass [\uni0327 ] <anchor -207 0> @bottom;
+  markClass [\uni0315 ] <anchor -86 690> @bottom;
+  markClass [\uni02BC ] <anchor 44 600> @top;
+  markClass [\uni20D1 ] <anchor -231 425> @top;
+  markClass [\uni0302 \uni030C \uni0306 \uni0307 \uni030A \tildecomb \uni0308 ] <anchor -200 425> @top;
+  markClass [\uni0304 ] <anchor -225 425> @top;
+  markClass [\gravecomb ] <anchor -180 425> @top;
+  markClass [\acutecomb \uni030B ] <anchor -220 425> @top;
+  markClass [\uni0312 ] <anchor -76 425> @top;
+  markClass [\uni0315 ] <anchor -256 600> @top;
+  pos base [\A ] <anchor 529 0> mark @bottom
+	<anchor 322 638> mark @top;
+  pos base [\C \G ] <anchor 380 638> mark @top
+	<anchor 385 0> mark @bottom;
+  pos base [\D ] <anchor 334 638> mark @top;
+  pos base [\E ] <anchor 310 638> mark @top;
+  pos base [\H \u1D407 ] <anchor 353 638> mark @top;
+  pos base [\I \Iogonek ] <anchor 176 638> mark @top;
+  pos base [\J ] <anchor 167 638> mark @top;
+  pos base [\K ] <anchor 345 0> mark @bottom;
+  pos base [\L \u1D40B ] <anchor 311 0> mark @bottom
+	<anchor 174 638> mark @top;
+  pos base [\N \u1D434 \u1D40D ] <anchor 354 0> mark @bottom
+	<anchor 359 638> mark @top;
+  pos base [\O ] <anchor 354 638> mark @top;
+  pos base [\R ] <anchor 334 0> mark @bottom
+	<anchor 282 638> mark @top;
+  pos base [\S ] <anchor 244 0> mark @bottom
+	<anchor 247 638> mark @top;
+  pos base [\T ] <anchor 268 0> mark @bottom
+	<anchor 269 638> mark @top;
+  pos base [\U ] <anchor 350 638> mark @top;
+  pos base [\W ] <anchor 473 638> mark @top;
+  pos base [\Y ] <anchor 290 638> mark @top;
+  pos base [\Z \u1D419 ] <anchor 285 638> mark @top;
+  pos base [\a ] <anchor 218 425> mark @top;
+  pos base [\c ] <anchor 233 425> mark @top
+	<anchor 243 0> mark @bottom;
+  pos base [\d \u1D41D ] <anchor 395 678> mark @top;
+  pos base [\e ] <anchor 231 425> mark @top;
+  pos base [\g ] <anchor 230 425> mark @top;
+  pos base [\h ] <anchor 280 678> mark @top;
+  pos base [\k ] <anchor 290 0> mark @bottom;
+  pos base [\l \uni026D ] <anchor 158 0> mark @bottom
+	<anchor 150 678> mark @top;
+  pos base [\n ] <anchor 288 0> mark @bottom
+	<anchor 285 425> mark @top;
+  pos base [\o \u1D432 ] <anchor 248 425> mark @top;
+  pos base [\r ] <anchor 160 0> mark @bottom
+	<anchor 227 425> mark @top;
+  pos base [\s ] <anchor 197 0> mark @bottom
+	<anchor 201 425> mark @top;
+  pos base [\t ] <anchor 190 0> mark @bottom;
+  pos base [\u ] <anchor 270 425> mark @top;
+  pos base [\w ] <anchor 365 425> mark @top;
+  pos base [\y \uni0262 ] <anchor 243 425> mark @top;
+  pos base [\z ] <anchor 225 425> mark @top;
+  pos base [\dotlessi ] <anchor 139 425> mark @top;
+  pos base [\uni0237 ] <anchor 135 425> mark @top;
+  pos base [\u1D436 \u1D43B \u1D442 ] <anchor 395 638> mark @top
+	<anchor 298 0> mark @bottom;
+  pos base [\u1D437 ] <anchor 345 638> mark @top;
+  pos base [\u1D438 ] <anchor 339 638> mark @top;
+  pos base [\u1D43A \u1D43E ] <anchor 299 0> mark @bottom
+	<anchor 385 638> mark @top;
+  pos base [\u1D43C ] <anchor 230 638> mark @top;
+  pos base [\u1D43D ] <anchor 223 638> mark @top;
+  pos base [\u1D43F ] <anchor 275 0> mark @bottom
+	<anchor 228 638> mark @top;
+  pos base [\u1D441 \u1D427 ] <anchor 305 0> mark @bottom
+	<anchor 375 638> mark @top;
+  pos base [\u1D445 ] <anchor 285 0> mark @bottom
+	<anchor 325 638> mark @top;
+  pos base [\u1D446 ] <anchor 205 0> mark @bottom
+	<anchor 305 638> mark @top;
+  pos base [\u1D447 ] <anchor 258 0> mark @bottom
+	<anchor 345 638> mark @top;
+  pos base [\u1D448 ] <anchor 390 638> mark @top;
+  pos base [\u1D44A ] <anchor 508 638> mark @top;
+  pos base [\u1D44C ] <anchor 338 638> mark @top;
+  pos base [\u1D44D ] <anchor 301 638> mark @top;
+  pos base [\u1D44E ] <anchor 287 425> mark @top;
+  pos base [\u1D450 ] <anchor 166 0> mark @bottom
+	<anchor 260 425> mark @top;
+  pos base [\u1D451 ] <anchor 435 685> mark @top;
+  pos base [\u1D452 \u1D420 ] <anchor 245 425> mark @top;
+  pos base [\u1D454 ] <anchor 305 425> mark @top;
+  pos base [\u1D455 ] <anchor 315 678> mark @top;
+  pos base [\u1D458 ] <anchor 214 0> mark @bottom;
+  pos base [\u1D459 ] <anchor 115 0> mark @bottom
+	<anchor 185 680> mark @top;
+  pos base [\u1D45B ] <anchor 239 0> mark @bottom
+	<anchor 281 425> mark @top;
+  pos base [\u1D45C \u1D466 \u1D428 ] <anchor 265 425> mark @top;
+  pos base [\u1D45F ] <anchor 93 0> mark @bottom
+	<anchor 245 425> mark @top;
+  pos base [\u1D460 ] <anchor 137 0> mark @bottom
+	<anchor 211 425> mark @top;
+  pos base [\u1D461 ] <anchor 122 0> mark @bottom;
+  pos base [\u1D462 ] <anchor 279 425> mark @top;
+  pos base [\u1D464 ] <anchor 372 425> mark @top;
+  pos base [\u1D467 ] <anchor 215 425> mark @top;
+  pos base [\u1D400 ] <anchor 518 0> mark @bottom
+	<anchor 331 638> mark @top;
+  pos base [\u1D402 \u1D406 ] <anchor 398 638> mark @top
+	<anchor 403 0> mark @bottom;
+  pos base [\u1D403 ] <anchor 352 638> mark @top;
+  pos base [\u1D404 ] <anchor 319 638> mark @top;
+  pos base [\u1D408 ] <anchor 191 638> mark @top;
+  pos base [\u1D409 ] <anchor 183 638> mark @top;
+  pos base [\u1D40A ] <anchor 362 0> mark @bottom;
+  pos base [\u1D40E ] <anchor 372 638> mark @top;
+  pos base [\u1D411 ] <anchor 350 0> mark @bottom
+	<anchor 318 638> mark @top;
+  pos base [\u1D412 ] <anchor 254 0> mark @bottom
+	<anchor 257 638> mark @top;
+  pos base [\u1D413 ] <anchor 277 0> mark @bottom
+	<anchor 278 638> mark @top;
+  pos base [\u1D414 ] <anchor 367 638> mark @top;
+  pos base [\u1D416 ] <anchor 493 638> mark @top;
+  pos base [\u1D418 ] <anchor 303 638> mark @top;
+  pos base [\u1D41A ] <anchor 229 425> mark @top;
+  pos base [\u1D41C ] <anchor 253 425> mark @top
+	<anchor 263 0> mark @bottom;
+  pos base [\u1D41E ] <anchor 240 425> mark @top;
+  pos base [\u1D421 ] <anchor 305 678> mark @top;
+  pos base [\u1D424 ] <anchor 310 0> mark @bottom;
+  pos base [\u1D425 ] <anchor 177 0> mark @bottom
+	<anchor 169 678> mark @top;
+  pos base [\u1D42B ] <anchor 178 0> mark @bottom
+	<anchor 243 425> mark @top;
+  pos base [\u1D42C ] <anchor 217 0> mark @bottom
+	<anchor 221 425> mark @top;
+  pos base [\u1D42D ] <anchor 207 0> mark @bottom;
+  pos base [\u1D42E ] <anchor 280 425> mark @top;
+  pos base [\u1D430 ] <anchor 390 425> mark @top;
+  pos base [\u1D433 ] <anchor 220 425> mark @top;
+  pos base [\Euro ] <anchor 365 0> mark @bottom;
+  pos base [\c.smcp \g.smcp ] <anchor 251 449> mark @top
+	<anchor 261 0> mark @bottom;
+  pos base [\o.smcp ] <anchor 269 449> mark @top;
+  pos base [\s.smcp ] <anchor 218 0> mark @bottom
+	<anchor 225 449> mark @top;
+  pos base [\u.smcp ] <anchor 288 449> mark @top;
+  pos base [\w.smcp ] <anchor 333 449> mark @top;
+  pos base [\z.smcp ] <anchor 235 449> mark @top;
+} markMarktoMarklookup0;
+
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markMarktoMarklookup0;
+
+ script grek;
+     language dflt ;
+      lookup markMarktoMarklookup0;
+
+ script latn;
+     language dflt ;
+      lookup markMarktoMarklookup0;
+} mark;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\numbersign \dollar \percent \asterisk \plus \slash \zero \one \two 
+	\three \four \five \six \seven \eight \nine \less \equal \greater \at \bracketleft 
+	\backslash \bracketright \asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j 
+	\k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde 
+	\exclamdown \cent \sterling \yen \brokenbar \section \dieresis \copyright 
+	\ordfeminine \guillemotleft \logicalnot \uni00AD \registered \macron \degree 
+	\plusminus \acute \mu \paragraph \periodcentered \cedilla \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \dotlessi \OE \oe \Scaron 
+	\scaron \Ydieresis \Zcaron \zcaron \longs \circumflex \caron \uni02CA \uni02CB 
+	\ring \tilde \Sigma \figuredash \Delta \summation \minus \radical \uni02C9 
+	\amacron \dotaccent \breve \eogonek \Amacron \Abreve \abreve \Cacute \cacute 
+	\Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron 
+	\dcaron \Emacron \emacron \Ebreve \ebreve \Edotaccent \edotaccent \Ecaron 
+	\ecaron \Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent 
+	\uni0122 \Hcircumflex \hcircumflex \Itilde \itilde \Imacron \imacron \Ibreve 
+	\ibreve \Idotaccent \Jcircumflex \jcircumflex \uni0136 \uni0137 \Lacute \lacute 
+	\uni013B \uni013C \Lcaron \lcaron \Ldot \ldot \Nacute \nacute \uni0145 \uni0146 
+	\Ncaron \ncaron \Omacron \omacron \Obreve \obreve \Racute \racute \uni0156 
+	\uni0157 \Rcaron \rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla 
+	\scedilla \uni0162 \uni0163 \Tcaron \tcaron \Utilde \utilde \Umacron \umacron 
+	\Ubreve \ubreve \Uring \uring \Wcircumflex \wcircumflex \Ycircumflex 
+	\ycircumflex \Zacute \zacute \Zdotaccent \zdotaccent \aogonek \Aogonek \Eogonek 
+	\hungarumlaut \uni0237 \Ohungarumlaut \ohungarumlaut \Uhungarumlaut 
+	\uhungarumlaut \napostrophe \Iogonek \iogonek \Dcroat \Uogonek \uogonek 
+	\uni0123 \uni02BB \dcroat \Hbar \hbar \kgreenlandic \lslash \Lslash \eng \Eng 
+	\Tbar \tbar \IJ \ij \uni2010 \uni2011 \uni201F \quotesinglbase \quotereversed 
+	\dagger \daggerdbl \uni2027 \perthousand \uni2031 \minute \guilsinglleft 
+	\guilsinglright \uni203E \fraction \arrowdblleft \arrowdblright \uni21C0 
+	\uni21BD \arrowleft \arrowright \uni21C4 \uni21CB \uni21CC \uni21C6 \product 
+	\uni2215 \infinity \angle \logicaland \logicalor \intersection \union \integral 
+	\congruent \lessequal \greaterequal \approxequal \uni2249 \uni2247 \uni221B 
+	\uni221C \Pi \pi \uni0283 \notequal \similar \sigma \theta \phi1 \uni22EF \uni22EE 
+	\uni22F0 \uni22F1 \uni0250 \uni0251 \uni0252 \uni0253 \uni0254 \uni0255 \uni0256 
+	\uni0257 \uni0258 \uni0259 \uni025A \uni025B \uni025C \uni025D \uni025E \uni025F 
+	\uni0260 \uni0261 \uni0262 \uni0263 \uni0264 \uni0265 \uni0266 \uni0267 \uni0268 
+	\uni0269 \uni026A \uni026B \uni026C \uni026D \uni026E \uni026F \uni0270 \uni0271 
+	\uni0272 \uni0273 \uni0274 \uni0275 \uni0276 \uni0277 \uni0278 \uni0279 \uni027A 
+	\uni027B \uni027C \uni027D \uni027E \uni027F \uni0280 \uni0281 \uni0282 \uni0284 
+	\uni0285 \uni0286 \uni0287 \uni0288 \uni0289 \uni028A \uni028B \uni028C \uni028D 
+	\uni028E \uni028F \uni0290 \uni0291 \uni0292 \uni0293 \uni0294 \uni0295 \uni0296 
+	\uni0297 \uni0298 \uni0299 \uni029A \uni029B \uni029C \uni029D \uni029E \uni029F 
+	\uni02A0 \uni02A1 \uni02A2 \uni02A3 \uni02A4 \uni02A5 \uni02A6 \uni02A7 \uni02A8 
+	\uni02A9 \uni02AA \uni02AB \uni02AC \uni02AD \uni02AE \uni02AF \uni27E8 \uni27E9 
+	\uni23A7 \uni23A8 \uni23A9 \uni239B \uni239C \uni239D \uni239E \uni239F \uni23A0 
+	\uni23A1 \uni23A2 \uni23A3 \uni23A4 \uni23A5 \uni23A6 \uni23AB \uni23AC \uni23AD 
+	\arrowboth \u1D434 \u1D435 \u1D436 \u1D437 \u1D438 \u1D439 \u1D43A \u1D43B 
+	\u1D43C \u1D43D \u1D43E \u1D43F \u1D440 \u1D441 \u1D442 \u1D443 \u1D444 \u1D445 
+	\u1D446 \u1D447 \u1D448 \u1D449 \u1D44A \u1D44B \u1D44C \u1D44D \u1D44E \u1D44F 
+	\u1D450 \u1D451 \u1D452 \u1D453 \u1D454 \u1D455 \u1D456 \u1D457 \u1D458 \u1D459 
+	\u1D45A \u1D45B \u1D45C \u1D45D \u1D45E \u1D45F \u1D460 \u1D461 \u1D462 \u1D463 
+	\u1D464 \u1D465 \u1D466 \u1D467 \uni23AA \uni210E \u1D703 \u1D70B \u1D70E \u1D719 
+	\u1D6F4 \u1D6F1 \u1D400 \u1D401 \u1D402 \u1D403 \u1D404 \u1D405 \u1D406 \u1D407 
+	\u1D408 \u1D409 \u1D40A \u1D40B \u1D40C \u1D40D \u1D40E \u1D40F \u1D410 \u1D411 
+	\u1D412 \u1D413 \u1D414 \u1D415 \u1D416 \u1D417 \u1D418 \u1D419 \u1D41A \u1D41B 
+	\u1D41C \u1D41D \u1D41E \u1D41F \u1D420 \u1D421 \u1D422 \u1D423 \u1D424 \u1D425 
+	\u1D426 \u1D427 \u1D428 \u1D429 \u1D42A \u1D42B \u1D42C \u1D42D \u1D42E \u1D42F 
+	\u1D430 \u1D431 \u1D432 \u1D433 \uni23B7 \uni20D7 \uni0313 \uni1D07 \uni02D0 
+	\uni02D1 \uni02CC \uni02C8 \circle \uni25CC \Euro \tagwarning \uni00A0 ];
+@GDEF_Ligature = [\space \exclam \quotedbl \ampersand \quotesingle \parenleft 
+	\parenright \comma \hyphen \period \colon \semicolon \question \A \B \C \D \E \F \G \H 
+	\I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \uni00B2 \uni00B3 \uni00B9 \endash 
+	\emdash \quoteleft \quoteright \quotedblleft \quotedblright \ellipsis 
+	\quotedblbase \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079 
+	\zero.oldstyleproportional \one.oldstyleproportional 
+	\two.oldstyleproportional \three.oldstyleproportional 
+	\four.oldstyleproportional \five.oldstyleproportional 
+	\six.oldstyleproportional \seven.oldstyleproportional 
+	\eight.oldstyleproportional \nine.oldstyleproportional 
+	\dollar.oldstyleproportional \percent.oldstyleproportional \startonum 
+	\zero.onumflag \one.onumflag \two.onumflag \three.onumflag \four.onumflag 
+	\five.onumflag \six.onumflag \seven.onumflag \eight.onumflag \nine.onumflag 
+	\dollar.onumflag \percent.onumflag \period.onumflag \comma.onumflag 
+	\colon.onumflag \hyphen.onumflag \space.onumflag \a.smcp \b.smcp \c.smcp 
+	\d.smcp \e.smcp \f.smcp \g.smcp \h.smcp \i.smcp \j.smcp \k.smcp \l.smcp \m.smcp 
+	\n.smcp \o.smcp \p.smcp \q.smcp \r.smcp \s.smcp \t.smcp \u.smcp \v.smcp \w.smcp 
+	\x.smcp \y.smcp \z.smcp \startsc \zero.smcp \one.smcp \two.smcp \three.smcp 
+	\four.smcp \five.smcp \six.smcp \seven.smcp \eight.smcp \nine.smcp 
+	\dollar.smcp \percent.smcp \space.smcpflag \exclam.smcpflag 
+	\quotedbl.smcpflag \ampersand.smcpflag \quotesingle.smcpflag 
+	\parenleft.smcpflag \parenright.smcpflag \comma.smcpflag \hyphen.smcpflag 
+	\period.smcpflag \colon.smcpflag \semicolon.smcpflag \question.smcpflag 
+	\A.smcpflag \B.smcpflag \C.smcpflag \D.smcpflag \E.smcpflag \F.smcpflag 
+	\G.smcpflag \H.smcpflag \I.smcpflag \J.smcpflag \K.smcpflag \L.smcpflag 
+	\M.smcpflag \N.smcpflag \O.smcpflag \P.smcpflag \Q.smcpflag \R.smcpflag 
+	\S.smcpflag \T.smcpflag \U.smcpflag \V.smcpflag \W.smcpflag \X.smcpflag 
+	\Y.smcpflag \Z.smcpflag \endash.smcpflag \emdash.smcpflag 
+	\quoteleft.smcpflag \quoteright.smcpflag \quotedblleft.smcpflag 
+	\quotedblright.smcpflag \ellipsis.smcpflag \quotedblbase.smcpflag 
+	\a.smcpflag \b.smcpflag \c.smcpflag \d.smcpflag \e.smcpflag \f.smcpflag 
+	\g.smcpflag \h.smcpflag \i.smcpflag \j.smcpflag \k.smcpflag \l.smcpflag 
+	\m.smcpflag \n.smcpflag \o.smcpflag \p.smcpflag \q.smcpflag \r.smcpflag 
+	\s.smcpflag \t.smcpflag \u.smcpflag \v.smcpflag \w.smcpflag \x.smcpflag 
+	\y.smcpflag \z.smcpflag \zero.smcpflag \one.smcpflag \two.smcpflag 
+	\three.smcpflag \four.smcpflag \five.smcpflag \six.smcpflag \seven.smcpflag 
+	\eight.smcpflag \nine.smcpflag \dollar.smcpflag \percent.smcpflag ];
+@GDEF_Mark = [\uni02BC \uni20D1 \uni0302 \uni030C \uni0304 \gravecomb \acutecomb 
+	\uni0306 \uni0307 \uni030A \tildecomb \uni030B \uni0327 \uni0308 \uni0312 
+	\uni0315 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
