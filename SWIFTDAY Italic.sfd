@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1427652254
+ModificationTime: 1428078462
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -172,7 +172,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 8 2
+WinInfo: 0 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -270,30 +270,66 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+418 592 m 5
+ 453 581 l 5
+ 284 32 l 5
+ 249 43 l 5
+ 418 592 l 5
+70 196 m 5
+ 70 237 l 5
+ 439 237 l 5
+ 439 196 l 5
+ 70 196 l 5
+126 396 m 5
+ 126 437 l 5
+ 495 437 l 5
+ 495 396 l 5
+ 126 396 l 5
+278 592 m 5
+ 313 581 l 5
+ 144 32 l 5
+ 109 43 l 5
+ 278 592 l 5
+EndSplineSet
 Fore
 SplineSet
-418 592 m 1
- 453 581 l 1
- 284 32 l 1
- 249 43 l 1
- 418 592 l 1
-70 196 m 1
- 70 237 l 1
- 439 237 l 1
- 439 196 l 1
- 70 196 l 1
-126 396 m 1
- 126 437 l 1
- 495 437 l 1
- 495 396 l 1
- 126 396 l 1
 278 592 m 1
  313 581 l 1
+ 269 437 l 1
+ 370 437 l 1
+ 418 592 l 1
+ 453 581 l 1
+ 409 437 l 1
+ 495 437 l 1
+ 495 396 l 1
+ 396 396 l 1
+ 347 237 l 1
+ 439 237 l 1
+ 439 196 l 1
+ 334 196 l 1
+ 284 32 l 1
+ 249 43 l 1
+ 296 196 l 1
+ 194 196 l 1
  144 32 l 1
  109 43 l 1
+ 156 196 l 1
+ 70 196 l 1
+ 70 237 l 1
+ 169 237 l 1
+ 218 396 l 1
+ 126 396 l 1
+ 126 437 l 1
+ 230 437 l 1
  278 592 l 1
+256 396 m 1
+ 207 237 l 1
+ 309 237 l 1
+ 358 396 l 1
+ 256 396 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: dollar
@@ -303,34 +339,67 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
-122 74 m 1
+122 74 m 5
  149 60 192 48 232 48 c 7
  302 48 360 72 360 142 c 7
- 360 204 327 231 258 277 c 0
- 172 334 140 381 140 441 c 3
- 140 519 212 607 334 607 c 3
- 400 607 439 594 459 585 c 1
+ 360 204 327 231 258 277 c 4
+ 172 334 140 381 140 441 c 7
+ 140 519 212 607 334 607 c 7
+ 400 607 439 594 459 585 c 5
+ 442 475 l 5
+ 404 477 l 5
+ 411 554 l 5
+ 394 564 350 571 319 571 c 7
+ 255 571 205 537 205 468 c 7
+ 205 412 239.545273527 388.672835884 298 352 c 4
+ 396.787306213 290.023648613 432 251 432 184 c 7
+ 432 92 358 11 216 11 c 7
+ 146 11 112 23 74 40 c 5
+ 86 160 l 5
+ 124 163 l 5
+ 122 74 l 5
+322 689 m 5
+ 352 685 l 5
+ 231 -86 l 5
+ 201 -82 l 5
+ 322 689 l 5
+EndSplineSet
+Fore
+SplineSet
+322 689 m 1
+ 352 685 l 1
+ 340 607 l 1
+ 403 606 440 594 459 585 c 1
  442 475 l 1
  404 477 l 1
  411 554 l 1
- 394 564 350 571 319 571 c 7
- 255 571 205 537 205 468 c 7
- 205 412 246 386 309 345 c 0
- 395 288 432 247 432 184 c 3
- 432 92 358 11 215 11 c 3
+ 397 562 363 569 334 571 c 1
+ 300 351 l 1
+ 398 290 432 251 432 184 c 3
+ 432 99 368 23 246 12 c 1
+ 231 -86 l 1
+ 201 -82 l 1
+ 216 11 l 1
  146 11 112 23 74 40 c 1
  86 160 l 1
  124 163 l 1
  122 74 l 1
-322 689 m 1
- 352 685 l 1
- 231 -86 l 1
- 201 -82 l 1
+ 147 61 184 50 221 48 c 1
+ 257 277 l 1
+ 171 334 140 381 140 441 c 3
+ 140 513 202 595 309 606 c 1
  322 689 l 1
+272 369 m 1
+ 303 570 l 1
+ 247 565 205 531 205 468 c 3
+ 205 421 230 397 272 369 c 1
+285 259 m 1
+ 252 49 l 1
+ 313 53 360 79 360 142 c 3
+ 360 195 336 223 285 259 c 1
 EndSplineSet
-Validated: 5
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" dollar.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" dollar.smcp
 Substitution2: "onumOldstyleFigureslookup0 subtable" dollar.oldstyleproportional
@@ -560,18 +629,21 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-295 425 m 5
- 331 425 l 5
- 265 49 l 5
- 229 49 l 5
- 295 425 l 5
-89 220 m 1
- 94 254 l 1
+295 425 m 1
+ 331 425 l 1
+ 301 254 l 1
  470 254 l 1
  465 220 l 1
+ 295 220 l 1
+ 265 49 l 1
+ 229 49 l 1
+ 259 220 l 1
  89 220 l 1
+ 94 254 l 1
+ 265 254 l 1
+ 295 425 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: comma
@@ -1185,15 +1257,15 @@ SplineSet
 460 535 m 3
  639 535 718 435 718 303 c 3
  718 137 597 41 492 41 c 3
- 461 41 433 55 441 102 c 2
+ 461 41 433 55 441 102 c 514
  453 171 l 1
  412 83 364 39 319 39 c 3
  290 39 248 55 248 131 c 3
  248 245 331 385 486 385 c 3
- 514.069744588 385 545.802707502 379.29041295 562 374 c 1
+ 514 385 546 379 562 374 c 1
  530 234 l 1
  515 138 l 2
- 509 102 521 91 540 91 c 3
+ 509 102 521 91 540 91 c 515
  596 91 671 161 671 284 c 3
  671 426 586 502 438 502 c 3
  274 502 145 352 145 165 c 3
@@ -1210,7 +1282,7 @@ SplineSet
  482 331 l 1
  471 335 449 340 430 340 c 3
 EndSplineSet
-Validated: 33
+Validated: 1
 EndChar
 
 StartChar: A
@@ -1375,6 +1447,7 @@ Encoding: 36 68 36
 Width: 646
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 280 0 basechar 0
 AnchorPoint: "top" 380 638 basechar 0
 LayerCount: 2
 Back
@@ -1397,7 +1470,8 @@ SplineSet
  563 638 646 583 646 392 c 3
  646 137 481 0 298 0 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" D.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" D.smcpflag
 EndChar
@@ -1407,6 +1481,7 @@ Encoding: 37 69 37
 Width: 563
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 306 0 basechar 0
 AnchorPoint: "top" 374 638 basechar 0
 LayerCount: 2
 Back
@@ -1466,7 +1541,8 @@ SplineSet
  146 618 l 1
  146 638 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" E.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" E.smcpflag
 EndChar
@@ -1576,6 +1652,7 @@ Encoding: 40 72 40
 Width: 680
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 342 0 basechar 0
 AnchorPoint: "top" 430 638 basechar 0
 LayerCount: 2
 Back
@@ -1644,7 +1721,7 @@ SplineSet
  147 618 l 1
  147 638 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" H.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" H.smcpflag
@@ -1655,6 +1732,7 @@ Encoding: 41 73 41
 Width: 335
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 179 0 basechar 0
 AnchorPoint: "top" 265 638 basechar 0
 LayerCount: 2
 Back
@@ -1674,7 +1752,8 @@ SplineSet
  155 618 l 1
  155 638 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" I.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" I.smcpflag
 EndChar
@@ -1684,6 +1763,7 @@ Encoding: 42 74 42
 Width: 335
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 96 -230 basechar 0
 AnchorPoint: "top" 258 638 basechar 0
 LayerCount: 2
 Back
@@ -1701,7 +1781,8 @@ SplineSet
  81 -149 112 -41 122 22 c 2
  214 599 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" J.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" J.smcpflag
 EndChar
@@ -1868,23 +1949,25 @@ Encoding: 47 79 47
 Width: 660
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 342 0 basechar 0
 AnchorPoint: "top" 430 638 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-418 609 m 7
- 263 609 175 473 175 273 c 7
- 175 147 231 30 353 30 c 7
- 509 30 597 165 597 365 c 7
- 597 491 541 609 418 609 c 7
-331 -12 m 7
- 162 -12 91 112 91 257 c 7
- 91 483 252 650 441 650 c 7
- 610 650 681 526 681 381 c 7
- 681 155 520 -12 331 -12 c 7
+418 609 m 3
+ 263 609 175 473 175 273 c 3
+ 175 147 231 30 353 30 c 3
+ 509 30 597 165 597 365 c 3
+ 597 491 541 609 418 609 c 3
+331 -12 m 3
+ 162 -12 91 112 91 257 c 3
+ 91 483 252 650 441 650 c 3
+ 610 650 681 526 681 381 c 3
+ 681 155 520 -12 331 -12 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" O.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" O.smcpflag
 EndChar
@@ -2032,20 +2115,7 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-344 602 m 1
- 421 602 l 1
- 332 39 l 1
- 401 20 l 1
- 401 0 l 1
- 178 0 l 1
- 178 20 l 1
- 256 45 l 1
- 344 602 l 1
-581 602 m 1
- 182 602 l 1
- 143 500 l 1
- 109 502 l 1
- 140 643 l 1
+140 643 m 1
  160 643 l 1
  209 638 l 1
  568 638 l 1
@@ -2054,8 +2124,21 @@ SplineSet
  623 502 l 1
  588 500 l 1
  581 602 l 1
+ 421 602 l 1
+ 332 39 l 1
+ 401 20 l 1
+ 401 0 l 1
+ 178 0 l 1
+ 178 20 l 1
+ 256 45 l 1
+ 344 602 l 1
+ 182 602 l 1
+ 143 500 l 1
+ 109 502 l 1
+ 140 643 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" T.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" T.smcpflag
 EndChar
@@ -2065,12 +2148,19 @@ Encoding: 53 85 53
 Width: 637
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 324 0 basechar 0
 AnchorPoint: "top" 425 638 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-522 245 m 2
+146 638 m 1
+ 344 638 l 1
+ 344 618 l 1
+ 283 596 l 1
+ 228 242 l 2
+ 206 99 244 39 342 39 c 515
+ 434 39 496 81 522 245 c 2
  577 596 l 1
  515 618 l 1
  515 638 l 1
@@ -2079,18 +2169,13 @@ SplineSet
  629 596 l 1
  574 246 l 2
  549 89 471 -12 318 -12 c 3
- 172 -12 125 67 153 243 c 2
+ 172 -12 125 67 153 243 c 514
  209 596 l 1
  146 618 l 1
  146 638 l 1
- 344 638 l 1
- 344 618 l 1
- 283 596 l 1
- 228 242 l 2
- 206 99 244 39 342 39 c 3
- 434 39 496 81 522 245 c 2
 EndSplineSet
-Validated: 1048609
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" U.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" U.smcpflag
 EndChar
@@ -2131,12 +2216,19 @@ Encoding: 55 87 55
 Width: 863
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 437 0 basechar 0
 AnchorPoint: "top" 543 638 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-564 598 m 1
+120 638 m 1
+ 315 638 l 1
+ 315 617 l 1
+ 259 598 l 1
+ 323 130 l 1
+ 522 598 l 1
+ 564 598 l 1
  624 129 l 1
  823 598 l 1
  762 617 l 1
@@ -2146,20 +2238,15 @@ SplineSet
  879 599 l 1
  603 -12 l 1
  571 -12 l 1
- 504 454 l 2
- 504 453 299 -12 299 -12 c 1
+ 504 454 l 17
+ 299 -12 l 1
  268 -12 l 1
  178 601 l 1
  120 617 l 1
  120 638 l 1
- 315 638 l 1
- 315 617 l 1
- 259 598 l 1
- 323 130 l 1
- 522 598 l 1
- 564 598 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" W.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" W.smcpflag
 EndChar
@@ -2248,6 +2335,7 @@ Encoding: 57 89 57
 Width: 528
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 277 0 basechar 0
 AnchorPoint: "top" 373 638 basechar 0
 LayerCount: 2
 Back
@@ -2303,7 +2391,8 @@ SplineSet
  120 617 l 1
  120 638 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" Y.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" Y.smcpflag
 EndChar
@@ -2313,12 +2402,19 @@ Encoding: 58 90 58
 Width: 531
 GlyphClass: 3
 Flags: HMW
+AnchorPoint: "bottom" 280 0 basechar 0
 AnchorPoint: "top" 336 638 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-428 44 m 1
+167 643 m 5
+ 185 643 l 1
+ 233 638 l 1
+ 535 638 l 1
+ 541 621 l 1
+ 158 44 l 1
+ 428 44 l 1
  467 143 l 1
  504 138 l 1
  464 0 l 1
@@ -2328,15 +2424,10 @@ SplineSet
  206 594 l 1
  169 500 l 1
  133 502 l 1
- 167 643 l 1
- 185 643 l 1
- 233 638 l 1
- 535 638 l 1
- 541 621 l 1
- 158 44 l 1
- 428 44 l 1
+ 167 643 l 5
 EndSplineSet
-Validated: 1048577
+Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" Z.smcpflag less slash s c greater
 Substitution2: "Single Substitution lookup 14 subtable" Z.smcpflag
 EndChar
@@ -2459,6 +2550,7 @@ Encoding: 65 97 65
 Width: 486
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 270 0 basechar 0
 AnchorPoint: "top" 322 425 basechar 0
 LayerCount: 2
 Back
@@ -2468,11 +2560,11 @@ SplineSet
  416 437 449 430 470 422 c 1
  428 248 l 1
  403 101 l 9
- 403 44 l 5
- 461 39 l 5
- 463 15 l 5
- 317 -8 l 5
- 315 5 l 5
+ 403 44 l 1
+ 461 39 l 1
+ 463 15 l 1
+ 317 -8 l 1
+ 315 5 l 1
  346 174 l 1
  291 56 225 -12 165 -12 c 3
  126 -12 78 9 78 111 c 3
@@ -2484,7 +2576,7 @@ SplineSet
  384 377 l 1
  369 383 339 389 314 389 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" a.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" a.smcp
 EndChar
@@ -2555,6 +2647,7 @@ Encoding: 68 100 68
 Width: 495
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 270 0 basechar 0
 AnchorPoint: "top" 470 685 basechar 0
 LayerCount: 2
 Back
@@ -2584,7 +2677,7 @@ SplineSet
  393 370 l 1
  378 381 349 389 324 389 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" d.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" d.smcp
 EndChar
@@ -2594,6 +2687,7 @@ Encoding: 69 101 69
 Width: 418
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 226 0 basechar 0
 AnchorPoint: "top" 280 425 basechar 0
 LayerCount: 2
 Back
@@ -2629,7 +2723,7 @@ SplineSet
  293 247 322 294 322 344 c 3
  322 369 302 391 280 391 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" e.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" e.smcp
 EndChar
@@ -2704,13 +2798,14 @@ Encoding: 71 103 71
 Width: 475
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 172 -230 basechar 0
 AnchorPoint: "top" 340 425 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-396 437 m 7
- 425 437 458 430 479 422 c 5
+396 437 m 3
+ 425 437 458 430 479 422 c 1
  437 248 l 1
  396 7 l 2
  373 -130 310 -177 263 -206 c 0
@@ -2723,7 +2818,7 @@ SplineSet
  355 174 l 1
  300 56 229 -12 169 -12 c 3
  130 -12 77 9 77 111 c 3
- 77 263 189 437 396 437 c 7
+ 77 263 189 437 396 437 c 3
 323 389 m 3
  202 389 152 262 152 136 c 3
  152 64 180 45 208 45 c 3
@@ -2731,7 +2826,7 @@ SplineSet
  393 377 l 1
  378 383 348 389 323 389 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" g.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" g.smcp
 EndChar
@@ -2741,6 +2836,7 @@ Encoding: 72 104 72
 Width: 513
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 270 0 basechar 0
 AnchorPoint: "top" 350 678 basechar 0
 LayerCount: 2
 Back
@@ -2749,7 +2845,7 @@ SplineSet
 284 690 m 1
  205 220 l 1
  266 367 338 437 403 437 c 3
- 439 437 490 407 475 322 c 2
+ 439 437 490 407 475 322 c 514
  435 102 l 9
  435 43 l 1
  493 38 l 1
@@ -2758,10 +2854,10 @@ SplineSet
  352 3 l 1
  365 113 l 1
  401 303 l 2
- 410 353 393 382 365 382 c 3
+ 410 353 393 382 365 382 c 515
  324 382 242 269 183 94 c 1
  168 10 l 1
- 96 -12 l 5
+ 96 -12 l 1
  90 -1 l 1
  129 175 l 1
  194 579 l 9
@@ -2770,7 +2866,7 @@ SplineSet
  134 667 l 1
  284 690 l 1
 EndSplineSet
-Validated: 1048609
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" h.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" h.smcp
 EndChar
@@ -2847,6 +2943,7 @@ Encoding: 75 107 75
 Width: 478
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 340 678 basechar 0
 AnchorPoint: "bottom" 249 0 basechar 0
 LayerCount: 2
 Back
@@ -2863,23 +2960,23 @@ SplineSet
  135 643 l 1
  133 667 l 1
  283 690 l 1
-433 437 m 7
- 452 437 473 431 482 423 c 5
- 463 358 l 5
- 455 354 l 5
- 434 360 419 366 397 366 c 7
- 370 366 348 331 272 234 c 5
- 369 76 l 5
- 406 43 l 5
- 455 43 l 5
- 457 19 l 5
- 337 -9 l 5
- 210 208 l 5
- 240 240 l 5
- 320 339 326 354 348 383 c 4
- 371 413 398 437 433 437 c 7
+433 437 m 3
+ 452 437 473 431 482 423 c 1
+ 463 358 l 1
+ 455 354 l 1
+ 434 360 419 366 397 366 c 3
+ 370 366 348 331 272 234 c 1
+ 369 76 l 1
+ 406 43 l 1
+ 455 43 l 1
+ 457 19 l 1
+ 337 -9 l 1
+ 210 208 l 1
+ 240 240 l 1
+ 320 339 326 354 348 383 c 0
+ 371 413 398 437 433 437 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" k.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" k.smcp
 EndChar
@@ -2926,10 +3023,10 @@ SplineSet
 242 437 m 1
  203 220 l 1
  264 367 335 437 400 437 c 3
- 436 437 484 407 469 322 c 2
+ 436 437 484 407 469 322 c 514
  453 232 l 1
  513 371 582 437 645 437 c 3
- 681 437 729 407 714 322 c 2
+ 681 437 729 407 714 322 c 514
  674 102 l 1
  674 43 l 1
  732 38 l 1
@@ -2938,17 +3035,17 @@ SplineSet
  591 3 l 1
  604 113 l 1
  640 303 l 2
- 649 353 635 382 607 382 c 3
+ 649 353 635 382 607 382 c 515
  566 382 485 269 426 94 c 1
  411 10 l 1
  339 -12 l 1
  333 -1 l 1
  372 175 l 1
  395 303 l 2
- 404 353 390 382 362 382 c 3
+ 404 353 390 382 362 382 c 515
  321 382 240 269 181 94 c 1
  166 10 l 1
- 94 -12 l 5
+ 94 -12 l 1
  88 -1 l 1
  127 175 l 1
  152 326 l 9
@@ -2976,7 +3073,7 @@ SplineSet
 242 437 m 1
  203 220 l 1
  264 367 336 437 401 437 c 3
- 437 437 486 407 471 322 c 2
+ 437 437 486 407 471 322 c 514
  431 102 l 1
  431 43 l 1
  489 38 l 1
@@ -2985,7 +3082,7 @@ SplineSet
  348 3 l 1
  361 113 l 1
  397 303 l 2
- 406 353 391 382 363 382 c 3
+ 406 353 391 382 363 382 c 515
  322 382 240 269 181 94 c 1
  166 10 l 1
  94 -12 l 1
@@ -3007,23 +3104,24 @@ Encoding: 79 111 79
 Width: 451
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 230 0 basechar 0
 AnchorPoint: "top" 300 425 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-320 437 m 7
- 379 437 443 405 443 292 c 7
- 443 79 273 -12 206 -12 c 7
- 146 -12 83 20 83 133 c 7
- 83 346 252 437 320 437 c 7
-281 389 m 7
- 202 389 158 294 158 165 c 7
- 158 79 198 37 245 37 c 7
- 323 37 368 131 368 260 c 7
- 368 346 327 389 281 389 c 7
+320 437 m 3
+ 379 437 443 405 443 292 c 3
+ 443 79 273 -12 206 -12 c 3
+ 146 -12 83 20 83 133 c 3
+ 83 346 252 437 320 437 c 3
+281 389 m 3
+ 202 389 158 294 158 165 c 3
+ 158 79 198 37 245 37 c 3
+ 323 37 368 131 368 260 c 3
+ 368 346 327 389 281 389 c 3
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" o.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" o.smcp
 EndChar
@@ -3171,6 +3269,7 @@ Encoding: 84 116 84
 Width: 293
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 293 514 basechar 0
 AnchorPoint: "bottom" 157 0 basechar 0
 LayerCount: 2
 Back
@@ -3200,12 +3299,12 @@ SplineSet
  315 425 l 1
  308 387 l 1
  214 387 l 1
- 168 125 l 6
- 158 69 165 44 198 44 c 7
- 216 44 248 60 267 73 c 5
- 277 54 l 5
- 242 21 183 -12 142 -12 c 7
- 103 -12 78 7 95 105 c 6
+ 168 125 l 2
+ 158 69 165 44 198 44 c 515
+ 216 44 248 60 267 73 c 1
+ 277 54 l 1
+ 242 21 183 -12 142 -12 c 3
+ 103 -12 78 7 95 105 c 514
  145 387 l 1
  88 387 l 1
  91 403 l 1
@@ -3214,7 +3313,7 @@ SplineSet
  168 518 l 1
  228 540 l 1
 EndSplineSet
-Validated: 1048609
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" t.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" t.smcp
 EndChar
@@ -3224,6 +3323,7 @@ Encoding: 85 117 85
 Width: 512
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 272 0 basechar 0
 AnchorPoint: "top" 314 425 basechar 0
 LayerCount: 2
 Back
@@ -3232,7 +3332,7 @@ SplineSet
 234 437 m 1
  219 312 l 1
  185 122 l 2
- 176 72 191 43 219 43 c 3
+ 176 72 191 43 219 43 c 515
  260 43 342 156 401 331 c 1
  416 415 l 1
  488 437 l 1
@@ -3246,14 +3346,14 @@ SplineSet
  342 4 l 1
  379 205 l 1
  318 58 246 -12 181 -12 c 3
- 145 -12 96 18 111 103 c 2
+ 145 -12 96 18 111 103 c 514
  147 311 l 9
  147 385 l 1
  90 390 l 1
  88 414 l 1
  234 437 l 1
 EndSplineSet
-Validated: 1048609
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" u.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" u.smcp
 EndChar
@@ -3269,14 +3369,14 @@ Fore
 SplineSet
 224 437 m 1
  202 86 l 2
- 200 49 206 39 224 39 c 3
+ 200 49 206 39 224 39 c 515
  278 39 375 199 375 303 c 3
  375 331 368 373 357 392 c 1
  418 437 l 1
  439 433 l 1
  451 424 456 399 456 381 c 3
  456 250 296 -12 185 -12 c 3
- 149 -12 130 0 133 67 c 2
+ 149 -12 130 0 133 67 c 514
  146 326 l 9
  142 385 l 1
  85 390 l 1
@@ -3293,14 +3393,15 @@ Encoding: 87 119 87
 Width: 660
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 311 0 basechar 0
 AnchorPoint: "top" 407 425 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-224 437 m 5
+224 437 m 1
  202 86 l 2
- 200 49 206 39 224 39 c 3
+ 200 49 206 39 224 39 c 515
  278 39 370 199 370 303 c 3
  370 331 363 373 352 392 c 1
  413 437 l 1
@@ -3308,24 +3409,24 @@ SplineSet
  446 424 452 399 452 381 c 3
  452 355 446 312 441 290 c 2
  428 86 l 2
- 426 49 432 39 450 39 c 3
+ 426 49 432 39 450 39 c 515
  504 39 596 199 596 303 c 3
  596 331 589 373 578 392 c 1
  639 437 l 1
  660 433 l 1
  672 424 677 399 677 381 c 3
  677 250 522 -12 411 -12 c 3
- 375 -12 356 0 359 67 c 2
+ 375 -12 356 0 359 67 c 514
  363 158 l 1
  321 62 242 -12 185 -12 c 3
- 149 -12 130 0 133 67 c 2
+ 149 -12 130 0 133 67 c 514
  146 326 l 9
  142 385 l 1
  85 390 l 1
  83 414 l 1
- 224 437 l 5
+ 224 437 l 1
 EndSplineSet
-Validated: 1048609
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" w.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" w.smcp
 EndChar
@@ -3410,6 +3511,7 @@ Encoding: 89 121 89
 Width: 479
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 205 -230 basechar 0
 AnchorPoint: "top" 300 425 basechar 0
 LayerCount: 2
 Back
@@ -3418,10 +3520,10 @@ SplineSet
 221 437 m 1
  206 312 l 1
  172 122 l 2
- 163 72 178 43 206 43 c 3
+ 163 72 178 43 206 43 c 515
  247 43 329 156 388 331 c 1
  403 415 l 1
- 475 437 l 5
+ 475 437 l 1
  481 426 l 1
  442 249 l 1
  401 7 l 2
@@ -3434,14 +3536,14 @@ SplineSet
  271 -179 300 -169 319 -63 c 2
  366 205 l 1
  305 58 233 -12 168 -12 c 3
- 132 -12 83 18 98 103 c 2
+ 132 -12 83 18 98 103 c 514
  134 311 l 9
  134 385 l 1
  77 390 l 1
  75 414 l 1
  221 437 l 1
 EndSplineSet
-Validated: 1048609
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" y.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" y.smcp
 EndChar
@@ -3451,34 +3553,35 @@ Encoding: 90 122 90
 Width: 401
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 196 0 basechar 0
 AnchorPoint: "top" 250 425 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-123 437 m 5
+123 437 m 1
  163 437 l 1
  312 409 l 2
- 336 404 352 409 395 437 c 1
+ 336 404 352 409 395 437 c 513
  413 413 l 1
  337 335 l 1
  150 92 l 1
  285 64 l 2
- 327 55 348 65 372 105 c 1
+ 327 55 348 65 372 105 c 513
  394 101 l 1
  357 -12 l 1
  312 -12 l 1
  146 20 l 2
- 115 26 89 18 46 -12 c 1
+ 115 26 89 18 46 -12 c 513
  28 12 l 1
  114 102 l 1
  300 345 l 1
  210 362 l 2
- 167 371 137 360 113 320 c 1
+ 167 371 137 360 113 320 c 513
  91 324 l 1
- 123 437 l 5
+ 123 437 l 1
 EndSplineSet
-Validated: 1048609
+Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" z.smcpflag
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" z.smcp
 EndChar
@@ -3492,7 +3595,7 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-104 259 m 1
+104 259 m 513
  107 279 l 1
  167 288 193 325 200 410 c 2
  208 520 l 2
@@ -3501,15 +3604,15 @@ SplineSet
  294 658 272 619 266 530 c 2
  260 434 l 2
  255 321 213 285 168 269 c 1
- 207 253 238 217 207 104 c 2
- 183 8 l 2
- 160 -81 169 -120 227 -128 c 1
- 222 -149 l 1
- 135 -142 103 -89 129 18 c 2
- 155 128 l 2
- 175 213 162 250 104 259 c 1
+ 207 253 238 217 207 104 c 514
+ 183 8 l 514
+ 160 -81 169 -120 227 -128 c 513
+ 222 -149 l 513
+ 135 -142 103 -89 129 18 c 514
+ 155 128 l 514
+ 175 213 162 250 104 259 c 513
 EndSplineSet
-Validated: 33
+Validated: 1
 EndChar
 
 StartChar: bar
@@ -3538,25 +3641,8 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-SplineSet
-304 259 m 1
- 244 250 218 213 211 128 c 2
- 203 18 l 2
- 195 -89 147 -142 58 -149 c 1
- 57 -128 l 1
- 117 -120 139 -81 145 8 c 2
- 151 104 l 2
- 156 217 199 253 244 269 c 1
- 205 285 173 321 204 434 c 2
- 228 530 l 2
- 251 619 242 658 184 666 c 1
- 189 687 l 1
- 276 680 308 627 282 520 c 2
- 256 410 l 2
- 236 325 249 288 307 279 c 1
- 304 259 l 1
-EndSplineSet
-Validated: 33
+Refer: 91 123 N -1 0 0 -1 411 538 2
+Validated: 1
 EndChar
 
 StartChar: asciitilde
@@ -3597,16 +3683,17 @@ StartChar: cent
 Encoding: 96 162 96
 Width: 391
 GlyphClass: 2
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-290 506 m 5
- 317 503 l 5
- 210 -98 l 5
- 183 -95 l 5
- 290 506 l 5
+290 506 m 1
+ 317 503 l 1
+ 210 -98 l 1
+ 183 -95 l 1
+ 290 506 l 1
 EndSplineSet
 Refer: 67 99 N 1 0 0 1 0 0 2
 Validated: 5
@@ -3619,16 +3706,15 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Fore
 SplineSet
 180 74 m 1
  325 55 l 2
- 367 49 388 65 412 105 c 1
+ 367 49 388 65 412 105 c 513
  434 101 l 1
  397 -12 l 1
  352 -12 l 1
  146 20 l 2
- 115 26 89 18 46 -12 c 1
+ 115 26 89 18 46 -12 c 513
  28 12 l 1
  114 102 l 9
  156 366 l 2
@@ -3647,7 +3733,37 @@ SplineSet
  320 345 l 1
  313 307 l 1
 EndSplineSet
-Validated: 37
+Fore
+SplineSet
+180 74 m 1
+ 325 55 l 2
+ 367 49 388 65 412 105 c 1
+ 434 101 l 1
+ 397 -12 l 1
+ 352 -12 l 1
+ 146 20 l 2
+ 115 26 89 18 46 -12 c 1
+ 28 12 l 1
+ 114 102 l 1
+ 147 307 l 1
+ 89 307 l 1
+ 92 323 l 1
+ 153 345 l 1
+ 156 366 l 2
+ 174 476 228 535 273 567 c 0
+ 310 593 337 607 372 607 c 3
+ 394 607 415 598 431 583 c 1
+ 406 525 l 1
+ 393 520 l 1
+ 368 536 342 546 310 546 c 3
+ 280 546 253 527 238 436 c 2
+ 223 345 l 1
+ 320 345 l 1
+ 313 307 l 1
+ 217 307 l 1
+ 180 74 l 1
+EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: yen
@@ -3658,9 +3774,48 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+124 594 m 5
+ 300 594 l 5
+ 300 573 l 5
+ 260 554 l 5
+ 333 317 l 5
+ 481 553 l 5
+ 433 573 l 5
+ 433 594 l 5
+ 595 594 l 5
+ 595 573 l 5
+ 531 554 l 5
+ 307 217 l 5
+ 287 217 l 5
+ 178 557 l 5
+ 124 573 l 5
+ 124 594 l 5
+229 243 m 5
+ 417 243 l 5
+ 411 209 l 5
+ 176 209 l 5
+ 179 225 l 5
+ 229 243 l 5
+213 153 m 5
+ 401 153 l 5
+ 395 119 l 5
+ 160 119 l 5
+ 163 135 l 5
+ 213 153 l 5
+303 39 m 13
+ 368 20 l 5
+ 368 0 l 5
+ 156 0 l 5
+ 156 20 l 5
+ 228 45 l 21
+ 269 274 l 5
+ 344 274 l 5
+ 303 39 l 13
+EndSplineSet
 Fore
 SplineSet
-124 594 m 1
+124 594 m 5
  300 594 l 1
  300 573 l 1
  260 554 l 1
@@ -3671,34 +3826,37 @@ SplineSet
  595 594 l 1
  595 573 l 1
  531 554 l 1
- 307 217 l 1
- 287 217 l 1
- 178 557 l 1
- 124 573 l 1
- 124 594 l 1
-229 243 m 1
+ 344 272 l 1
+ 339 243 l 1
  417 243 l 1
  411 209 l 1
- 176 209 l 1
- 179 225 l 1
- 229 243 l 1
-213 153 m 1
+ 333 209 l 1
+ 323 153 l 1
  401 153 l 1
  395 119 l 1
- 160 119 l 1
- 163 135 l 1
- 213 153 l 1
-303 39 m 9
+ 317 119 l 1
+ 303 39 l 1
  368 20 l 1
  368 0 l 1
  156 0 l 1
  156 20 l 1
- 228 45 l 17
- 269 274 l 1
- 344 274 l 1
- 303 39 l 9
+ 228 45 l 1
+ 241 119 l 1
+ 160 119 l 1
+ 163 135 l 1
+ 213 153 l 1
+ 247 153 l 1
+ 257 209 l 1
+ 176 209 l 1
+ 179 225 l 1
+ 229 243 l 1
+ 263 243 l 1
+ 269 273 l 1
+ 178 557 l 1
+ 124 573 l 1
+ 124 594 l 5
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: brokenbar
@@ -3733,37 +3891,34 @@ Flags: HMW
 LayerCount: 2
 Back
 SplineSet
-200 -183 m 3
- 267 -183 306 -143 306 -88 c 3
- 306 -31 277.364257812 -7.3642578125 215 32 c 0
- 133.801757812 83.251953125 101 134 101 194 c 3
- 101 272 168 360 285 360 c 1
- 270 327 l 1
- 208 327 166 293 166 221 c 3
- 166 165 200.283203125 134.830078125 265 96 c 0
- 335 54 378 19 378 -45 c 3
- 378 -154 270 -231 153 -231 c 3
- 105 -231 59 -220 40 -209 c 1
- 57 -144 l 1
- 75 -139 l 1
- 98 -156 150 -183 200 -183 c 3
-368 650 m 3
- 397 650 418 645 437 636 c 1
- 417 574 l 1
- 399 569 l 1
- 377 582 339 599 303 599 c 3
- 249 599 228 557 228 520 c 3
- 228 458 264 428 316 391 c 0
- 400.065429688 331.18359375 420 293 420 230 c 3
- 420 138 332 65 217 65 c 1
- 234 99 l 1
- 285 99 348 131 348 195 c 3
- 348 249 326 288 269 325 c 0
- 182.458984375 381.17578125 163 430 163 490 c 3
- 163 570 257 650 368 650 c 3
-EndSplineSet
-Fore
-SplineSet
+200 -183 m 7
+ 267 -183 306 -143 306 -88 c 7
+ 306 -37 277.364257812 -7.3642578125 215 32 c 4
+ 133.801757812 83.251953125 101 134 101 194 c 7
+ 101 272 168 360 285 360 c 5
+ 270 327 l 5
+ 208 327 166 293 166 221 c 7
+ 166 165 200.283203125 134.830078125 265 96 c 4
+ 335 54 378 14 378 -45 c 7
+ 378 -154 270 -231 153 -231 c 7
+ 105 -231 59 -220 40 -209 c 5
+ 57 -144 l 5
+ 75 -139 l 5
+ 98 -156 150 -183 200 -183 c 7
+383 650 m 7
+ 417 650 439 642 458 633 c 5
+ 438 571 l 5
+ 420 566 l 5
+ 398 579 358 599 318 599 c 7
+ 264 599 233 543 233 506 c 7
+ 233 453 264 430 316 391 c 4
+ 398.539683257 329.095237557 420 299 420 236 c 7
+ 420 144 332 65 217 65 c 5
+ 234 99 l 5
+ 285 101 348 137 348 201 c 7
+ 348 255 331.704324661 277.467330303 270 327 c 4
+ 189.490723292 391.628199606 173 421 173 476 c 7
+ 173 556 272 650 383 650 c 7
 272 332 m 1
  210 332 158 298 158 226 c 3
  158 170 198 143 262 103 c 0
@@ -3795,7 +3950,36 @@ SplineSet
  447 143 373 64 230 64 c 1
  247 98 l 1
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+383 650 m 3
+ 417 650 439 642 458 633 c 1
+ 438 571 l 1
+ 420 566 l 1
+ 398 579 358 599 318 599 c 3
+ 264 599 233 543 233 506 c 3
+ 233 453 264 430 316 391 c 0
+ 399 329 420 299 420 236 c 3
+ 420 166 369 104 294 78 c 1
+ 347 42 378 5 378 -45 c 3
+ 378 -154 270 -231 153 -231 c 3
+ 105 -231 59 -220 40 -209 c 1
+ 57 -144 l 1
+ 75 -139 l 1
+ 98 -156 150 -183 200 -183 c 3
+ 267 -183 306 -143 306 -88 c 3
+ 306 -37 277 -7 215 32 c 0
+ 134 83 101 134 101 194 c 3
+ 101 261 150 335 237 355 c 1
+ 185 402 173 430 173 476 c 3
+ 173 556 272 650 383 650 c 3
+256 102 m 1
+ 302 112 348 146 348 201 c 3
+ 348 255 332 277 270 327 c 1
+ 208 327 166 293 166 221 c 3
+ 166 168 197 138 256 102 c 1
+EndSplineSet
+Validated: 1
 Colour: ff8f94
 EndChar
 
@@ -3905,18 +4089,15 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-456 220 m 1
+87 254 m 1
  497 254 l 1
  461 49 l 1
  426 49 l 1
  456 220 l 1
-81 220 m 1
- 87 254 l 1
- 497 254 l 1
- 456 220 l 1
  81 220 l 1
+ 87 254 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: uni00AD
@@ -4026,23 +4207,26 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-47 29 m 1
- 53 63 l 1
+288 425 m 1
+ 323 425 l 1
+ 298 283 l 1
+ 468 283 l 1
+ 462 249 l 1
+ 292 249 l 1
+ 267 108 l 1
+ 232 108 l 1
+ 257 249 l 1
+ 86 249 l 1
+ 92 283 l 1
+ 263 283 l 1
+ 288 425 l 1
+53 63 m 5
  429 63 l 1
  423 29 l 1
  47 29 l 1
-288 425 m 1
- 323 425 l 1
- 267 108 l 1
- 232 108 l 1
- 288 425 l 1
-86 249 m 1
- 92 283 l 1
- 468 283 l 1
- 462 249 l 1
- 86 249 l 1
+ 53 63 l 5
 EndSplineSet
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: uni00B2
@@ -4127,10 +4311,10 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-234 437 m 5
+234 437 m 1
  219 312 l 1
  185 122 l 2
- 176 72 191 43 219 43 c 3
+ 176 72 191 43 219 43 c 515
  260 43 342 156 401 331 c 1
  416 415 l 1
  483 437 l 1
@@ -4153,7 +4337,7 @@ SplineSet
  147 385 l 1
  90 390 l 1
  88 414 l 1
- 234 437 l 5
+ 234 437 l 1
 EndSplineSet
 Validated: 33
 Colour: ff8f94
@@ -4423,6 +4607,47 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
+SplineSet
+356 638 m 5
+ 863 638 l 5
+ 846 513 l 5
+ 811 510 l 5
+ 811 596 l 5
+ 590 596 l 5
+ 502 44 l 5
+ 755 44 l 5
+ 795 139 l 5
+ 831 134 l 5
+ 795 0 l 5
+ 346 0 l 5
+ 346 20 l 5
+ 424 45 l 5
+ 512 599 l 5
+ 477 599 l 5
+ 123 38 l 5
+ 193 20 l 5
+ 193 0 l 5
+ 0 0 l 5
+ 0 20 l 5
+ 65 37 l 5
+ 425 599 l 5
+ 356 618 l 5
+ 356 638 l 5
+544 312 m 5
+ 550 353 l 5
+ 723 353 l 5
+ 741 409 l 5
+ 776 409 l 5
+ 752 256 l 5
+ 717 256 l 5
+ 716 312 l 5
+ 544 312 l 5
+218 216 m 5
+ 224 253 l 5
+ 492 253 l 5
+ 486 216 l 5
+ 218 216 l 5
+EndSplineSet
 Fore
 SplineSet
 356 638 m 1
@@ -4431,6 +4656,14 @@ SplineSet
  811 510 l 1
  811 596 l 1
  590 596 l 1
+ 551 353 l 1
+ 723 353 l 1
+ 741 409 l 1
+ 776 409 l 1
+ 752 256 l 1
+ 717 256 l 1
+ 716 312 l 1
+ 545 312 l 1
  502 44 l 1
  755 44 l 1
  795 139 l 1
@@ -4439,8 +4672,8 @@ SplineSet
  346 0 l 1
  346 20 l 1
  424 45 l 1
- 512 599 l 1
- 477 599 l 1
+ 451 216 l 1
+ 235 216 l 1
  123 38 l 1
  193 20 l 1
  193 0 l 1
@@ -4450,22 +4683,13 @@ SplineSet
  425 599 l 1
  356 618 l 1
  356 638 l 1
-544 312 m 1
- 550 353 l 1
- 723 353 l 1
- 741 409 l 1
- 776 409 l 1
- 752 256 l 1
- 717 256 l 1
- 716 312 l 1
- 544 312 l 1
-218 216 m 1
- 224 253 l 1
- 492 253 l 1
- 486 216 l 1
- 218 216 l 1
+477 599 m 1
+ 259 253 l 1
+ 457 253 l 1
+ 512 599 l 1
+ 477 599 l 1
 EndSplineSet
-Validated: 5
+Validated: 1
 Colour: ff8f94
 EndChar
 
@@ -7463,7 +7687,7 @@ Back
 Fore
 Refer: 440 780 N 1 0 0 1 463 213 2
 Refer: 52 84 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: tcaron
@@ -8286,6 +8510,7 @@ SplineSet
  426 11 l 17
 EndSplineSet
 Refer: 53 85 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uogonek
@@ -8309,6 +8534,7 @@ SplineSet
  418 2 l 17
 EndSplineSet
 Refer: 85 117 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni2010
