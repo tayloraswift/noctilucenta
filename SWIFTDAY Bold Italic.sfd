@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1428100048
+ModificationTime: 1428160625
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,22 +61,11 @@ Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 s
 Lookup: 6 0 0 "SmallCapsRendering" { "SmallCapsRendering subtable"  } ['calt' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
 Lookup: 4 0 1 "SmallCapsClose" { "SmallCapsClose subtable"  } ['liga' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kernHorizontalKerningITALICOVER" { "kernHorizontalKerningITALICOVER subtable"  } ['kern' ('latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kernHorizontalKerningITALICOVER" { "kernHorizontalKerningITALICOVER subtable"  } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable"  } ['kern' ('math' <'dflt' > 'latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "markMarktoMarklookup0" { "markMarktoMarklookup0 subtable"  } ['mark' ('latn' <'dflt' > 'grek' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 5 6 "kernHorizontalKerningITALICOVER subtable"
- 141 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde eng h hbar hcircumflex m n nacute napostrophe ncaron ntilde uni0146
- 36 d dotlessi i ibreve imacron itilde l
- 24 emdash endash figuredash
- 23 r racute rcaron uni0157
- 73 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde
- 305 c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gbreve gcircumflex gdotaccent o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde q s sacute scaron scedilla scircumflex uni0123
- 24 emdash endash figuredash
- 1 f
- 21 t tbar tcaron uni0163
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} -6 {} 0 {} -40 {} 30 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 4 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {}
 KernClass2: 28 24 "kernHorizontalKerninglookup0 subtable"
  73 A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
  1 B
@@ -129,6 +118,22 @@ KernClass2: 28 24 "kernHorizontalKerninglookup0 subtable"
  46 v w wcircumflex y yacute ycircumflex ydieresis
  26 z zacute zcaron zdotaccent
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} -30 {} 0 {} -80 {} 0 {} 0 {} -10 {} -20 {} 0 {} -20 {} 0 {} -20 {} -10 {} -10 {} 0 {} -30 {} -20 {} -20 {} -30 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -20 {} -10 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 10 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 20 {} 0 {} 0 {} 40 {} 0 {} 30 {} 0 {} -30 {} 0 {} -50 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} -30 {} 30 {} -50 {} -40 {} -20 {} -40 {} 0 {} -80 {} 0 {} 0 {} 0 {} 30 {} 0 {} 10 {} 0 {} -50 {} 0 {} -70 {} 0 {} -40 {} -70 {} 0 {} 0 {} -50 {} -50 {} 30 {} 0 {} -20 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 10 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 5 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 10 {} 0 {} 0 {} 70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 10 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 20 {} -10 {} 0 {} 0 {} 0 {}
+KernClass2: 9 7 "kernHorizontalKerningITALICOVER subtable"
+ 141 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde eng h hbar hcircumflex m n nacute napostrophe ncaron ntilde uni0146
+ 132 ae c cacute ccaron ccedilla ccircumflex cdotaccent e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oe
+ 90 b o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p thorn
+ 36 d dotlessi i ibreve imacron itilde l
+ 24 emdash endash figuredash
+ 90 mu u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde
+ 23 r racute rcaron uni0157
+ 36 s sacute scaron scedilla scircumflex
+ 73 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde
+ 305 c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gbreve gcircumflex gdotaccent o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde q s sacute scaron scedilla scircumflex uni0123
+ 289 dotlessi eng i iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde kgreenlandic m mu n nacute napostrophe ncaron ntilde p r racute rcaron u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0146 uni0157 uogonek uring utilde y yacute ycircumflex ydieresis
+ 24 emdash endash figuredash
+ 1 f
+ 21 t tbar tcaron uni0163
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} -6 {} 10 {} 0 {} -20 {} 30 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 4 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 10 {}
 ChainSub2: coverage "SmallCapsRendering subtable" 0 0 0 1
  1 0 1
   Coverage: 1127 A.smcpflag B.smcpflag C.smcpflag D.smcpflag E.smcpflag F.smcpflag G.smcpflag H.smcpflag I.smcpflag J.smcpflag K.smcpflag L.smcpflag M.smcpflag N.smcpflag O.smcpflag P.smcpflag Q.smcpflag R.smcpflag S.smcpflag T.smcpflag U.smcpflag V.smcpflag W.smcpflag X.smcpflag Y.smcpflag Z.smcpflag space.smcpflag comma.smcpflag period.smcpflag colon.smcpflag semicolon.smcpflag hyphen.smcpflag parenleft.smcpflag parenright.smcpflag exclam.smcpflag question.smcpflag quotesingle.smcpflag quotedbl.smcpflag endash.smcpflag emdash.smcpflag quoteleft.smcpflag quoteright.smcpflag quotedblright.smcpflag quotedblleft.smcpflag quotedblbase.smcpflag ellipsis.smcpflag ampersand.smcpflag dollar.smcpflag percent.smcpflag zero.smcpflag one.smcpflag two.smcpflag three.smcpflag four.smcpflag five.smcpflag six.smcpflag seven.smcpflag eight.smcpflag nine.smcpflag a.smcpflag b.smcpflag c.smcpflag d.smcpflag e.smcpflag f.smcpflag g.smcpflag h.smcpflag i.smcpflag j.smcpflag k.smcpflag l.smcpflag m.smcpflag n.smcpflag o.smcpflag p.smcpflag q.smcpflag r.smcpflag s.smcpflag t.smcpflag u.smcpflag v.smcpflag w.smcpflag x.smcpflag y.smcpflag z.smcpflag
@@ -168,12 +173,12 @@ LangName: 1033 "" "" "Bold Italic"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -96
+DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 456 19 9
+WinInfo: 0 14 7
 BeginPrivate: 1
-BlueValues 39 [-12 0 425 437 461 473 638 650 679 693]
+BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 EndPrivate
 Grid
 -1000 461 m 0
@@ -12985,7 +12990,7 @@ SplineSet
  451 21 l 1
  414 4 353 -12 288 -12 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" c.smcpflag less slash s c greater
 EndChar
@@ -13017,7 +13022,7 @@ SplineSet
  132 443 l 1
  132 461 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" d.smcpflag less slash s c greater
 EndChar
@@ -13136,7 +13141,7 @@ SplineSet
  478 30 l 1
  424 -1 362 -12 298 -12 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" g.smcpflag less slash s c greater
 EndChar
@@ -13237,7 +13242,7 @@ SplineSet
  125 443 l 5
  125 461 l 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" j.smcpflag less slash s c greater
 EndChar
@@ -13448,7 +13453,7 @@ SplineSet
  489 461 531 444.153320312 531 364 c 7
  531 262.955078125 466 196 287 196 c 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" p.smcpflag less slash s c greater
 EndChar
@@ -13509,7 +13514,7 @@ SplineSet
  408 409.16015625 397 425 358 425 c 2
  305 425 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" r.smcpflag less slash s c greater
 EndChar
@@ -13546,7 +13551,7 @@ SplineSet
  180 216 123 257.8515625 123 324 c 3
  123 411.57421875 193.721679688 473 330 473 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" s.smcpflag less slash s c greater
 EndChar
@@ -13618,7 +13623,7 @@ SplineSet
  605 441 l 5
  539 425 l 5
 EndSplineSet
-Validated: 524321
+Validated: 33
 LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" u.smcpflag less slash s c greater
 EndChar
