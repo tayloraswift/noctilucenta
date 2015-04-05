@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1428165737
+ModificationTime: 1428195353
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -201,7 +201,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 14 14 7
+WinInfo: 308 14 7
 BeginPrivate: 7
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 FamilyBlues 39 [-12 0 425 437 461 473 626 650 679 693]
@@ -9946,6 +9946,8 @@ Width: 448
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 247 425 basechar 0
+AnchorPoint: "bottom" 230 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -9959,6 +9961,8 @@ Width: 523
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 269 425 basechar 0
+AnchorPoint: "bottom" 276 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -9991,11 +9995,13 @@ Width: 520
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 274 425 basechar 0
+AnchorPoint: "bottom" 266 0 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-328 437 m 7
+328 437 m 3
  402 437 475 379 475 235 c 3
  475 144 412 -12 232 -12 c 3
  187 -12 136 -3 86 15 c 1
@@ -10004,7 +10010,7 @@ SplineSet
  15 416 l 1
  160 432 l 1
  160 347 l 1
- 195 386 246 437 328 437 c 7
+ 195 386 246 437 328 437 c 3
 170 44 m 1
  192 31 217 26 254 26 c 3
  331 26 397 77 397 219 c 3
@@ -10057,11 +10063,13 @@ Width: 433
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 201 425 basechar 0
+AnchorPoint: "bottom" 193 0 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-100 45 m 5
+100 45 m 1
  117 35 159 29 182 29 c 3
  252 29 318 73 318 203 c 3
  318 324 262 389 177 389 c 3
@@ -10070,10 +10078,10 @@ SplineSet
  98 425 161 437 209 437 c 3
  301 437 393 377 393 230 c 3
  393 62 272 -12 157 -12 c 3
- 116 -12 70 -1 52 6 c 5
- 46 114 l 5
- 82 117 l 5
- 100 45 l 5
+ 116 -12 70 -1 52 6 c 1
+ 46 114 l 1
+ 82 117 l 1
+ 100 45 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -10218,6 +10226,8 @@ Width: 433
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 197 425 basechar 0
+AnchorPoint: "bottom" 189 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -10269,6 +10279,8 @@ Width: 442
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 216 425 basechar 0
+AnchorPoint: "bottom" 208 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -10315,6 +10327,8 @@ Width: 550
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 212 425 basechar 0
+AnchorPoint: "bottom" 204 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -10374,6 +10388,8 @@ Width: 400
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 223 425 basechar 0
+AnchorPoint: "bottom" 215 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -10397,7 +10413,7 @@ SplineSet
  365 46 l 1
  322 0 254 -12 213 -12 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: uni025C
@@ -10406,6 +10422,8 @@ Width: 420
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 199 425 basechar 0
+AnchorPoint: "bottom" 197 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -10439,12 +10457,14 @@ VWidth: 0
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
 Flags: HMW
+AnchorPoint: "bottom" 197 0 basechar 0
+AnchorPoint: "top" 199 425 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
 245 238 m 1
- 261 281 l 5
+ 261 281 l 1
  409 348 l 1
  417 334 l 1
  425 271 440 243 463 243 c 3
@@ -10463,6 +10483,8 @@ Width: 470
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 246 0 basechar 0
+AnchorPoint: "top" 248 425 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -10484,7 +10506,7 @@ SplineSet
  135 335 120 297 120 220 c 3
  120 101 169.974609375 29 249 29 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: uni025F
@@ -10686,6 +10708,8 @@ Width: 404
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 199 0 basechar 0
+AnchorPoint: "top" 210 425 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -10916,6 +10940,8 @@ Width: 350
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 172 0 basechar 0
+AnchorPoint: "top" 174 425 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -11227,14 +11253,12 @@ Fore
 SplineSet
 338 437 m 3
  424 437 463 384 463 283 c 2
- 463 24 l 2
- 463 -155 387 -230 305 -230 c 7
- 272 -230 252 -224 234 -218 c 1
- 243 -158 l 1
- 258 -152 l 1
- 273 -157 309 -174 329 -174 c 7
- 353 -174 368 -171 379 -153 c 1
- 389 -119 390 -80 390 -15 c 2
+ 463 -122 l 2
+ 463 -167 475 -187 505 -187 c 3
+ 520 -187 537 -183 551 -175 c 1
+ 560 -198 l 1
+ 523 -222 497 -230 471 -230 c 3
+ 426 -230 390 -214 390 -135 c 2
  390 265 l 2
  390 358 359 384 303 384 c 3
  246 384 206 339 179 297 c 1
@@ -11297,6 +11321,8 @@ VWidth: -3
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
 Flags: HMW
+AnchorPoint: "bottom" 236 0 basechar 0
+AnchorPoint: "top" 246 425 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -11317,6 +11343,8 @@ Width: 635
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 352 425 basechar 0
+AnchorPoint: "bottom" 342 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -11362,6 +11390,8 @@ Width: 590
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 299 425 basechar 0
+AnchorPoint: "bottom" 289 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -11382,7 +11412,7 @@ SplineSet
  348 140 367 21.5 409 21.5 c 3
  435 21.5 463 58.99609375 463 183.5 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: uni0278
@@ -11973,6 +12003,8 @@ VWidth: -3
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
 Flags: HMW
+AnchorPoint: "bottom" 281 0 basechar 0
+AnchorPoint: "top" 267 425 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -11993,6 +12025,8 @@ Width: 556
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "bottom" 272 0 basechar 0
+AnchorPoint: "top" 282 425 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -12016,7 +12050,7 @@ SplineSet
  156 88 208 29 278 29 c 3
  363 29 400 84 400 189 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: uni028B
@@ -12052,6 +12086,8 @@ Width: 461
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 231 425 basechar 0
+AnchorPoint: "bottom" 221 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -12091,6 +12127,8 @@ Width: 424
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 223 425 basechar 0
+AnchorPoint: "bottom" 213 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12527,6 +12565,8 @@ Width: 480
 VWidth: -3
 GlyphClass: 2
 Flags: HMW
+AnchorPoint: "top" 241 425 basechar 0
+AnchorPoint: "bottom" 231 0 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -12547,7 +12587,7 @@ SplineSet
  161 184 128 159 128 113 c 3
  128 72 156.849609375 27 228 27 c 3
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: uni029B
