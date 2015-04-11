@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1428195353
+ModificationTime: 1428782253
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -201,7 +201,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 308 14 7
+WinInfo: 0 14 7
 BeginPrivate: 7
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 FamilyBlues 39 [-12 0 425 437 461 473 626 650 679 693]
@@ -826,10 +826,10 @@ SplineSet
  60 0 l 1
  60 18 l 1
  155 43 l 1
- 155 595 l 1
- 70 607 l 1
- 70 625 l 1
- 231 641 l 1
+ 155 588 l 1
+ 70 600 l 1
+ 70 618 l 1
+ 231 634 l 1
  231 38 l 1
 EndSplineSet
 Validated: 1
@@ -10413,7 +10413,7 @@ SplineSet
  365 46 l 1
  322 0 254 -12 213 -12 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni025C
@@ -10506,7 +10506,7 @@ SplineSet
  135 335 120 297 120 220 c 3
  120 101 169.974609375 29 249 29 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni025F
@@ -11412,7 +11412,7 @@ SplineSet
  348 140 367 21.5 409 21.5 c 3
  435 21.5 463 58.99609375 463 183.5 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni0278
@@ -12050,7 +12050,7 @@ SplineSet
  156 88 208 29 278 29 c 3
  363 29 400 84 400 189 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni028B
@@ -12587,7 +12587,7 @@ SplineSet
  161 184 128 159 128 113 c 3
  128 72 156.849609375 27 228 27 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uni029B
