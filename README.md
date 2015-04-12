@@ -15,7 +15,7 @@ Contains:
   * Most important and unimportant General Punctuation
   * Most important and unimportant Math Symbols and arrows
   
-  * Most IPA
+  * IPA
   
   * Mathematical Bold and Italic
 
@@ -36,6 +36,8 @@ Contains:
   
   * Most important and unimportant General Punctuation
   * Most important and unimportant Math Symbols and arrows
+
+  * IPA
 
 
 ![screenshot 093](https://cloud.githubusercontent.com/assets/2556986/6385813/915bda20-bd3d-11e4-98a7-66d01f898b15.png)
