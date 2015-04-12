@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1428160625
+ModificationTime: 1428873173
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -170,13 +170,14 @@ ChainSub2: coverage "Oldstylechaining subtable" 0 0 0 1
   SeqLookup: 0 "Single Substitution lookup 3"
 EndFPST
 LangName: 1033 "" "" "Bold Italic"
-Encoding: Custom
+Encoding: iso8859-15
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 7
+WinInfo: 96 8 2
 BeginPrivate: 1
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 EndPrivate
@@ -204,10 +205,10 @@ Grid
  2000 425 l 1024
 EndSplineSet
 AnchorClass2: "bottom" "markMarktoMarklookup0 subtable" "top" "markMarktoMarklookup0 subtable" 
-BeginChars: 703 693
+BeginChars: 759 694
 
 StartChar: space
-Encoding: 0 32 0
+Encoding: 32 32 0
 Width: 220
 GlyphClass: 3
 Flags: HMW
@@ -222,7 +223,7 @@ Substitution2: "Single Substitution lookup 3 subtable" space.onumflag
 EndChar
 
 StartChar: exclam
-Encoding: 1 33 1
+Encoding: 33 33 1
 Width: 302
 GlyphClass: 3
 Flags: HMW
@@ -244,7 +245,7 @@ Substitution2: "Single Substitution lookup 14 subtable" exclam.smcpflag
 EndChar
 
 StartChar: quotedbl
-Encoding: 2 34 2
+Encoding: 34 34 2
 Width: 350
 GlyphClass: 3
 Flags: HMW
@@ -271,7 +272,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quotedbl.smcpflag
 EndChar
 
 StartChar: numbersign
-Encoding: 3 35 3
+Encoding: 35 35 3
 Width: 453
 GlyphClass: 2
 Flags: HMW
@@ -318,7 +319,7 @@ Validated: 1
 EndChar
 
 StartChar: dollar
-Encoding: 4 36 4
+Encoding: 36 36 4
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -392,7 +393,7 @@ Substitution2: "Single Substitution lookup 3 subtable" dollar.onumflag
 EndChar
 
 StartChar: percent
-Encoding: 5 37 5
+Encoding: 37 37 5
 Width: 875
 GlyphClass: 2
 Flags: HMW
@@ -434,7 +435,7 @@ Substitution2: "Single Substitution lookup 3 subtable" percent.onumflag
 EndChar
 
 StartChar: ampersand
-Encoding: 6 38 6
+Encoding: 38 38 6
 Width: 696
 GlyphClass: 3
 Flags: HMW
@@ -501,7 +502,7 @@ Substitution2: "Single Substitution lookup 14 subtable" ampersand.smcpflag
 EndChar
 
 StartChar: quotesingle
-Encoding: 7 39 7
+Encoding: 39 39 7
 Width: 188
 GlyphClass: 3
 Flags: HMW
@@ -522,7 +523,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quotesingle.smcpflag
 EndChar
 
 StartChar: parenleft
-Encoding: 8 40 8
+Encoding: 40 40 8
 Width: 326
 GlyphClass: 3
 Flags: HMW
@@ -544,7 +545,7 @@ Substitution2: "Single Substitution lookup 14 subtable" parenleft.smcpflag
 EndChar
 
 StartChar: parenright
-Encoding: 9 41 9
+Encoding: 41 41 9
 Width: 326
 GlyphClass: 3
 Flags: HMW
@@ -558,7 +559,7 @@ Substitution2: "Single Substitution lookup 14 subtable" parenright.smcpflag
 EndChar
 
 StartChar: asterisk
-Encoding: 10 42 10
+Encoding: 42 42 10
 Width: 459
 GlyphClass: 2
 Flags: HMW
@@ -606,7 +607,7 @@ Validated: 1
 EndChar
 
 StartChar: plus
-Encoding: 11 43 11
+Encoding: 43 43 11
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -633,7 +634,7 @@ Validated: 1
 EndChar
 
 StartChar: comma
-Encoding: 12 44 12
+Encoding: 44 44 12
 Width: 270
 GlyphClass: 3
 Flags: HMW
@@ -657,7 +658,7 @@ Substitution2: "Single Substitution lookup 3 subtable" comma.onumflag
 EndChar
 
 StartChar: hyphen
-Encoding: 13 45 13
+Encoding: 45 45 13
 Width: 300
 VWidth: 0
 GlyphClass: 3
@@ -680,7 +681,7 @@ Substitution2: "Single Substitution lookup 3 subtable" hyphen.onumflag
 EndChar
 
 StartChar: period
-Encoding: 14 46 14
+Encoding: 46 46 14
 Width: 270
 GlyphClass: 3
 Flags: HMW
@@ -702,7 +703,7 @@ Substitution2: "Single Substitution lookup 3 subtable" period.onumflag
 EndChar
 
 StartChar: slash
-Encoding: 15 47 15
+Encoding: 47 47 15
 Width: 302
 GlyphClass: 2
 Flags: HMW
@@ -720,7 +721,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 16 48 16
+Encoding: 48 48 16
 Width: 532
 GlyphClass: 2
 Flags: HMW
@@ -747,7 +748,7 @@ Substitution2: "Single Substitution lookup 3 subtable" zero.onumflag
 EndChar
 
 StartChar: one
-Encoding: 17 49 17
+Encoding: 49 49 17
 Width: 406
 VWidth: -3
 GlyphClass: 2
@@ -756,17 +757,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-380 639 m 1
+379 634 m 1
  274 38 l 1
  359 18 l 1
  359 0 l 1
  63 0 l 1
  63 18 l 1
  163 43 l 1
- 260 595 l 1
- 178 607 l 1
- 179 625 l 1
- 380 639 l 1
+ 259 590 l 1
+ 177 602 l 1
+ 178 620 l 1
+ 379 634 l 1
 EndSplineSet
 Validated: 1
 Substitution2: "Single Substitution lookup 14 subtable" one.smcpflag
@@ -776,7 +777,7 @@ Substitution2: "Single Substitution lookup 3 subtable" one.onumflag
 EndChar
 
 StartChar: two
-Encoding: 18 50 18
+Encoding: 50 50 18
 Width: 518
 VWidth: 0
 GlyphClass: 2
@@ -808,7 +809,7 @@ Substitution2: "Single Substitution lookup 3 subtable" two.onumflag
 EndChar
 
 StartChar: three
-Encoding: 19 51 19
+Encoding: 51 51 19
 Width: 458
 VWidth: 0
 GlyphClass: 2
@@ -842,7 +843,7 @@ Substitution2: "Single Substitution lookup 3 subtable" three.onumflag
 EndChar
 
 StartChar: four
-Encoding: 20 52 20
+Encoding: 52 52 20
 Width: 585
 VWidth: -3
 GlyphClass: 2
@@ -897,7 +898,7 @@ Substitution2: "Single Substitution lookup 3 subtable" four.onumflag
 EndChar
 
 StartChar: five
-Encoding: 21 53 21
+Encoding: 53 53 21
 Width: 451
 VWidth: 0
 GlyphClass: 2
@@ -930,7 +931,7 @@ Substitution2: "Single Substitution lookup 3 subtable" five.onumflag
 EndChar
 
 StartChar: six
-Encoding: 22 54 22
+Encoding: 54 54 22
 Width: 511
 VWidth: 0
 GlyphClass: 2
@@ -977,7 +978,7 @@ Substitution2: "Single Substitution lookup 3 subtable" six.onumflag
 EndChar
 
 StartChar: seven
-Encoding: 23 55 23
+Encoding: 55 55 23
 Width: 400
 VWidth: 0
 GlyphClass: 2
@@ -1004,7 +1005,7 @@ Substitution2: "Single Substitution lookup 3 subtable" seven.onumflag
 EndChar
 
 StartChar: eight
-Encoding: 24 56 24
+Encoding: 56 56 24
 Width: 508
 VWidth: 0
 GlyphClass: 2
@@ -1060,7 +1061,7 @@ Substitution2: "Single Substitution lookup 3 subtable" eight.onumflag
 EndChar
 
 StartChar: nine
-Encoding: 25 57 25
+Encoding: 57 57 25
 Width: 505
 VWidth: 0
 GlyphClass: 2
@@ -1107,7 +1108,7 @@ Substitution2: "Single Substitution lookup 3 subtable" nine.onumflag
 EndChar
 
 StartChar: colon
-Encoding: 26 58 26
+Encoding: 58 58 26
 Width: 270
 GlyphClass: 3
 Flags: HMW
@@ -1125,7 +1126,7 @@ Substitution2: "Single Substitution lookup 3 subtable" colon.onumflag
 EndChar
 
 StartChar: semicolon
-Encoding: 27 59 27
+Encoding: 59 59 27
 Width: 270
 GlyphClass: 3
 Flags: HMW
@@ -1140,7 +1141,7 @@ Substitution2: "Single Substitution lookup 14 subtable" semicolon.smcpflag
 EndChar
 
 StartChar: less
-Encoding: 28 60 28
+Encoding: 60 60 28
 Width: 320
 VWidth: 0
 GlyphClass: 2
@@ -1161,7 +1162,7 @@ Validated: 1
 EndChar
 
 StartChar: equal
-Encoding: 29 61 29
+Encoding: 61 61 29
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -1185,7 +1186,7 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 30 62 30
+Encoding: 62 62 30
 Width: 320
 VWidth: 0
 GlyphClass: 2
@@ -1206,7 +1207,7 @@ Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 31 63 31
+Encoding: 63 63 31
 Width: 397
 VWidth: 0
 GlyphClass: 3
@@ -1237,7 +1238,7 @@ Substitution2: "Single Substitution lookup 14 subtable" question.smcpflag
 EndChar
 
 StartChar: at
-Encoding: 32 64 32
+Encoding: 64 64 32
 Width: 726
 GlyphClass: 2
 Flags: HMW
@@ -1277,7 +1278,7 @@ Validated: 33
 EndChar
 
 StartChar: A
-Encoding: 33 65 33
+Encoding: 65 65 33
 Width: 630
 GlyphClass: 3
 Flags: HMW
@@ -1339,7 +1340,7 @@ Substitution2: "Single Substitution lookup 14 subtable" A.smcpflag
 EndChar
 
 StartChar: B
-Encoding: 34 66 34
+Encoding: 66 66 34
 Width: 620
 GlyphClass: 3
 Flags: HMW
@@ -1404,7 +1405,7 @@ Substitution2: "Single Substitution lookup 14 subtable" B.smcpflag
 EndChar
 
 StartChar: C
-Encoding: 35 67 35
+Encoding: 67 67 35
 Width: 593
 GlyphClass: 3
 Flags: HMW
@@ -1436,7 +1437,7 @@ Substitution2: "Single Substitution lookup 14 subtable" C.smcpflag
 EndChar
 
 StartChar: D
-Encoding: 36 68 36
+Encoding: 68 68 36
 Width: 682
 GlyphClass: 3
 Flags: HMW
@@ -1470,7 +1471,7 @@ Substitution2: "Single Substitution lookup 14 subtable" D.smcpflag
 EndChar
 
 StartChar: E
-Encoding: 37 69 37
+Encoding: 69 69 37
 Width: 573
 GlyphClass: 3
 Flags: HMW
@@ -1541,7 +1542,7 @@ Substitution2: "Single Substitution lookup 14 subtable" E.smcpflag
 EndChar
 
 StartChar: F
-Encoding: 38 70 38
+Encoding: 70 70 38
 Width: 499
 GlyphClass: 3
 Flags: HMW
@@ -1605,7 +1606,7 @@ Substitution2: "Single Substitution lookup 14 subtable" F.smcpflag
 EndChar
 
 StartChar: G
-Encoding: 39 71 39
+Encoding: 71 71 39
 Width: 658
 GlyphClass: 3
 Flags: HMW
@@ -1641,7 +1642,7 @@ Substitution2: "Single Substitution lookup 14 subtable" G.smcpflag
 EndChar
 
 StartChar: H
-Encoding: 40 72 40
+Encoding: 72 72 40
 Width: 716
 GlyphClass: 3
 Flags: HMW
@@ -1720,7 +1721,7 @@ Substitution2: "Single Substitution lookup 14 subtable" H.smcpflag
 EndChar
 
 StartChar: I
-Encoding: 41 73 41
+Encoding: 73 73 41
 Width: 371
 GlyphClass: 3
 Flags: HMW
@@ -1751,7 +1752,7 @@ Substitution2: "Single Substitution lookup 14 subtable" I.smcpflag
 EndChar
 
 StartChar: J
-Encoding: 42 74 42
+Encoding: 74 74 42
 Width: 371
 GlyphClass: 3
 Flags: HMW
@@ -1780,7 +1781,7 @@ Substitution2: "Single Substitution lookup 14 subtable" J.smcpflag
 EndChar
 
 StartChar: K
-Encoding: 43 75 43
+Encoding: 75 75 43
 Width: 669
 GlyphClass: 3
 Flags: HMW
@@ -1824,7 +1825,7 @@ Substitution2: "Single Substitution lookup 14 subtable" K.smcpflag
 EndChar
 
 StartChar: L
-Encoding: 44 76 44
+Encoding: 76 76 44
 Width: 555
 GlyphClass: 3
 Flags: HMW
@@ -1856,7 +1857,7 @@ Substitution2: "Single Substitution lookup 14 subtable" L.smcpflag
 EndChar
 
 StartChar: M
-Encoding: 45 77 45
+Encoding: 77 77 45
 Width: 870
 GlyphClass: 3
 Flags: HMW
@@ -1900,7 +1901,7 @@ Substitution2: "Single Substitution lookup 14 subtable" M.smcpflag
 EndChar
 
 StartChar: N
-Encoding: 46 78 46
+Encoding: 78 78 46
 Width: 656
 GlyphClass: 3
 Flags: HMW
@@ -1938,7 +1939,7 @@ Substitution2: "Single Substitution lookup 14 subtable" N.smcpflag
 EndChar
 
 StartChar: O
-Encoding: 47 79 47
+Encoding: 79 79 47
 Width: 678
 GlyphClass: 3
 Flags: HMW
@@ -1965,7 +1966,7 @@ Substitution2: "Single Substitution lookup 14 subtable" O.smcpflag
 EndChar
 
 StartChar: P
-Encoding: 48 80 48
+Encoding: 80 80 48
 Width: 572
 GlyphClass: 3
 Flags: HMW
@@ -1999,7 +2000,7 @@ Substitution2: "Single Substitution lookup 14 subtable" P.smcpflag
 EndChar
 
 StartChar: Q
-Encoding: 49 81 49
+Encoding: 81 81 49
 Width: 678
 GlyphClass: 3
 Flags: HMW
@@ -2022,7 +2023,7 @@ Substitution2: "Single Substitution lookup 14 subtable" Q.smcpflag
 EndChar
 
 StartChar: R
-Encoding: 50 82 50
+Encoding: 82 82 50
 Width: 630
 GlyphClass: 3
 Flags: HMW
@@ -2061,7 +2062,7 @@ Substitution2: "Single Substitution lookup 14 subtable" R.smcpflag
 EndChar
 
 StartChar: S
-Encoding: 51 83 51
+Encoding: 83 83 51
 Width: 497
 GlyphClass: 3
 Flags: HMW
@@ -2097,7 +2098,7 @@ Substitution2: "Single Substitution lookup 14 subtable" S.smcpflag
 EndChar
 
 StartChar: T
-Encoding: 52 84 52
+Encoding: 84 84 52
 Width: 577
 GlyphClass: 3
 Flags: HMW
@@ -2136,7 +2137,7 @@ Substitution2: "Single Substitution lookup 14 subtable" T.smcpflag
 EndChar
 
 StartChar: U
-Encoding: 53 85 53
+Encoding: 85 85 53
 Width: 655
 GlyphClass: 3
 Flags: HMW
@@ -2173,7 +2174,7 @@ Substitution2: "Single Substitution lookup 14 subtable" U.smcpflag
 EndChar
 
 StartChar: V
-Encoding: 54 86 54
+Encoding: 86 86 54
 Width: 572
 GlyphClass: 3
 Flags: HMW
@@ -2204,7 +2205,7 @@ Substitution2: "Single Substitution lookup 14 subtable" V.smcpflag
 EndChar
 
 StartChar: W
-Encoding: 55 87 55
+Encoding: 87 87 55
 Width: 899
 GlyphClass: 3
 Flags: HMW
@@ -2244,7 +2245,7 @@ Substitution2: "Single Substitution lookup 14 subtable" W.smcpflag
 EndChar
 
 StartChar: X
-Encoding: 56 88 56
+Encoding: 88 88 56
 Width: 602
 GlyphClass: 3
 Flags: HMW
@@ -2323,7 +2324,7 @@ Substitution2: "Single Substitution lookup 14 subtable" X.smcpflag
 EndChar
 
 StartChar: Y
-Encoding: 57 89 57
+Encoding: 89 89 57
 Width: 568
 GlyphClass: 3
 Flags: HMW
@@ -2390,7 +2391,7 @@ Substitution2: "Single Substitution lookup 14 subtable" Y.smcpflag
 EndChar
 
 StartChar: Z
-Encoding: 58 90 58
+Encoding: 90 90 58
 Width: 549
 GlyphClass: 3
 Flags: HMW
@@ -2425,7 +2426,7 @@ Substitution2: "Single Substitution lookup 14 subtable" Z.smcpflag
 EndChar
 
 StartChar: bracketleft
-Encoding: 59 91 59
+Encoding: 91 91 59
 Width: 345
 GlyphClass: 2
 Flags: HMW
@@ -2447,7 +2448,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash
-Encoding: 60 92 60
+Encoding: 92 92 60
 Width: 301
 GlyphClass: 2
 Flags: HMW
@@ -2465,7 +2466,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketright
-Encoding: 61 93 61
+Encoding: 93 93 61
 Width: 345
 GlyphClass: 2
 Flags: HMW
@@ -2487,7 +2488,7 @@ Validated: 1
 EndChar
 
 StartChar: asciicircum
-Encoding: 62 94 62
+Encoding: 94 94 62
 Width: 496
 GlyphClass: 2
 Flags: HMW
@@ -2507,7 +2508,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 63 95 63
+Encoding: 95 95 63
 Width: 516
 GlyphClass: 2
 Flags: HMW
@@ -2525,7 +2526,7 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 64 96 64
+Encoding: 96 96 64
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -2538,7 +2539,7 @@ Validated: 1
 EndChar
 
 StartChar: a
-Encoding: 65 97 65
+Encoding: 97 97 65
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -2574,7 +2575,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" a.smcp
 EndChar
 
 StartChar: b
-Encoding: 66 98 66
+Encoding: 98 98 66
 Width: 523
 GlyphClass: 2
 Flags: HMW
@@ -2606,7 +2607,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" b.smcp
 EndChar
 
 StartChar: c
-Encoding: 67 99 67
+Encoding: 99 99 67
 Width: 409
 GlyphClass: 2
 Flags: HMW
@@ -2635,7 +2636,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" c.smcp
 EndChar
 
 StartChar: d
-Encoding: 68 100 68
+Encoding: 100 100 68
 Width: 531
 GlyphClass: 2
 Flags: HMW
@@ -2675,7 +2676,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" d.smcp
 EndChar
 
 StartChar: e
-Encoding: 69 101 69
+Encoding: 101 101 69
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -2721,7 +2722,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" e.smcp
 EndChar
 
 StartChar: f
-Encoding: 70 102 70
+Encoding: 102 102 70
 Width: 350
 GlyphClass: 2
 Flags: HMW
@@ -2786,7 +2787,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" f.smcp
 EndChar
 
 StartChar: g
-Encoding: 71 103 71
+Encoding: 103 103 71
 Width: 511
 GlyphClass: 2
 Flags: HMW
@@ -2824,7 +2825,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" g.smcp
 EndChar
 
 StartChar: h
-Encoding: 72 104 72
+Encoding: 104 104 72
 Width: 549
 GlyphClass: 2
 Flags: HMW
@@ -2864,7 +2865,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" h.smcp
 EndChar
 
 StartChar: i
-Encoding: 73 105 73
+Encoding: 105 105 73
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -2897,7 +2898,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" i.smcp
 EndChar
 
 StartChar: j
-Encoding: 74 106 74
+Encoding: 106 106 74
 Width: 291
 GlyphClass: 2
 Flags: HMW
@@ -2931,7 +2932,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" j.smcp
 EndChar
 
 StartChar: k
-Encoding: 75 107 75
+Encoding: 107 107 75
 Width: 523
 GlyphClass: 2
 Flags: HMW
@@ -2974,7 +2975,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" k.smcp
 EndChar
 
 StartChar: l
-Encoding: 76 108 76
+Encoding: 108 108 76
 Width: 295
 GlyphClass: 2
 Flags: HMW
@@ -3004,7 +3005,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" l.smcp
 EndChar
 
 StartChar: m
-Encoding: 77 109 77
+Encoding: 109 109 77
 Width: 788
 GlyphClass: 2
 Flags: HMW
@@ -3052,7 +3053,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" m.smcp
 EndChar
 
 StartChar: n
-Encoding: 78 110 78
+Encoding: 110 110 78
 Width: 545
 GlyphClass: 2
 Flags: HMW
@@ -3092,7 +3093,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" n.smcp
 EndChar
 
 StartChar: o
-Encoding: 79 111 79
+Encoding: 111 111 79
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -3119,7 +3120,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" o.smcp
 EndChar
 
 StartChar: p
-Encoding: 80 112 80
+Encoding: 112 112 80
 Width: 529
 GlyphClass: 2
 Flags: HMW
@@ -3155,7 +3156,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" p.smcp
 EndChar
 
 StartChar: q
-Encoding: 81 113 81
+Encoding: 113 113 81
 Width: 512
 GlyphClass: 2
 Flags: HMW
@@ -3189,7 +3190,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" q.smcp
 EndChar
 
 StartChar: r
-Encoding: 82 114 82
+Encoding: 114 114 82
 Width: 402
 GlyphClass: 2
 Flags: HMW
@@ -3223,7 +3224,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" r.smcp
 EndChar
 
 StartChar: s
-Encoding: 83 115 83
+Encoding: 115 115 83
 Width: 362
 GlyphClass: 2
 Flags: HMW
@@ -3257,7 +3258,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" s.smcp
 EndChar
 
 StartChar: t
-Encoding: 84 116 84
+Encoding: 116 116 84
 Width: 326
 GlyphClass: 2
 Flags: HMW
@@ -3311,7 +3312,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" t.smcp
 EndChar
 
 StartChar: u
-Encoding: 85 117 85
+Encoding: 117 117 85
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -3351,7 +3352,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" u.smcp
 EndChar
 
 StartChar: v
-Encoding: 86 118 86
+Encoding: 118 118 86
 Width: 475
 GlyphClass: 2
 Flags: HMW
@@ -3381,7 +3382,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" v.smcp
 EndChar
 
 StartChar: w
-Encoding: 87 119 87
+Encoding: 119 119 87
 Width: 696
 GlyphClass: 2
 Flags: HMW
@@ -3424,7 +3425,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" w.smcp
 EndChar
 
 StartChar: x
-Encoding: 88 120 88
+Encoding: 120 120 88
 Width: 462
 GlyphClass: 2
 Flags: HMW
@@ -3499,7 +3500,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" x.smcp
 EndChar
 
 StartChar: y
-Encoding: 89 121 89
+Encoding: 121 121 89
 Width: 515
 GlyphClass: 2
 Flags: HMW
@@ -3541,7 +3542,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" y.smcp
 EndChar
 
 StartChar: z
-Encoding: 90 122 90
+Encoding: 122 122 90
 Width: 401
 GlyphClass: 2
 Flags: HMW
@@ -3579,7 +3580,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals lookup 10-1" z.smcp
 EndChar
 
 StartChar: braceleft
-Encoding: 91 123 91
+Encoding: 123 123 91
 Width: 346
 GlyphClass: 2
 Flags: HMW
@@ -3608,7 +3609,7 @@ Validated: 33
 EndChar
 
 StartChar: bar
-Encoding: 92 124 92
+Encoding: 124 124 92
 Width: 228
 GlyphClass: 2
 Flags: HMW
@@ -3626,7 +3627,7 @@ Validated: 1
 EndChar
 
 StartChar: braceright
-Encoding: 93 125 93
+Encoding: 125 125 93
 Width: 326
 GlyphClass: 2
 Flags: HMW
@@ -3638,7 +3639,7 @@ Validated: 1
 EndChar
 
 StartChar: asciitilde
-Encoding: 94 126 94
+Encoding: 126 126 94
 Width: 476
 GlyphClass: 2
 Flags: HMW
@@ -3660,7 +3661,7 @@ Validated: 1
 EndChar
 
 StartChar: exclamdown
-Encoding: 95 161 95
+Encoding: 161 161 95
 Width: 266
 GlyphClass: 2
 Flags: HMW
@@ -3672,7 +3673,7 @@ Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 96 162 96
+Encoding: 162 162 96
 Width: 409
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -3691,7 +3692,7 @@ Refer: 67 99 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sterling
-Encoding: 97 163 97
+Encoding: 163 163 97
 Width: 440
 GlyphClass: 2
 Flags: HMW
@@ -3758,7 +3759,7 @@ Validated: 33
 EndChar
 
 StartChar: yen
-Encoding: 98 165 98
+Encoding: 165 165 98
 Width: 548
 VWidth: 0
 GlyphClass: 2
@@ -3851,7 +3852,7 @@ Validated: 1
 EndChar
 
 StartChar: brokenbar
-Encoding: 99 166 99
+Encoding: 256 166 99
 Width: 229
 VWidth: 0
 GlyphClass: 2
@@ -3875,7 +3876,7 @@ Validated: 1
 EndChar
 
 StartChar: section
-Encoding: 100 167 100
+Encoding: 167 167 100
 Width: 455
 GlyphClass: 2
 Flags: HMW
@@ -3975,7 +3976,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: dieresis
-Encoding: 101 168 101
+Encoding: 257 168 101
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -3988,8 +3989,8 @@ Validated: 1
 EndChar
 
 StartChar: copyright
-Encoding: 102 169 102
-Width: 721
+Encoding: 169 169 102
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -3997,36 +3998,23 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-457 574 m 7
- 500 574 534 567 552 559 c 5
- 546 451 l 5
- 517 451 l 5
- 502 516 l 5
- 487 523 455 530 432 530 c 7
- 395 530 361 523 342 501 c 4
- 317 473 306 431 306 369 c 7
- 306 248 372 173 452 173 c 7
- 490 173 535 185 556 200 c 5
- 569 183 l 5
- 526 137 468 125 420 125 c 7
- 333 125 231 195 231 342 c 7
- 231 500 352 574 457 574 c 7
-98 352 m 7
- 98 169 236 30 424 30 c 7
- 612 30 751 169 751 352 c 7
- 751 535 612 674 424 674 c 7
- 233 674 98 535 98 352 c 7
-68 352 m 7
- 68 551 220 704 424 704 c 7
- 633 704 781 556 781 352 c 7
- 781 153 628 0 424 0 c 7
- 220 0 68 153 68 352 c 7
+142 320 m 3
+ 142 87 323 -94 556 -94 c 3
+ 789 -94 970 87 970 320 c 3
+ 970 553 789 734 556 734 c 3
+ 323 734 142 553 142 320 c 3
+106 320 m 3
+ 106 573 303 770 556 770 c 3
+ 809 770 1006 573 1006 320 c 3
+ 1006 67 809 -130 556 -130 c 3
+ 303 -130 106 67 106 320 c 3
 EndSplineSet
-Validated: 1
+Refer: 583 -1 N 1 0 0 1 239 82 2
+Validated: 524289
 EndChar
 
 StartChar: ordfeminine
-Encoding: 103 170 103
+Encoding: 170 170 103
 Width: 446
 GlyphClass: 2
 Flags: HMW
@@ -4057,7 +4045,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotleft
-Encoding: 104 171 104
+Encoding: 171 171 104
 Width: 480
 VWidth: 0
 GlyphClass: 2
@@ -4071,7 +4059,7 @@ Validated: 1
 EndChar
 
 StartChar: logicalnot
-Encoding: 105 172 105
+Encoding: 172 172 105
 Width: 494
 VWidth: 0
 GlyphClass: 2
@@ -4092,7 +4080,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00AD
-Encoding: 106 173 106
+Encoding: 173 173 106
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -4105,8 +4093,8 @@ Validated: 1
 EndChar
 
 StartChar: registered
-Encoding: 107 174 107
-Width: 721
+Encoding: 174 174 107
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -4114,44 +4102,23 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-372 171 m 1
- 421 155 l 1
- 421 137 l 1
- 233 137 l 1
- 233 155 l 1
- 298 180 l 1
- 298 519 l 1
- 236 543 l 1
- 236 562 l 1
- 445 562 l 2
- 533 562 573 527 573 457 c 3
- 573 379 516 347 466 338 c 1
- 596 181 l 1
- 626 149 l 1
- 626 137 l 1
- 536 137 l 1
- 388 343 l 1
- 388 361 l 17
- 458 361 496 380 496 453 c 3
- 496 508 471 529 420 529 c 2
- 372 529 l 1
- 372 171 l 1
-96 352 m 3
- 96 169 234 30 422 30 c 3
- 610 30 749 169 749 352 c 3
- 749 535 610 674 422 674 c 3
- 231 674 96 535 96 352 c 3
-66 352 m 3
- 66 551 218 704 422 704 c 3
- 631 704 779 556 779 352 c 3
- 779 153 626 0 422 0 c 3
- 218 0 66 153 66 352 c 3
+142 320 m 3
+ 142 87 323 -94 556 -94 c 3
+ 789 -94 970 87 970 320 c 3
+ 970 553 789 734 556 734 c 3
+ 323 734 142 553 142 320 c 3
+106 320 m 3
+ 106 573 303 770 556 770 c 3
+ 809 770 1006 573 1006 320 c 3
+ 1006 67 809 -130 556 -130 c 3
+ 303 -130 106 67 106 320 c 3
 EndSplineSet
-Validated: 1
+Refer: 598 -1 N 1 0 0 1 245 82 2
+Validated: 524289
 EndChar
 
 StartChar: macron
-Encoding: 108 175 108
+Encoding: 175 175 108
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -4164,7 +4131,7 @@ Validated: 1
 EndChar
 
 StartChar: degree
-Encoding: 109 176 109
+Encoding: 176 176 109
 Width: 282
 VWidth: -3
 GlyphClass: 2
@@ -4190,7 +4157,7 @@ Validated: 1
 EndChar
 
 StartChar: plusminus
-Encoding: 110 177 110
+Encoding: 177 177 110
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -4222,7 +4189,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B2
-Encoding: 111 178 111
+Encoding: 178 178 111
 Width: 415
 VWidth: 0
 GlyphClass: 3
@@ -4252,7 +4219,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni00B3
-Encoding: 112 179 112
+Encoding: 179 179 112
 Width: 383
 VWidth: 0
 GlyphClass: 3
@@ -4284,7 +4251,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: acute
-Encoding: 113 180 113
+Encoding: 258 180 113
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -4297,7 +4264,7 @@ Validated: 1
 EndChar
 
 StartChar: mu
-Encoding: 114 181 114
+Encoding: 181 181 114
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -4338,7 +4305,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: paragraph
-Encoding: 115 182 115
+Encoding: 182 182 115
 Width: 523
 VWidth: 0
 GlyphClass: 2
@@ -4365,7 +4332,7 @@ Validated: 1
 EndChar
 
 StartChar: periodcentered
-Encoding: 116 183 116
+Encoding: 183 183 116
 Width: 270
 VWidth: -3
 GlyphClass: 2
@@ -4378,7 +4345,7 @@ Validated: 1
 EndChar
 
 StartChar: cedilla
-Encoding: 117 184 117
+Encoding: 259 184 117
 Width: 391
 VWidth: 0
 GlyphClass: 2
@@ -4391,7 +4358,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B9
-Encoding: 118 185 118
+Encoding: 185 185 118
 Width: 353
 VWidth: -3
 GlyphClass: 3
@@ -4418,7 +4385,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ordmasculine
-Encoding: 119 186 119
+Encoding: 186 186 119
 Width: 424
 GlyphClass: 2
 Flags: HMW
@@ -4441,7 +4408,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotright
-Encoding: 120 187 120
+Encoding: 187 187 120
 Width: 480
 VWidth: 0
 GlyphClass: 2
@@ -4454,7 +4421,7 @@ Validated: 1
 EndChar
 
 StartChar: onequarter
-Encoding: 121 188 121
+Encoding: 260 188 121
 Width: 840
 VWidth: 0
 GlyphClass: 2
@@ -4469,7 +4436,7 @@ Validated: 1
 EndChar
 
 StartChar: onehalf
-Encoding: 122 189 122
+Encoding: 261 189 122
 Width: 840
 VWidth: 0
 GlyphClass: 2
@@ -4484,7 +4451,7 @@ Validated: 1
 EndChar
 
 StartChar: threequarters
-Encoding: 123 190 123
+Encoding: 262 190 123
 Width: 840
 VWidth: 0
 GlyphClass: 2
@@ -4499,7 +4466,7 @@ Validated: 1
 EndChar
 
 StartChar: questiondown
-Encoding: 124 191 124
+Encoding: 191 191 124
 Width: 387
 VWidth: 0
 GlyphClass: 2
@@ -4512,7 +4479,7 @@ Validated: 1
 EndChar
 
 StartChar: Agrave
-Encoding: 125 192 125
+Encoding: 192 192 125
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -4525,7 +4492,7 @@ Validated: 1
 EndChar
 
 StartChar: Aacute
-Encoding: 126 193 126
+Encoding: 193 193 126
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -4538,7 +4505,7 @@ Validated: 1
 EndChar
 
 StartChar: Acircumflex
-Encoding: 127 194 127
+Encoding: 194 194 127
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -4551,7 +4518,7 @@ Validated: 1
 EndChar
 
 StartChar: Atilde
-Encoding: 128 195 128
+Encoding: 195 195 128
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -4564,7 +4531,7 @@ Validated: 1
 EndChar
 
 StartChar: Adieresis
-Encoding: 129 196 129
+Encoding: 196 196 129
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -4577,7 +4544,7 @@ Validated: 1
 EndChar
 
 StartChar: Aring
-Encoding: 130 197 130
+Encoding: 197 197 130
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -4590,7 +4557,7 @@ Validated: 1
 EndChar
 
 StartChar: AE
-Encoding: 131 198 131
+Encoding: 198 198 131
 Width: 857
 GlyphClass: 2
 Flags: HMW
@@ -4683,7 +4650,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: Ccedilla
-Encoding: 132 199 132
+Encoding: 199 199 132
 Width: 593
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -4696,7 +4663,7 @@ Refer: 35 67 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Egrave
-Encoding: 133 200 133
+Encoding: 200 200 133
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -4709,7 +4676,7 @@ Validated: 1
 EndChar
 
 StartChar: Eacute
-Encoding: 134 201 134
+Encoding: 201 201 134
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -4722,7 +4689,7 @@ Validated: 1
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 135 202 135
+Encoding: 202 202 135
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -4735,7 +4702,7 @@ Validated: 1
 EndChar
 
 StartChar: Edieresis
-Encoding: 136 203 136
+Encoding: 203 203 136
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -4748,7 +4715,7 @@ Validated: 1
 EndChar
 
 StartChar: Igrave
-Encoding: 137 204 137
+Encoding: 204 204 137
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -4761,7 +4728,7 @@ Validated: 1
 EndChar
 
 StartChar: Iacute
-Encoding: 138 205 138
+Encoding: 205 205 138
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -4774,7 +4741,7 @@ Validated: 1
 EndChar
 
 StartChar: Icircumflex
-Encoding: 139 206 139
+Encoding: 206 206 139
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -4787,7 +4754,7 @@ Validated: 1
 EndChar
 
 StartChar: Idieresis
-Encoding: 140 207 140
+Encoding: 207 207 140
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -4800,7 +4767,7 @@ Validated: 1
 EndChar
 
 StartChar: Eth
-Encoding: 141 208 141
+Encoding: 208 208 141
 Width: 646
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -4820,7 +4787,7 @@ Refer: 36 68 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ntilde
-Encoding: 142 209 142
+Encoding: 209 209 142
 Width: 656
 GlyphClass: 2
 Flags: HMW
@@ -4833,7 +4800,7 @@ Validated: 1
 EndChar
 
 StartChar: Ograve
-Encoding: 143 210 143
+Encoding: 210 210 143
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -4846,7 +4813,7 @@ Validated: 1
 EndChar
 
 StartChar: Oacute
-Encoding: 144 211 144
+Encoding: 211 211 144
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -4859,7 +4826,7 @@ Validated: 1
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 145 212 145
+Encoding: 212 212 145
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -4872,7 +4839,7 @@ Validated: 1
 EndChar
 
 StartChar: Otilde
-Encoding: 146 213 146
+Encoding: 213 213 146
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -4885,7 +4852,7 @@ Validated: 1
 EndChar
 
 StartChar: Odieresis
-Encoding: 147 214 147
+Encoding: 214 214 147
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -4898,7 +4865,7 @@ Validated: 1
 EndChar
 
 StartChar: multiply
-Encoding: 148 215 148
+Encoding: 215 215 148
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -4925,7 +4892,7 @@ Validated: 1
 EndChar
 
 StartChar: Oslash
-Encoding: 149 216 149
+Encoding: 216 216 149
 Width: 660
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -4944,7 +4911,7 @@ Refer: 47 79 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ugrave
-Encoding: 150 217 150
+Encoding: 217 217 150
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -4957,7 +4924,7 @@ Validated: 1
 EndChar
 
 StartChar: Uacute
-Encoding: 151 218 151
+Encoding: 218 218 151
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -4970,7 +4937,7 @@ Validated: 1
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 152 219 152
+Encoding: 219 219 152
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -4983,7 +4950,7 @@ Validated: 1
 EndChar
 
 StartChar: Udieresis
-Encoding: 153 220 153
+Encoding: 220 220 153
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -4996,7 +4963,7 @@ Validated: 1
 EndChar
 
 StartChar: Yacute
-Encoding: 154 221 154
+Encoding: 221 221 154
 Width: 568
 GlyphClass: 2
 Flags: HMW
@@ -5009,7 +4976,7 @@ Validated: 1
 EndChar
 
 StartChar: Thorn
-Encoding: 155 222 155
+Encoding: 222 222 155
 Width: 584
 GlyphClass: 2
 Flags: HMW
@@ -5046,7 +5013,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: germandbls
-Encoding: 156 223 156
+Encoding: 223 223 156
 Width: 600
 GlyphClass: 2
 Flags: HMW
@@ -5128,7 +5095,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: agrave
-Encoding: 157 224 157
+Encoding: 224 224 157
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -5141,7 +5108,7 @@ Validated: 1
 EndChar
 
 StartChar: aacute
-Encoding: 158 225 158
+Encoding: 225 225 158
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -5154,7 +5121,7 @@ Validated: 1
 EndChar
 
 StartChar: acircumflex
-Encoding: 159 226 159
+Encoding: 226 226 159
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -5167,7 +5134,7 @@ Validated: 1
 EndChar
 
 StartChar: atilde
-Encoding: 160 227 160
+Encoding: 227 227 160
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -5180,7 +5147,7 @@ Validated: 1
 EndChar
 
 StartChar: adieresis
-Encoding: 161 228 161
+Encoding: 228 228 161
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -5193,7 +5160,7 @@ Validated: 1
 EndChar
 
 StartChar: aring
-Encoding: 162 229 162
+Encoding: 229 229 162
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -5206,7 +5173,7 @@ Validated: 1
 EndChar
 
 StartChar: ae
-Encoding: 163 230 163
+Encoding: 230 230 163
 Width: 669
 VWidth: -3
 GlyphClass: 2
@@ -5286,7 +5253,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: ccedilla
-Encoding: 164 231 164
+Encoding: 231 231 164
 Width: 409
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -5299,7 +5266,7 @@ Refer: 67 99 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: egrave
-Encoding: 165 232 165
+Encoding: 232 232 165
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -5312,7 +5279,7 @@ Validated: 1
 EndChar
 
 StartChar: eacute
-Encoding: 166 233 166
+Encoding: 233 233 166
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -5325,7 +5292,7 @@ Validated: 1
 EndChar
 
 StartChar: ecircumflex
-Encoding: 167 234 167
+Encoding: 234 234 167
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -5338,7 +5305,7 @@ Validated: 1
 EndChar
 
 StartChar: edieresis
-Encoding: 168 235 168
+Encoding: 235 235 168
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -5351,7 +5318,7 @@ Validated: 1
 EndChar
 
 StartChar: igrave
-Encoding: 169 236 169
+Encoding: 236 236 169
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -5364,7 +5331,7 @@ Validated: 1
 EndChar
 
 StartChar: iacute
-Encoding: 170 237 170
+Encoding: 237 237 170
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -5377,7 +5344,7 @@ Validated: 1
 EndChar
 
 StartChar: icircumflex
-Encoding: 171 238 171
+Encoding: 238 238 171
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -5390,7 +5357,7 @@ Validated: 1
 EndChar
 
 StartChar: idieresis
-Encoding: 172 239 172
+Encoding: 239 239 172
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -5403,7 +5370,7 @@ Validated: 1
 EndChar
 
 StartChar: eth
-Encoding: 173 240 173
+Encoding: 240 240 173
 Width: 501
 GlyphClass: 2
 Flags: HMW
@@ -5463,7 +5430,7 @@ Validated: 1
 EndChar
 
 StartChar: ntilde
-Encoding: 174 241 174
+Encoding: 241 241 174
 Width: 545
 GlyphClass: 2
 Flags: HMW
@@ -5476,7 +5443,7 @@ Validated: 1
 EndChar
 
 StartChar: ograve
-Encoding: 175 242 175
+Encoding: 242 242 175
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -5489,7 +5456,7 @@ Validated: 1
 EndChar
 
 StartChar: oacute
-Encoding: 176 243 176
+Encoding: 243 243 176
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -5502,7 +5469,7 @@ Validated: 1
 EndChar
 
 StartChar: ocircumflex
-Encoding: 177 244 177
+Encoding: 244 244 177
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -5515,7 +5482,7 @@ Validated: 1
 EndChar
 
 StartChar: otilde
-Encoding: 178 245 178
+Encoding: 245 245 178
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -5528,7 +5495,7 @@ Validated: 1
 EndChar
 
 StartChar: odieresis
-Encoding: 179 246 179
+Encoding: 246 246 179
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -5541,7 +5508,7 @@ Validated: 1
 EndChar
 
 StartChar: divide
-Encoding: 180 247 180
+Encoding: 247 247 180
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -5562,7 +5529,7 @@ Validated: 1
 EndChar
 
 StartChar: oslash
-Encoding: 181 248 181
+Encoding: 248 248 181
 Width: 451
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -5581,7 +5548,7 @@ Refer: 79 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ugrave
-Encoding: 182 249 182
+Encoding: 249 249 182
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -5594,7 +5561,7 @@ Validated: 1
 EndChar
 
 StartChar: uacute
-Encoding: 183 250 183
+Encoding: 250 250 183
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -5607,7 +5574,7 @@ Validated: 1
 EndChar
 
 StartChar: ucircumflex
-Encoding: 184 251 184
+Encoding: 251 251 184
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -5620,7 +5587,7 @@ Validated: 1
 EndChar
 
 StartChar: udieresis
-Encoding: 185 252 185
+Encoding: 252 252 185
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -5633,7 +5600,7 @@ Validated: 1
 EndChar
 
 StartChar: yacute
-Encoding: 186 253 186
+Encoding: 253 253 186
 Width: 515
 GlyphClass: 2
 Flags: HMW
@@ -5646,7 +5613,7 @@ Validated: 1
 EndChar
 
 StartChar: thorn
-Encoding: 187 254 187
+Encoding: 254 254 187
 Width: 530
 GlyphClass: 2
 Flags: HMW
@@ -5681,7 +5648,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: ydieresis
-Encoding: 188 255 188
+Encoding: 255 255 188
 Width: 515
 GlyphClass: 2
 Flags: HMW
@@ -5694,7 +5661,7 @@ Validated: 1
 EndChar
 
 StartChar: dotlessi
-Encoding: 238 305 189
+Encoding: 263 305 189
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -5723,7 +5690,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: OE
-Encoding: 271 338 190
+Encoding: 188 338 190
 Width: 857
 GlyphClass: 2
 Flags: HMW
@@ -5765,7 +5732,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: oe
-Encoding: 272 339 191
+Encoding: 189 339 191
 Width: 717
 GlyphClass: 2
 Flags: HMW
@@ -5827,7 +5794,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: Scaron
-Encoding: 285 352 192
+Encoding: 166 352 192
 Width: 497
 GlyphClass: 2
 Flags: HMW
@@ -5840,7 +5807,7 @@ Validated: 1
 EndChar
 
 StartChar: scaron
-Encoding: 286 353 193
+Encoding: 168 353 193
 Width: 362
 GlyphClass: 2
 Flags: HMW
@@ -5853,7 +5820,7 @@ Validated: 1
 EndChar
 
 StartChar: Ydieresis
-Encoding: 309 376 194
+Encoding: 190 376 194
 Width: 568
 GlyphClass: 2
 Flags: HMW
@@ -5866,7 +5833,7 @@ Validated: 1
 EndChar
 
 StartChar: Zcaron
-Encoding: 314 381 195
+Encoding: 180 381 195
 Width: 549
 GlyphClass: 2
 Flags: HMW
@@ -5879,7 +5846,7 @@ Validated: 1
 EndChar
 
 StartChar: zcaron
-Encoding: 315 382 196
+Encoding: 184 382 196
 Width: 401
 GlyphClass: 2
 Flags: HMW
@@ -5892,7 +5859,7 @@ Validated: 1
 EndChar
 
 StartChar: longs
-Encoding: 316 383 197
+Encoding: 264 383 197
 Width: 310
 GlyphClass: 2
 Flags: HMW
@@ -5923,7 +5890,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: circumflex
-Encoding: 416 710 198
+Encoding: 265 710 198
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -5936,7 +5903,7 @@ Validated: 1
 EndChar
 
 StartChar: caron
-Encoding: 417 711 199
+Encoding: 266 711 199
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -5949,7 +5916,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02CA
-Encoding: 420 714 200
+Encoding: 267 714 200
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -5962,7 +5929,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02CB
-Encoding: 421 715 201
+Encoding: 268 715 201
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -5975,7 +5942,7 @@ Validated: 1
 EndChar
 
 StartChar: ring
-Encoding: 427 730 202
+Encoding: 269 730 202
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -5988,7 +5955,7 @@ Validated: 1
 EndChar
 
 StartChar: tilde
-Encoding: 428 732 203
+Encoding: 270 732 203
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -6001,7 +5968,7 @@ Validated: 1
 EndChar
 
 StartChar: figuredash
-Encoding: 454 8210 204
+Encoding: 271 8210 204
 Width: 463
 VWidth: 0
 GlyphClass: 2
@@ -6020,7 +5987,7 @@ Validated: 1
 EndChar
 
 StartChar: endash
-Encoding: 455 8211 205
+Encoding: 272 8211 205
 Width: 426
 VWidth: 0
 GlyphClass: 3
@@ -6041,7 +6008,7 @@ Substitution2: "Single Substitution lookup 14 subtable" endash.smcpflag
 EndChar
 
 StartChar: emdash
-Encoding: 456 8212 206
+Encoding: 273 8212 206
 Width: 873
 VWidth: 0
 GlyphClass: 3
@@ -6062,7 +6029,7 @@ Substitution2: "Single Substitution lookup 14 subtable" emdash.smcpflag
 EndChar
 
 StartChar: quoteleft
-Encoding: 457 8216 207
+Encoding: 274 8216 207
 Width: 188
 VWidth: 0
 GlyphClass: 3
@@ -6077,7 +6044,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quoteleft.smcpflag
 EndChar
 
 StartChar: quoteright
-Encoding: 458 8217 208
+Encoding: 275 8217 208
 Width: 188
 VWidth: 0
 GlyphClass: 3
@@ -6100,7 +6067,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quoteright.smcpflag
 EndChar
 
 StartChar: quotedblleft
-Encoding: 461 8220 209
+Encoding: 276 8220 209
 Width: 450
 VWidth: 0
 GlyphClass: 3
@@ -6115,7 +6082,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quotedblleft.smcpflag
 EndChar
 
 StartChar: quotedblright
-Encoding: 462 8221 210
+Encoding: 277 8221 210
 Width: 450
 VWidth: 0
 GlyphClass: 3
@@ -6131,7 +6098,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quotedblright.smcpflag
 EndChar
 
 StartChar: ellipsis
-Encoding: 467 8230 211
+Encoding: 278 8230 211
 Width: 879
 VWidth: 0
 GlyphClass: 3
@@ -6148,7 +6115,7 @@ Substitution2: "Single Substitution lookup 14 subtable" ellipsis.smcpflag
 EndChar
 
 StartChar: Delta
-Encoding: 497 8710 212
+Encoding: 279 8710 212
 Width: 660
 VWidth: 0
 GlyphClass: 2
@@ -6171,7 +6138,7 @@ Validated: 1
 EndChar
 
 StartChar: summation
-Encoding: 499 8721 213
+Encoding: 280 8721 213
 Width: 750
 VWidth: 0
 GlyphClass: 2
@@ -6203,7 +6170,7 @@ Validated: 1
 EndChar
 
 StartChar: minus
-Encoding: 500 8722 214
+Encoding: 281 8722 214
 Width: 476
 GlyphClass: 2
 Flags: HMW
@@ -6221,7 +6188,7 @@ Validated: 1
 EndChar
 
 StartChar: radical
-Encoding: 502 8730 215
+Encoding: 282 8730 215
 Width: 580
 GlyphClass: 2
 Flags: HMW
@@ -6245,7 +6212,7 @@ Validated: 1
 EndChar
 
 StartChar: dagger
-Encoding: 465 8224 216
+Encoding: 283 8224 216
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -6272,7 +6239,7 @@ Validated: 1
 EndChar
 
 StartChar: daggerdbl
-Encoding: 466 8225 217
+Encoding: 284 8225 217
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -6307,7 +6274,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2027
-Encoding: 468 8231 218
+Encoding: 285 8231 218
 Width: 270
 VWidth: -3
 GlyphClass: 2
@@ -6320,7 +6287,7 @@ Validated: 1
 EndChar
 
 StartChar: perthousand
-Encoding: 469 8240 219
+Encoding: 286 8240 219
 Width: 1252
 GlyphClass: 2
 Flags: HMW
@@ -6344,7 +6311,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2031
-Encoding: 470 8241 220
+Encoding: 287 8241 220
 Width: 1638
 GlyphClass: 2
 Flags: HMW
@@ -6368,7 +6335,7 @@ Validated: 1
 EndChar
 
 StartChar: minute
-Encoding: 471 8242 221
+Encoding: 288 8242 221
 Width: 205
 VWidth: -3
 GlyphClass: 2
@@ -6388,7 +6355,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 472 8249 222
+Encoding: 289 8249 222
 Width: 292
 VWidth: 0
 GlyphClass: 2
@@ -6409,7 +6376,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglright
-Encoding: 473 8250 223
+Encoding: 290 8250 223
 Width: 292
 VWidth: 0
 GlyphClass: 2
@@ -6422,7 +6389,7 @@ Validated: 1
 EndChar
 
 StartChar: uni203E
-Encoding: 474 8254 224
+Encoding: 291 8254 224
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -6441,7 +6408,7 @@ Validated: 1
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 459 8218 225
+Encoding: 292 8218 225
 Width: 188
 VWidth: 0
 GlyphClass: 2
@@ -6454,7 +6421,7 @@ Validated: 1
 EndChar
 
 StartChar: quotereversed
-Encoding: 460 8219 226
+Encoding: 293 8219 226
 Width: 188
 VWidth: 0
 GlyphClass: 2
@@ -6476,7 +6443,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblbase
-Encoding: 463 8222 227
+Encoding: 294 8222 227
 Width: 450
 VWidth: 0
 GlyphClass: 3
@@ -6491,7 +6458,7 @@ Substitution2: "Single Substitution lookup 14 subtable" quotedblbase.smcpflag
 EndChar
 
 StartChar: uni201F
-Encoding: 464 8223 228
+Encoding: 295 8223 228
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -6505,7 +6472,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02BB
-Encoding: 414 699 229
+Encoding: 296 699 229
 Width: 400
 VWidth: 0
 GlyphClass: 2
@@ -6518,7 +6485,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02BC
-Encoding: 415 700 230
+Encoding: 297 700 230
 Width: 400
 VWidth: 0
 GlyphClass: 4
@@ -6543,7 +6510,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02C9
-Encoding: 419 713 231
+Encoding: 298 713 231
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -6556,7 +6523,7 @@ Validated: 1
 EndChar
 
 StartChar: breve
-Encoding: 425 728 232
+Encoding: 299 728 232
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -6569,7 +6536,7 @@ Validated: 1
 EndChar
 
 StartChar: dotaccent
-Encoding: 426 729 233
+Encoding: 300 729 233
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -6582,7 +6549,7 @@ Validated: 1
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 429 733 234
+Encoding: 301 733 234
 Width: 400
 VWidth: -3
 GlyphClass: 2
@@ -6595,7 +6562,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0237
-Encoding: 317 567 235
+Encoding: 302 567 235
 Width: 291
 GlyphClass: 2
 Flags: HMW
@@ -6624,7 +6591,7 @@ Validated: 1
 EndChar
 
 StartChar: Amacron
-Encoding: 189 256 236
+Encoding: 303 256 236
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -6637,7 +6604,7 @@ Validated: 1
 EndChar
 
 StartChar: amacron
-Encoding: 190 257 237
+Encoding: 304 257 237
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -6650,7 +6617,7 @@ Validated: 1
 EndChar
 
 StartChar: Abreve
-Encoding: 191 258 238
+Encoding: 305 258 238
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -6663,7 +6630,7 @@ Validated: 1
 EndChar
 
 StartChar: abreve
-Encoding: 192 259 239
+Encoding: 306 259 239
 Width: 522
 GlyphClass: 2
 Flags: HMW
@@ -6676,7 +6643,7 @@ Validated: 1
 EndChar
 
 StartChar: Cacute
-Encoding: 195 262 240
+Encoding: 307 262 240
 Width: 593
 GlyphClass: 2
 Flags: HMW
@@ -6689,7 +6656,7 @@ Validated: 1
 EndChar
 
 StartChar: cacute
-Encoding: 196 263 241
+Encoding: 308 263 241
 Width: 409
 GlyphClass: 2
 Flags: HMW
@@ -6702,7 +6669,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccircumflex
-Encoding: 197 264 242
+Encoding: 309 264 242
 Width: 593
 GlyphClass: 2
 Flags: HMW
@@ -6715,7 +6682,7 @@ Validated: 1
 EndChar
 
 StartChar: ccircumflex
-Encoding: 198 265 243
+Encoding: 310 265 243
 Width: 409
 GlyphClass: 2
 Flags: HMW
@@ -6728,7 +6695,7 @@ Validated: 1
 EndChar
 
 StartChar: Cdotaccent
-Encoding: 199 266 244
+Encoding: 311 266 244
 Width: 593
 GlyphClass: 2
 Flags: HMW
@@ -6741,7 +6708,7 @@ Validated: 1
 EndChar
 
 StartChar: cdotaccent
-Encoding: 200 267 245
+Encoding: 312 267 245
 Width: 409
 GlyphClass: 2
 Flags: HMW
@@ -6754,7 +6721,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccaron
-Encoding: 201 268 246
+Encoding: 313 268 246
 Width: 593
 GlyphClass: 2
 Flags: HMW
@@ -6767,7 +6734,7 @@ Validated: 1
 EndChar
 
 StartChar: ccaron
-Encoding: 202 269 247
+Encoding: 314 269 247
 Width: 409
 GlyphClass: 2
 Flags: HMW
@@ -6780,7 +6747,7 @@ Validated: 1
 EndChar
 
 StartChar: Dcaron
-Encoding: 203 270 248
+Encoding: 315 270 248
 Width: 682
 GlyphClass: 2
 Flags: HMW
@@ -6793,7 +6760,7 @@ Validated: 1
 EndChar
 
 StartChar: dcaron
-Encoding: 204 271 249
+Encoding: 316 271 249
 Width: 636
 VWidth: 0
 GlyphClass: 2
@@ -6807,7 +6774,7 @@ Validated: 1
 EndChar
 
 StartChar: Emacron
-Encoding: 207 274 250
+Encoding: 317 274 250
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -6820,7 +6787,7 @@ Validated: 1
 EndChar
 
 StartChar: emacron
-Encoding: 208 275 251
+Encoding: 318 275 251
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -6833,7 +6800,7 @@ Validated: 1
 EndChar
 
 StartChar: Ebreve
-Encoding: 209 276 252
+Encoding: 319 276 252
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -6846,7 +6813,7 @@ Validated: 1
 EndChar
 
 StartChar: ebreve
-Encoding: 210 277 253
+Encoding: 320 277 253
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -6859,7 +6826,7 @@ Validated: 1
 EndChar
 
 StartChar: Edotaccent
-Encoding: 211 278 254
+Encoding: 321 278 254
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -6872,7 +6839,7 @@ Validated: 1
 EndChar
 
 StartChar: edotaccent
-Encoding: 212 279 255
+Encoding: 322 279 255
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -6885,7 +6852,7 @@ Validated: 1
 EndChar
 
 StartChar: Ecaron
-Encoding: 215 282 256
+Encoding: 323 282 256
 Width: 573
 GlyphClass: 2
 Flags: HMW
@@ -6898,7 +6865,7 @@ Validated: 1
 EndChar
 
 StartChar: ecaron
-Encoding: 216 283 257
+Encoding: 324 283 257
 Width: 436
 GlyphClass: 2
 Flags: HMW
@@ -6911,7 +6878,7 @@ Validated: 1
 EndChar
 
 StartChar: Gcircumflex
-Encoding: 217 284 258
+Encoding: 325 284 258
 Width: 658
 GlyphClass: 2
 Flags: HMW
@@ -6924,7 +6891,7 @@ Validated: 1
 EndChar
 
 StartChar: gcircumflex
-Encoding: 218 285 259
+Encoding: 326 285 259
 Width: 511
 GlyphClass: 2
 Flags: HMW
@@ -6937,7 +6904,7 @@ Validated: 1
 EndChar
 
 StartChar: Gbreve
-Encoding: 219 286 260
+Encoding: 327 286 260
 Width: 658
 GlyphClass: 2
 Flags: HMW
@@ -6950,7 +6917,7 @@ Validated: 1
 EndChar
 
 StartChar: gbreve
-Encoding: 220 287 261
+Encoding: 328 287 261
 Width: 511
 GlyphClass: 2
 Flags: HMW
@@ -6963,7 +6930,7 @@ Validated: 1
 EndChar
 
 StartChar: Gdotaccent
-Encoding: 221 288 262
+Encoding: 329 288 262
 Width: 658
 GlyphClass: 2
 Flags: HMW
@@ -6976,7 +6943,7 @@ Validated: 1
 EndChar
 
 StartChar: gdotaccent
-Encoding: 222 289 263
+Encoding: 330 289 263
 Width: 511
 GlyphClass: 2
 Flags: HMW
@@ -6989,7 +6956,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0122
-Encoding: 223 290 264
+Encoding: 331 290 264
 Width: 658
 GlyphClass: 2
 Flags: HMW
@@ -7002,7 +6969,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0123
-Encoding: 224 291 265
+Encoding: 332 291 265
 Width: 511
 GlyphClass: 2
 Flags: HMW
@@ -7015,7 +6982,7 @@ Validated: 1
 EndChar
 
 StartChar: Hcircumflex
-Encoding: 225 292 266
+Encoding: 333 292 266
 Width: 716
 GlyphClass: 2
 Flags: HMW
@@ -7028,7 +6995,7 @@ Validated: 1
 EndChar
 
 StartChar: hcircumflex
-Encoding: 226 293 267
+Encoding: 334 293 267
 Width: 549
 GlyphClass: 2
 Flags: HMW
@@ -7041,7 +7008,7 @@ Validated: 1
 EndChar
 
 StartChar: Itilde
-Encoding: 229 296 268
+Encoding: 335 296 268
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -7054,7 +7021,7 @@ Validated: 1
 EndChar
 
 StartChar: itilde
-Encoding: 230 297 269
+Encoding: 336 297 269
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -7067,7 +7034,7 @@ Validated: 1
 EndChar
 
 StartChar: Imacron
-Encoding: 231 298 270
+Encoding: 337 298 270
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -7080,7 +7047,7 @@ Validated: 1
 EndChar
 
 StartChar: imacron
-Encoding: 232 299 271
+Encoding: 338 299 271
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -7093,7 +7060,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibreve
-Encoding: 233 300 272
+Encoding: 339 300 272
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -7106,7 +7073,7 @@ Validated: 1
 EndChar
 
 StartChar: ibreve
-Encoding: 234 301 273
+Encoding: 340 301 273
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -7119,7 +7086,7 @@ Validated: 1
 EndChar
 
 StartChar: Idotaccent
-Encoding: 237 304 274
+Encoding: 341 304 274
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -7132,7 +7099,7 @@ Validated: 1
 EndChar
 
 StartChar: Jcircumflex
-Encoding: 241 308 275
+Encoding: 342 308 275
 Width: 371
 GlyphClass: 2
 Flags: HMW
@@ -7145,7 +7112,7 @@ Validated: 1
 EndChar
 
 StartChar: jcircumflex
-Encoding: 242 309 276
+Encoding: 343 309 276
 Width: 291
 GlyphClass: 2
 Flags: HMW
@@ -7158,7 +7125,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0136
-Encoding: 243 310 277
+Encoding: 344 310 277
 Width: 669
 GlyphClass: 2
 Flags: HMW
@@ -7171,7 +7138,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0137
-Encoding: 244 311 278
+Encoding: 345 311 278
 Width: 523
 GlyphClass: 2
 Flags: HMW
@@ -7184,7 +7151,7 @@ Validated: 1
 EndChar
 
 StartChar: Lacute
-Encoding: 246 313 279
+Encoding: 346 313 279
 Width: 555
 GlyphClass: 2
 Flags: HMW
@@ -7197,7 +7164,7 @@ Validated: 1
 EndChar
 
 StartChar: lacute
-Encoding: 247 314 280
+Encoding: 347 314 280
 Width: 295
 GlyphClass: 2
 Flags: HMW
@@ -7210,7 +7177,7 @@ Validated: 1
 EndChar
 
 StartChar: uni013B
-Encoding: 248 315 281
+Encoding: 348 315 281
 Width: 555
 GlyphClass: 2
 Flags: HMW
@@ -7223,7 +7190,7 @@ Validated: 1
 EndChar
 
 StartChar: uni013C
-Encoding: 249 316 282
+Encoding: 349 316 282
 Width: 295
 GlyphClass: 2
 Flags: HMW
@@ -7236,7 +7203,7 @@ Validated: 1
 EndChar
 
 StartChar: Lcaron
-Encoding: 250 317 283
+Encoding: 350 317 283
 Width: 545
 VWidth: 0
 GlyphClass: 2
@@ -7250,7 +7217,7 @@ Validated: 1
 EndChar
 
 StartChar: lcaron
-Encoding: 251 318 284
+Encoding: 351 318 284
 Width: 386
 VWidth: 0
 GlyphClass: 2
@@ -7264,7 +7231,7 @@ Validated: 1
 EndChar
 
 StartChar: Ldot
-Encoding: 252 319 285
+Encoding: 352 319 285
 Width: 555
 GlyphClass: 2
 Flags: HMW
@@ -7277,7 +7244,7 @@ Validated: 1
 EndChar
 
 StartChar: ldot
-Encoding: 253 320 286
+Encoding: 353 320 286
 Width: 416
 VWidth: 0
 GlyphClass: 2
@@ -7291,7 +7258,7 @@ Validated: 1
 EndChar
 
 StartChar: Nacute
-Encoding: 256 323 287
+Encoding: 354 323 287
 Width: 656
 GlyphClass: 2
 Flags: HMW
@@ -7304,7 +7271,7 @@ Validated: 1
 EndChar
 
 StartChar: nacute
-Encoding: 257 324 288
+Encoding: 355 324 288
 Width: 545
 GlyphClass: 2
 Flags: HMW
@@ -7317,7 +7284,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0145
-Encoding: 258 325 289
+Encoding: 356 325 289
 Width: 656
 GlyphClass: 2
 Flags: HMW
@@ -7330,7 +7297,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0146
-Encoding: 259 326 290
+Encoding: 357 326 290
 Width: 545
 GlyphClass: 2
 Flags: HMW
@@ -7343,7 +7310,7 @@ Validated: 1
 EndChar
 
 StartChar: Ncaron
-Encoding: 260 327 291
+Encoding: 358 327 291
 Width: 656
 GlyphClass: 2
 Flags: HMW
@@ -7356,7 +7323,7 @@ Validated: 1
 EndChar
 
 StartChar: ncaron
-Encoding: 261 328 292
+Encoding: 359 328 292
 Width: 545
 GlyphClass: 2
 Flags: HMW
@@ -7369,7 +7336,7 @@ Validated: 1
 EndChar
 
 StartChar: napostrophe
-Encoding: 262 329 293
+Encoding: 360 329 293
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -7383,7 +7350,7 @@ Validated: 1
 EndChar
 
 StartChar: Omacron
-Encoding: 265 332 294
+Encoding: 361 332 294
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -7396,7 +7363,7 @@ Validated: 1
 EndChar
 
 StartChar: omacron
-Encoding: 266 333 295
+Encoding: 362 333 295
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -7409,7 +7376,7 @@ Validated: 1
 EndChar
 
 StartChar: Obreve
-Encoding: 267 334 296
+Encoding: 363 334 296
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -7422,7 +7389,7 @@ Validated: 1
 EndChar
 
 StartChar: obreve
-Encoding: 268 335 297
+Encoding: 364 335 297
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -7435,7 +7402,7 @@ Validated: 1
 EndChar
 
 StartChar: Ohungarumlaut
-Encoding: 269 336 298
+Encoding: 365 336 298
 Width: 678
 GlyphClass: 2
 Flags: HMW
@@ -7448,7 +7415,7 @@ Validated: 1
 EndChar
 
 StartChar: ohungarumlaut
-Encoding: 270 337 299
+Encoding: 366 337 299
 Width: 487
 GlyphClass: 2
 Flags: HMW
@@ -7461,7 +7428,7 @@ Validated: 1
 EndChar
 
 StartChar: Racute
-Encoding: 273 340 300
+Encoding: 367 340 300
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -7474,7 +7441,7 @@ Validated: 1
 EndChar
 
 StartChar: racute
-Encoding: 274 341 301
+Encoding: 368 341 301
 Width: 402
 GlyphClass: 2
 Flags: HMW
@@ -7487,7 +7454,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0156
-Encoding: 275 342 302
+Encoding: 369 342 302
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -7500,7 +7467,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0157
-Encoding: 276 343 303
+Encoding: 370 343 303
 Width: 402
 GlyphClass: 2
 Flags: HMW
@@ -7513,7 +7480,7 @@ Validated: 1
 EndChar
 
 StartChar: Rcaron
-Encoding: 277 344 304
+Encoding: 371 344 304
 Width: 630
 GlyphClass: 2
 Flags: HMW
@@ -7526,7 +7493,7 @@ Validated: 1
 EndChar
 
 StartChar: rcaron
-Encoding: 278 345 305
+Encoding: 372 345 305
 Width: 402
 GlyphClass: 2
 Flags: HMW
@@ -7539,7 +7506,7 @@ Validated: 1
 EndChar
 
 StartChar: Sacute
-Encoding: 279 346 306
+Encoding: 373 346 306
 Width: 497
 GlyphClass: 2
 Flags: HMW
@@ -7552,7 +7519,7 @@ Validated: 1
 EndChar
 
 StartChar: sacute
-Encoding: 280 347 307
+Encoding: 374 347 307
 Width: 362
 GlyphClass: 2
 Flags: HMW
@@ -7565,7 +7532,7 @@ Validated: 1
 EndChar
 
 StartChar: Scircumflex
-Encoding: 281 348 308
+Encoding: 375 348 308
 Width: 497
 GlyphClass: 2
 Flags: HMW
@@ -7578,7 +7545,7 @@ Validated: 1
 EndChar
 
 StartChar: scircumflex
-Encoding: 282 349 309
+Encoding: 376 349 309
 Width: 362
 GlyphClass: 2
 Flags: HMW
@@ -7591,7 +7558,7 @@ Validated: 1
 EndChar
 
 StartChar: Scedilla
-Encoding: 283 350 310
+Encoding: 377 350 310
 Width: 497
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7604,7 +7571,7 @@ Refer: 51 83 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: scedilla
-Encoding: 284 351 311
+Encoding: 378 351 311
 Width: 362
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7617,7 +7584,7 @@ Refer: 83 115 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0162
-Encoding: 287 354 312
+Encoding: 379 354 312
 Width: 577
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7630,7 +7597,7 @@ Refer: 52 84 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0163
-Encoding: 288 355 313
+Encoding: 380 355 313
 Width: 326
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7643,7 +7610,7 @@ Refer: 84 116 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Tcaron
-Encoding: 289 356 314
+Encoding: 381 356 314
 Width: 577
 GlyphClass: 2
 Flags: HMW
@@ -7656,7 +7623,7 @@ Validated: 1
 EndChar
 
 StartChar: tcaron
-Encoding: 290 357 315
+Encoding: 382 357 315
 Width: 335
 VWidth: 0
 GlyphClass: 2
@@ -7670,7 +7637,7 @@ Validated: 1
 EndChar
 
 StartChar: Utilde
-Encoding: 293 360 316
+Encoding: 383 360 316
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -7683,7 +7650,7 @@ Validated: 1
 EndChar
 
 StartChar: utilde
-Encoding: 294 361 317
+Encoding: 384 361 317
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -7696,7 +7663,7 @@ Validated: 1
 EndChar
 
 StartChar: Umacron
-Encoding: 295 362 318
+Encoding: 385 362 318
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -7709,7 +7676,7 @@ Validated: 1
 EndChar
 
 StartChar: umacron
-Encoding: 296 363 319
+Encoding: 386 363 319
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -7722,7 +7689,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubreve
-Encoding: 297 364 320
+Encoding: 387 364 320
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -7735,7 +7702,7 @@ Validated: 1
 EndChar
 
 StartChar: ubreve
-Encoding: 298 365 321
+Encoding: 388 365 321
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -7748,7 +7715,7 @@ Validated: 1
 EndChar
 
 StartChar: Uring
-Encoding: 299 366 322
+Encoding: 389 366 322
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -7761,7 +7728,7 @@ Validated: 1
 EndChar
 
 StartChar: uring
-Encoding: 300 367 323
+Encoding: 390 367 323
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -7774,7 +7741,7 @@ Validated: 1
 EndChar
 
 StartChar: Uhungarumlaut
-Encoding: 301 368 324
+Encoding: 391 368 324
 Width: 655
 GlyphClass: 2
 Flags: HMW
@@ -7787,7 +7754,7 @@ Validated: 1
 EndChar
 
 StartChar: uhungarumlaut
-Encoding: 302 369 325
+Encoding: 392 369 325
 Width: 548
 GlyphClass: 2
 Flags: HMW
@@ -7800,7 +7767,7 @@ Validated: 1
 EndChar
 
 StartChar: Wcircumflex
-Encoding: 305 372 326
+Encoding: 393 372 326
 Width: 899
 GlyphClass: 2
 Flags: HMW
@@ -7813,7 +7780,7 @@ Validated: 1
 EndChar
 
 StartChar: wcircumflex
-Encoding: 306 373 327
+Encoding: 394 373 327
 Width: 696
 GlyphClass: 2
 Flags: HMW
@@ -7826,7 +7793,7 @@ Validated: 1
 EndChar
 
 StartChar: Ycircumflex
-Encoding: 307 374 328
+Encoding: 395 374 328
 Width: 568
 GlyphClass: 2
 Flags: HMW
@@ -7839,7 +7806,7 @@ Validated: 1
 EndChar
 
 StartChar: ycircumflex
-Encoding: 308 375 329
+Encoding: 396 375 329
 Width: 515
 GlyphClass: 2
 Flags: HMW
@@ -7852,7 +7819,7 @@ Validated: 1
 EndChar
 
 StartChar: Zacute
-Encoding: 310 377 330
+Encoding: 397 377 330
 Width: 549
 GlyphClass: 2
 Flags: HMW
@@ -7865,7 +7832,7 @@ Validated: 1
 EndChar
 
 StartChar: zacute
-Encoding: 311 378 331
+Encoding: 398 378 331
 Width: 401
 GlyphClass: 2
 Flags: HMW
@@ -7878,7 +7845,7 @@ Validated: 1
 EndChar
 
 StartChar: Zdotaccent
-Encoding: 312 379 332
+Encoding: 399 379 332
 Width: 549
 GlyphClass: 2
 Flags: HMW
@@ -7891,7 +7858,7 @@ Validated: 1
 EndChar
 
 StartChar: zdotaccent
-Encoding: 313 380 333
+Encoding: 400 380 333
 Width: 401
 GlyphClass: 2
 Flags: HMW
@@ -7904,7 +7871,7 @@ Validated: 1
 EndChar
 
 StartChar: Aogonek
-Encoding: 193 260 334
+Encoding: 401 260 334
 Width: 642
 VWidth: 0
 GlyphClass: 2
@@ -7946,7 +7913,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: aogonek
-Encoding: 194 261 335
+Encoding: 402 261 335
 Width: 486
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7969,7 +7936,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Dcroat
-Encoding: 205 272 336
+Encoding: 403 272 336
 Width: 646
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7981,7 +7948,7 @@ Refer: 141 208 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: dcroat
-Encoding: 206 273 337
+Encoding: 404 273 337
 Width: 495
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8001,7 +7968,7 @@ Refer: 68 100 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Eogonek
-Encoding: 213 280 338
+Encoding: 405 280 338
 Width: 563
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8024,7 +7991,7 @@ Refer: 37 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: eogonek
-Encoding: 214 281 339
+Encoding: 406 281 339
 Width: 418
 GlyphClass: 2
 Flags: HMW
@@ -8081,7 +8048,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: IJ
-Encoding: 239 306 340
+Encoding: 407 306 340
 Width: 670
 VWidth: 0
 GlyphClass: 2
@@ -8095,7 +8062,7 @@ Validated: 1
 EndChar
 
 StartChar: ij
-Encoding: 240 307 341
+Encoding: 408 307 341
 Width: 530
 GlyphClass: 2
 Flags: HMW
@@ -8143,7 +8110,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: Hbar
-Encoding: 227 294 342
+Encoding: 409 294 342
 Width: 680
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8163,7 +8130,7 @@ Refer: 40 72 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: hbar
-Encoding: 228 295 343
+Encoding: 410 295 343
 Width: 513
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8183,7 +8150,7 @@ Refer: 72 104 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Iogonek
-Encoding: 235 302 344
+Encoding: 411 302 344
 Width: 374
 VWidth: 0
 GlyphClass: 2
@@ -8236,7 +8203,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: iogonek
-Encoding: 236 303 345
+Encoding: 412 303 345
 Width: 304
 GlyphClass: 2
 Flags: HMW
@@ -8273,7 +8240,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: kgreenlandic
-Encoding: 245 312 346
+Encoding: 413 312 346
 Width: 532
 GlyphClass: 2
 Flags: HMW
@@ -8313,7 +8280,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: Lslash
-Encoding: 254 321 347
+Encoding: 414 321 347
 Width: 545
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8336,7 +8303,7 @@ Refer: 44 76 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: lslash
-Encoding: 255 322 348
+Encoding: 415 322 348
 Width: 259
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8359,7 +8326,7 @@ Refer: 76 108 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Eng
-Encoding: 263 330 349
+Encoding: 416 330 349
 Width: 656
 GlyphClass: 2
 Flags: HMW
@@ -8400,7 +8367,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: eng
-Encoding: 264 331 350
+Encoding: 417 331 350
 Width: 534
 GlyphClass: 2
 Flags: HMW
@@ -8438,7 +8405,7 @@ Colour: ff8f94
 EndChar
 
 StartChar: Tbar
-Encoding: 291 358 351
+Encoding: 418 358 351
 Width: 557
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8458,7 +8425,7 @@ Refer: 52 84 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tbar
-Encoding: 292 359 352
+Encoding: 419 359 352
 Width: 293
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8478,7 +8445,7 @@ Refer: 84 116 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Uogonek
-Encoding: 303 370 353
+Encoding: 420 370 353
 Width: 637
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8501,7 +8468,7 @@ Refer: 53 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uogonek
-Encoding: 304 371 354
+Encoding: 421 371 354
 Width: 512
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8524,7 +8491,7 @@ Refer: 85 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2010
-Encoding: 452 8208 355
+Encoding: 422 8208 355
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -8537,7 +8504,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2011
-Encoding: 453 8209 356
+Encoding: 423 8209 356
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -8550,7 +8517,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2070
-Encoding: 476 8304 357
+Encoding: 424 8304 357
 Width: 428
 VWidth: -3
 GlyphClass: 3
@@ -8592,7 +8559,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni2074
-Encoding: 477 8308 358
+Encoding: 425 8308 358
 Width: 390
 VWidth: -3
 GlyphClass: 3
@@ -8625,7 +8592,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni2075
-Encoding: 478 8309 359
+Encoding: 426 8309 359
 Width: 342
 VWidth: 0
 GlyphClass: 3
@@ -8656,7 +8623,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni2076
-Encoding: 479 8310 360
+Encoding: 427 8310 360
 Width: 385
 VWidth: 0
 GlyphClass: 3
@@ -8701,7 +8668,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni2077
-Encoding: 480 8311 361
+Encoding: 428 8311 361
 Width: 305
 VWidth: 0
 GlyphClass: 3
@@ -8726,7 +8693,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni2078
-Encoding: 481 8312 362
+Encoding: 429 8312 362
 Width: 399
 VWidth: 109
 GlyphClass: 3
@@ -8780,7 +8747,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uni2079
-Encoding: 482 8313 363
+Encoding: 430 8313 363
 Width: 383
 VWidth: 0
 GlyphClass: 3
@@ -8825,7 +8792,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: arrowleft
-Encoding: 486 8592 364
+Encoding: 431 8592 364
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -8838,7 +8805,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowright
-Encoding: 487 8594 365
+Encoding: 432 8594 365
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -8862,7 +8829,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowboth
-Encoding: 488 8596 366
+Encoding: 433 8596 366
 Width: 760
 VWidth: 0
 GlyphClass: 2
@@ -8891,7 +8858,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21BD
-Encoding: 489 8637 367
+Encoding: 434 8637 367
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -8904,7 +8871,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21C0
-Encoding: 490 8640 368
+Encoding: 435 8640 368
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -8926,7 +8893,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21C4
-Encoding: 491 8644 369
+Encoding: 436 8644 369
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -8960,7 +8927,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21C6
-Encoding: 492 8646 370
+Encoding: 437 8646 370
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -8994,7 +8961,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21CB
-Encoding: 493 8651 371
+Encoding: 438 8651 371
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -9024,7 +8991,7 @@ Validated: 1
 EndChar
 
 StartChar: uni21CC
-Encoding: 494 8652 372
+Encoding: 439 8652 372
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -9038,7 +9005,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowdblright
-Encoding: 496 8658 373
+Encoding: 440 8658 373
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -9086,7 +9053,7 @@ Validated: 1
 EndChar
 
 StartChar: arrowdblleft
-Encoding: 495 8656 374
+Encoding: 441 8656 374
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -9099,7 +9066,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2215
-Encoding: 501 8725 375
+Encoding: 442 8725 375
 Width: 280
 VWidth: 0
 GlyphClass: 2
@@ -9112,7 +9079,7 @@ Validated: 1
 EndChar
 
 StartChar: uni221B
-Encoding: 503 8731 376
+Encoding: 443 8731 376
 Width: 580
 GlyphClass: 2
 Flags: HMW
@@ -9125,7 +9092,7 @@ Validated: 1
 EndChar
 
 StartChar: uni221C
-Encoding: 504 8732 377
+Encoding: 444 8732 377
 Width: 580
 GlyphClass: 2
 Flags: HMW
@@ -9138,7 +9105,7 @@ Validated: 1
 EndChar
 
 StartChar: infinity
-Encoding: 505 8734 378
+Encoding: 445 8734 378
 Width: 708
 VWidth: 0
 GlyphClass: 2
@@ -9190,7 +9157,7 @@ Validated: 1
 EndChar
 
 StartChar: angle
-Encoding: 506 8736 379
+Encoding: 446 8736 379
 Width: 480
 VWidth: 0
 GlyphClass: 2
@@ -9212,7 +9179,7 @@ Validated: 1
 EndChar
 
 StartChar: approxequal
-Encoding: 515 8776 380
+Encoding: 447 8776 380
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -9226,7 +9193,7 @@ Validated: 1
 EndChar
 
 StartChar: congruent
-Encoding: 513 8773 381
+Encoding: 448 8773 381
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -9251,7 +9218,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2247
-Encoding: 514 8775 382
+Encoding: 449 8775 382
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -9271,7 +9238,7 @@ Refer: 381 8773 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2249
-Encoding: 516 8777 383
+Encoding: 450 8777 383
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -9291,7 +9258,7 @@ Refer: 380 8776 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: similar
-Encoding: 512 8764 384
+Encoding: 451 8764 384
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -9314,7 +9281,7 @@ Validated: 1
 EndChar
 
 StartChar: logicaland
-Encoding: 507 8743 385
+Encoding: 452 8743 385
 Width: 460
 VWidth: -3
 GlyphClass: 2
@@ -9327,7 +9294,7 @@ Validated: 1
 EndChar
 
 StartChar: logicalor
-Encoding: 508 8744 386
+Encoding: 453 8744 386
 Width: 460
 VWidth: -3
 GlyphClass: 2
@@ -9351,7 +9318,7 @@ Validated: 1
 EndChar
 
 StartChar: intersection
-Encoding: 509 8745 387
+Encoding: 454 8745 387
 Width: 436
 VWidth: 0
 GlyphClass: 2
@@ -9364,7 +9331,7 @@ Validated: 1
 EndChar
 
 StartChar: union
-Encoding: 510 8746 388
+Encoding: 455 8746 388
 Width: 436
 VWidth: 0
 GlyphClass: 2
@@ -9391,7 +9358,7 @@ Validated: 1
 EndChar
 
 StartChar: integral
-Encoding: 511 8747 389
+Encoding: 456 8747 389
 Width: 332
 GlyphClass: 2
 Flags: HMW
@@ -9421,7 +9388,7 @@ Validated: 1
 EndChar
 
 StartChar: notequal
-Encoding: 517 8800 390
+Encoding: 457 8800 390
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -9441,7 +9408,7 @@ Refer: 29 61 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: lessequal
-Encoding: 518 8804 391
+Encoding: 458 8804 391
 Width: 330
 VWidth: 0
 GlyphClass: 2
@@ -9467,7 +9434,7 @@ Validated: 1
 EndChar
 
 StartChar: greaterequal
-Encoding: 519 8805 392
+Encoding: 459 8805 392
 Width: 330
 VWidth: 0
 GlyphClass: 2
@@ -9493,7 +9460,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239B
-Encoding: 524 9115 393
+Encoding: 460 9115 393
 Width: 390
 VWidth: 0
 GlyphClass: 2
@@ -9512,7 +9479,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239C
-Encoding: 525 9116 394
+Encoding: 461 9116 394
 Width: 390
 VWidth: 0
 GlyphClass: 2
@@ -9525,7 +9492,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239D
-Encoding: 526 9117 395
+Encoding: 462 9117 395
 Width: 390
 VWidth: 0
 GlyphClass: 2
@@ -9544,7 +9511,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239E
-Encoding: 527 9118 396
+Encoding: 463 9118 396
 Width: 390
 VWidth: 0
 GlyphClass: 2
@@ -9557,7 +9524,7 @@ Validated: 1
 EndChar
 
 StartChar: uni239F
-Encoding: 528 9119 397
+Encoding: 464 9119 397
 Width: 390
 VWidth: 0
 GlyphClass: 2
@@ -9570,7 +9537,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A0
-Encoding: 529 9120 398
+Encoding: 465 9120 398
 Width: 390
 VWidth: 0
 GlyphClass: 2
@@ -9583,7 +9550,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A1
-Encoding: 530 9121 399
+Encoding: 466 9121 399
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -9604,7 +9571,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A2
-Encoding: 531 9122 400
+Encoding: 467 9122 400
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -9623,7 +9590,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A3
-Encoding: 532 9123 401
+Encoding: 468 9123 401
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -9644,7 +9611,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A4
-Encoding: 533 9124 402
+Encoding: 469 9124 402
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -9657,7 +9624,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A5
-Encoding: 534 9125 403
+Encoding: 470 9125 403
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -9670,7 +9637,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A6
-Encoding: 535 9126 404
+Encoding: 471 9126 404
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -9683,7 +9650,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A7
-Encoding: 536 9127 405
+Encoding: 472 9127 405
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9704,7 +9671,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A8
-Encoding: 537 9128 406
+Encoding: 473 9128 406
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9730,7 +9697,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23A9
-Encoding: 538 9129 407
+Encoding: 474 9129 407
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9751,7 +9718,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AA
-Encoding: 539 9130 408
+Encoding: 475 9130 408
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9770,7 +9737,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AB
-Encoding: 540 9131 409
+Encoding: 476 9131 409
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9783,7 +9750,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AC
-Encoding: 541 9132 410
+Encoding: 477 9132 410
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9796,7 +9763,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23AD
-Encoding: 542 9133 411
+Encoding: 478 9133 411
 Width: 404
 VWidth: 0
 GlyphClass: 2
@@ -9809,7 +9776,7 @@ Validated: 1
 EndChar
 
 StartChar: uni27E8
-Encoding: 546 10216 412
+Encoding: 479 10216 412
 Width: 280
 VWidth: 0
 GlyphClass: 2
@@ -9830,7 +9797,7 @@ Validated: 1
 EndChar
 
 StartChar: uni27E9
-Encoding: 547 10217 413
+Encoding: 480 10217 413
 Width: 280
 VWidth: 0
 GlyphClass: 2
@@ -9843,7 +9810,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22EE
-Encoding: 520 8942 414
+Encoding: 481 8942 414
 Width: 1000
 VWidth: 0
 GlyphClass: 2
@@ -9858,7 +9825,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22EF
-Encoding: 521 8943 415
+Encoding: 482 8943 415
 Width: 1000
 VWidth: 0
 GlyphClass: 2
@@ -9871,7 +9838,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22F0
-Encoding: 522 8944 416
+Encoding: 483 8944 416
 Width: 1000
 VWidth: 0
 GlyphClass: 2
@@ -9886,7 +9853,7 @@ Validated: 1
 EndChar
 
 StartChar: uni22F1
-Encoding: 523 8945 417
+Encoding: 484 8945 417
 Width: 1000
 VWidth: 0
 GlyphClass: 2
@@ -9901,7 +9868,7 @@ Validated: 1
 EndChar
 
 StartChar: fraction
-Encoding: 475 8260 418
+Encoding: 485 8260 418
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -9920,7 +9887,7 @@ Validated: 1
 EndChar
 
 StartChar: theta
-Encoding: 447 952 419
+Encoding: 486 952 419
 Width: 541
 VWidth: 0
 GlyphClass: 2
@@ -9968,7 +9935,7 @@ Validated: 1
 EndChar
 
 StartChar: pi
-Encoding: 448 960 420
+Encoding: 487 960 420
 Width: 566
 VWidth: 0
 GlyphClass: 2
@@ -10005,7 +9972,7 @@ Validated: 33
 EndChar
 
 StartChar: sigma
-Encoding: 449 963 421
+Encoding: 488 963 421
 Width: 516
 VWidth: -3
 GlyphClass: 2
@@ -10047,7 +10014,7 @@ Validated: 1
 EndChar
 
 StartChar: product
-Encoding: 498 8719 422
+Encoding: 489 8719 422
 Width: 800
 VWidth: 0
 GlyphClass: 2
@@ -10082,7 +10049,7 @@ Validated: 1
 EndChar
 
 StartChar: phi1
-Encoding: 450 981 423
+Encoding: 490 981 423
 Width: 520
 VWidth: -3
 GlyphClass: 2
@@ -10132,7 +10099,7 @@ Validated: 1
 EndChar
 
 StartChar: zero.oldstyleproportional
-Encoding: 552 63280 424
+Encoding: 491 63280 424
 Width: 487
 GlyphClass: 3
 Flags: HMW
@@ -10156,7 +10123,7 @@ Ligature2: "Oldstyleclosingtag subtable" zero.onumflag less slash o n u m greate
 EndChar
 
 StartChar: one.oldstyleproportional
-Encoding: 553 63281 425
+Encoding: 492 63281 425
 Width: 396
 VWidth: -3
 GlyphClass: 3
@@ -10185,7 +10152,7 @@ Ligature2: "Oldstyleclosingtag subtable" one.onumflag less slash o n u m greater
 EndChar
 
 StartChar: two.oldstyleproportional
-Encoding: 554 63282 426
+Encoding: 493 63282 426
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -10217,7 +10184,7 @@ Ligature2: "Oldstyleclosingtag subtable" two.onumflag less slash o n u m greater
 EndChar
 
 StartChar: three.oldstyleproportional
-Encoding: 555 63283 427
+Encoding: 494 63283 427
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -10250,7 +10217,7 @@ Ligature2: "Oldstyleclosingtag subtable" three.onumflag less slash o n u m great
 EndChar
 
 StartChar: four.oldstyleproportional
-Encoding: 556 63284 428
+Encoding: 495 63284 428
 Width: 532
 VWidth: -3
 GlyphClass: 3
@@ -10285,7 +10252,7 @@ Ligature2: "Oldstyleclosingtag subtable" four.onumflag less slash o n u m greate
 EndChar
 
 StartChar: five.oldstyleproportional
-Encoding: 557 63285 429
+Encoding: 496 63285 429
 Width: 423
 VWidth: 0
 GlyphClass: 3
@@ -10317,7 +10284,7 @@ Ligature2: "Oldstyleclosingtag subtable" five.onumflag less slash o n u m greate
 EndChar
 
 StartChar: six.oldstyleproportional
-Encoding: 558 63286 430
+Encoding: 497 63286 430
 Width: 510
 VWidth: 0
 GlyphClass: 3
@@ -10362,7 +10329,7 @@ Ligature2: "Oldstyleclosingtag subtable" six.onumflag less slash o n u m greater
 EndChar
 
 StartChar: seven.oldstyleproportional
-Encoding: 559 63287 431
+Encoding: 498 63287 431
 Width: 390
 VWidth: 0
 GlyphClass: 3
@@ -10386,7 +10353,7 @@ Ligature2: "Oldstyleclosingtag subtable" seven.onumflag less slash o n u m great
 EndChar
 
 StartChar: eight.oldstyleproportional
-Encoding: 560 63288 432
+Encoding: 499 63288 432
 Width: 508
 VWidth: 0
 GlyphClass: 3
@@ -10440,7 +10407,7 @@ Ligature2: "Oldstyleclosingtag subtable" eight.onumflag less slash o n u m great
 EndChar
 
 StartChar: nine.oldstyleproportional
-Encoding: 561 63289 433
+Encoding: 500 63289 433
 Width: 489
 VWidth: 0
 GlyphClass: 3
@@ -10485,7 +10452,7 @@ Ligature2: "Oldstyleclosingtag subtable" nine.onumflag less slash o n u m greate
 EndChar
 
 StartChar: Pi
-Encoding: 445 928 434
+Encoding: 501 928 434
 Width: 676
 VWidth: 0
 GlyphClass: 2
@@ -10520,7 +10487,7 @@ Validated: 1
 EndChar
 
 StartChar: Sigma
-Encoding: 446 931 435
+Encoding: 502 931 435
 Width: 571
 VWidth: 0
 GlyphClass: 2
@@ -10552,7 +10519,7 @@ Validated: 1
 EndChar
 
 StartChar: uni23B7
-Encoding: 543 9143 436
+Encoding: 503 9143 436
 Width: 1000
 GlyphClass: 2
 Flags: HMW
@@ -10576,7 +10543,7 @@ Validated: 1
 EndChar
 
 StartChar: uni20D1
-Encoding: 484 8401 437
+Encoding: 504 8401 437
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -10598,7 +10565,7 @@ Validated: 1
 EndChar
 
 StartChar: uni20D7
-Encoding: 485 8407 438
+Encoding: 505 8407 438
 Width: 0
 GlyphClass: 2
 Flags: HMW
@@ -10610,7 +10577,7 @@ Validated: 1
 EndChar
 
 StartChar: gravecomb
-Encoding: 430 768 439
+Encoding: 506 768 439
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10631,7 +10598,7 @@ Validated: 1
 EndChar
 
 StartChar: acutecomb
-Encoding: 431 769 440
+Encoding: 507 769 440
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10652,7 +10619,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0302
-Encoding: 432 770 441
+Encoding: 508 770 441
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10674,7 +10641,7 @@ Validated: 1
 EndChar
 
 StartChar: tildecomb
-Encoding: 433 771 442
+Encoding: 509 771 442
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10698,7 +10665,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0304
-Encoding: 434 772 443
+Encoding: 510 772 443
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10720,7 +10687,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0306
-Encoding: 435 774 444
+Encoding: 511 774 444
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10742,7 +10709,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0307
-Encoding: 436 775 445
+Encoding: 512 775 445
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10762,7 +10729,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0308
-Encoding: 437 776 446
+Encoding: 513 776 446
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10777,7 +10744,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030A
-Encoding: 438 778 447
+Encoding: 514 778 447
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10802,7 +10769,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030B
-Encoding: 439 779 448
+Encoding: 515 779 448
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10829,7 +10796,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030C
-Encoding: 440 780 449
+Encoding: 516 780 449
 Width: 0
 VWidth: -3
 GlyphClass: 4
@@ -10843,7 +10810,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0315
-Encoding: 443 789 450
+Encoding: 517 789 450
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10867,7 +10834,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0313
-Encoding: 442 787 451
+Encoding: 518 787 451
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -10880,7 +10847,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0312
-Encoding: 441 786 452
+Encoding: 519 786 452
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10894,7 +10861,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0327
-Encoding: 444 807 453
+Encoding: 520 807 453
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10919,7 +10886,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0250
-Encoding: 318 592 454
+Encoding: 521 592 454
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -10931,7 +10898,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0251
-Encoding: 319 593 455
+Encoding: 522 593 455
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -10943,7 +10910,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0252
-Encoding: 320 594 456
+Encoding: 523 594 456
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -10955,7 +10922,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0253
-Encoding: 321 595 457
+Encoding: 524 595 457
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -10967,7 +10934,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0254
-Encoding: 322 596 458
+Encoding: 525 596 458
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -10979,7 +10946,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0255
-Encoding: 323 597 459
+Encoding: 526 597 459
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -10991,7 +10958,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0256
-Encoding: 324 598 460
+Encoding: 527 598 460
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11003,7 +10970,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0257
-Encoding: 325 599 461
+Encoding: 528 599 461
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11015,7 +10982,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0258
-Encoding: 326 600 462
+Encoding: 529 600 462
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11027,7 +10994,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0259
-Encoding: 327 601 463
+Encoding: 530 601 463
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11039,7 +11006,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025A
-Encoding: 328 602 464
+Encoding: 531 602 464
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11051,7 +11018,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025B
-Encoding: 329 603 465
+Encoding: 532 603 465
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11063,7 +11030,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025C
-Encoding: 330 604 466
+Encoding: 533 604 466
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11075,7 +11042,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025D
-Encoding: 331 605 467
+Encoding: 534 605 467
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11087,7 +11054,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025E
-Encoding: 332 606 468
+Encoding: 535 606 468
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11099,7 +11066,7 @@ Validated: 1
 EndChar
 
 StartChar: uni025F
-Encoding: 333 607 469
+Encoding: 536 607 469
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11111,7 +11078,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0260
-Encoding: 334 608 470
+Encoding: 537 608 470
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11123,7 +11090,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0261
-Encoding: 335 609 471
+Encoding: 538 609 471
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11135,7 +11102,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0262
-Encoding: 336 610 472
+Encoding: 539 610 472
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11147,7 +11114,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0263
-Encoding: 337 611 473
+Encoding: 540 611 473
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11159,7 +11126,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0264
-Encoding: 338 612 474
+Encoding: 541 612 474
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11171,7 +11138,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0265
-Encoding: 339 613 475
+Encoding: 542 613 475
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11183,7 +11150,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0266
-Encoding: 340 614 476
+Encoding: 543 614 476
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11195,7 +11162,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0267
-Encoding: 341 615 477
+Encoding: 544 615 477
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11207,7 +11174,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0268
-Encoding: 342 616 478
+Encoding: 545 616 478
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11219,7 +11186,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0269
-Encoding: 343 617 479
+Encoding: 546 617 479
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11231,7 +11198,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026A
-Encoding: 344 618 480
+Encoding: 547 618 480
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11243,7 +11210,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026B
-Encoding: 345 619 481
+Encoding: 548 619 481
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11255,7 +11222,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026C
-Encoding: 346 620 482
+Encoding: 549 620 482
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11267,7 +11234,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026D
-Encoding: 347 621 483
+Encoding: 550 621 483
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11281,7 +11248,7 @@ Validated: 1
 EndChar
 
 StartChar: uni026F
-Encoding: 349 623 484
+Encoding: 551 623 484
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11293,7 +11260,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0270
-Encoding: 350 624 485
+Encoding: 552 624 485
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11305,7 +11272,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0271
-Encoding: 351 625 486
+Encoding: 553 625 486
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11317,7 +11284,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0272
-Encoding: 352 626 487
+Encoding: 554 626 487
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11329,7 +11296,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0273
-Encoding: 353 627 488
+Encoding: 555 627 488
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11341,7 +11308,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0274
-Encoding: 354 628 489
+Encoding: 556 628 489
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11353,7 +11320,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0275
-Encoding: 355 629 490
+Encoding: 557 629 490
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11365,7 +11332,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0276
-Encoding: 356 630 491
+Encoding: 558 630 491
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11377,7 +11344,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0277
-Encoding: 357 631 492
+Encoding: 559 631 492
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11389,7 +11356,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0278
-Encoding: 358 632 493
+Encoding: 560 632 493
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11401,7 +11368,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0279
-Encoding: 359 633 494
+Encoding: 561 633 494
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11413,7 +11380,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027A
-Encoding: 360 634 495
+Encoding: 562 634 495
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11425,7 +11392,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027B
-Encoding: 361 635 496
+Encoding: 563 635 496
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11437,7 +11404,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027C
-Encoding: 362 636 497
+Encoding: 564 636 497
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11449,7 +11416,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027D
-Encoding: 363 637 498
+Encoding: 565 637 498
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11461,7 +11428,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027E
-Encoding: 364 638 499
+Encoding: 566 638 499
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11473,7 +11440,7 @@ Validated: 1
 EndChar
 
 StartChar: uni027F
-Encoding: 365 639 500
+Encoding: 567 639 500
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11485,7 +11452,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0280
-Encoding: 366 640 501
+Encoding: 568 640 501
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11497,7 +11464,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0281
-Encoding: 367 641 502
+Encoding: 569 641 502
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11509,7 +11476,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0282
-Encoding: 368 642 503
+Encoding: 570 642 503
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11521,7 +11488,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0283
-Encoding: 369 643 504
+Encoding: 571 643 504
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11533,7 +11500,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0284
-Encoding: 370 644 505
+Encoding: 572 644 505
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11545,7 +11512,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0285
-Encoding: 371 645 506
+Encoding: 573 645 506
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11557,7 +11524,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0286
-Encoding: 372 646 507
+Encoding: 574 646 507
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11569,7 +11536,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0287
-Encoding: 373 647 508
+Encoding: 575 647 508
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11581,7 +11548,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0288
-Encoding: 374 648 509
+Encoding: 576 648 509
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11593,7 +11560,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0289
-Encoding: 375 649 510
+Encoding: 577 649 510
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11605,7 +11572,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028A
-Encoding: 376 650 511
+Encoding: 578 650 511
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11617,7 +11584,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028B
-Encoding: 377 651 512
+Encoding: 579 651 512
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11629,7 +11596,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028C
-Encoding: 378 652 513
+Encoding: 580 652 513
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11641,7 +11608,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028D
-Encoding: 379 653 514
+Encoding: 581 653 514
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11653,7 +11620,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028E
-Encoding: 380 654 515
+Encoding: 582 654 515
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11665,7 +11632,7 @@ Validated: 1
 EndChar
 
 StartChar: uni028F
-Encoding: 381 655 516
+Encoding: 583 655 516
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11677,7 +11644,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0290
-Encoding: 382 656 517
+Encoding: 584 656 517
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11689,7 +11656,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0291
-Encoding: 383 657 518
+Encoding: 585 657 518
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11701,7 +11668,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0292
-Encoding: 384 658 519
+Encoding: 586 658 519
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11713,7 +11680,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0293
-Encoding: 385 659 520
+Encoding: 587 659 520
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11725,7 +11692,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0294
-Encoding: 386 660 521
+Encoding: 588 660 521
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11737,7 +11704,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0295
-Encoding: 387 661 522
+Encoding: 589 661 522
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11749,7 +11716,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0296
-Encoding: 388 662 523
+Encoding: 590 662 523
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11761,7 +11728,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0297
-Encoding: 389 663 524
+Encoding: 591 663 524
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11773,7 +11740,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0298
-Encoding: 390 664 525
+Encoding: 592 664 525
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11785,7 +11752,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0299
-Encoding: 391 665 526
+Encoding: 593 665 526
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11797,7 +11764,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029A
-Encoding: 392 666 527
+Encoding: 594 666 527
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11809,7 +11776,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029B
-Encoding: 393 667 528
+Encoding: 595 667 528
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11821,7 +11788,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029C
-Encoding: 394 668 529
+Encoding: 596 668 529
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11833,7 +11800,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029D
-Encoding: 395 669 530
+Encoding: 597 669 530
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11845,7 +11812,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029E
-Encoding: 396 670 531
+Encoding: 598 670 531
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11857,7 +11824,7 @@ Validated: 1
 EndChar
 
 StartChar: uni029F
-Encoding: 397 671 532
+Encoding: 599 671 532
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11869,7 +11836,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A0
-Encoding: 398 672 533
+Encoding: 600 672 533
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11881,7 +11848,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A1
-Encoding: 399 673 534
+Encoding: 601 673 534
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11893,7 +11860,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02A2
-Encoding: 400 674 535
+Encoding: 602 674 535
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11905,7 +11872,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AC
-Encoding: 410 684 536
+Encoding: 603 684 536
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11917,7 +11884,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AD
-Encoding: 411 685 537
+Encoding: 604 685 537
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11929,7 +11896,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AE
-Encoding: 412 686 538
+Encoding: 605 686 538
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11941,7 +11908,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02AF
-Encoding: 413 687 539
+Encoding: 606 687 539
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11953,7 +11920,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02D0
-Encoding: 423 720 540
+Encoding: 607 720 540
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11965,7 +11932,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02D1
-Encoding: 424 721 541
+Encoding: 608 721 541
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11977,7 +11944,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02C8
-Encoding: 418 712 542
+Encoding: 609 712 542
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11989,7 +11956,7 @@ Validated: 1
 EndChar
 
 StartChar: uni02CC
-Encoding: 422 716 543
+Encoding: 610 716 543
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -12001,7 +11968,7 @@ Validated: 1
 EndChar
 
 StartChar: uni1D07
-Encoding: 451 7431 544
+Encoding: 611 7431 544
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -12013,7 +11980,7 @@ Validated: 1
 EndChar
 
 StartChar: circle
-Encoding: 544 9675 545
+Encoding: 612 9675 545
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -12037,7 +12004,7 @@ Validated: 1
 EndChar
 
 StartChar: uni25CC
-Encoding: 545 9676 546
+Encoding: 613 9676 546
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -12099,7 +12066,7 @@ Validated: 1
 EndChar
 
 StartChar: Euro
-Encoding: 483 8364 547
+Encoding: 164 8364 547
 Width: 561
 VWidth: 0
 GlyphClass: 2
@@ -12173,7 +12140,7 @@ Validated: 1
 EndChar
 
 StartChar: percent.oldstyleproportional
-Encoding: 550 63042 548
+Encoding: 614 63042 548
 Width: 586
 GlyphClass: 3
 Flags: HMW
@@ -12213,7 +12180,7 @@ LCarets2: 7 0 0 0 0 0 0 0
 EndChar
 
 StartChar: dollar.oldstyleproportional
-Encoding: 551 63268 549
+Encoding: 615 63268 549
 Width: 362
 GlyphClass: 3
 UnlinkRmOvrlpSave: 1
@@ -12233,7 +12200,7 @@ Ligature2: "Oldstyleclosingtag subtable" dollar.onumflag less slash o n u m grea
 EndChar
 
 StartChar: startonum
-Encoding: 548 57381 550
+Encoding: 616 57381 550
 Width: 500
 VWidth: 0
 GlyphClass: 3
@@ -12311,7 +12278,7 @@ LCarets2: 5 0 0 0 0 0
 EndChar
 
 StartChar: zero.onumflag
-Encoding: 564 -1 551
+Encoding: 617 -1 551
 Width: 467
 GlyphClass: 3
 Flags: HMW
@@ -12329,7 +12296,7 @@ Colour: ffff
 EndChar
 
 StartChar: one.onumflag
-Encoding: 565 -1 552
+Encoding: 618 -1 552
 Width: 396
 VWidth: -3
 GlyphClass: 3
@@ -12348,7 +12315,7 @@ Colour: ffff
 EndChar
 
 StartChar: two.onumflag
-Encoding: 566 -1 553
+Encoding: 619 -1 553
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -12367,7 +12334,7 @@ Colour: ffff
 EndChar
 
 StartChar: three.onumflag
-Encoding: 567 -1 554
+Encoding: 620 -1 554
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -12386,7 +12353,7 @@ Colour: ffff
 EndChar
 
 StartChar: four.onumflag
-Encoding: 568 -1 555
+Encoding: 621 -1 555
 Width: 532
 VWidth: -3
 GlyphClass: 3
@@ -12405,7 +12372,7 @@ Colour: ffff
 EndChar
 
 StartChar: five.onumflag
-Encoding: 569 -1 556
+Encoding: 622 -1 556
 Width: 423
 VWidth: 0
 GlyphClass: 3
@@ -12424,7 +12391,7 @@ Colour: ffff
 EndChar
 
 StartChar: six.onumflag
-Encoding: 570 -1 557
+Encoding: 623 -1 557
 Width: 510
 VWidth: 0
 GlyphClass: 3
@@ -12443,7 +12410,7 @@ Colour: ffff
 EndChar
 
 StartChar: seven.onumflag
-Encoding: 571 -1 558
+Encoding: 624 -1 558
 Width: 390
 VWidth: 0
 GlyphClass: 3
@@ -12462,7 +12429,7 @@ Colour: ffff
 EndChar
 
 StartChar: eight.onumflag
-Encoding: 572 -1 559
+Encoding: 625 -1 559
 Width: 508
 VWidth: 0
 GlyphClass: 3
@@ -12481,7 +12448,7 @@ Colour: ffff
 EndChar
 
 StartChar: nine.onumflag
-Encoding: 573 -1 560
+Encoding: 626 -1 560
 Width: 489
 VWidth: 0
 GlyphClass: 3
@@ -12500,7 +12467,7 @@ Colour: ffff
 EndChar
 
 StartChar: dollar.onumflag
-Encoding: 563 63291 561
+Encoding: 627 63291 561
 Width: 362
 GlyphClass: 3
 UnlinkRmOvrlpSave: 1
@@ -12517,7 +12484,7 @@ Colour: ffff
 EndChar
 
 StartChar: percent.onumflag
-Encoding: 562 63290 562
+Encoding: 628 63290 562
 Width: 586
 GlyphClass: 3
 Flags: HMW
@@ -12535,7 +12502,7 @@ Colour: ffff
 EndChar
 
 StartChar: period.onumflag
-Encoding: 574 63302 563
+Encoding: 629 63302 563
 Width: 270
 VWidth: -3
 GlyphClass: 3
@@ -12554,7 +12521,7 @@ Colour: ffff
 EndChar
 
 StartChar: comma.onumflag
-Encoding: 575 63303 564
+Encoding: 630 63303 564
 Width: 260
 VWidth: -3
 GlyphClass: 3
@@ -12573,7 +12540,7 @@ Colour: ffff
 EndChar
 
 StartChar: colon.onumflag
-Encoding: 576 63304 565
+Encoding: 631 63304 565
 Width: 270
 VWidth: -3
 GlyphClass: 3
@@ -12592,7 +12559,7 @@ Colour: ffff
 EndChar
 
 StartChar: hyphen.onumflag
-Encoding: 577 63305 566
+Encoding: 632 63305 566
 Width: 300
 VWidth: 0
 GlyphClass: 3
@@ -12611,7 +12578,7 @@ Colour: ffff
 EndChar
 
 StartChar: space.onumflag
-Encoding: 578 63306 567
+Encoding: 633 63306 567
 Width: 220
 VWidth: 0
 GlyphClass: 3
@@ -12630,7 +12597,7 @@ Colour: ffff
 EndChar
 
 StartChar: tagwarning
-Encoding: 549 57382 568
+Encoding: 634 57382 568
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -12698,7 +12665,7 @@ Validated: 1
 EndChar
 
 StartChar: dollar.smcp
-Encoding: 615 -1 569
+Encoding: 635 -1 569
 Width: 362
 GlyphClass: 3
 UnlinkRmOvrlpSave: 1
@@ -12711,7 +12678,7 @@ Ligature2: "SmallCapsClose subtable" dollar.smcpflag less slash s c greater
 EndChar
 
 StartChar: percent.smcp
-Encoding: 616 -1 570
+Encoding: 636 -1 570
 Width: 586
 GlyphClass: 3
 Flags: MW
@@ -12724,7 +12691,7 @@ Ligature2: "SmallCapsClose subtable" percent.smcpflag less slash s c greater
 EndChar
 
 StartChar: zero.smcp
-Encoding: 605 -1 571
+Encoding: 637 -1 571
 Width: 487
 GlyphClass: 3
 Flags: MW
@@ -12737,7 +12704,7 @@ Ligature2: "SmallCapsClose subtable" zero.smcpflag less slash s c greater
 EndChar
 
 StartChar: one.smcp
-Encoding: 606 -1 572
+Encoding: 638 -1 572
 Width: 396
 VWidth: -3
 GlyphClass: 3
@@ -12751,7 +12718,7 @@ Ligature2: "SmallCapsClose subtable" one.smcpflag less slash s c greater
 EndChar
 
 StartChar: two.smcp
-Encoding: 607 -1 573
+Encoding: 639 -1 573
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -12765,7 +12732,7 @@ Ligature2: "SmallCapsClose subtable" two.smcpflag less slash s c greater
 EndChar
 
 StartChar: three.smcp
-Encoding: 608 -1 574
+Encoding: 640 -1 574
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -12779,7 +12746,7 @@ Ligature2: "SmallCapsClose subtable" three.smcpflag less slash s c greater
 EndChar
 
 StartChar: four.smcp
-Encoding: 609 -1 575
+Encoding: 641 -1 575
 Width: 532
 VWidth: -3
 GlyphClass: 3
@@ -12793,7 +12760,7 @@ Ligature2: "SmallCapsClose subtable" four.smcpflag less slash s c greater
 EndChar
 
 StartChar: five.smcp
-Encoding: 610 -1 576
+Encoding: 642 -1 576
 Width: 423
 VWidth: 0
 GlyphClass: 3
@@ -12807,7 +12774,7 @@ Ligature2: "SmallCapsClose subtable" five.smcpflag less slash s c greater
 EndChar
 
 StartChar: six.smcp
-Encoding: 611 -1 577
+Encoding: 643 -1 577
 Width: 510
 VWidth: 0
 GlyphClass: 3
@@ -12821,7 +12788,7 @@ Ligature2: "SmallCapsClose subtable" six.smcpflag less slash s c greater
 EndChar
 
 StartChar: seven.smcp
-Encoding: 612 -1 578
+Encoding: 644 -1 578
 Width: 390
 VWidth: 0
 GlyphClass: 3
@@ -12835,7 +12802,7 @@ Ligature2: "SmallCapsClose subtable" seven.smcpflag less slash s c greater
 EndChar
 
 StartChar: eight.smcp
-Encoding: 613 -1 579
+Encoding: 645 -1 579
 Width: 508
 VWidth: 0
 GlyphClass: 3
@@ -12849,7 +12816,7 @@ Ligature2: "SmallCapsClose subtable" eight.smcpflag less slash s c greater
 EndChar
 
 StartChar: nine.smcp
-Encoding: 614 -1 580
+Encoding: 646 -1 580
 Width: 489
 VWidth: 0
 GlyphClass: 3
@@ -12863,7 +12830,7 @@ Ligature2: "SmallCapsClose subtable" nine.smcpflag less slash s c greater
 EndChar
 
 StartChar: a.smcp
-Encoding: 579 -1 581
+Encoding: 647 -1 581
 Width: 492
 VWidth: -3
 GlyphClass: 3
@@ -12923,7 +12890,7 @@ Ligature2: "SmallCapsClose subtable" a.smcpflag less slash s c greater
 EndChar
 
 StartChar: b.smcp
-Encoding: 580 -1 582
+Encoding: 648 -1 582
 Width: 532
 VWidth: 0
 GlyphClass: 3
@@ -12963,7 +12930,7 @@ Ligature2: "SmallCapsClose subtable" b.smcpflag less slash s c greater
 EndChar
 
 StartChar: c.smcp
-Encoding: 581 -1 583
+Encoding: 649 -1 583
 Width: 507
 VWidth: -3
 GlyphClass: 3
@@ -12996,7 +12963,7 @@ Ligature2: "SmallCapsClose subtable" c.smcpflag less slash s c greater
 EndChar
 
 StartChar: d.smcp
-Encoding: 582 -1 584
+Encoding: 650 -1 584
 Width: 556
 VWidth: 0
 GlyphClass: 3
@@ -13028,7 +12995,7 @@ Ligature2: "SmallCapsClose subtable" d.smcpflag less slash s c greater
 EndChar
 
 StartChar: e.smcp
-Encoding: 583 -1 585
+Encoding: 651 -1 585
 Width: 510
 VWidth: -3
 GlyphClass: 3
@@ -13071,7 +13038,7 @@ Ligature2: "SmallCapsClose subtable" e.smcpflag less slash s c greater
 EndChar
 
 StartChar: f.smcp
-Encoding: 584 -1 586
+Encoding: 652 -1 586
 Width: 455
 VWidth: -3
 GlyphClass: 3
@@ -13112,7 +13079,7 @@ Ligature2: "SmallCapsClose subtable" f.smcpflag less slash s c greater
 EndChar
 
 StartChar: g.smcp
-Encoding: 585 -1 587
+Encoding: 653 -1 587
 Width: 526
 VWidth: -3
 GlyphClass: 3
@@ -13147,7 +13114,7 @@ Ligature2: "SmallCapsClose subtable" g.smcpflag less slash s c greater
 EndChar
 
 StartChar: h.smcp
-Encoding: 586 -1 588
+Encoding: 654 -1 588
 Width: 616
 VWidth: -3
 GlyphClass: 3
@@ -13192,7 +13159,7 @@ Ligature2: "SmallCapsClose subtable" h.smcpflag less slash s c greater
 EndChar
 
 StartChar: i.smcp
-Encoding: 587 -1 589
+Encoding: 655 -1 589
 Width: 344
 VWidth: -3
 GlyphClass: 3
@@ -13221,7 +13188,7 @@ Ligature2: "SmallCapsClose subtable" i.smcpflag less slash s c greater
 EndChar
 
 StartChar: j.smcp
-Encoding: 588 -1 590
+Encoding: 656 -1 590
 Width: 335
 VWidth: -3
 GlyphClass: 3
@@ -13248,7 +13215,7 @@ Ligature2: "SmallCapsClose subtable" j.smcpflag less slash s c greater
 EndChar
 
 StartChar: k.smcp
-Encoding: 589 -1 591
+Encoding: 657 -1 591
 Width: 546
 VWidth: 0
 GlyphClass: 3
@@ -13288,7 +13255,7 @@ Ligature2: "SmallCapsClose subtable" k.smcpflag less slash s c greater
 EndChar
 
 StartChar: l.smcp
-Encoding: 590 -1 592
+Encoding: 658 -1 592
 Width: 480
 VWidth: -3
 GlyphClass: 3
@@ -13319,7 +13286,7 @@ Ligature2: "SmallCapsClose subtable" l.smcpflag less slash s c greater
 EndChar
 
 StartChar: m.smcp
-Encoding: 591 -1 593
+Encoding: 659 -1 593
 Width: 724
 VWidth: 0
 GlyphClass: 3
@@ -13363,7 +13330,7 @@ Ligature2: "SmallCapsClose subtable" m.smcpflag less slash s c greater
 EndChar
 
 StartChar: n.smcp
-Encoding: 592 -1 594
+Encoding: 660 -1 594
 Width: 578
 VWidth: 0
 GlyphClass: 3
@@ -13401,7 +13368,7 @@ Ligature2: "SmallCapsClose subtable" n.smcpflag less slash s c greater
 EndChar
 
 StartChar: o.smcp
-Encoding: 593 -1 595
+Encoding: 661 -1 595
 Width: 560
 GlyphClass: 3
 Flags: HMW
@@ -13426,7 +13393,7 @@ Ligature2: "SmallCapsClose subtable" o.smcpflag less slash s c greater
 EndChar
 
 StartChar: p.smcp
-Encoding: 594 -1 596
+Encoding: 662 -1 596
 Width: 516
 VWidth: 0
 GlyphClass: 3
@@ -13459,7 +13426,7 @@ Ligature2: "SmallCapsClose subtable" p.smcpflag less slash s c greater
 EndChar
 
 StartChar: q.smcp
-Encoding: 595 -1 597
+Encoding: 663 -1 597
 Width: 560
 VWidth: -3
 GlyphClass: 3
@@ -13482,7 +13449,7 @@ Ligature2: "SmallCapsClose subtable" q.smcpflag less slash s c greater
 EndChar
 
 StartChar: r.smcp
-Encoding: 596 -1 598
+Encoding: 664 -1 598
 Width: 567
 VWidth: 0
 GlyphClass: 3
@@ -13520,7 +13487,7 @@ Ligature2: "SmallCapsClose subtable" r.smcpflag less slash s c greater
 EndChar
 
 StartChar: s.smcp
-Encoding: 597 -1 599
+Encoding: 665 -1 599
 Width: 466
 VWidth: 0
 GlyphClass: 3
@@ -13557,7 +13524,7 @@ Ligature2: "SmallCapsClose subtable" s.smcpflag less slash s c greater
 EndChar
 
 StartChar: t.smcp
-Encoding: 598 -1 600
+Encoding: 666 -1 600
 Width: 506
 VWidth: -3
 GlyphClass: 3
@@ -13594,7 +13561,7 @@ Ligature2: "SmallCapsClose subtable" t.smcpflag less slash s c greater
 EndChar
 
 StartChar: u.smcp
-Encoding: 599 -1 601
+Encoding: 667 -1 601
 Width: 567
 VWidth: 0
 GlyphClass: 3
@@ -13629,7 +13596,7 @@ Ligature2: "SmallCapsClose subtable" u.smcpflag less slash s c greater
 EndChar
 
 StartChar: v.smcp
-Encoding: 600 -1 602
+Encoding: 668 -1 602
 Width: 468
 VWidth: -3
 GlyphClass: 3
@@ -13661,7 +13628,7 @@ Ligature2: "SmallCapsClose subtable" v.smcpflag less slash s c greater
 EndChar
 
 StartChar: w.smcp
-Encoding: 601 -1 603
+Encoding: 669 -1 603
 Width: 685
 VWidth: -3
 GlyphClass: 3
@@ -13699,7 +13666,7 @@ Ligature2: "SmallCapsClose subtable" w.smcpflag less slash s c greater
 EndChar
 
 StartChar: x.smcp
-Encoding: 602 -1 604
+Encoding: 670 -1 604
 Width: 516
 VWidth: 0
 GlyphClass: 3
@@ -13779,7 +13746,7 @@ Ligature2: "SmallCapsClose subtable" x.smcpflag less slash s c greater
 EndChar
 
 StartChar: y.smcp
-Encoding: 603 -1 605
+Encoding: 671 -1 605
 Width: 480
 VWidth: 0
 GlyphClass: 3
@@ -13817,7 +13784,7 @@ Ligature2: "SmallCapsClose subtable" y.smcpflag less slash s c greater
 EndChar
 
 StartChar: z.smcp
-Encoding: 604 -1 606
+Encoding: 672 -1 606
 Width: 489
 VWidth: 0
 GlyphClass: 3
@@ -13850,7 +13817,7 @@ Ligature2: "SmallCapsClose subtable" z.smcpflag less slash s c greater
 EndChar
 
 StartChar: startsc
-Encoding: 617 57383 607
+Encoding: 673 57383 607
 Width: 500
 VWidth: 0
 GlyphClass: 3
@@ -13903,7 +13870,7 @@ Ligature2: "SmallCapsOpen subtable" less s c greater
 EndChar
 
 StartChar: space.smcpflag
-Encoding: 618 -1 608
+Encoding: 674 -1 608
 Width: 220
 VWidth: 0
 GlyphClass: 3
@@ -13919,7 +13886,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc space
 EndChar
 
 StartChar: exclam.smcpflag
-Encoding: 619 -1 609
+Encoding: 675 -1 609
 Width: 302
 VWidth: 0
 GlyphClass: 3
@@ -13935,7 +13902,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc exclam
 EndChar
 
 StartChar: quotedbl.smcpflag
-Encoding: 620 -1 610
+Encoding: 676 -1 610
 Width: 350
 VWidth: 0
 GlyphClass: 3
@@ -13951,7 +13918,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quotedbl
 EndChar
 
 StartChar: ampersand.smcpflag
-Encoding: 621 -1 611
+Encoding: 677 -1 611
 Width: 696
 VWidth: 0
 GlyphClass: 3
@@ -13967,7 +13934,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc ampersand
 EndChar
 
 StartChar: quotesingle.smcpflag
-Encoding: 622 -1 612
+Encoding: 678 -1 612
 Width: 188
 VWidth: 0
 GlyphClass: 3
@@ -13983,7 +13950,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quotesingle
 EndChar
 
 StartChar: parenleft.smcpflag
-Encoding: 623 -1 613
+Encoding: 679 -1 613
 Width: 326
 VWidth: 0
 GlyphClass: 3
@@ -13999,7 +13966,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc parenleft
 EndChar
 
 StartChar: parenright.smcpflag
-Encoding: 624 -1 614
+Encoding: 680 -1 614
 Width: 326
 VWidth: 0
 GlyphClass: 3
@@ -14015,7 +13982,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc parenright
 EndChar
 
 StartChar: comma.smcpflag
-Encoding: 625 -1 615
+Encoding: 681 -1 615
 Width: 270
 VWidth: 0
 GlyphClass: 3
@@ -14031,7 +13998,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc comma
 EndChar
 
 StartChar: hyphen.smcpflag
-Encoding: 626 -1 616
+Encoding: 682 -1 616
 Width: 300
 VWidth: 0
 GlyphClass: 3
@@ -14047,7 +14014,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc hyphen
 EndChar
 
 StartChar: period.smcpflag
-Encoding: 627 -1 617
+Encoding: 683 -1 617
 Width: 270
 VWidth: 0
 GlyphClass: 3
@@ -14063,7 +14030,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc period
 EndChar
 
 StartChar: colon.smcpflag
-Encoding: 628 -1 618
+Encoding: 684 -1 618
 Width: 270
 VWidth: 0
 GlyphClass: 3
@@ -14079,7 +14046,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc colon
 EndChar
 
 StartChar: semicolon.smcpflag
-Encoding: 629 -1 619
+Encoding: 685 -1 619
 Width: 270
 VWidth: 0
 GlyphClass: 3
@@ -14095,7 +14062,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc semicolon
 EndChar
 
 StartChar: question.smcpflag
-Encoding: 630 -1 620
+Encoding: 686 -1 620
 Width: 397
 VWidth: 0
 GlyphClass: 3
@@ -14111,7 +14078,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc question
 EndChar
 
 StartChar: A.smcpflag
-Encoding: 631 -1 621
+Encoding: 687 -1 621
 Width: 630
 VWidth: 0
 GlyphClass: 3
@@ -14127,7 +14094,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc A
 EndChar
 
 StartChar: B.smcpflag
-Encoding: 632 -1 622
+Encoding: 688 -1 622
 Width: 620
 VWidth: 0
 GlyphClass: 3
@@ -14143,7 +14110,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc B
 EndChar
 
 StartChar: C.smcpflag
-Encoding: 633 -1 623
+Encoding: 689 -1 623
 Width: 593
 VWidth: 0
 GlyphClass: 3
@@ -14159,7 +14126,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc C
 EndChar
 
 StartChar: D.smcpflag
-Encoding: 634 -1 624
+Encoding: 690 -1 624
 Width: 682
 VWidth: 0
 GlyphClass: 3
@@ -14175,7 +14142,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc D
 EndChar
 
 StartChar: E.smcpflag
-Encoding: 635 -1 625
+Encoding: 691 -1 625
 Width: 573
 VWidth: 0
 GlyphClass: 3
@@ -14191,7 +14158,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc E
 EndChar
 
 StartChar: F.smcpflag
-Encoding: 636 -1 626
+Encoding: 692 -1 626
 Width: 499
 VWidth: 0
 GlyphClass: 3
@@ -14207,7 +14174,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc F
 EndChar
 
 StartChar: G.smcpflag
-Encoding: 637 -1 627
+Encoding: 693 -1 627
 Width: 658
 VWidth: 0
 GlyphClass: 3
@@ -14223,7 +14190,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc G
 EndChar
 
 StartChar: H.smcpflag
-Encoding: 638 -1 628
+Encoding: 694 -1 628
 Width: 716
 VWidth: 0
 GlyphClass: 3
@@ -14239,7 +14206,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc H
 EndChar
 
 StartChar: I.smcpflag
-Encoding: 639 -1 629
+Encoding: 695 -1 629
 Width: 371
 VWidth: 0
 GlyphClass: 3
@@ -14255,7 +14222,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc I
 EndChar
 
 StartChar: J.smcpflag
-Encoding: 640 -1 630
+Encoding: 696 -1 630
 Width: 371
 VWidth: 0
 GlyphClass: 3
@@ -14271,7 +14238,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc J
 EndChar
 
 StartChar: K.smcpflag
-Encoding: 641 -1 631
+Encoding: 697 -1 631
 Width: 669
 VWidth: 0
 GlyphClass: 3
@@ -14287,7 +14254,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc K
 EndChar
 
 StartChar: L.smcpflag
-Encoding: 642 -1 632
+Encoding: 698 -1 632
 Width: 555
 VWidth: 0
 GlyphClass: 3
@@ -14303,7 +14270,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc L
 EndChar
 
 StartChar: M.smcpflag
-Encoding: 643 -1 633
+Encoding: 699 -1 633
 Width: 870
 VWidth: 0
 GlyphClass: 3
@@ -14319,7 +14286,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc M
 EndChar
 
 StartChar: N.smcpflag
-Encoding: 644 -1 634
+Encoding: 700 -1 634
 Width: 656
 VWidth: 0
 GlyphClass: 3
@@ -14335,7 +14302,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc N
 EndChar
 
 StartChar: O.smcpflag
-Encoding: 645 -1 635
+Encoding: 701 -1 635
 Width: 678
 VWidth: 0
 GlyphClass: 3
@@ -14351,7 +14318,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc O
 EndChar
 
 StartChar: P.smcpflag
-Encoding: 646 -1 636
+Encoding: 702 -1 636
 Width: 572
 VWidth: 0
 GlyphClass: 3
@@ -14367,7 +14334,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc P
 EndChar
 
 StartChar: Q.smcpflag
-Encoding: 647 -1 637
+Encoding: 703 -1 637
 Width: 678
 VWidth: 0
 GlyphClass: 3
@@ -14383,7 +14350,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc Q
 EndChar
 
 StartChar: R.smcpflag
-Encoding: 648 -1 638
+Encoding: 704 -1 638
 Width: 630
 VWidth: 0
 GlyphClass: 3
@@ -14399,7 +14366,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc R
 EndChar
 
 StartChar: S.smcpflag
-Encoding: 649 -1 639
+Encoding: 705 -1 639
 Width: 497
 VWidth: 0
 GlyphClass: 3
@@ -14415,7 +14382,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc S
 EndChar
 
 StartChar: T.smcpflag
-Encoding: 650 -1 640
+Encoding: 706 -1 640
 Width: 577
 VWidth: 0
 GlyphClass: 3
@@ -14431,7 +14398,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc T
 EndChar
 
 StartChar: U.smcpflag
-Encoding: 651 -1 641
+Encoding: 707 -1 641
 Width: 655
 VWidth: 0
 GlyphClass: 3
@@ -14447,7 +14414,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc U
 EndChar
 
 StartChar: V.smcpflag
-Encoding: 652 -1 642
+Encoding: 708 -1 642
 Width: 572
 VWidth: 0
 GlyphClass: 3
@@ -14463,7 +14430,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc V
 EndChar
 
 StartChar: W.smcpflag
-Encoding: 653 -1 643
+Encoding: 709 -1 643
 Width: 899
 VWidth: 0
 GlyphClass: 3
@@ -14479,7 +14446,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc W
 EndChar
 
 StartChar: X.smcpflag
-Encoding: 654 -1 644
+Encoding: 710 -1 644
 Width: 602
 VWidth: 0
 GlyphClass: 3
@@ -14495,7 +14462,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc X
 EndChar
 
 StartChar: Y.smcpflag
-Encoding: 655 -1 645
+Encoding: 711 -1 645
 Width: 568
 VWidth: 0
 GlyphClass: 3
@@ -14511,7 +14478,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc Y
 EndChar
 
 StartChar: Z.smcpflag
-Encoding: 656 -1 646
+Encoding: 712 -1 646
 Width: 549
 VWidth: 0
 GlyphClass: 3
@@ -14527,7 +14494,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc Z
 EndChar
 
 StartChar: endash.smcpflag
-Encoding: 657 -1 647
+Encoding: 713 -1 647
 Width: 426
 VWidth: 0
 GlyphClass: 3
@@ -14543,7 +14510,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc endash
 EndChar
 
 StartChar: emdash.smcpflag
-Encoding: 658 -1 648
+Encoding: 714 -1 648
 Width: 873
 VWidth: 0
 GlyphClass: 3
@@ -14559,7 +14526,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc emdash
 EndChar
 
 StartChar: quoteleft.smcpflag
-Encoding: 659 -1 649
+Encoding: 715 -1 649
 Width: 188
 VWidth: 0
 GlyphClass: 3
@@ -14575,7 +14542,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quoteleft
 EndChar
 
 StartChar: quoteright.smcpflag
-Encoding: 660 -1 650
+Encoding: 716 -1 650
 Width: 188
 VWidth: 0
 GlyphClass: 3
@@ -14591,7 +14558,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quoteright
 EndChar
 
 StartChar: quotedblleft.smcpflag
-Encoding: 661 -1 651
+Encoding: 717 -1 651
 Width: 450
 VWidth: 0
 GlyphClass: 3
@@ -14607,7 +14574,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quotedblleft
 EndChar
 
 StartChar: quotedblright.smcpflag
-Encoding: 662 -1 652
+Encoding: 718 -1 652
 Width: 450
 VWidth: 0
 GlyphClass: 3
@@ -14623,7 +14590,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quotedblright
 EndChar
 
 StartChar: ellipsis.smcpflag
-Encoding: 663 -1 653
+Encoding: 719 -1 653
 Width: 879
 VWidth: 0
 GlyphClass: 3
@@ -14639,7 +14606,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc ellipsis
 EndChar
 
 StartChar: quotedblbase.smcpflag
-Encoding: 664 -1 654
+Encoding: 720 -1 654
 Width: 450
 VWidth: 0
 GlyphClass: 3
@@ -14655,7 +14622,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc quotedblbase
 EndChar
 
 StartChar: dollar.smcpflag
-Encoding: 665 -1 655
+Encoding: 721 -1 655
 Width: 362
 VWidth: 0
 GlyphClass: 3
@@ -14671,7 +14638,7 @@ Substitution2: "Single Substitution lookup 16 subtable" dollar.smcp
 EndChar
 
 StartChar: percent.smcpflag
-Encoding: 666 -1 656
+Encoding: 722 -1 656
 Width: 586
 VWidth: 0
 GlyphClass: 3
@@ -14687,7 +14654,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc percent
 EndChar
 
 StartChar: zero.smcpflag
-Encoding: 667 -1 657
+Encoding: 723 -1 657
 Width: 487
 VWidth: 0
 GlyphClass: 3
@@ -14703,7 +14670,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc zero
 EndChar
 
 StartChar: one.smcpflag
-Encoding: 668 -1 658
+Encoding: 724 -1 658
 Width: 396
 VWidth: -3
 GlyphClass: 3
@@ -14719,7 +14686,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc one
 EndChar
 
 StartChar: two.smcpflag
-Encoding: 669 -1 659
+Encoding: 725 -1 659
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -14735,7 +14702,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc two
 EndChar
 
 StartChar: three.smcpflag
-Encoding: 670 -1 660
+Encoding: 726 -1 660
 Width: 445
 VWidth: 0
 GlyphClass: 3
@@ -14751,7 +14718,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc three
 EndChar
 
 StartChar: four.smcpflag
-Encoding: 671 -1 661
+Encoding: 727 -1 661
 Width: 532
 VWidth: -3
 GlyphClass: 3
@@ -14767,7 +14734,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc four
 EndChar
 
 StartChar: five.smcpflag
-Encoding: 672 -1 662
+Encoding: 728 -1 662
 Width: 423
 VWidth: 0
 GlyphClass: 3
@@ -14783,7 +14750,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc five
 EndChar
 
 StartChar: six.smcpflag
-Encoding: 673 -1 663
+Encoding: 729 -1 663
 Width: 510
 VWidth: 0
 GlyphClass: 3
@@ -14799,7 +14766,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc six
 EndChar
 
 StartChar: seven.smcpflag
-Encoding: 674 -1 664
+Encoding: 730 -1 664
 Width: 390
 VWidth: 0
 GlyphClass: 3
@@ -14815,7 +14782,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc seven
 EndChar
 
 StartChar: eight.smcpflag
-Encoding: 675 -1 665
+Encoding: 731 -1 665
 Width: 508
 VWidth: 0
 GlyphClass: 3
@@ -14831,7 +14798,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc eight
 EndChar
 
 StartChar: nine.smcpflag
-Encoding: 676 -1 666
+Encoding: 732 -1 666
 Width: 489
 VWidth: 0
 GlyphClass: 3
@@ -14847,7 +14814,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc nine
 EndChar
 
 StartChar: a.smcpflag
-Encoding: 677 -1 667
+Encoding: 733 -1 667
 Width: 492
 VWidth: -3
 GlyphClass: 3
@@ -14863,7 +14830,7 @@ Substitution2: "Single Substitution lookup 16 subtable" a.smcp
 EndChar
 
 StartChar: b.smcpflag
-Encoding: 678 -1 668
+Encoding: 734 -1 668
 Width: 532
 VWidth: 0
 GlyphClass: 3
@@ -14879,7 +14846,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc b
 EndChar
 
 StartChar: c.smcpflag
-Encoding: 679 -1 669
+Encoding: 735 -1 669
 Width: 507
 VWidth: -3
 GlyphClass: 3
@@ -14895,7 +14862,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc c
 EndChar
 
 StartChar: d.smcpflag
-Encoding: 680 -1 670
+Encoding: 736 -1 670
 Width: 556
 VWidth: 0
 GlyphClass: 3
@@ -14911,7 +14878,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc d
 EndChar
 
 StartChar: e.smcpflag
-Encoding: 681 -1 671
+Encoding: 737 -1 671
 Width: 510
 VWidth: -3
 GlyphClass: 3
@@ -14927,7 +14894,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc e
 EndChar
 
 StartChar: f.smcpflag
-Encoding: 682 -1 672
+Encoding: 738 -1 672
 Width: 455
 VWidth: -3
 GlyphClass: 3
@@ -14943,7 +14910,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc f
 EndChar
 
 StartChar: g.smcpflag
-Encoding: 683 -1 673
+Encoding: 739 -1 673
 Width: 526
 VWidth: -3
 GlyphClass: 3
@@ -14959,7 +14926,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc g
 EndChar
 
 StartChar: h.smcpflag
-Encoding: 684 -1 674
+Encoding: 740 -1 674
 Width: 616
 VWidth: -3
 GlyphClass: 3
@@ -14975,7 +14942,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc h
 EndChar
 
 StartChar: i.smcpflag
-Encoding: 685 -1 675
+Encoding: 741 -1 675
 Width: 344
 VWidth: -3
 GlyphClass: 3
@@ -14991,7 +14958,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc i
 EndChar
 
 StartChar: j.smcpflag
-Encoding: 686 -1 676
+Encoding: 742 -1 676
 Width: 335
 VWidth: -3
 GlyphClass: 3
@@ -15007,7 +14974,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc j
 EndChar
 
 StartChar: k.smcpflag
-Encoding: 687 -1 677
+Encoding: 743 -1 677
 Width: 546
 VWidth: 0
 GlyphClass: 3
@@ -15023,7 +14990,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc k
 EndChar
 
 StartChar: l.smcpflag
-Encoding: 688 -1 678
+Encoding: 744 -1 678
 Width: 480
 VWidth: -3
 GlyphClass: 3
@@ -15040,7 +15007,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc l
 EndChar
 
 StartChar: m.smcpflag
-Encoding: 689 -1 679
+Encoding: 745 -1 679
 Width: 724
 VWidth: 0
 GlyphClass: 3
@@ -15056,7 +15023,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc m
 EndChar
 
 StartChar: n.smcpflag
-Encoding: 690 -1 680
+Encoding: 746 -1 680
 Width: 578
 VWidth: 0
 GlyphClass: 3
@@ -15072,7 +15039,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc n
 EndChar
 
 StartChar: o.smcpflag
-Encoding: 691 -1 681
+Encoding: 747 -1 681
 Width: 560
 VWidth: 0
 GlyphClass: 3
@@ -15088,7 +15055,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc o
 EndChar
 
 StartChar: p.smcpflag
-Encoding: 692 -1 682
+Encoding: 748 -1 682
 Width: 516
 VWidth: 0
 GlyphClass: 3
@@ -15104,7 +15071,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc p
 EndChar
 
 StartChar: q.smcpflag
-Encoding: 693 -1 683
+Encoding: 749 -1 683
 Width: 560
 VWidth: -3
 GlyphClass: 3
@@ -15120,7 +15087,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc q
 EndChar
 
 StartChar: r.smcpflag
-Encoding: 694 -1 684
+Encoding: 750 -1 684
 Width: 567
 VWidth: 0
 GlyphClass: 3
@@ -15137,7 +15104,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc r
 EndChar
 
 StartChar: s.smcpflag
-Encoding: 695 -1 685
+Encoding: 751 -1 685
 Width: 466
 VWidth: 0
 GlyphClass: 3
@@ -15153,7 +15120,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc s
 EndChar
 
 StartChar: t.smcpflag
-Encoding: 696 -1 686
+Encoding: 752 -1 686
 Width: 506
 VWidth: -3
 GlyphClass: 3
@@ -15169,7 +15136,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc t
 EndChar
 
 StartChar: u.smcpflag
-Encoding: 697 -1 687
+Encoding: 753 -1 687
 Width: 567
 VWidth: 0
 GlyphClass: 3
@@ -15185,7 +15152,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc u
 EndChar
 
 StartChar: v.smcpflag
-Encoding: 698 -1 688
+Encoding: 754 -1 688
 Width: 468
 VWidth: -3
 GlyphClass: 3
@@ -15202,7 +15169,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc v
 EndChar
 
 StartChar: w.smcpflag
-Encoding: 699 -1 689
+Encoding: 755 -1 689
 Width: 685
 VWidth: -3
 GlyphClass: 3
@@ -15219,7 +15186,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc w
 EndChar
 
 StartChar: x.smcpflag
-Encoding: 700 -1 690
+Encoding: 756 -1 690
 Width: 516
 VWidth: 0
 GlyphClass: 3
@@ -15235,7 +15202,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc x
 EndChar
 
 StartChar: y.smcpflag
-Encoding: 701 -1 691
+Encoding: 757 -1 691
 Width: 480
 VWidth: 0
 GlyphClass: 3
@@ -15252,7 +15219,7 @@ Ligature2: "SmallCapsInitialize subtable" startsc y
 EndChar
 
 StartChar: z.smcpflag
-Encoding: 702 -1 692
+Encoding: 758 -1 692
 Width: 489
 VWidth: 0
 GlyphClass: 3
@@ -15265,6 +15232,17 @@ Refer: 607 57383 N 1 0 0 1 489 0 2
 Validated: 1
 Substitution2: "Single Substitution lookup 16 subtable" z.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc z
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 693
+Width: 220
+Flags: W
+LayerCount: 2
+Back
+Fore
+Refer: 0 32 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

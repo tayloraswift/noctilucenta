@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1428165758
+ModificationTime: 1428873111
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -158,13 +158,12 @@ ChainSub2: coverage "Oldstylechaining subtable" 0 0 0 1
 EndFPST
 LangName: 1033
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 8 2
+WinInfo: 126 14 7
 BeginPrivate: 7
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 FamilyBlues 39 [-12 0 425 437 461 473 626 650 679 693]
@@ -202,7 +201,7 @@ Grid
  2000 425 l 1024
 EndSplineSet
 AnchorClass2: "bottom" "markMarktoMarklookup0 subtable" "top" "markMarktoMarklookup0 subtable" 
-BeginChars: 65727 752
+BeginChars: 65727 753
 
 StartChar: space
 Encoding: 32 32 0
@@ -785,10 +784,10 @@ SplineSet
  60 0 l 1
  60 18 l 1
  155 43 l 1
- 155 595 l 1
- 70 607 l 1
- 70 625 l 1
- 267 641 l 1
+ 155 588 l 1
+ 70 600 l 1
+ 70 618 l 1
+ 267 634 l 1
  267 38 l 1
 EndSplineSet
 Validated: 1
@@ -3955,7 +3954,7 @@ EndChar
 
 StartChar: copyright
 Encoding: 169 169 102
-Width: 721
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -3963,19 +3962,19 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-34 352 m 3
- 34 169 172 30 360 30 c 3
- 548 30 687 169 687 352 c 3
- 687 535 548 674 360 674 c 3
- 169 674 34 535 34 352 c 3
-4 352 m 3
- 4 551 156 704 360 704 c 3
- 569 704 717 556 717 352 c 3
- 717 153 564 0 360 0 c 3
- 156 0 4 153 4 352 c 3
+86 320 m 7
+ 86 87 267 -94 500 -94 c 7
+ 733 -94 914 87 914 320 c 7
+ 914 553 733 734 500 734 c 7
+ 267 734 86 553 86 320 c 7
+50 320 m 7
+ 50 573 247 770 500 770 c 7
+ 753 770 950 573 950 320 c 7
+ 950 67 753 -130 500 -130 c 7
+ 247 -130 50 67 50 320 c 7
 EndSplineSet
-Refer: 630 -1 S 1 0 0 1 94 125 2
-Validated: 1
+Refer: 630 -1 N 1 0 0 1 228 82 2
+Validated: 524289
 EndChar
 
 StartChar: ordfeminine
@@ -4065,7 +4064,7 @@ EndChar
 
 StartChar: registered
 Encoding: 174 174 107
-Width: 721
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -4073,19 +4072,19 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-34 352 m 3
- 34 169 172 30 360 30 c 3
- 548 30 687 169 687 352 c 3
- 687 535 548 674 360 674 c 3
- 169 674 34 535 34 352 c 3
-4 352 m 3
- 4 551 156 704 360 704 c 3
- 569 704 717 556 717 352 c 3
- 717 153 564 0 360 0 c 3
- 156 0 4 153 4 352 c 3
+86 320 m 3
+ 86 87 267 -94 500 -94 c 3
+ 733 -94 914 87 914 320 c 3
+ 914 553 733 734 500 734 c 3
+ 267 734 86 553 86 320 c 3
+50 320 m 3
+ 50 573 247 770 500 770 c 3
+ 753 770 950 573 950 320 c 3
+ 950 67 753 -130 500 -130 c 3
+ 247 -130 50 67 50 320 c 3
 EndSplineSet
-Refer: 645 -1 S 1 0 0 1 80 125 2
-Validated: 1
+Refer: 645 -1 N 1 0 0 1 224 82 2
+Validated: 524289
 EndChar
 
 StartChar: macron
@@ -17402,6 +17401,18 @@ Refer: 666 57383 N 1 0 0 1 647 0 2
 Validated: 1
 Substitution2: "Single Substitution lookup 18 subtable" percent.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc percent
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 752
+Width: 260
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 0 32 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

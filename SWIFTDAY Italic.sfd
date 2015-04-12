@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1428871460
+ModificationTime: 1428873281
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -178,7 +178,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 308 14 7
+WinInfo: 96 8 2
 BeginPrivate: 1
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 EndPrivate
@@ -210,7 +210,7 @@ Grid
  2000 425 l 1024
 EndSplineSet
 AnchorClass2: "bottom" "markMarktoMarklookup0 subtable" "top" "markMarktoMarklookup0 subtable" 
-BeginChars: 65669 693
+BeginChars: 65669 694
 
 StartChar: space
 Encoding: 32 32 0
@@ -3986,7 +3986,7 @@ EndChar
 
 StartChar: copyright
 Encoding: 169 169 102
-Width: 721
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -3994,32 +3994,19 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-457 574 m 7
- 500 574 534 567 552 559 c 5
- 546 451 l 5
- 517 451 l 5
- 502 516 l 5
- 487 523 455 530 432 530 c 7
- 395 530 361 523 342 501 c 4
- 317 473 306 431 306 369 c 7
- 306 248 372 173 452 173 c 7
- 490 173 535 185 556 200 c 5
- 569 183 l 5
- 526 137 468 125 420 125 c 7
- 333 125 231 195 231 342 c 7
- 231 500 352 574 457 574 c 7
-98 352 m 7
- 98 169 236 30 424 30 c 7
- 612 30 751 169 751 352 c 7
- 751 535 612 674 424 674 c 7
- 233 674 98 535 98 352 c 7
-68 352 m 7
- 68 551 220 704 424 704 c 7
- 633 704 781 556 781 352 c 7
- 781 153 628 0 424 0 c 7
- 220 0 68 153 68 352 c 7
+142 320 m 3
+ 142 87 323 -94 556 -94 c 3
+ 789 -94 970 87 970 320 c 3
+ 970 553 789 734 556 734 c 3
+ 323 734 142 553 142 320 c 3
+106 320 m 3
+ 106 573 303 770 556 770 c 3
+ 809 770 1006 573 1006 320 c 3
+ 1006 67 809 -130 556 -130 c 3
+ 303 -130 106 67 106 320 c 3
 EndSplineSet
-Validated: 1
+Refer: 583 -1 N 1 0 0 1 256 82 2
+Validated: 524289
 EndChar
 
 StartChar: ordfeminine
@@ -4102,7 +4089,7 @@ EndChar
 
 StartChar: registered
 Encoding: 174 174 107
-Width: 721
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -4110,40 +4097,19 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-372 171 m 1
- 421 155 l 1
- 421 137 l 1
- 233 137 l 1
- 233 155 l 1
- 298 180 l 1
- 298 519 l 1
- 236 543 l 1
- 236 562 l 1
- 445 562 l 2
- 533 562 573 527 573 457 c 3
- 573 379 516 347 466 338 c 1
- 596 181 l 1
- 626 149 l 1
- 626 137 l 1
- 536 137 l 1
- 388 343 l 1
- 388 361 l 17
- 458 361 496 380 496 453 c 3
- 496 508 471 529 420 529 c 2
- 372 529 l 1
- 372 171 l 1
-96 352 m 3
- 96 169 234 30 422 30 c 3
- 610 30 749 169 749 352 c 3
- 749 535 610 674 422 674 c 3
- 231 674 96 535 96 352 c 3
-66 352 m 3
- 66 551 218 704 422 704 c 3
- 631 704 779 556 779 352 c 3
- 779 153 626 0 422 0 c 3
- 218 0 66 153 66 352 c 3
+142 320 m 3
+ 142 87 323 -94 556 -94 c 3
+ 789 -94 970 87 970 320 c 3
+ 970 553 789 734 556 734 c 3
+ 323 734 142 553 142 320 c 3
+106 320 m 3
+ 106 573 303 770 556 770 c 3
+ 809 770 1006 573 1006 320 c 3
+ 1006 67 809 -130 556 -130 c 3
+ 303 -130 106 67 106 320 c 3
 EndSplineSet
-Validated: 1
+Refer: 598 -1 N 1 0 0 1 261 82 2
+Validated: 524289
 EndChar
 
 StartChar: macron
@@ -14041,7 +14007,7 @@ SplineSet
  77 298 l 1
  218 321 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni02AD
@@ -14109,7 +14075,7 @@ SplineSet
  88 669 114 686 175 686 c 3
  243 686 282.136542168 646.789630416 262 538 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni02AF
@@ -14145,7 +14111,7 @@ SplineSet
  468 -197 409 -230 368 -230 c 3
  329 -230 303.153931552 -210.845685629 321 -113 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni1D07
@@ -15080,7 +15046,7 @@ Encoding: 65558 -1 581
 Width: 474
 VWidth: -3
 GlyphClass: 3
-Flags: W
+Flags: MW
 HStem: 0 18<-7 18.6667 134.733 159 460 485> 146 38<185 325> 448 20G<287.889 349.128>
 LayerCount: 2
 Back
@@ -17456,6 +17422,17 @@ Refer: 607 57383 N 1 0 0 1 463 0 2
 Validated: 1
 Substitution2: "Single Substitution lookup 16 subtable" z.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc z
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 693
+Width: 220
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 0 32 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
