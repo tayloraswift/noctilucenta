@@ -1,5 +1,7 @@
 a yet unnamed text font. Read more about this font at https://commons.wikimedia.org/wiki/File:A_proposed_free_and_open_source_typeface.pdf
 
+I’ve been working on this typeface since August 2014; the last major design change happened on Feb 13 (hence the codename ‘SWIFTDAY’).
+
 ![Typeface sample](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kelvinsong%E2%80%94Font_type_square.svg/700px-Kelvinsong%E2%80%94Font_type_square.svg.png)
 ![Small capitals](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SC_type_square.svg/800px-SC_type_square.svg.png)
 
