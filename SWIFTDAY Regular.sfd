@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1430698726
+ModificationTime: 1430952391
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -201,7 +201,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 630 14 7
+WinInfo: 462 14 7
 BeginPrivate: 7
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 FamilyBlues 39 [-12 0 425 437 461 473 626 650 679 693]
@@ -470,17 +470,17 @@ Back
 Fore
 SplineSet
 663 311 m 3
- 630 311 611 304 594 289 c 1
- 576 262 565 235 565 173 c 3
- 565 78 604 25 660 25 c 3
- 693 25 711 33 728 48 c 1
- 746 75 754 101 754 163 c 3
+ 630 311 611 304 594 289 c 5
+ 576 262 565 235 565 173 c 7
+ 565 78 604 25 660 25 c 7
+ 693 25 711 33 728 48 c 5
+ 746 75 754 101 754 163 c 7
  754 258 719 311 663 311 c 3
-647 -12 m 3
- 587 -12 498 32 498 157 c 3
+647 -12 m 7
+ 587 -12 498 32 498 157 c 7
  498 277 569 347 671 347 c 3
  731 347 821 304 821 179 c 3
- 821 59 749 -12 647 -12 c 3
+ 821 59 749 -12 647 -12 c 7
 241 602 m 3
  208 602 189 595 172 580 c 1
  154 553 143 526 143 464 c 3
@@ -488,15 +488,15 @@ SplineSet
  271 316 289 324 306 339 c 1
  324 366 332 392 332 454 c 3
  332 549 297 602 241 602 c 3
-225 279 m 3
+225 279 m 7
  165 279 76 323 76 448 c 3
  76 568 147 638 249 638 c 3
  309 638 399 595 399 470 c 3
- 399 350 327 279 225 279 c 3
+ 399 350 327 279 225 279 c 7
 612 637 m 1
  645 617 l 1
- 282 -10 l 1
- 249 10 l 1
+ 282 -10 l 5
+ 249 10 l 5
  612 637 l 1
 EndSplineSet
 Validated: 1
@@ -17679,44 +17679,45 @@ EndChar
 
 StartChar: percent.oldstyleproportional
 Encoding: 63042 63042 637
-Width: 647
+Width: 795
 GlyphClass: 3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-487 183 m 3
- 464 183 461 180 450 170 c 1
- 436 153 432 137 432 104 c 3
- 432 44 449 19 487 19 c 3
- 507 19 512 22 523 32 c 1
- 537 49 540 65 540 98 c 3
- 540 158 525 183 487 183 c 3
-480 -12 m 3
- 438 -12 375 19 375 94 c 3
- 375 166 424 213 491 213 c 3
- 533 213 597 183 597 108 c 3
- 597 36 547 -12 480 -12 c 3
-162 407 m 3
- 142 407 136 404 125 394 c 1
- 111 377 107 361 107 328 c 3
- 107 268 124 243 162 243 c 3
- 185 243 187 246 198 256 c 1
- 212 273 215 289 215 322 c 3
- 215 382 200 407 162 407 c 3
-155 212 m 3
- 113 212 50 243 50 318 c 3
- 50 390 99 437 166 437 c 3
- 208 437 272 407 272 332 c 3
- 272 260 222 212 155 212 c 3
-432 437 m 1
- 467 419 l 1
- 218 -12 l 1
- 183 6 l 1
- 432 437 l 1
+606 269 m 3
+ 577 269 569 262 554 249 c 1
+ 539 225 528 204 528 150 c 3
+ 528 67 554 21 603 21 c 3
+ 632 21 640 29 655 42 c 1
+ 670 66 679 87 679 141 c 3
+ 679 224 655 269 606 269 c 3
+592 -12 m 3
+ 540 -12 462 27 462 136 c 3
+ 462 241 524 302 613 302 c 3
+ 665 302 745 264 745 155 c 3
+ 745 50 681 -12 592 -12 c 3
+194 493 m 3
+ 165 493 157 486 142 473 c 1
+ 127 449 116 428 116 374 c 3
+ 116 291 142 245 191 245 c 3
+ 220 245 228 253 243 266 c 1
+ 258 290 267 311 267 365 c 3
+ 267 448 243 493 194 493 c 3
+180 212 m 3
+ 128 212 50 251 50 360 c 3
+ 50 465 112 526 201 526 c 3
+ 253 526 333 488 333 379 c 3
+ 333 274 269 212 180 212 c 3
+524 526 m 1
+ 559 508 l 1
+ 267 -12 l 1
+ 232 6 l 1
+ 524 526 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 7 0 0 0 0 0 0 0
 Ligature2: "Old style closing tag-1" percent.onumflag less slash o n u m greater
 EndChar
 
@@ -18690,15 +18691,16 @@ EndChar
 
 StartChar: percent.onumflag
 Encoding: 63290 63290 673
-Width: 647
+Width: 795
 GlyphClass: 3
 Flags: HMW
 LayerCount: 2
 Back
 Fore
-Refer: 661 57381 S 1 0 0 1 647 0 2
+Refer: 661 57381 N 1 0 0 1 795 0 2
 Refer: 637 63042 N 1 0 0 1 0 0 2
 Validated: 1
+LCarets2: 1 0
 Substitution2: "onum-fail-1" tagwarning
 Substitution2: "onumflag-2" percent.oldstyleproportional
 Ligature2: "'dlig' Discretionary Ligatures lookup 4-1" startonum percent
@@ -19562,7 +19564,7 @@ SplineSet
  127 232 76 265 76 338 c 3
  76 405 124 473 250 473 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "SmallCapsClose subtable" s.smcpflag less slash s c greater
 LCarets2: 5 0 0 0 0 0
 EndChar
@@ -20091,14 +20093,15 @@ EndChar
 
 StartChar: percent.smcp
 Encoding: 65693 -1 719
-Width: 647
+Width: 795
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 637 63042 N 1 0 0 1 0 0 2
 Validated: 1
+LCarets2: 5 0 0 0 0 0
 Ligature2: "SmallCapsClose subtable" percent.smcpflag less slash s c greater
 EndChar
 
@@ -21463,15 +21466,15 @@ EndChar
 
 StartChar: percent.smcpflag
 Encoding: 65778 -1 804
-Width: 647
+Width: 795
 VWidth: 0
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 719 -1 N 1 0 0 1 0 0 1
-Refer: 707 57383 N 1 0 0 1 647 0 2
+Refer: 707 57383 N 1 0 0 1 795 0 2
 Validated: 1
 LCarets2: 1 0
 Substitution2: "Single Substitution lookup 16 subtable" percent.smcp
