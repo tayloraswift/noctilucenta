@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424125131
-ModificationTime: 1431192827
+ModificationTime: 1431560777
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -201,7 +201,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 8 2
+WinInfo: 336 14 7
 BeginPrivate: 7
 BlueValues 39 [-12 0 425 437 461 473 626 650 679 693]
 FamilyBlues 39 [-12 0 425 437 461 473 626 650 679 693]
@@ -243,7 +243,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 272629 136314 90876 445645 1048576 90876 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom" "markMarktoMarklookup0 subtable" "top" "markMarktoMarklookup0 subtable" 
-BeginChars: 65779 805
+BeginChars: 65779 815
 
 StartChar: space
 Encoding: 32 32 0
@@ -12263,16 +12263,16 @@ SplineSet
  146 425 l 1
  364 425 l 1
  373 408 l 1
- 137 36 l 1
- 237 36 l 1
- 266 135 292 196 370 196 c 3
- 414 196 456 171 456 113 c 3
- 456 87 449 53 426 30 c 0
- 397 1 363 0 336 0 c 2
- 257 -0 l 1
- 250 -24 244 -51 237 -80 c 1
- 207 -68 l 1
- 214 -44 220 -21 226 0 c 1
+ 137 36 l 5
+ 237 36 l 5
+ 266 135 292 196 370 196 c 7
+ 414 196 456 171 456 113 c 7
+ 456 87 449 53 426 30 c 4
+ 397 1 363 0 336 0 c 6
+ 257 -0 l 5
+ 250 -24 244 -51 237 -80 c 5
+ 207 -68 l 5
+ 214 -44 220 -21 226 0 c 5
  47 0 l 1
  40 18 l 1
  274 389 l 1
@@ -12281,10 +12281,10 @@ SplineSet
  57 312 l 1
  71 430 l 1
 357 166 m 7
- 319 166 294 121 268 36 c 1
- 342 36 l 2
- 374 36 383 40 402 53 c 1
- 412 68 415 87 415 102 c 3
+ 319 166 294 121 268 36 c 5
+ 342 36 l 6
+ 374 36 383 40 402 53 c 5
+ 412 68 415 87 415 102 c 7
  415 135 408 166 357 166 c 7
 EndSplineSet
 Validated: 1
@@ -21479,6 +21479,290 @@ Validated: 1
 LCarets2: 1 0
 Substitution2: "Single Substitution lookup 16 subtable" percent.smcp
 Ligature2: "SmallCapsInitialize subtable" startsc percent
+EndChar
+
+StartChar: uni026E
+Encoding: 622 622 805
+Width: 565
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+189 693 m 1
+ 189 425 l 5
+ 481 425 l 5
+ 490 408 l 5
+ 327 163 l 5
+ 352 161 394.021484375 153.05859375 417 144 c 4
+ 476.453125 120.5625 515 73 515 2 c 7
+ 515 -159 368 -230 182 -230 c 5
+ 182 -194 l 5
+ 353 -194 437 -137 437 -24 c 7
+ 437 35 414 71 377 91 c 4
+ 344 109 316 113 271 115 c 5
+ 257 127 l 5
+ 412 367 l 5
+ 189 367 l 5
+ 189 34 l 1
+ 233 18 l 1
+ 233 0 l 1
+ 45 0 l 1
+ 45 18 l 1
+ 115 43 l 1
+ 115 647 l 1
+ 44 659 l 1
+ 44 677 l 1
+ 189 693 l 1
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: uni02A3
+Encoding: 675 675 806
+Width: 818
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+263 400 m 3
+ 174 400 122 345 122 218 c 3
+ 122 80 196 40 254 40 c 3
+ 301 40 330 51 360 82 c 1
+ 360 380 l 1
+ 335 391 305 400 263 400 c 3
+434 389 m 5
+ 434 97 l 5
+ 443 36 l 5
+ 665 389 l 5
+ 434 389 l 5
+434 425 m 5
+ 755 425 l 5
+ 764 408 l 5
+ 528 36 l 5
+ 718 36 l 5
+ 742 121 l 5
+ 778 116 l 5
+ 762 0 l 5
+ 438 0 l 5
+ 360 -9 l 1
+ 360 48 l 1
+ 325 11 280 -12 218 -12 c 3
+ 131 -12 44 49 44 199 c 3
+ 44 341 132 437 269 437 c 3
+ 300 437 338 429 360 421 c 1
+ 360 647 l 1
+ 289 659 l 1
+ 289 677 l 1
+ 434 693 l 1
+ 434 425 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni02A4
+Encoding: 676 676 807
+Width: 810
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+263 400 m 3
+ 174 400 122 345 122 218 c 3
+ 122 80 196 40 254 40 c 3
+ 301 40 330 51 360 82 c 1
+ 360 380 l 1
+ 335 391 305 400 263 400 c 3
+434 693 m 1
+ 434 425 l 1
+ 726 425 l 1
+ 735 408 l 1
+ 572 163 l 1
+ 597 161 639.021484375 153.05859375 662 144 c 0
+ 721.453125 120.5625 760 73 760 2 c 3
+ 760 -159 613 -230 427 -230 c 1
+ 427 -194 l 1
+ 598 -194 682 -137 682 -24 c 3
+ 682 35 659 71 622 91 c 0
+ 589 109 561 113 516 115 c 1
+ 502 127 l 1
+ 657 367 l 1
+ 434 367 l 1
+ 434 97 l 1
+ 443 36 l 1
+ 482 29 l 1
+ 483 12 l 1
+ 360 -9 l 1
+ 360 48 l 1
+ 325 11 280 -12 218 -12 c 3
+ 131 -12 44 49 44 199 c 3
+ 44 341 132 437 269 437 c 3
+ 300 437 338 429 360 421 c 1
+ 360 647 l 1
+ 289 659 l 1
+ 289 677 l 1
+ 434 693 l 1
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: uni02A5
+Encoding: 677 677 808
+Width: 818
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+434 693 m 1
+ 434 425 l 1
+ 755 425 l 1
+ 764 408 l 1
+ 528 36 l 1
+ 628 36 l 1
+ 657 135 683 196 761 196 c 3
+ 805 196 847 171 847 113 c 3
+ 847 87 840 53 817 30 c 0
+ 788 1 754 0 727 0 c 2
+ 648 0 l 1
+ 641 -24 635 -51 628 -80 c 1
+ 598 -68 l 1
+ 605 -44 611 -21 617 0 c 1
+ 438 0 l 1
+ 360 -9 l 1
+ 360 48 l 1
+ 325 11 280 -12 218 -12 c 3
+ 131 -12 44 49 44 199 c 3
+ 44 341 132 437 269 437 c 3
+ 300 437 338 429 360 421 c 1
+ 360 647 l 1
+ 289 659 l 1
+ 289 677 l 1
+ 434 693 l 1
+748 166 m 3
+ 710 166 685 121 659 36 c 1
+ 733 36 l 2
+ 765 36 774 40 793 53 c 1
+ 803 68 806 87 806 102 c 3
+ 806 135 799 166 748 166 c 3
+263 400 m 3
+ 174 400 122 345 122 218 c 3
+ 122 80 196 40 254 40 c 3
+ 301 40 330 51 360 82 c 1
+ 360 380 l 1
+ 335 391 305 400 263 400 c 3
+434 389 m 1
+ 434 97 l 1
+ 443 36 l 1
+ 665 389 l 1
+ 434 389 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni02A6
+Encoding: 678 678 809
+Width: 630
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 83 115 S 1 0 0 1 237 0 2
+Refer: 84 116 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni02A7
+Encoding: 679 679 810
+Width: 489
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 395 643 N 1 0 0 1 179 0 2
+Refer: 84 116 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni02A8
+Encoding: 680 680 811
+Width: 674
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 410 597 N 1 0 0 1 239 0 2
+Refer: 84 116 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni02A9
+Encoding: 681 681 812
+Width: 830
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 337 331 N 1 0 0 1 277 0 2
+Refer: 70 102 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni02AA
+Encoding: 682 682 813
+Width: 600
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+Refer: 83 115 N 1 0 0 1 207 0 2
+Refer: 76 108 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni02AB
+Encoding: 683 683 814
+Width: 573
+VWidth: -3
+Flags: HMW
+LayerCount: 2
+Back
+Fore
+SplineSet
+189 389 m 1
+ 189 97 l 1
+ 198 36 l 1
+ 420 389 l 1
+ 189 389 l 1
+189 693 m 1
+ 189 425 l 1
+ 510 425 l 1
+ 519 408 l 1
+ 283 36 l 1
+ 473 36 l 1
+ 497 121 l 1
+ 533 116 l 1
+ 517 0 l 1
+ 45 0 l 1
+ 45 18 l 1
+ 115 43 l 1
+ 115 647 l 1
+ 44 659 l 1
+ 44 677 l 1
+ 189 693 l 1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
